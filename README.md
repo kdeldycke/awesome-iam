@@ -27,6 +27,7 @@ greater than 99.999% over 3 years of production use.
 ## Passwords
 
 * [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/)
+* [Password expiration is dead](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - Recent scientific research calls into question the value of many long-standing password-security practices such as password expiration policies, and points instead to better alternatives such as enforcing banned-password lists and MFA.
 
 
 ## Public-Key Infrastructure (PKI)
