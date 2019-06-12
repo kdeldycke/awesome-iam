@@ -27,3 +27,8 @@ greater than 99.999% over 3 years of production use.
 ## Passwords
 
 * [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/)
+
+
+## Public-Key Infrastructure (PKI)
+
+* [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
