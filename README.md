@@ -41,3 +41,4 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [Cierge](https://pwdless.github.io/Cierge-Website/)
 * [ORY](https://www.ory.sh)
 * [Open Policy Agent](https://github.com/open-policy-agent/opa)
+* [Casbin](https://github.com/casbin/casbin)
