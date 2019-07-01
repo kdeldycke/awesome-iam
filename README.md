@@ -47,6 +47,12 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
 
 
+## UX/UI
+
+* [Don’t get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR; create login forms that are simple, linkable, predictable, and play nicely with password managers.
+* [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login.
+
+
 ## Open-Source Projects
 
 * [Keycloak](https://www.keycloak.org)
