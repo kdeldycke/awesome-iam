@@ -51,6 +51,6 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 
 * [Keycloak](https://www.keycloak.org)
 * [Cierge](https://pwdless.github.io/Cierge-Website/)
-* [ORY](https://www.ory.sh)
+* [ORY](https://www.ory.sh): [Hydra](https://github.com/ory/hydra)
 * [Open Policy Agent](https://github.com/open-policy-agent/opa)
 * [Casbin](https://github.com/casbin/casbin)
