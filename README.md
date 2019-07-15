@@ -58,6 +58,11 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve)
 
 
+## Captcha
+
+* [Anti-captcha](https://anti-captcha.com) - Captchas solving service
+
+
 ## Open-Source Projects
 
 * [Keycloak](https://www.keycloak.org)
