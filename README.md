@@ -53,6 +53,11 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login.
 
 
+## Identity
+
+* [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve)
+
+
 ## Open-Source Projects
 
 * [Keycloak](https://www.keycloak.org)
