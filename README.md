@@ -63,6 +63,11 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [Anti-captcha](https://anti-captcha.com) - Captchas solving service
 
 
+## Privacy
+
+* [IRMA Authentication](https://news.ycombinator.com/item?id=20144240) - Open-source app and protocol that offers privacy-friendly attribute based authentication and signing using [Camenisch and Lysyanskaya's Idemix](https://privacybydesign.foundation/publications/).
+
+
 ## Open-Source Projects
 
 * [Keycloak](https://www.keycloak.org)
