@@ -13,7 +13,7 @@
 
 ## Password-less Authentication
 
-* [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/)
+* [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article ties to tell you why.
 * [Webauthn and security keys](https://www.imperialviolet.org/2018/03/27/webauthn.html) - WebAuthn is a replacement for password authentication.
 
 
