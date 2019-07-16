@@ -15,6 +15,11 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control)
 
 
+## OAuth2
+
+* [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
+
+
 ## Multi-Factor Authentication
 
 * [Beyond Passwords: 2FA, U2F and Google Advanced Protection](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) - An excellent walk-trough over all these technologies.
