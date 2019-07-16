@@ -6,20 +6,6 @@
 * [IAM definition](https://en.wikipedia.org/wiki/Identity_management)
 
 
-## Authorization, ACLs
-
-* [Zanzibar: Google’s Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - scales to
-trillions of access control lists and millions of authorization requests per second to support services used by
-billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of
-greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633).
-* [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control)
-
-
-## OAuth2
-
-* [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
-
-
 ## Multi-Factor Authentication
 
 * [Beyond Passwords: 2FA, U2F and Google Advanced Protection](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) - An excellent walk-trough over all these technologies.
@@ -45,6 +31,20 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 
 * [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/)
 * [Password expiration is dead](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - Recent scientific research calls into question the value of many long-standing password-security practices such as password expiration policies, and points instead to better alternatives such as enforcing banned-password lists and MFA.
+
+
+## Authorization, ACLs
+
+* [Zanzibar: Google’s Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - scales to
+trillions of access control lists and millions of authorization requests per second to support services used by
+billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of
+greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633).
+* [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control)
+
+
+## OAuth2
+
+* [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
 
 
 ## Public-Key Infrastructure (PKI)
