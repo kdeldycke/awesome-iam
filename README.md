@@ -39,18 +39,32 @@ TL;DR: don't. For details, see articles below.
 * [AWS is on its way to deprecate SMS-based 2FA](https://aws.amazon.com/iam/details/mfa/) - `We encourage you to use MFA through a U2F security key, hardware device, or virtual (software-based) MFA device. You can continue using this feature until January 31, 2019.`
 
 
-## Authorization, ACLs
+## Authorization, ACL and RBAC
+
+All things related to access control policies, from classic [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) to [Role Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control).
 
 * [Zanzibar: Google’s Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - scales to
 trillions of access control lists and millions of authorization requests per second to support services used by
 billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of
 greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633).
-* [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control)
+* [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) - NIST project to explaine RBAC concepts, costs and benefits, the economic impact of RBAC, design and implementation issues, the RBAC standard, and advanced research topics.
+* [keto](https://github.com/ory/keto) - Policy decision point. It uses a set of access control policies, similar to AWS IAM Policies, in order to determine whether a subject is authorized to perform a certain action on a resource.
+* [ladon](https://github.com/ory/ladon) - Access control library, inspired by [AWS IAM Policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html).
 
 
-## OAuth2
+## Zero-trust Network
+
+Zero trust network security operates under the principle “never trust, always verify.”.
+
+* [BeyondCorp - A New Approach to Enterprise Security](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf) - Quick overview of Google’s Zero-trust Network initiative.
+* [oathkeeper](https://github.com/ory/oathkeeper) - Identity & Access Proxy and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP requests. Inspired by the BeyondCorp / Zero Trust white paper.
+* [transcend](https://github.com/cogolabs/transcend) - BeyondCorp-inspired Access Proxy server.
+
+
+## OAuth2 & OpenID
 
 * [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
+* [Hydra](https://gethydra.sh) - Open-source OpenID Connect & OAuth2 Server.
 
 
 ## Public-Key Infrastructure (PKI)
@@ -64,14 +78,17 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login.
 
 
-## Identity
+## User Identity
 
+On managing users and their metadata.
+
+* [hive](https://github.com/ory/hive) - User & Identity Provider & Management.
 * [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve)
 
 
 ## Captcha
 
-* [Anti-captcha](https://anti-captcha.com) - Captchas solving service
+* [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
 
 
 ## Privacy
@@ -81,9 +98,8 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 
 ## Open-Source Projects
 
-* [Keycloak](https://www.keycloak.org)
-* [Cierge](https://pwdless.github.io/Cierge-Website/)
-* [ORY](https://www.ory.sh): [Hydra](https://github.com/ory/hydra)
+* [Keycloak](https://www.keycloak.org) - Open Source Identity and Access Management.
+* [Cierge](https://pwdless.github.io/Cierge-Website/) - Open source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
 * [Open Policy Agent](https://github.com/open-policy-agent/opa)
 * [Casbin](https://github.com/casbin/casbin)
 * [IdentityServer](https://identityserver.io)
