@@ -69,9 +69,16 @@ Zero trust network security operates under the principle “never trust, always 
 
 ## OAuth2 & OpenID
 
+[OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) is an authorization framework. [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) is an authentication layer on top of it.
+
+The old *OpenID* is dead; the new *OpenID Connect* is an identity layer on top of OAuth 2, and is very much not-dead.
+
 * [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
-* [Hydra](https://gethydra.sh) - Open-source OpenID Connect & OAuth2 Server.
-* [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols. The old "OpenID" is dead; the new "OpenID Connect" (OIDC) is an identity layer on top of OAuth 2, and is very much not-dead.
+* [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols.
+* [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
+* [Cierge](https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
+* [Keycloak](https://www.keycloak.org) - Open-source Identity and Access Management. Supports OIDC, OAuth 2
+and SAML 2, LDAP and AD directories, password policies.
 
 
 ## Public-Key Infrastructure (PKI)
@@ -87,7 +94,7 @@ Zero trust network security operates under the principle “never trust, always 
 * [Using JSON Web Tokens as API Keys](https://auth0.com/blog/using-json-web-tokens-as-api-keys/) - Compared to API keys, JWTs offers granular security, homogenous auth architecture, decentralized issuance, OAuth2 compliance, debuggability, expiration control, device management.
 * [Blacklisting JSON Web Token API Keys](https://auth0.com/blog/blacklist-json-web-token-api-keys/) - On token invalidation.
 * [Stop using JWT for sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/), and [Why your "solution" doesn't work](http://cryto.net/%7Ejoepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/) - Stateless JWT [tokens cannot be invalidated or updated](https://news.ycombinator.com/item?id=18354141), and will introduce either size issues or security issues depending on where you store them. Stateful JWT tokens are functionally the same as session cookies, but without the battle-tested and well-reviewed implementations or client support. 
-* [JWT.IO](https://jwt.io) - Allows you to decode, verify and generate JWT.
+* [JWT.io](https://jwt.io) - Allows you to decode, verify and generate JWT.
 * [JWT, JWS and JWE for Not So Dummies!](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3) - A signed JWT is known as a JWS (JSON Web Signature). In fact a JWT does not exist itself — either it has to be a JWS or a JWE (JSON Web Encryption). Its like an abstract class — the JWS and JWE are the concrete implementations.
 
 
@@ -133,8 +140,6 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 
 ## Open-Source Projects
 
-* [Keycloak](https://www.keycloak.org) - Open Source Identity and Access Management.
-* [Cierge](https://pwdless.github.io/Cierge-Website/) - Open source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
 * [Open Policy Agent](https://github.com/open-policy-agent/opa)
 * [Casbin](https://github.com/casbin/casbin)
 * [IdentityServer](https://identityserver.io)
