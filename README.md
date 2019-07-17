@@ -71,7 +71,7 @@ Zero trust network security operates under the principle “never trust, always 
 
 * [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
 * [Hydra](https://gethydra.sh) - Open-source OpenID Connect & OAuth2 Server.
-* [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols.
+* [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols. The old "OpenID" is dead; the new "OpenID Connect" (OIDC) is an identity layer on top of OAuth 2, and is very much not-dead.
 
 
 ## Public-Key Infrastructure (PKI)
