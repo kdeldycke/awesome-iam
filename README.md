@@ -72,6 +72,21 @@ Zero trust network security operates under the principle “never trust, always 
 * [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
 
 
+## JWT
+
+[JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token) is a kind of bearer's token.
+
+* [JWT.IO](https://jwt.io) - Allows you to decode, verify and generate JWT.
+
+
+## Macaroons
+
+A clever curiosity to distribute authorization.
+
+* [Google's Macaroons in Five Minutes or Less](https://blog.bren2010.io/2014/12/04/macaroons.html) - TL;DR: if I’m given a Macaroon that authorizes me to perform some action(s) under certain restrictions, I can non-interactively build a second Macaroon with stricter restrictions that I can then give to you.
+* [Google paper's author compares Macaroons and JWTs](https://news.ycombinator.com/item?id=14294463) - TL;DR: As a consumer/verifier of macaroons, they allow you (through third-party caveats) to defer some authorization decisions to someone else. JWTs don't.
+
+
 ## User Identity
 
 On managing users and their metadata.
