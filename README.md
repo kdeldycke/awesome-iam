@@ -72,18 +72,19 @@ Zero trust network security operates under the principle “never trust, always 
 * [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
 
 
-## UX/UI
-
-* [Don’t get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR; create login forms that are simple, linkable, predictable, and play nicely with password managers.
-* [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login.
-
-
 ## User Identity
 
 On managing users and their metadata.
 
 * [hive](https://github.com/ory/hive) - User & Identity Provider & Management.
 * [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve)
+
+
+## Fraud
+
+Managing users expose services and businesses to fraud, crime, abuses, trust and safety. You should never underestimate how much cleverer than you people will be when it comes to money.
+
+* [After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.](https://archive.is/MuNrZ) - Why background check are sometimes necessary.
 
 
 ## Captcha
@@ -94,6 +95,12 @@ On managing users and their metadata.
 ## Privacy
 
 * [IRMA Authentication](https://news.ycombinator.com/item?id=20144240) - Open-source app and protocol that offers privacy-friendly attribute based authentication and signing using [Camenisch and Lysyanskaya's Idemix](https://privacybydesign.foundation/publications/).
+
+
+## UX/UI
+
+* [Don’t get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR; create login forms that are simple, linkable, predictable, and play nicely with password managers.
+* [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login.
 
 
 ## Open-Source Projects
