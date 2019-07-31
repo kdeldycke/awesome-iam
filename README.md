@@ -84,6 +84,7 @@ and SAML 2, LDAP and AD directories, password policies.
 ## Public-Key Infrastructure (PKI)
 
 * [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
+* [Everything you should know about certificates and PKI but are too afraid to ask](https://smallstep.com/blog/everything-pki.html) - PKI lets you define a system cryptographically. It’s universal and vendor neutral.
 
 
 ## JWT
