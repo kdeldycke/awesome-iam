@@ -80,6 +80,7 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 * [Cierge](https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
 * [Keycloak](https://www.keycloak.org) - Open-source Identity and Access Management. Supports OIDC, OAuth 2
 and SAML 2, LDAP and AD directories, password policies.
+* [Open-Sourcing BuzzFeed’s SSO Experience](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/) - OAuth2-friendly adaptation of the Central Authentication Service (CAS) protocol. You'll find there good OAuth user flow diagrams.
 
 
 ## Public-Key Infrastructure (PKI)
