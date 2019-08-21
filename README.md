@@ -132,6 +132,7 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 ## Privacy
 
 * [IRMA Authentication](https://news.ycombinator.com/item?id=20144240) - Open-source app and protocol that offers privacy-friendly attribute based authentication and signing using [Camenisch and Lysyanskaya's Idemix](https://privacybydesign.foundation/publications/).
+* [Have I been Pwned?](https://haveibeenpwned.com) - Data breach index.
 
 
 ## UX/UI
