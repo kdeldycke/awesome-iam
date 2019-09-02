@@ -150,3 +150,8 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 * [Casbin](https://github.com/casbin/casbin)
 * [IdentityServer](https://identityserver.io)
 * [gluu](https://www.gluu.org)
+
+
+## Benchmark
+
+* [Unofficial Weekly Google Cloud Platform newsletter](https://www.gcpweekly.com) - Relevant keywords: [`IAM`](https://www.gcpweekly.com/gcp-resources/tag/iam/) and [`Security`](https://www.gcpweekly.com/gcp-resources/tag/security/).
