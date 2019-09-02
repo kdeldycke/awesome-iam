@@ -161,6 +161,11 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 * [Have I been Pwned?](https://haveibeenpwned.com) - Data breach index.
 
 
+## Anonymization
+
+* [Diffix: High-Utility Database Anonymization](https://aircloak.com/wp-content/uploads/apf17-reprint.pdf) - Diffix try to provide anonymization, avoid pseudonymization and preserve data quality. [Written in Elixir at Aircloak](https://elixirforum.com/t/aircloak-anonymized-analitycs/10930), it acts as an SQL proxy between the analyst and an unmodified live database.
+
+
 ## UX/UI
 
 * [Don’t get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR; create login forms that are simple, linkable, predictable, and play nicely with password managers.
