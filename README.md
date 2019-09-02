@@ -167,6 +167,7 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 * [Casbin](https://github.com/casbin/casbin)
 * [IdentityServer](https://identityserver.io)
 * [gluu](https://www.gluu.org)
+* [Conjur](https://www.conjur.org)
 
 
 ## Benchmark
