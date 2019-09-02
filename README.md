@@ -12,6 +12,11 @@ This knowledge base cover the far right perimeter of the cloud stack.
 * [IAM definition](https://en.wikipedia.org/wiki/Identity_management)
 
 
+## Basics
+
+* [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam)
+
+
 ## Password-based Authentication
 
 * [Password expiration is dead](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - Recent scientific research calls into question the value of many long-standing password-security practices such as password expiration policies, and points instead to better alternatives such as enforcing banned-password lists and MFA.
