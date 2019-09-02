@@ -154,5 +154,6 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 
 ## Benchmark
 
+* [GCP IAM release notes](https://cloud.google.com/iam/docs/release-notes)
 * [Unofficial Weekly Google Cloud Platform newsletter](https://www.gcpweekly.com) - Relevant keywords: [`IAM`](https://www.gcpweekly.com/gcp-resources/tag/iam/) and [`Security`](https://www.gcpweekly.com/gcp-resources/tag/security/).
 * [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/)
