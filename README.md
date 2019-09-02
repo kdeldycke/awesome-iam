@@ -160,8 +160,9 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 * [IRMA Authentication](https://news.ycombinator.com/item?id=20144240) - Open-source app and protocol that offers privacy-friendly attribute based authentication and signing using [Camenisch and Lysyanskaya's Idemix](https://privacybydesign.foundation/publications/).
 * [Have I been Pwned?](https://haveibeenpwned.com) - Data breach index.
 * [GDPR Tracker](https://gdprtracker.io) - Track the GDPR compliance of cloud services and subprocessors.
-* [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of GDPR fines and penalties.
+* [GDPR documents](https://github.com/good-lly/gdpr-documents) - Templates for personal use to have companies comply with "Data Access" requests.
 * [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) - Weaponizing GDPR to help you send your enemies a Data Requests designed to waste as much of their time as possible.
+* [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of GDPR fines and penalties.
 
 
 ## Anonymization
