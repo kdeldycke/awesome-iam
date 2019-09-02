@@ -161,6 +161,7 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 * [Have I been Pwned?](https://haveibeenpwned.com) - Data breach index.
 * [GDPR Tracker](https://gdprtracker.io) - Track the GDPR compliance of cloud services and subprocessors.
 * [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of GDPR fines and penalties.
+* [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) - Weaponizing GDPR to help you send your enemies a Data Requests designed to waste as much of their time as possible.
 
 
 ## Anonymization
