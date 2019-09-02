@@ -132,7 +132,8 @@ A clever curiosity to distribute authorization.
 On managing users and their metadata.
 
 * [hive](https://github.com/ory/hive) - User & Identity Provider & Management.
-* [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve)
+* [General List of Reserved Words](https://gist.github.com/stuartpb/5710271) - This is a general list of words you may want to consider reserving, in a system where users can pick any name.
+* [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve) - List of all the names that should be restricted from registration in automated systems.
 
 
 ## Fraud
