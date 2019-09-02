@@ -148,6 +148,7 @@ On managing users and their metadata.
 Managing users expose services and businesses to fraud, crime, abuses, trust and safety. You should never underestimate how much cleverer than you people will be when it comes to money.
 
 * [After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.](https://archive.is/MuNrZ) - Why background check are sometimes necessary.
+* [Investigation into the Unusual Signups](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - A really detailed analysis of suspicious contributor signups on OpenStreetMap. This beautiful and high-level report demonstrating an orchestrated and directed campaign might serve as a template for fraud reports.
 
 
 ## Captcha
