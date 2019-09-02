@@ -116,6 +116,11 @@ A clever curiosity to distribute authorization.
 * [Google paper's author compares Macaroons and JWTs](https://news.ycombinator.com/item?id=14294463) - TL;DR: As a consumer/verifier of macaroons, they allow you (through third-party caveats) to defer some authorization decisions to someone else. JWTs don't.
 
 
+## Policies
+
+* [Become an AWS IAM Policy Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - `In my nearly 5 years at Amazon, I carve out a little time each day, each week to look through the forums, customer tickets to try to find out where people are having trouble.`
+
+
 ## User Identity
 
 On managing users and their metadata.
