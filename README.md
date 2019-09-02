@@ -101,6 +101,7 @@ and SAML 2, LDAP and AD directories, password policies.
 
 * [`vault`](https://www.vaultproject.io) - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys.
 * [`sops`](https://github.com/mozilla/sops) - Encrypts the values of YAML and JSON files, not the keys.
+* [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
 
 
 ## Hardware Security Module (HSM)
