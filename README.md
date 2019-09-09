@@ -188,8 +188,17 @@ The first mecanical line of defense against fraud and abuses consist in plain an
 
 ## Privacy
 
+As the guardian of user's data, the IAM stack is deeply bounded by the respect of privacy.
+
 * [IRMA Authentication](https://news.ycombinator.com/item?id=20144240) - Open-source app and protocol that offers privacy-friendly attribute based authentication and signing using [Camenisch and Lysyanskaya's Idemix](https://privacybydesign.foundation/publications/).
 * [Have I been Pwned?](https://haveibeenpwned.com) - Data breach index.
+* [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - Explain the intuition behind differential privacy. See follow-up articles with [more details](https://desfontain.es/privacy/differential-privacy-in-more-detail.html) and [pracical aspects](https://desfontain.es/privacy/differential-privacy-in-practice.html).
+
+
+## GDPR
+
+The well-known European privacy framework
+
 * [GDPR Tracker](https://gdprtracker.io) - Track the GDPR compliance of cloud services and subprocessors.
 * [GDPR documents](https://github.com/good-lly/gdpr-documents) - Templates for personal use to have companies comply with "Data Access" requests.
 * [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) - Weaponizing GDPR to help you send your enemies a Data Requests designed to waste as much of their time as possible.
