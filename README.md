@@ -168,7 +168,7 @@ The first mecanical line of defense against fraud and abuses consist in plain an
 
 ### Emails
 
-* [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers.
+* [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers. Declined And its [derivated Python module](https://github.com/martenson/disposable-email-domains).
 
 ### Reserved IDs
 
