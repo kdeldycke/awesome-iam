@@ -94,6 +94,13 @@ and SAML 2, LDAP and AD directories, password policies.
 * [Open-Sourcing BuzzFeed’s SSO Experience](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/) - OAuth2-friendly adaptation of the Central Authentication Service (CAS) protocol. You'll find there good OAuth user flow diagrams.
 
 
+## SAML
+
+SAML 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID, and is often use to implement corporate SSO.
+
+* [How SAML 2.0 Authentication Works](https://gravitational.com/blog/how-saml-authentication-works/) - Overview of the how and why of SSO and SAML.
+
+
 ## Public-Key Infrastructure (PKI)
 
 * [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
