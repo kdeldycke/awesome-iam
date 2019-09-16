@@ -116,6 +116,7 @@ Typical SAML identity prodiver is an insitution or a big corporation's internal 
 * [`vault`](https://www.vaultproject.io) - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys.
 * [`sops`](https://github.com/mozilla/sops) - Encrypts the values of YAML and JSON files, not the keys.
 * [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
+* [Keywhiz](https://square.github.io/keywhiz/) - A system for managing and distributing secrets, which can fit well with a service oriented architecture (SOA).
 
 
 ## Hardware Security Module (HSM)
