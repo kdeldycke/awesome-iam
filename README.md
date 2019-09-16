@@ -96,9 +96,12 @@ and SAML 2, LDAP and AD directories, password policies.
 
 ## SAML
 
-SAML 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID, and is often use to implement corporate SSO.
+SAML 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID protocols above.
+
+Typical SAML identity prodiver is an insitution or a big corporation's internal SSO, while the typical OIDC/OAuth provider is a tech company that runs a data silo.
 
 * [How SAML 2.0 Authentication Works](https://gravitational.com/blog/how-saml-authentication-works/) - Overview of the how and why of SSO and SAML.
+* [Web Single Sign-On, the SAML 2.0 perspective](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - Another overview of SAML workflow in the context of corporate SSO implementation.
 
 
 ## Public-Key Infrastructure (PKI)
