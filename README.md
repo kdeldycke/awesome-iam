@@ -237,7 +237,9 @@ The well-known European privacy framework
 * [Conjur](https://www.conjur.org)
 
 
-## Benchmark
+## Competitive Analysis
+
+A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
 
 * [AWS Security, Identity & Compliance announcements](https://aws.amazon.com/about-aws/whats-new/security_identity_and_compliance/).
 * [GCP IAM release notes](https://cloud.google.com/iam/docs/release-notes) - Also of note: [Identity](https://cloud.google.com/identity/docs/release-notes), [Identity Platform](https://cloud.google.com/identity-platform/docs/release-notes), [Resource Manager](https://cloud.google.com/resource-manager/docs/release-notes), [Key Management Service/HSM](https://cloud.google.com/kms/docs/release-notes), [Access Context Manager](https://cloud.google.com/access-context-manager/docs/release-notes), [Identity-Aware Proxy](https://cloud.google.com/iap/docs/release-notes), [Data Loss Prevention](https://cloud.google.com/dlp/docs/release-notes) and [Security Scanner](https://cloud.google.com/security-scanner/docs/release-notes).
