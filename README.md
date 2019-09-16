@@ -4,7 +4,7 @@ In a [Cloud computing overview Standford class](http://web.stanford.edu/class/cs
 
 ![](cloud-software-stack-iam.png)
 
-This knowledge base cover the far right perimeter of the cloud stack.
+This knowledge base cover the far right perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, bridging the users, the products and the business. The [other pillar being billing & payments](https://github.com/kdeldycke/awesome-billing/).
 
 
 ## Meta
