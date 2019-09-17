@@ -22,7 +22,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 ## Cryptography
 
 * [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) - An up to date set of recomendations for developers who are not cryptography engineers.
-# [Real World Crypto Symposium](https://rwc.iacr.org) - Aims to bring together cryptography researchers with developers, focusing on uses in real-world environments such as the Internet, the cloud, and embedded devices.
+* [Real World Crypto Symposium](https://rwc.iacr.org) - Aims to bring together cryptography researchers with developers, focusing on uses in real-world environments such as the Internet, the cloud, and embedded devices.
 
 
 ## Password-based Authentication
