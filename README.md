@@ -37,7 +37,7 @@ Zero trust network security operates under the principle “never trust, always 
 
 ## Authentication
 
-* [Scaling backend authentication at Facebook](https://www.youtube.com/watch?v=kY-Bkv3qxMc) - Based on usage of certificate-based Tokens and Crypto Auth Tokens (CATs).
+* [Scaling backend authentication at Facebook](https://www.youtube.com/watch?v=kY-Bkv3qxMc) ([slides](https://rwc.iacr.org/2018/Slides/Lewi.pdf)) - TL;DR: Small root of trust, TLS isn't enough, certificate-based tokens and Crypto Auth Tokens (CATs).
 
 
 ## Password-based Authentication
