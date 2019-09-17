@@ -39,6 +39,7 @@ Zero trust network security operates under the principle “never trust, always 
 
 * [Scaling backend authentication at Facebook](https://www.youtube.com/watch?v=kY-Bkv3qxMc) ([slides](https://rwc.iacr.org/2018/Slides/Lewi.pdf)) - TL;DR: Small root of trust, TLS isn't enough, certificate-based tokens and Crypto Auth Tokens (CATs).
 * [Secret at Scale at Netflix](https://www.youtube.com/watch?v=K0EOPddWpsE) ([slides](https://rwc.iacr.org/2018/Slides/Mehta.pdf)) - Solution based on blind signatures.
+* [High Availability in Google's Internal KMS](https://www.youtube.com/watch?v=5T_c-lqgjso) ([slides](https://rwc.iacr.org/2018/Slides/Kanagala.pdf)) - Not GCP's KMS, but the one at the code of their infrastructure.
 
 
 ## Secret Management
