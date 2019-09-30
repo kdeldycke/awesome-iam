@@ -226,7 +226,7 @@ As the guardian of user's data, the IAM stack is deeply bounded by the respect o
 
 * [IRMA Authentication](https://news.ycombinator.com/item?id=20144240) - Open-source app and protocol that offers privacy-friendly attribute based authentication and signing using [Camenisch and Lysyanskaya's Idemix](https://privacybydesign.foundation/publications/).
 * [Have I been Pwned?](https://haveibeenpwned.com) - Data breach index.
-* [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - Explain the intuition behind differential privacy. See follow-up articles with [more details](https://desfontain.es/privacy/differential-privacy-in-more-detail.html) and [pracical aspects](https://desfontain.es/privacy/differential-privacy-in-practice.html).
+* [Automated security testing for Software Developers](https://fahrplan.events.ccc.de/camp/2019/Fahrplan/system/event_attachments/attachments/000/003/798/original/security_cccamp.pdf) - Most privacy breaches were allowed by known vulnerabilities in third-party dependencies. Here is how to detect them by the way of CI/CD.
 
 
 ## GDPR
@@ -244,6 +244,7 @@ The well-known European privacy framework
 As a central repository of user data, the IAM stack stakeholders have to prevent any leakage of business and customer data. To allow for internal analytics, anonymization is required.
 
 * [Presidio](https://github.com/microsoft/presidio) - Context aware, pluggable and customizable data protection and PII data anonymization service for text and images.
+* [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - Explain the intuition behind differential privacy. See follow-up articles with [more details](https://desfontain.es/privacy/differential-privacy-in-more-detail.html) and [pracical aspects](https://desfontain.es/privacy/differential-privacy-in-practice.html).
 * [Diffix: High-Utility Database Anonymization](https://aircloak.com/wp-content/uploads/apf17-reprint.pdf) - Diffix try to provide anonymization, avoid pseudonymization and preserve data quality. [Written in Elixir at Aircloak](https://elixirforum.com/t/aircloak-anonymized-analitycs/10930), it acts as an SQL proxy between the analyst and an unmodified live database.
 
 
