@@ -154,6 +154,7 @@ A clever curiosity to distribute authorization.
 
 The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
+* [An Illustrated Guide to OAuth and OpenID Connect](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - Explain how these standards work using simplified illustrations.
 * [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
 * [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols.
 * [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
