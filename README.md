@@ -10,6 +10,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 ## Meta
 
 * [IAM definition](https://en.wikipedia.org/wiki/Identity_management)
+* [*As a user, I want _____*](https://mobile.twitter.com/oktopushup/status/1030457418206068736) - A meta-critic of account management, in which features informed by the business clash with a real user expectations, in the form of user stories written by a fictional project manager.
 
 
 ## Basics
