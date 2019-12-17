@@ -256,6 +256,7 @@ As a central repository of user data, the IAM stack stakeholders have to prevent
 
 ## UX/UI
 
+* [Conversion Optimization](https://www.nickkolenda.com/conversion-optimization-psychology/#cro-tactic11) - A collection of tactics to increase the chance of users finishing the account creation funnel.
 * [Don’t get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR; create login forms that are simple, linkable, predictable, and play nicely with password managers.
 * [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login.
 * [Remove password masking](http://passwordmasking.com) - Summarises the results from an academic study investigating the impact removing password masking has on consumer trust.
