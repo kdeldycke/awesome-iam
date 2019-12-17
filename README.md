@@ -212,7 +212,7 @@ The first mecanical line of defense against fraud and abuses consist in plain an
 
 ### Emails
 
-* [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers. Declined And its [derivated Python module](https://github.com/martenson/disposable-email-domains).
+* [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers. And its [derivated Python module](https://github.com/martenson/disposable-email-domains).
 * [MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language temporary (disposable/throwaway) email detection library.
 * [Temporary Email Address Domains](https://gist.github.com/adamloving/4401361) - A list of domains for disposable and temporary email addresses. Useful for filtering your email list to increase open rates (sending email to these domains likely will not be opened).
 
