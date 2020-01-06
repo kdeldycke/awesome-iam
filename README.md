@@ -203,6 +203,7 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 * [Investigation into the Unusual Signups](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - A really detailed analysis of suspicious contributor signups on OpenStreetMap. This beautiful and high-level report demonstrating an orchestrated and directed campaign might serve as a template for fraud reports.
 * [Browser Fingerprinting: A survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be used as a source of signals to identify bots and fraudsters.
 * [MISP taxonomies and classification](https://www.misp-project.org/taxonomies.html) - Tags to organize information on `threat intelligence including cyber security indicators, financial fraud or counter-terrorism information.`
+* [The challenges of file formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) - At one point you will let users upload files in your system. Here is a [corpus of suspicious media files](https://github.com/corkami/pocs) that can be leveraged by scammers =to bypass security or fool users.
 
 
 ## Captcha
