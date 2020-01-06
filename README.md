@@ -101,6 +101,7 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 * [Dumb Password Rules](https://github.com/dumb-password-rules/dumb-password-rules) - Shaming sites with dumb password rules.
 * [Plain Text Offenders](https://plaintextoffenders.com/about/) - Public shaming of websites storing passwords in plain text.
 * [A Well-Known URL for Changing Passwords](https://github.com/WICG/change-password-url) - Specification defining site resource for password updates.
+* [How to change the hashing scheme of already hashed user's passwords](https://news.ycombinator.com/item?id=20109360) - You're not stuck with a legacy password hashing algorithm: this explain how to upgrade weak hashing algo.
 
 
 ## Password-less Authentication
