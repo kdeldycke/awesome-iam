@@ -1,6 +1,7 @@
 # 👤 Awesome Identity and Access Management
 
-In a [Cloud computing overview Standford class](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the cloud software stack is presented as such:
+In a Standford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
+
 
 ![](cloud-software-stack-iam.png)
 
