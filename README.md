@@ -217,6 +217,8 @@ Managing users expose services and businesses to fraud, crime, abuses, trust and
 
 The first mecanical line of defense against fraud and abuses consist in plain and simple blacklisting.
 
+* [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect for this use-case, as blom filters are designed to quickly check if an element is not in a set.
+
 ### Hostnames and Subdomains
 
 * [`hosts`](https://github.com/StevenBlack/hosts) - Consolidates reputable hosts files, and merges them into a unified hosts file with duplicates removed.
