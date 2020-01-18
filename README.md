@@ -7,6 +7,42 @@ In a Standford class on [Cloud computing overview](http://web.stanford.edu/class
 
 This knowledge base cover the far right perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, bridging the users, the products and the business. The [other pillar being billing & payments](https://github.com/kdeldycke/awesome-billing/).
 
+## Contents
+
+- [Meta](#meta)
+- [Basics](#basics)
+- [Cryptography](#cryptography)
+- [Zero-trust Network](#zero-trust-network)
+- [Authentication](#authentication)
+- [Secret Management](#secret-management)
+- [Hardware Security Module (HSM)](#hardware-security-module-hsm)
+- [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
+- [Authorization, ACL and RBAC](#authorization-acl-and-rbac)
+- [Policies](#policies)
+- [Password-based Authentication](#password-based-authentication)
+- [Password-less Authentication](#password-less-authentication)
+- [Multi-Factor Authentication](#multi-factor-authentication)
+- [SMS-based Authentication](#sms-based-authentication)
+- [JWT](#jwt)
+- [Macaroons](#macaroons)
+- [OAuth2 & OpenID](#oauth2-openid)
+- [SAML](#saml)
+- [User Identity](#user-identity)
+- [Fraud](#fraud)
+- [Captcha](#captcha)
+- [Blacklists](#blacklists)
+  - [Hostnames and Subdomains](#hostnames-and-subdomains)
+  - [Emails](#emails)
+  - [Reserved IDs](#reserved-ids)
+  - [Profanity](#profanity)
+- [Privacy](#privacy)
+- [GDPR](#gdpr)
+- [Anonymization](#anonymization)
+- [UX/UI](#ux-ui)
+- [Open-Source Projects](#open-source-projects)
+- [Competitive Analysis](#competitive-analysis)
+- [History](#history)
+
 
 ## Meta
 
