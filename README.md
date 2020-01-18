@@ -2,8 +2,7 @@
 
 In a Standford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
 
-
-![](cloud-software-stack-iam.png)
+![](cloud-software-stack-iam.jpg)
 
 This knowledge base cover the far right perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, bridging the users, the products and the business. The [other pillar being billing & payments](https://github.com/kdeldycke/awesome-billing/).
 
@@ -25,7 +24,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [SMS-based Authentication](#sms-based-authentication)
 - [JWT](#jwt)
 - [Macaroons](#macaroons)
-- [OAuth2 & OpenID](#oauth2-openid)
+- [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
 - [User Identity](#user-identity)
 - [Fraud](#fraud)
@@ -55,22 +54,22 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 
 - [Enterprise Information Security](https://infosec.mozilla.org) -  Mozilla's security and access guidelines.
 - [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam)
-- [IAM Is The Real Cloud Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - A little *click-baity*, but author admit that `It depends on how much you trust them to a) stay in business; b) not jack up your prices; c) not deprecate services out from under you; and d) provide more value to you in business acceleration than they take away in flexibility.`
+- [IAM Is The Real Cloud Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - A little *click-baity*, but author admit that `It depends on how much you trust them to a) stay in business; b) not jack up your prices; c) not deprecate services out from under you; and d) provide more value to you in business acceleration than they take away in flexibility.`.
 
 
 ## Cryptography
 
 - [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) ([summary](https://news.ycombinator.com/item?id=16749140)) - An up to date set of recomendations for developers who are not cryptography engineers.
 - [Real World Crypto Symposium](https://rwc.iacr.org) - Aims to bring together cryptography researchers with developers, focusing on uses in real-world environments such as the Internet, the cloud, and embedded devices.
-- [An Overview of Cryptography](https://www.garykessler.net/library/crypto.html) - `This paper has two major purposes. The first is to define some of the terms and concepts behind basic cryptographic methods, and to offer a way to compare the myriad cryptographic schemes in use today. The second is to provide some real examples of cryptography in use today.`
+- [An Overview of Cryptography](https://www.garykessler.net/library/crypto.html) - `This paper has two major purposes. The first is to define some of the terms and concepts behind basic cryptographic methods, and to offer a way to compare the myriad cryptographic schemes in use today. The second is to provide some real examples of cryptography in use today.`.
 
 
 ## Zero-trust Network
 
 Zero trust network security operates under the principle “never trust, always verify.”.
 
-- [BeyondCorp - A New Approach to Enterprise Security](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf) - Quick overview of Google’s Zero-trust Network initiative.
-- [What is BeyondCorp? What is Identity-Aware Proxy?](https://medium.com/google-cloud/what-is-beyondcorp-what-is-identity-aware-proxy-de525d9b3f90) - More companies add extra layers of VPNs, firewalls, restrictions and constraints, resulting in a terrible experience and a slight security gain. There’s a better way.
+- [BeyondCorp - A New Approach to Enterprise Security](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf) - Quick overview of Google's Zero-trust Network initiative.
+- [What is BeyondCorp? What is Identity-Aware Proxy?](https://medium.com/google-cloud/what-is-beyondcorp-what-is-identity-aware-proxy-de525d9b3f90) - More companies add extra layers of VPNs, firewalls, restrictions and constraints, resulting in a terrible experience and a slight security gain. There's a better way.
 - [oathkeeper](https://github.com/ory/oathkeeper) - Identity & Access Proxy and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP requests. Inspired by the BeyondCorp / Zero Trust white paper.
 - [transcend](https://github.com/cogolabs/transcend) - BeyondCorp-inspired Access Proxy server.
 
@@ -107,7 +106,7 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 Certificate-based authentication.
 
 - [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
-- [Everything you should know about certificates and PKI but are too afraid to ask](https://smallstep.com/blog/everything-pki.html) - PKI lets you define a system cryptographically. It’s universal and vendor neutral.
+- [Everything you should know about certificates and PKI but are too afraid to ask](https://smallstep.com/blog/everything-pki.html) - PKI lets you define a system cryptographically. It's universal and vendor neutral.
 - [`lemur`](https://github.com/Netflix/lemur) - Acts as a broker between CAs and environments, providing a central portal for developers to issue TLS certificates with 'sane' defaults.
 
 
