@@ -53,6 +53,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 ## Basics
 
 - [Enterprise Information Security](https://infosec.mozilla.org) -  Mozilla's security and access guidelines.
+- [Mitigating Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) - `This document divides cloud vulnerabilities into four classes (misconfiguration, poor access control, shared tenancy vulnerabilities, and supply chain vulnerabilities)`.
 - [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam)
 - [IAM Is The Real Cloud Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - A little *click-baity*, but author admit that `It depends on how much you trust them to a) stay in business; b) not jack up your prices; c) not deprecate services out from under you; and d) provide more value to you in business acceleration than they take away in flexibility.`.
 
