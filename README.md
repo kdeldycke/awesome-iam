@@ -173,7 +173,7 @@ A clever curiosity to distribute and delegate authorization.
 
 ## Secret Management
 
-Resources on the architecture, software and hardware allowing the storage and usage of secrets, while maintaining the chain of trust.
+Architectures, software and hardware allowing the storage and usage of secrets to allow for authentication and authorization, while maintaining the chain of trust.
 
 - [Secret at Scale at Netflix](https://www.youtube.com/watch?v=K0EOPddWpsE) ([slides](https://rwc.iacr.org/2018/Slides/Mehta.pdf)) - Solution based on blind signatures.
 - [High Availability in Google's Internal KMS](https://www.youtube.com/watch?v=5T_c-lqgjso) ([slides](https://rwc.iacr.org/2018/Slides/Kanagala.pdf)) - Not GCP's KMS, but the one at the core of their infrastructure.
