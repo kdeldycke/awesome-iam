@@ -19,7 +19,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
   - [SMS-based](#sms-based)
 - [Policies](#policies)
 - [Secret Management](#secret-management)
-- [Hardware Security Module (HSM)](#hardware-security-module-hsm)
+  - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
 - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
 - [JWT](#jwt)
 - [Macaroons](#macaroons)
@@ -143,6 +143,8 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 
 ## Secret Management
 
+Resources on the architecture, software and hardware allowing the storage and usage of secrets, while maintaining the chain of trust.
+
 - [Secret at Scale at Netflix](https://www.youtube.com/watch?v=K0EOPddWpsE) ([slides](https://rwc.iacr.org/2018/Slides/Mehta.pdf)) - Solution based on blind signatures.
 - [High Availability in Google's Internal KMS](https://www.youtube.com/watch?v=5T_c-lqgjso) ([slides](https://rwc.iacr.org/2018/Slides/Kanagala.pdf)) - Not GCP's KMS, but the one at the core of their infrastructure.
 - [`vault`](https://www.vaultproject.io) - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys.
@@ -150,8 +152,7 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 - [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
 - [Keywhiz](https://square.github.io/keywhiz/) - A system for managing and distributing secrets, which can fit well with a service oriented architecture (SOA).
 
-
-## Hardware Security Module (HSM)
+### Hardware Security Module (HSM)
 
 HSMs are physical devices guaranteeing security of secret management at the hardware level.
 
