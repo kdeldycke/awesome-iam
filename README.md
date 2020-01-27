@@ -17,10 +17,10 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
   - [Password-less](#password-less)
   - [Multi-Factor](#multi-factor)
   - [SMS-based](#sms-based)
+  - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
 - [Policies](#policies)
 - [Secret Management](#secret-management)
   - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
-- [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
 - [JWT](#jwt)
 - [Macaroons](#macaroons)
 - [OAuth2 & OpenID](#oauth2--openid)
@@ -122,6 +122,14 @@ TL;DR: don't. For details, see articles below.
 - [SIM swap horror story](https://www.zdnet.com/article/sim-swap-horror-story-ive-lost-decades-of-data-and-google-wont-lift-a-finger/)
 - [AWS is on its way to deprecate SMS-based 2FA](https://aws.amazon.com/iam/details/mfa/) - `We encourage you to use MFA through a U2F security key, hardware device, or virtual (software-based) MFA device. You can continue using this feature until January 31, 2019.`
 
+### Public-Key Infrastructure (PKI)
+
+Certificate-based authentication.
+
+- [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
+- [Everything you should know about certificates and PKI but are too afraid to ask](https://smallstep.com/blog/everything-pki.html) - PKI lets you define a system cryptographically. It's universal and vendor neutral.
+- [`lemur`](https://github.com/Netflix/lemur) - Acts as a broker between CAs and environments, providing a central portal for developers to issue TLS certificates with 'sane' defaults.
+
 
 ## Policies
 
@@ -162,15 +170,6 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 - [Keystone](https://keystone-enclave.org) - Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
 - [Project Oak](https://github.com/project-oak/oak) - A specification and a reference implementation for the secure transfer, storage and processing of data.
 - [Everybody be cool, this is a robbery!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
-
-
-## Public-Key Infrastructure (PKI)
-
-Certificate-based authentication.
-
-- [PKI for busy people](https://rehn.me/posts/pki-for-busy-people.html) - Quick overview of the important stuff.
-- [Everything you should know about certificates and PKI but are too afraid to ask](https://smallstep.com/blog/everything-pki.html) - PKI lets you define a system cryptographically. It's universal and vendor neutral.
-- [`lemur`](https://github.com/Netflix/lemur) - Acts as a broker between CAs and environments, providing a central portal for developers to issue TLS certificates with 'sane' defaults.
 
 
 ## JWT
