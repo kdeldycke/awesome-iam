@@ -13,15 +13,14 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [Cryptography](#cryptography)
 - [Zero-trust Network](#zero-trust-network)
 - [Authentication](#authentication)
-- [Secret Management](#secret-management)
-- [Hardware Security Module (HSM)](#hardware-security-module-hsm)
-- [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
-- [Policies](#policies)
-- [Authentication](#authentication)
   - [Password-based](#password-based)
   - [Password-less](#password-less)
   - [Multi-Factor](#multi-factor)
   - [SMS-based](#sms-based)
+- [Secret Management](#secret-management)
+- [Hardware Security Module (HSM)](#hardware-security-module-hsm)
+- [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
+- [Policies](#policies)
 - [JWT](#jwt)
 - [Macaroons](#macaroons)
 - [OAuth2 & OpenID](#oauth2--openid)
@@ -79,13 +78,55 @@ Zero trust network security operates under the principle “never trust, always 
 
 ## Authentication
 
+Are you who you pretend to be?
+
 - [Scaling backend authentication at Facebook](https://www.youtube.com/watch?v=kY-Bkv3qxMc) ([slides](https://rwc.iacr.org/2018/Slides/Lewi.pdf)) - TL;DR: Small root of trust, TLS isn't enough, certificate-based tokens and Crypto Auth Tokens (CATs).
-- [Secret at Scale at Netflix](https://www.youtube.com/watch?v=K0EOPddWpsE) ([slides](https://rwc.iacr.org/2018/Slides/Mehta.pdf)) - Solution based on blind signatures.
-- [High Availability in Google's Internal KMS](https://www.youtube.com/watch?v=5T_c-lqgjso) ([slides](https://rwc.iacr.org/2018/Slides/Kanagala.pdf)) - Not GCP's KMS, but the one at the code of their infrastructure.
+
+### Password-based
+
+- [The new nist password guidance](https://pciguru.wordpress.com/2019/03/11/the-new-nist-password-guidance/) - A summary of [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) covering new password complexity guidelines.
+- [Password expiration is dead](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - Recent scientific research calls into question the value of many long-standing password-security practices such as password expiration policies, and points instead to better alternatives such as enforcing banned-password lists and MFA.
+- [Banks, Arbitrary Password Restrictions and Why They Don't Matter](https://www.troyhunt.com/banks-arbitrary-password-restrictions-and-why-they-dont-matter/) - `Arbitrary low limits on length and character composition are bad. They look bad, they lead to negative speculation about security posture and they break tools like password managers.`
+- [Dumb Password Rules](https://github.com/dumb-password-rules/dumb-password-rules) - Shaming sites with dumb password rules.
+- [Plain Text Offenders](https://plaintextoffenders.com/about/) - Public shaming of websites storing passwords in plain text.
+- [A Well-Known URL for Changing Passwords](https://github.com/WICG/change-password-url) - Specification defining site resource for password updates.
+- [How to change the hashing scheme of already hashed user's passwords](https://news.ycombinator.com/item?id=20109360) - You're not stuck with a legacy password hashing algorithm: this explain how to upgrade weak hashing algo.
+
+### Password-less
+
+- [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article ties to tell you why.
+- [WebAuthn guide](https://webauthn.guide) - A very accessible guide to WebAuthn, a standard allowing `servers to register and authenticate users using public key cryptography instead of a password`, supported by all major browsers.
+- [Webauthn and security keys](https://www.imperialviolet.org/2018/03/27/webauthn.html) - Describe how authentication works with security keys, details the protocols, and how they articulates with WebAuthn. Key takeaway: `There is no way to create a U2F key with webauthn however. (...) So complete the transition to webauthn of your login process first, then transition registration.`
+- [Getting started with security keys](https://paulstamatiou.com/getting-started-with-security-keys/) - A practical guide to stay safe online and prevent phishing with FIDO2, WebAuthn and security keys.
+
+### Multi-Factor
+
+- [Beyond Passwords: 2FA, U2F and Google Advanced Protection](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) - An excellent walk-trough over all these technologies.
+- [A Comparative Long-Term Study of Fallback Authentication](https://www.mobsec.ruhr-uni-bochum.de/media/mobsec/veroeffentlichungen/2019/02/20/usec2019-30-wip-fallback-long-term-study-finalv2.pdf) - Key take-away: `schemes based on email and SMS are more usable. Mechanisms based on designated trustees and personal knowledge questions, on the other hand, fall short, both in terms of convenience and efficiency.`
+- [How effective is basic account hygiene at preventing hijacking](https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html) - Google security team's data shows 2FA blocks 100% of automated bot hacks.
+- [Your Pa$$word doesn't matter](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Your-Pa-word-doesn-t-matter/ba-p/731984) - Same conclusion as above from Microsoft: `Based on our studies, your account is more than 99.9% less likely to be compromised if you use MFA.`
+- [Attacking Google Authenticator](https://unix-ninja.com/p/attacking_google_authenticator) - Probably on the verge of paranoia, but might be a reason to rate limit 2FA validation attempts.
+- [Compromising online accounts by cracking voicemail systems](https://www.martinvigo.com/voicemailcracker/) - Or why you should not rely on automated phone calls as a method to reach the user and reset passwords, 2FA or for any kind of verification. Not unlike SMS-based 2FA, it is currently insecure and can be compromised by the way of its weakest link: voicemail systems.
+- [Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/) - On the UX aspects of 2FA.
+
+### SMS-based
+
+TL;DR: don't. For details, see articles below.
+
+- [SMS 2FA auth is deprecated by NIST](https://techcrunch.com/2016/07/25/nist-declares-the-age-of-sms-based-2-factor-authentication-over/) - NIST has said that 2FA via SMS is bad and awful since 2016.
+- [SMS: The most popular and least secure 2FA method](https://www.allthingsauth.com/2018/02/27/sms-the-most-popular-and-least-secure-2fa-method/)
+- [Is SMS 2FA Secure? No.](https://www.issms2fasecure.com) - Definitive reasearch project demonstrating successful attempts at SIM swapping.
+- [Hackers Hit Twitter C.E.O. Jack Dorsey in a ‘SIM Swap.’ You’re at Risk, Too.](https://www.nytimes.com/2019/09/05/technology/sim-swap-jack-dorsey-hack.html)
+- [AT&T rep handed control of his cellphone account to a hacker](https://www.theregister.co.uk/2017/07/10/att_falls_for_hacker_tricks/)
+- [The Most Expensive Lesson Of My Life: Details of SIM port hack](https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124)
+- [SIM swap horror story](https://www.zdnet.com/article/sim-swap-horror-story-ive-lost-decades-of-data-and-google-wont-lift-a-finger/)
+- [AWS is on its way to deprecate SMS-based 2FA](https://aws.amazon.com/iam/details/mfa/) - `We encourage you to use MFA through a U2F security key, hardware device, or virtual (software-based) MFA device. You can continue using this feature until January 31, 2019.`
 
 
 ## Secret Management
 
+- [Secret at Scale at Netflix](https://www.youtube.com/watch?v=K0EOPddWpsE) ([slides](https://rwc.iacr.org/2018/Slides/Mehta.pdf)) - Solution based on blind signatures.
+- [High Availability in Google's Internal KMS](https://www.youtube.com/watch?v=5T_c-lqgjso) ([slides](https://rwc.iacr.org/2018/Slides/Kanagala.pdf)) - Not GCP's KMS, but the one at the core of their infrastructure.
 - [`vault`](https://www.vaultproject.io) - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys.
 - [`sops`](https://github.com/mozilla/sops) - Encrypts the values of YAML and JSON files, not the keys.
 - [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
@@ -127,51 +168,6 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 - [`ladon`](https://github.com/ory/ladon) - Access control library, inspired by [AWS IAM Policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html).
 - Description of an [authz system that is built around labeled security and RBAC concepts](https://news.ycombinator.com/item?id=20136831).
 - [Become an AWS IAM Policy Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - `In my nearly 5 years at Amazon, I carve out a little time each day, each week to look through the forums, customer tickets to try to find out where people are having trouble.`. Policy specification is the science, enforcement is the art.
-
-
-## Authentication
-
-Are you who you pretend to be?
-
-### Password-based
-
-- [The new nist password guidance](https://pciguru.wordpress.com/2019/03/11/the-new-nist-password-guidance/) - A summary of [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) covering new password complexity guidelines.
-- [Password expiration is dead](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - Recent scientific research calls into question the value of many long-standing password-security practices such as password expiration policies, and points instead to better alternatives such as enforcing banned-password lists and MFA.
-- [Banks, Arbitrary Password Restrictions and Why They Don't Matter](https://www.troyhunt.com/banks-arbitrary-password-restrictions-and-why-they-dont-matter/) - `Arbitrary low limits on length and character composition are bad. They look bad, they lead to negative speculation about security posture and they break tools like password managers.`
-- [Dumb Password Rules](https://github.com/dumb-password-rules/dumb-password-rules) - Shaming sites with dumb password rules.
-- [Plain Text Offenders](https://plaintextoffenders.com/about/) - Public shaming of websites storing passwords in plain text.
-- [A Well-Known URL for Changing Passwords](https://github.com/WICG/change-password-url) - Specification defining site resource for password updates.
-- [How to change the hashing scheme of already hashed user's passwords](https://news.ycombinator.com/item?id=20109360) - You're not stuck with a legacy password hashing algorithm: this explain how to upgrade weak hashing algo.
-
-### Password-less
-
-- [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article ties to tell you why.
-- [WebAuthn guide](https://webauthn.guide) - A very accessible guide to WebAuthn, a standard allowing `servers to register and authenticate users using public key cryptography instead of a password`, supported by all major browsers.
-- [Webauthn and security keys](https://www.imperialviolet.org/2018/03/27/webauthn.html) - Describe how authentication works with security keys, details the protocols, and how they articulates with WebAuthn. Key takeaway: `There is no way to create a U2F key with webauthn however. (...) So complete the transition to webauthn of your login process first, then transition registration.`
-- [Getting started with security keys](https://paulstamatiou.com/getting-started-with-security-keys/) - A practical guide to stay safe online and prevent phishing with FIDO2, WebAuthn and security keys.
-
-### Multi-Factor
-
-- [Beyond Passwords: 2FA, U2F and Google Advanced Protection](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) - An excellent walk-trough over all these technologies.
-- [A Comparative Long-Term Study of Fallback Authentication](https://www.mobsec.ruhr-uni-bochum.de/media/mobsec/veroeffentlichungen/2019/02/20/usec2019-30-wip-fallback-long-term-study-finalv2.pdf) - Key take-away: `schemes based on email and SMS are more usable. Mechanisms based on designated trustees and personal knowledge questions, on the other hand, fall short, both in terms of convenience and efficiency.`
-- [How effective is basic account hygiene at preventing hijacking](https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html) - Google security team's data shows 2FA blocks 100% of automated bot hacks.
-- [Your Pa$$word doesn't matter](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Your-Pa-word-doesn-t-matter/ba-p/731984) - Same conclusion as above from Microsoft: `Based on our studies, your account is more than 99.9% less likely to be compromised if you use MFA.`
-- [Attacking Google Authenticator](https://unix-ninja.com/p/attacking_google_authenticator) - Probably on the verge of paranoia, but might be a reason to rate limit 2FA validation attempts.
-- [Compromising online accounts by cracking voicemail systems](https://www.martinvigo.com/voicemailcracker/) - Or why you should not rely on automated phone calls as a method to reach the user and reset passwords, 2FA or for any kind of verification. Not unlike SMS-based 2FA, it is currently insecure and can be compromised by the way of its weakest link: voicemail systems.
-- [Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/) - On the UX aspects of 2FA.
-
-### SMS-based
-
-TL;DR: don't. For details, see articles below.
-
-- [SMS 2FA auth is deprecated by NIST](https://techcrunch.com/2016/07/25/nist-declares-the-age-of-sms-based-2-factor-authentication-over/) - NIST has said that 2FA via SMS is bad and awful since 2016.
-- [SMS: The most popular and least secure 2FA method](https://www.allthingsauth.com/2018/02/27/sms-the-most-popular-and-least-secure-2fa-method/)
-- [Is SMS 2FA Secure? No.](https://www.issms2fasecure.com) - Definitive reasearch project demonstrating successful attempts at SIM swapping.
-- [Hackers Hit Twitter C.E.O. Jack Dorsey in a ‘SIM Swap.’ You’re at Risk, Too.](https://www.nytimes.com/2019/09/05/technology/sim-swap-jack-dorsey-hack.html)
-- [AT&T rep handed control of his cellphone account to a hacker](https://www.theregister.co.uk/2017/07/10/att_falls_for_hacker_tricks/)
-- [The Most Expensive Lesson Of My Life: Details of SIM port hack](https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124)
-- [SIM swap horror story](https://www.zdnet.com/article/sim-swap-horror-story-ive-lost-decades-of-data-and-google-wont-lift-a-finger/)
-- [AWS is on its way to deprecate SMS-based 2FA](https://aws.amazon.com/iam/details/mfa/) - `We encourage you to use MFA through a U2F security key, hardware device, or virtual (software-based) MFA device. You can continue using this feature until January 31, 2019.`
 
 
 ## JWT
