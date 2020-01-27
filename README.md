@@ -17,10 +17,11 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
 - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
 - [Policies](#policies)
-- [Password-based Authentication](#password-based-authentication)
-- [Password-less Authentication](#password-less-authentication)
-- [Multi-Factor Authentication](#multi-factor-authentication)
-- [SMS-based Authentication](#sms-based-authentication)
+- [Authentication](#authentication)
+  - [Password-based](#password-based)
+  - [Password-less](#password-less)
+  - [Multi-Factor](#multi-factor)
+  - [SMS-based](#sms-based)
 - [JWT](#jwt)
 - [Macaroons](#macaroons)
 - [OAuth2 & OpenID](#oauth2--openid)
@@ -128,7 +129,11 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 - [Become an AWS IAM Policy Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - `In my nearly 5 years at Amazon, I carve out a little time each day, each week to look through the forums, customer tickets to try to find out where people are having trouble.`. Policy specification is the science, enforcement is the art.
 
 
-## Password-based Authentication
+## Authentication
+
+Are you who you pretend to be?
+
+### Password-based
 
 - [The new nist password guidance](https://pciguru.wordpress.com/2019/03/11/the-new-nist-password-guidance/) - A summary of [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) covering new password complexity guidelines.
 - [Password expiration is dead](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - Recent scientific research calls into question the value of many long-standing password-security practices such as password expiration policies, and points instead to better alternatives such as enforcing banned-password lists and MFA.
@@ -138,16 +143,14 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 - [A Well-Known URL for Changing Passwords](https://github.com/WICG/change-password-url) - Specification defining site resource for password updates.
 - [How to change the hashing scheme of already hashed user's passwords](https://news.ycombinator.com/item?id=20109360) - You're not stuck with a legacy password hashing algorithm: this explain how to upgrade weak hashing algo.
 
-
-## Password-less Authentication
+### Password-less
 
 - [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article ties to tell you why.
 - [WebAuthn guide](https://webauthn.guide) - A very accessible guide to WebAuthn, a standard allowing `servers to register and authenticate users using public key cryptography instead of a password`, supported by all major browsers.
 - [Webauthn and security keys](https://www.imperialviolet.org/2018/03/27/webauthn.html) - Describe how authentication works with security keys, details the protocols, and how they articulates with WebAuthn. Key takeaway: `There is no way to create a U2F key with webauthn however. (...) So complete the transition to webauthn of your login process first, then transition registration.`
 - [Getting started with security keys](https://paulstamatiou.com/getting-started-with-security-keys/) - A practical guide to stay safe online and prevent phishing with FIDO2, WebAuthn and security keys.
 
-
-## Multi-Factor Authentication
+### Multi-Factor
 
 - [Beyond Passwords: 2FA, U2F and Google Advanced Protection](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) - An excellent walk-trough over all these technologies.
 - [A Comparative Long-Term Study of Fallback Authentication](https://www.mobsec.ruhr-uni-bochum.de/media/mobsec/veroeffentlichungen/2019/02/20/usec2019-30-wip-fallback-long-term-study-finalv2.pdf) - Key take-away: `schemes based on email and SMS are more usable. Mechanisms based on designated trustees and personal knowledge questions, on the other hand, fall short, both in terms of convenience and efficiency.`
@@ -157,8 +160,7 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 - [Compromising online accounts by cracking voicemail systems](https://www.martinvigo.com/voicemailcracker/) - Or why you should not rely on automated phone calls as a method to reach the user and reset passwords, 2FA or for any kind of verification. Not unlike SMS-based 2FA, it is currently insecure and can be compromised by the way of its weakest link: voicemail systems.
 - [Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/) - On the UX aspects of 2FA.
 
-
-## SMS-based Authentication
+### SMS-based
 
 TL;DR: don't. For details, see articles below.
 
