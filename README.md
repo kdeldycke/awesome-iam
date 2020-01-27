@@ -25,7 +25,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [Macaroons](#macaroons)
 - [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
-- [Trust & Safety](trust--safety)
+- [Trust & Safety](#trust--safety)
   - [User Identity](#user-identity)
   - [Fraud](#fraud)
   - [Captcha](#captcha)
