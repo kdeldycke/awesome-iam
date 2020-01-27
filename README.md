@@ -20,9 +20,9 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
   - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
   - [JWT](#jwt)
 - [Policies](#policies)
+  - [Macaroons](#macaroons)
 - [Secret Management](#secret-management)
   - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
-- [Macaroons](#macaroons)
 - [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
 - [Trust & Safety](#trust--safety)
@@ -162,6 +162,14 @@ greater than 99.999% over 3 years of production use. [Other bits not in the pape
 - Description of an [authz system that is built around labeled security and RBAC concepts](https://news.ycombinator.com/item?id=20136831).
 - [Become an AWS IAM Policy Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - `In my nearly 5 years at Amazon, I carve out a little time each day, each week to look through the forums, customer tickets to try to find out where people are having trouble.`. Policy specification is the science, enforcement is the art.
 
+### Macaroons
+
+A clever curiosity to distribute and delegate authorization.
+
+- [Google's Macaroons in Five Minutes or Less](https://blog.bren2010.io/2014/12/04/macaroons.html) - TL;DR: if I’m given a Macaroon that authorizes me to perform some action(s) under certain restrictions, I can non-interactively build a second Macaroon with stricter restrictions that I can then give to you.
+- [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://ai.google/research/pubs/pub41892) - Google's original paper.
+- [Google paper's author compares Macaroons and JWTs](https://news.ycombinator.com/item?id=14294463) - TL;DR: As a consumer/verifier of macaroons, they allow you (through third-party caveats) to defer some authorization decisions to someone else. JWTs don't.
+
 
 ## Secret Management
 
@@ -184,15 +192,6 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 - [Keystone](https://keystone-enclave.org) - Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
 - [Project Oak](https://github.com/project-oak/oak) - A specification and a reference implementation for the secure transfer, storage and processing of data.
 - [Everybody be cool, this is a robbery!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
-
-
-## Macaroons
-
-A clever curiosity to distribute and delegate authorization.
-
-- [Google's Macaroons in Five Minutes or Less](https://blog.bren2010.io/2014/12/04/macaroons.html) - TL;DR: if I’m given a Macaroon that authorizes me to perform some action(s) under certain restrictions, I can non-interactively build a second Macaroon with stricter restrictions that I can then give to you.
-- [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://ai.google/research/pubs/pub41892) - Google's original paper.
-- [Google paper's author compares Macaroons and JWTs](https://news.ycombinator.com/item?id=14294463) - TL;DR: As a consumer/verifier of macaroons, they allow you (through third-party caveats) to defer some authorization decisions to someone else. JWTs don't.
 
 
 ## OAuth2 & OpenID
