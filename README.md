@@ -239,10 +239,12 @@ On managing users and their metadata.
 
 ## Trust & Safety
 
-Once you've got a significant user base, it is called a community. You'll then be responsible to protect the customer, people, the company and the business, and facilitate all interactions and transactions happening therein.
+Once you've got a significant user base, it is called a community. You'll then be responsible to protect it: the customer, people, the company, the business, and facilitate all interactions and transactions happening therein.
 
-A critical intermediation component driven by a policy and constraint by local laws, likely embodied by a dedicated team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extention of customer support, specialized in edge-cases like manual identity checks (KYC), stopping harrassments, handling of warrants and copyright claims, data sequestration and other credit card disputes.
+A critical intermediation component driven by a policy and constraint by local laws, likely embodied by a cross-functionnal team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extention of customer support, specialized in edge-cases like manual identity checks (KYC), moderation of harmful content, stopping harrassments, handling of warrants and copyright claims, data sequestration and other credit card disputes.
 
+- [Trust and safety 101](https://www.csoonline.com/article/3206127/trust-and-safety-101.html) - A great introduction on the domain and its responsabilities.
+- [What the Heck is Trust and Safety?](https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi) - A couple of real use-case to demonstrate the role of a TnS team.
 - [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing/blob/master/README.md#fraud) - Section dedicated to fraud management for billing and payment, from our sister repository.
 
 ### Fraud
