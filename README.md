@@ -46,7 +46,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 ## Meta
 
 - [IAM definition](https://en.wikipedia.org/wiki/Identity_management) - `A framework of policies and technologies for ensuring that the proper people in an enterprise have the appropriate access to technology resources`.
-- [*As a user, I want _____*](https://mobile.twitter.com/oktopushup/status/1030457418206068736) - A meta-critic of account management, in which features informed by the business clash with a real user expectations, in the form of user stories written by a fictional project manager.
+- [*As a user, I want _____*](https://mobile.twitter.com/oktopushup/status/1030457418206068736) - A meta-critic of account management, in which features expected by the business clash with real user needs, in the form of user stories written by a fictional project manager.
 - [Things end users care about but programmers don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/) - In the same spirit as above, but broader: all the little things we overlook as developers but users really care about. In the top of that list lies account-centric features, diverse integration and import/export tools. I.e. all the enterprise customers needs to cover.
 
 
