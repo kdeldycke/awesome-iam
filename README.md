@@ -231,6 +231,7 @@ A critical intermediation component driven by a policy and constraint by local l
 
 - [Trust and safety 101](https://www.csoonline.com/article/3206127/trust-and-safety-101.html) - A great introduction on the domain and its responsabilities.
 - [What the Heck is Trust and Safety?](https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi) - A couple of real use-case to demonstrate the role of a TnS team.
+- [Still Logged In: What AR and VR Can Learn from MMOs](https://youtu.be/kgw8RLHv1j4?t=534) - `If you host an online community, where people can harm another person: you are on the hook. And if you can't afford to be on the hook, don't host an online community`. All online communities, not only those related to gaming, requires their operator to invest a lot of resource and energy to moderate it.
 - [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing/blob/master/README.md#fraud) - Section dedicated to fraud management for billing and payment, from our sister repository.
 
 ### User Identity
