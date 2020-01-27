@@ -27,13 +27,17 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
 - [User Identity](#user-identity)
-- [Fraud](#fraud)
-- [Captcha](#captcha)
-- [Blacklists](#blacklists)
-  - [Hostnames and Subdomains](#hostnames-and-subdomains)
-  - [Emails](#emails)
-  - [Reserved IDs](#reserved-ids)
-  - [Profanity](#profanity)
+
+- [Trust & Safety](trust---safety)
+
+
+  - [Fraud](#fraud)
+  - [Captcha](#captcha)
+  - [Blacklists](#blacklists)
+    - [Hostnames and Subdomains](#hostnames-and-subdomains)
+    - [Emails](#emails)
+    - [Reserved IDs](#reserved-ids)
+    - [Profanity](#profanity)
 - [Privacy](#privacy)
 - [GDPR](#gdpr)
 - [Anonymization](#anonymization)
@@ -236,50 +240,59 @@ On managing users and their metadata.
 - [hive](https://github.com/ory/hive) - User & Identity Provider & Management.
 
 
-## Fraud
+## Trust & Safety
 
-Managing users expose services and businesses to fraud, crime, abuses, trust and safety. You should never underestimate how much cleverer than you people will be when it comes to money.
+Once you've got a significant user base, it is called a community. You'll then be responsible to protect the customer, people, the company and the business, and facilitate all interactions and transactions happening therein.
+
+A critical intermediation component driven by a policy and constraint by local laws, likely embodied by a dedicated team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extention of customer support, specialized in edge-cases like manual identity checks (KYC), stopping harrassments, handling of warrants and copyright claims, data sequestration and other credit card disputes.
+
+- [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing/blob/master/README.md#fraud) - Section dedicated to fraud management for billing and payment, from our sister repository.
+
+### Fraud
+
+Providing services, you're exposed to fraud, crime and abuses. You should never underestimate how much cleverer than you people will be when it comes to money. And expect any bug or discrpencies in your procedure to be exploited for financial gain.
 
 - [After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.](https://archive.is/MuNrZ) - Why background check are sometimes necessary.
 - [Investigation into the Unusual Signups](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - A really detailed analysis of suspicious contributor signups on OpenStreetMap. This beautiful and high-level report demonstrating an orchestrated and directed campaign might serve as a template for fraud reports.
 - [Browser Fingerprinting: A survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be used as a source of signals to identify bots and fraudsters.
 - [MISP taxonomies and classification](https://www.misp-project.org/taxonomies.html) - Tags to organize information on `threat intelligence including cyber security indicators, financial fraud or counter-terrorism information.`
 - [The challenges of file formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) - At one point you will let users upload files in your system. Here is a [corpus of suspicious media files](https://github.com/corkami/pocs) that can be leveraged by scammers =to bypass security or fool users.
-- [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing/blob/master/README.md#fraud) - Section dedicated to fraud management for billing and payment, from our sister repository.
 
+### Blacklists
 
-## Captcha
+The first mecanical line of defense against abuses consist in plain and simple black-listing. You'll be surprised how they still are effective.
 
-- [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
+- [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect for this use-case, as blom filters are designed to quickly check if an element is not in a (large) set. Variations of bloom filters exist for specific data types.
 
+#### Hostnames and Subdomains
 
-## Blacklists
-
-The first mecanical line of defense against fraud and abuses consist in plain and simple blacklisting.
-
-- [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect for this use-case, as blom filters are designed to quickly check if an element is not in a set.
-
-### Hostnames and Subdomains
+Useful to identified clients, catch and block swarms of bots, and limit effects of dDOS.
 
 - [`hosts`](https://github.com/StevenBlack/hosts) - Consolidates reputable hosts files, and merges them into a unified hosts file with duplicates removed.
 - [The Public Suffix List](https://publicsuffix.org) - Mozilla's registry of public suffixes, under which Internet users can (or historically could) directly register names.
 - [Certificate Transparency Subdomains](https://github.com/internetwache/CT_subdomains) - An hourly updated list of subdomains gathered from certificate transparency logs.
 - Subdomain blacklists: [#1](https://gist.github.com/artgon/5366868), [#2](https://github.com/sandeepshetty/subdomain-blacklist/blob/master/subdomain-blacklist.txt), [#3](https://github.com/nccgroup/typofinder/blob/master/TypoMagic/datasources/subdomains.txt), [#4](https://www.quora.com/How-do-sites-prevent-vanity-URLs-from-colliding-with-future-features).
 
-### Emails
+#### Emails
 
 - [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers. And its [derivated Python module](https://github.com/martenson/disposable-email-domains).
 - [MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language temporary (disposable/throwaway) email detection library.
 - [Temporary Email Address Domains](https://gist.github.com/adamloving/4401361) - A list of domains for disposable and temporary email addresses. Useful for filtering your email list to increase open rates (sending email to these domains likely will not be opened).
 
-### Reserved IDs
+#### Reserved IDs
 
 - [General List of Reserved Words](https://gist.github.com/stuartpb/5710271) - This is a general list of words you may want to consider reserving, in a system where users can pick any name.
 - [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve) - List of all the names that should be restricted from registration in automated systems.
 
-### Profanity
+#### Profanity
 
 - [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) - Profanity blacklist from Shutterstock.
+
+### Captcha
+
+Another line of defense againsts spammers.
+
+- [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
 
 
 ## Privacy
