@@ -25,8 +25,8 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [Macaroons](#macaroons)
 - [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
-- [User Identity](#user-identity)
 - [Trust & Safety](trust---safety)
+  - [User Identity](#user-identity)
   - [Fraud](#fraud)
   - [Captcha](#captcha)
   - [Blacklists](#blacklists)
@@ -223,24 +223,23 @@ Typical SAML identity prodiver is an insitution or a big corporation's internal 
 - [Web Single Sign-On, the SAML 2.0 perspective](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - Another naive explanation of SAML workflow in the context of corporate SSO implementation.
 
 
-## User Identity
-
-On managing users and their metadata.
-
-- [The Laws of Identity](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) - Is this paper aims at identity metasystem, its laws still provides great insights at smaller scale, especially the first law: to  always allow user control and ask for consent to earn trust.
-- [A Comparison of Personal Name Matching: Techniques and Practical Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) - Customer name matching has lots of application, from account deduplication to fraud monitoring.
-- [hive](https://github.com/ory/hive) - User & Identity Provider & Management.
-
-
 ## Trust & Safety
 
 Once you've got a significant user base, it is called a community. You'll then be responsible to protect it: the customer, people, the company, the business, and facilitate all interactions and transactions happening therein.
 
-A critical intermediation component driven by a policy and constraint by local laws, likely embodied by a cross-functionnal team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extention of customer support, specialized in edge-cases like manual identity checks (KYC), moderation of harmful content, stopping harrassments, handling of warrants and copyright claims, data sequestration and other credit card disputes.
+A critical intermediation component driven by a policy and constraint by local laws, likely embodied by a cross-functionnal team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extention of customer support, specialized in edge-cases like manual identity checks, moderation of harmful content, stopping harrassments, handling of warrants and copyright claims, data sequestration and other credit card disputes.
 
 - [Trust and safety 101](https://www.csoonline.com/article/3206127/trust-and-safety-101.html) - A great introduction on the domain and its responsabilities.
 - [What the Heck is Trust and Safety?](https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi) - A couple of real use-case to demonstrate the role of a TnS team.
 - [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing/blob/master/README.md#fraud) - Section dedicated to fraud management for billing and payment, from our sister repository.
+
+### User Identity
+
+Most businessese do not collect customer's identity to create user profiles to sell to third party, no. But you still have to because local laws requires to keep track of contract relationships under the [Know You Customer (KYC)](https://en.wikipedia.org/wiki/Know_your_customer) banner.
+
+- [The Laws of Identity](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) - Is this paper aims at identity metasystem, its laws still provides great insights at smaller scale, especially the first law: to  always allow user control and ask for consent to earn trust.
+- [A Comparison of Personal Name Matching: Techniques and Practical Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) - Customer name matching has lots of application, from account deduplication to fraud monitoring.
+- [`hive`](https://github.com/ory/hive) - User & Identity Provider & Management.
 
 ### Fraud
 
