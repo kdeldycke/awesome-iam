@@ -35,8 +35,8 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
     - [Reserved IDs](#reserved-ids)
     - [Profanity](#profanity)
 - [Privacy](#privacy)
-- [GDPR](#gdpr)
-- [Anonymization](#anonymization)
+  - [Anonymization](#anonymization)
+  - [GDPR](#gdpr)
 - [UX/UI](#ux-ui)
 - [Open-Source Projects](#open-source-projects)
 - [Competitive Analysis](#competitive-analysis)
@@ -298,18 +298,7 @@ As the guardian of user's data, the IAM stack is deeply bounded by the respect o
 - [Have I been Pwned?](https://haveibeenpwned.com) - Data breach index.
 - [Automated security testing for Software Developers](https://fahrplan.events.ccc.de/camp/2019/Fahrplan/system/event_attachments/attachments/000/003/798/original/security_cccamp.pdf) - Most privacy breaches were allowed by known vulnerabilities in third-party dependencies. Here is how to detect them by the way of CI/CD.
 
-
-## GDPR
-
-The well-known European privacy framework
-
-- [GDPR Tracker](https://gdprtracker.io) - Track the GDPR compliance of cloud services and subprocessors.
-- [GDPR documents](https://github.com/good-lly/gdpr-documents) - Templates for personal use to have companies comply with "Data Access" requests.
-- [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) - Weaponizing GDPR to help you send your enemies a Data Requests designed to waste as much of their time as possible.
-- [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of GDPR fines and penalties.
-
-
-## Anonymization
+### Anonymization
 
 As a central repository of user data, the IAM stack stakeholders have to prevent any leakage of business and customer data. To allow for internal analytics, anonymization is required.
 
@@ -319,6 +308,15 @@ As a central repository of user data, the IAM stack stakeholders have to prevent
 - [k-anonymity: an introduction](https://www.privitar.com/listing/k-anonymity-an-introduction) - An alternative anonymity privacy model.
 - [Presidio](https://github.com/microsoft/presidio) - Context aware, pluggable and customizable data protection and PII data anonymization service for text and images.
 - [Diffix: High-Utility Database Anonymization](https://aircloak.com/wp-content/uploads/apf17-reprint.pdf) - Diffix try to provide anonymization, avoid pseudonymization and preserve data quality. [Written in Elixir at Aircloak](https://elixirforum.com/t/aircloak-anonymized-analitycs/10930), it acts as an SQL proxy between the analyst and an unmodified live database.
+
+### GDPR
+
+The well-known European privacy framework
+
+- [GDPR Tracker](https://gdprtracker.io) - Track the GDPR compliance of cloud services and subprocessors.
+- [GDPR documents](https://github.com/good-lly/gdpr-documents) - Templates for personal use to have companies comply with "Data Access" requests.
+- [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) - Weaponizing GDPR to help you send your enemies a Data Requests designed to waste as much of their time as possible.
+- [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of GDPR fines and penalties.
 
 
 ## UX/UI
