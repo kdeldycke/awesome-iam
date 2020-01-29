@@ -284,6 +284,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 
 Another line of defense againsts spammers.
 
+- [reCaptcha](https://www.google.com/recaptcha) - reCaptcha is still an effective, economical and quick solution when your company can't afford to have a dedicated team to fight bots and spammers at internet scale.
 - [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
 
 
