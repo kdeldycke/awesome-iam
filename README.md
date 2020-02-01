@@ -191,6 +191,7 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 - [CrypTech](https://cryptech.is) - An open hardware HSM.
 - [Keystone](https://keystone-enclave.org) - Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
 - [Solo](https://github.com/solokeys/solo) - Open security key supporting FIDO2 & U2F over USB + NFC.
+- [OpenSK](https://github.com/google/OpenSK) - Open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards.
 - [Project Oak](https://github.com/project-oak/oak) - A specification and a reference implementation for the secure transfer, storage and processing of data.
 - [Everybody be cool, this is a robbery!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
 
