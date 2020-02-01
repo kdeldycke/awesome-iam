@@ -15,6 +15,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [Authentication](#authentication)
   - [Password-based](#password-based)
   - [Password-less](#password-less)
+  - [Security Key](#security-key)
   - [Multi-Factor](#multi-factor)
   - [SMS-based](#sms-based)
   - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
@@ -96,8 +97,13 @@ Are you who you pretend to be?
 
 - [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article ties to tell you why.
 - [WebAuthn guide](https://webauthn.guide) - A very accessible guide to WebAuthn, a standard allowing `servers to register and authenticate users using public key cryptography instead of a password`, supported by all major browsers.
+
+### Security Key
+
 - [Webauthn and security keys](https://www.imperialviolet.org/2018/03/27/webauthn.html) - Describe how authentication works with security keys, details the protocols, and how they articulates with WebAuthn. Key takeaway: `There is no way to create a U2F key with webauthn however. (...) So complete the transition to webauthn of your login process first, then transition registration.`
 - [Getting started with security keys](https://paulstamatiou.com/getting-started-with-security-keys/) - A practical guide to stay safe online and prevent phishing with FIDO2, WebAuthn and security keys.
+- [Solo](https://github.com/solokeys/solo) - Open security key supporting FIDO2 & U2F over USB + NFC.
+- [OpenSK](https://github.com/google/OpenSK) - Open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards.
 
 ### Multi-Factor
 
@@ -190,8 +196,6 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 - [Tidbits on AWS Cloud HSM hardware](https://news.ycombinator.com/item?id=16759383) - AWS CloudHSM Classic is backed by SafeNet's Luna HSM, current CloudHSM rely on Cavium's Nitrox, which allows for partitionable "virtual HSMs".
 - [CrypTech](https://cryptech.is) - An open hardware HSM.
 - [Keystone](https://keystone-enclave.org) - Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
-- [Solo](https://github.com/solokeys/solo) - Open security key supporting FIDO2 & U2F over USB + NFC.
-- [OpenSK](https://github.com/google/OpenSK) - Open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards.
 - [Project Oak](https://github.com/project-oak/oak) - A specification and a reference implementation for the secure transfer, storage and processing of data.
 - [Everybody be cool, this is a robbery!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
 
