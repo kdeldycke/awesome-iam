@@ -240,7 +240,7 @@ A critical intermediation component driven by a policy and constraint by local l
 
 ### User Identity
 
-Most businessese do not collect customer's identity to create user profiles to sell to third party, no. But you still have to because local laws requires to keep track of contract relationships under the [Know You Customer (KYC)](https://en.wikipedia.org/wiki/Know_your_customer) banner.
+Most businessese do not collect customer's identity to create user profiles to sell to third party, no. But you still have to: local laws require to keep track of contract relationships under the large [Know You Customer (KYC)](https://en.wikipedia.org/wiki/Know_your_customer) banner.
 
 - [The Laws of Identity](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) - Is this paper aims at identity metasystem, its laws still provides great insights at smaller scale, especially the first law: to  always allow user control and ask for consent to earn trust.
 - [A Comparison of Personal Name Matching: Techniques and Practical Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) - Customer name matching has lots of application, from account deduplication to fraud monitoring.
