@@ -38,7 +38,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [Privacy](#privacy)
   - [Anonymization](#anonymization)
   - [GDPR](#gdpr)
-- [UX/UI](#ux-ui)
+- [UX/UI](#uxui)
 - [Open-Source Projects](#open-source-projects)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
