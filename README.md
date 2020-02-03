@@ -326,6 +326,8 @@ The well-known European privacy framework
 
 ## UX/UI
 
+As stakeholder of the IAM stack, you're going to implement in the backend the majority of the primitives required to build-up the sign-up tunnel and user onboarding. This is the first impression customers will get from your product, and can't be overlooked: you'll have to carrefully design it with front-end experts. Here is a couple of guides to help you polish that experience.
+
 - [Conversion Optimization](https://www.nickkolenda.com/conversion-optimization-psychology/#cro-tactic11) - A collection of tactics to increase the chance of users finishing the account creation funnel.
 - [Don’t get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR; create login forms that are simple, linkable, predictable, and play nicely with password managers.
 - [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login. Now if breaking the login funnel in 2 steps is too infuriating to users, solve this as Dropbox does: [an AJAX request when you enter your username](https://news.ycombinator.com/item?id=19174355).
