@@ -20,12 +20,12 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
   - [SMS-based](#sms-based)
   - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
   - [JWT](#jwt)
+  - [OAuth2 & OpenID](#oauth2--openid)
+  - [SAML](#saml)
 - [Policies](#policies)
   - [Macaroons](#macaroons)
 - [Secret Management](#secret-management)
   - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
-- [OAuth2 & OpenID](#oauth2--openid)
-- [SAML](#saml)
 - [Trust & Safety](#trust--safety)
   - [User Identity](#user-identity)
   - [Fraud](#fraud)
@@ -150,6 +150,31 @@ Certificate-based authentication.
 - [JOSE is a Bad Standard That Everyone Should Avoid](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) - TL;DR: the standards are either completely broken or complex minefields hard to navigate.
 - [JWT.io](https://jwt.io) - Allows you to decode, verify and generate JWT.
 
+### OAuth2 & OpenID
+
+[OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) is an authorization framework. [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) is an authentication layer on top of it.
+
+The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
+
+- [An Illustrated Guide to OAuth and OpenID Connect](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - Explain how these standards work using simplified illustrations.
+- [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
+- [Open-Sourcing BuzzFeed’s SSO Experience](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/) - OAuth2-friendly adaptation of the Central Authentication Service (CAS) protocol. You'll find there good OAuth user flow diagrams.
+- [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols.
+- [Why Mastercard Doesn't Use OAuth 2.0](https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20) - `They did this to provide message-level integrity. OAuth 2 switched to Transport-level confidentiality/Integrity.` (which TLS provides) ([source](https://news.ycombinator.com/item?id=17486165)).
+- [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
+- [Cierge](https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
+- [Keycloak](https://www.keycloak.org) - Open-source Identity and Access Management. Supports OIDC, OAuth 2
+and SAML 2, LDAP and AD directories, password policies.
+
+### SAML
+
+SAML 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID protocols above.
+
+Typical SAML identity prodiver is an insitution or a big corporation's internal SSO, while the typical OIDC/OAuth provider is a tech company that runs a data silo.
+
+- [How SAML 2.0 Authentication Works](https://gravitational.com/blog/how-saml-authentication-works/) - Overview of the how and why of SSO and SAML.
+- [Web Single Sign-On, the SAML 2.0 perspective](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - Another naive explanation of SAML workflow in the context of corporate SSO implementation.
+
 
 ## Policies
 
@@ -198,33 +223,6 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 - [Keystone](https://keystone-enclave.org) - Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
 - [Project Oak](https://github.com/project-oak/oak) - A specification and a reference implementation for the secure transfer, storage and processing of data.
 - [Everybody be cool, this is a robbery!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
-
-
-## OAuth2 & OpenID
-
-[OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) is an authorization framework. [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) is an authentication layer on top of it.
-
-The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
-
-- [An Illustrated Guide to OAuth and OpenID Connect](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - Explain how these standards work using simplified illustrations.
-- [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) - A reference article describing the protocol in simplified format to help developers and service providers implement it.
-- [Open-Sourcing BuzzFeed’s SSO Experience](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/) - OAuth2-friendly adaptation of the Central Authentication Service (CAS) protocol. You'll find there good OAuth user flow diagrams.
-- [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols.
-- [Why Mastercard Doesn't Use OAuth 2.0](https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20) - `They did this to provide message-level integrity. OAuth 2 switched to Transport-level confidentiality/Integrity.` (which TLS provides) ([source](https://news.ycombinator.com/item?id=17486165)).
-- [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
-- [Cierge](https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
-- [Keycloak](https://www.keycloak.org) - Open-source Identity and Access Management. Supports OIDC, OAuth 2
-and SAML 2, LDAP and AD directories, password policies.
-
-
-## SAML
-
-SAML 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID protocols above.
-
-Typical SAML identity prodiver is an insitution or a big corporation's internal SSO, while the typical OIDC/OAuth provider is a tech company that runs a data silo.
-
-- [How SAML 2.0 Authentication Works](https://gravitational.com/blog/how-saml-authentication-works/) - Overview of the how and why of SSO and SAML.
-- [Web Single Sign-On, the SAML 2.0 perspective](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - Another naive explanation of SAML workflow in the context of corporate SSO implementation.
 
 
 ## Trust & Safety
