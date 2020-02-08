@@ -263,6 +263,7 @@ Providing services, you're exposed to fraud, crime and abuses. You should never 
 The first mecanical line of defense against abuses consist in plain and simple black-listing. You'll be surprised how they still are effective.
 
 - [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect for this use-case, as blom filters are designed to quickly check if an element is not in a (large) set. Variations of bloom filters exist for specific data types.
+- [How Radix trees made blocking IPs 5000 times faster](https://blog.sqreen.com/demystifying-radix-trees/) - Radix trees might come handy to speed-up IP blacklists.
 
 #### Hostnames and Subdomains
 
