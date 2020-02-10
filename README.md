@@ -216,6 +216,7 @@ Architectures, software and hardware allowing the storage and usage of secrets t
 - [`sops`](https://github.com/mozilla/sops) - Encrypts the values of YAML and JSON files, not the keys.
 - [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
 - [Keywhiz](https://square.github.io/keywhiz/) - A system for managing and distributing secrets, which can fit well with a service oriented architecture (SOA).
+- [`roca`](https://github.com/crocs-muni/roca) - Python module to check for weak RSA moduli in various key formats.
 
 ### Hardware Security Module (HSM)
 
