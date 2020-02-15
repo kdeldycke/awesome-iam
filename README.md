@@ -64,6 +64,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 The whole authentication stack is based on cryptography primitives. This can't be overlooked.
 
 - [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) ([summary](https://news.ycombinator.com/item?id=16749140)) - An up to date set of recomendations for developers who are not cryptography engineers.
+- [Security Recommendations for Any Device that Depends on Randomly-Generated Numbers](https://www.av8n.com/computer/htm/secure-random.htm) - `The phrase “random number generator” should be parsed as follows: It is a random generator of numbers. It is not a generator of random numbers.`.
 - [Real World Crypto Symposium](https://rwc.iacr.org) - Aims to bring together cryptography researchers with developers, focusing on uses in real-world environments such as the Internet, the cloud, and embedded devices.
 - [An Overview of Cryptography](https://www.garykessler.net/library/crypto.html) - `This paper has two major purposes. The first is to define some of the terms and concepts behind basic cryptographic methods, and to offer a way to compare the myriad cryptographic schemes in use today. The second is to provide some real examples of cryptography in use today.`.
 - [Papers we love: Cryptography](https://github.com/papers-we-love/papers-we-love/blob/master/cryptography/README.md) - Foundational papers of cryptography.
