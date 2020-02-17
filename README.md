@@ -255,6 +255,7 @@ Most businessese do not collect customer's identity to create user profiles to s
 - [A Comparison of Personal Name Matching: Techniques and Practical Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) - Customer name matching has lots of application, from account deduplication to fraud monitoring.
 - [`hive`](https://github.com/ory/hive) - User & Identity Provider & Management.
 - [Statistically Likely Usernames](https://github.com/insidetrust/statistically-likely-usernames) - Wordlists for creating statistically likely usernames for use in username-enumeration, simulated password-attacks and other security testing tasks.
+- [Sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks.
 
 ### Fraud
 
