@@ -197,6 +197,7 @@ billions of people. It has maintained 95th-percentile latency of less than 10 mi
 greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633).
 - [`keto`](https://github.com/ory/keto) - Policy decision point. It uses a set of access control policies, similar to AWS IAM Policies, in order to determine whether a subject is authorized to perform a certain action on a resource.
 - [`ladon`](https://github.com/ory/ladon) - Access control library, inspired by [AWS IAM Policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html).
+- [Athenz](https://github.com/yahoo/athenz) - Set of services and libraries supporting service authentication and role-based authorization (RBAC) for provisioning and configuration.
 - Description of an [authz system that is built around labeled security and RBAC concepts](https://news.ycombinator.com/item?id=20136831).
 - [Become an AWS IAM Policy Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - `In my nearly 5 years at Amazon, I carve out a little time each day, each week to look through the forums, customer tickets to try to find out where people are having trouble.`. Policy specification is the science, enforcement is the art.
 
