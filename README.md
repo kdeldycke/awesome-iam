@@ -267,6 +267,7 @@ Providing services, you're exposed to fraud, crime and abuses. You should never 
 - [Browser Fingerprinting: A survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be used as a source of signals to identify bots and fraudsters.
 - [MISP taxonomies and classification](https://www.misp-project.org/taxonomies.html) - Tags to organize information on `threat intelligence including cyber security indicators, financial fraud or counter-terrorism information.`
 - [The challenges of file formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) - At one point you will let users upload files in your system. Here is a [corpus of suspicious media files](https://github.com/corkami/pocs) that can be leveraged by scammers =to bypass security or fool users.
+- [SecLists](https://github.com/danielmiessler/SecLists) - Collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
 ### Blacklists
 
