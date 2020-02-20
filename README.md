@@ -366,6 +366,7 @@ As stakeholder of the IAM stack, you're going to implement in the backend the ma
 
 - [The 2020 State of SaaS Product Onboarding](https://userpilot.com/saas-product-onboarding/) - Covers all the important facets of user onboarding.
 - [User Onboarding Teardowns](https://www.useronboard.com/user-onboarding-teardowns/) - A huge list of deconstructed first-time user signups.
+- [Discover UI Design Decisions Of Leading Companies](https://goodui.org/leaks/) - From Leaked Screenshots & A/B Tests.
 - [Conversion Optimization](https://www.nickkolenda.com/conversion-optimization-psychology/#cro-tactic11) - A collection of tactics to increase the chance of users finishing the account creation funnel.
 - [Trello User Onboarding](https://growth.design/case-studies/trello-user-onboarding/) - A detailed case study, nicely presented, on how to improve user onboarding.
 - [Don't get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR: create login forms that are simple, linkable, predictable, and play nicely with password managers.
