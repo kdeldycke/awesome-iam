@@ -29,12 +29,13 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 - [Trust & Safety](#trust--safety)
   - [User Identity](#user-identity)
   - [Fraud](#fraud)
-  - [Captcha](#captcha)
+  - [Threat Intelligence](#threat-intelligence)
   - [Blacklists](#blacklists)
     - [Hostnames and Subdomains](#hostnames-and-subdomains)
     - [Emails](#emails)
     - [Reserved IDs](#reserved-ids)
     - [Profanity](#profanity)
+  - [Captcha](#captcha)
 - [Privacy](#privacy)
   - [Anonymization](#anonymization)
   - [GDPR](#gdpr)
@@ -245,8 +246,6 @@ A critical intermediation component driven by a policy and constraint by local l
 - [What the Heck is Trust and Safety?](https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi) - A couple of real use-case to demonstrate the role of a TnS team.
 - [Still Logged In: What AR and VR Can Learn from MMOs](https://youtu.be/kgw8RLHv1j4?t=534) - `If you host an online community, where people can harm another person: you are on the hook. And if you can't afford to be on the hook, don't host an online community`. All online communities, not only those related to gaming, requires their operator to invest a lot of resource and energy to moderate it.
 - [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing/blob/master/README.md#fraud) - Section dedicated to fraud management for billing and payment, from our sister repository.
-- [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - `A concise definition of Threat Intelligence: evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions regarding the subject’s response to that menace or hazard.`.
-- [SpiderFoot](https://github.com/smicallef/spiderfoot) - An open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate.
 
 ### User Identity
 
@@ -260,14 +259,25 @@ Most businessese do not collect customer's identity to create user profiles to s
 
 ### Fraud
 
-Providing services, you're exposed to fraud, crime and abuses. You should never underestimate how much cleverer than you people will be when it comes to money. And expect any bug or discrpencies in your procedure to be exploited for financial gain.
+Providing services, you're exposed to fraud, crime and abuses. You'll be surprised by how much people are clever when it comes to money. And expect any bug or discrpencies in your workflow to be exploited for financial gain.
 
 - [After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.](https://archive.is/MuNrZ) - Why background check are sometimes necessary.
 - [Investigation into the Unusual Signups](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - A really detailed analysis of suspicious contributor signups on OpenStreetMap. This beautiful and high-level report demonstrating an orchestrated and directed campaign might serve as a template for fraud reports.
 - [MIDAS: Detecting Microcluster Anomalies in Edge Streams](https://github.com/bhatiasiddharth/MIDAS) - A proposed method to `detects microcluster anomalies, or suddenly arriving groups of suspiciously similar edges, in edge streams, using constant time and memory.`.
 - [Gephi](https://github.com/gephi/gephi) - Open-source platform for visualizing and manipulating large graphs.
-- [Browser Fingerprinting: A survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be used as a source of signals to identify bots and fraudsters.
+
+### Threat Intelligence
+
+How to detect, unmask and classify offensive online activities. Most of the
+time these are monitored by security, networking and/or infrastructure
+engineering teams. Still good to resources for T&S and IAM people, which
+might be called upon for additional expertise on analysis and handling of threats.
+
+- [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - `A concise definition of Threat Intelligence: evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions regarding the subject’s response to that menace or hazard.`.
+- [SpiderFoot](https://github.com/smicallef/spiderfoot) - An open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate.
+- [Standards related to Threat Intelligence](https://www.threat-intelligence.eu/standards/) - Open standards, tools and methodologies to support threat intelligence analysis.
 - [MISP taxonomies and classification](https://www.misp-project.org/taxonomies.html) - Tags to organize information on `threat intelligence including cyber security indicators, financial fraud or counter-terrorism information.`
+- [Browser Fingerprinting: A survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be used as a source of signals to identify bots and fraudsters.
 - [The challenges of file formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) - At one point you will let users upload files in your system. Here is a [corpus of suspicious media files](https://github.com/corkami/pocs) that can be leveraged by scammers =to bypass security or fool users.
 - [SecLists](https://github.com/danielmiessler/SecLists) - Collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 - [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) - Tools to scan phone numbers using only free resources. The goal is to first gather standard information such as country, area, carrier and line type on any international phone numbers with a very good accuracy. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
