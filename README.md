@@ -302,7 +302,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 - [`hosts-blocklists`](https://github.com/notracking/hosts-blocklists) - No more ads, tracking and other virtual garbage.
 - [`xkeyscorerules100.txt`](https://gist.github.com/sehrgut/324626fa370f044dbca7) - NSA's [XKeyscore](https://en.wikipedia.org/wiki/XKeyscore) matching rules for TOR and other anonymity preserving tools.
 - [`pyisp`](https://github.com/ActivisionGameScience/pyisp) - IP to ISP lookup library (includes ASN).
-- [AMF site blacklist](https://www.amf-france.org/Epargne-Info-Service/Proteger-son-epargne/Listes-noires) - Official French blacklist of money-related fraud sites. 
+- [AMF site blacklist](https://www.amf-france.org/Epargne-Info-Service/Proteger-son-epargne/Listes-noires) - Official French blacklist of money-related fraud sites.
 
 #### Emails
 
