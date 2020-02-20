@@ -310,6 +310,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 - [MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language temporary (disposable/throwaway) email detection library.
 - [Temporary Email Address Domains](https://gist.github.com/adamloving/4401361) - A list of domains for disposable and temporary email addresses. Useful for filtering your email list to increase open rates (sending email to these domains likely will not be opened).
 - [`gman`](https://github.com/benbalter/gman) - `A ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).` Good resource to hunt for potential government customers in your user base.
+- [`Swot`](https://github.com/leereilly/swot) - In the same spirit as above, but this time to flag academic users.
 
 #### Reserved IDs
 
