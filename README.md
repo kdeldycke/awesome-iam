@@ -41,6 +41,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
   - [GDPR](#gdpr)
 - [UX/UI](#uxui)
 - [Open-Source Projects](#open-source-projects)
+- [Commercial Solutions](#commercial-solutions)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
 
@@ -54,6 +55,9 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 
 ## Basics
 
+Strategy and feature lists of the domain.
+
+- [The EnterpriseReady SaaS Feature Guides](https://www.enterpriseready.io) - The majority of the features making B2B users happy will be implemented by the IAM perimeter.
 - [Enterprise Information Security](https://infosec.mozilla.org) -  Mozilla's security and access guidelines.
 - [Mitigating Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) - `This document divides cloud vulnerabilities into four classes (misconfiguration, poor access control, shared tenancy vulnerabilities, and supply chain vulnerabilities)`.
 - [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam)
@@ -114,6 +118,7 @@ Are you who you pretend to be?
 
 ### Multi-Factor
 
+- [Breaking Password Dependencies: Challenges in the Final Mile at Microsoft](https://www.youtube.com/watch?v=B_mhJO2qHlQ) - The primary source of account hacks is password spraying (on legacy auth like SMTP, IMAP, POP, etc.), second is replay attack. Takeaway: password are insecure, use en enforce MFA.
 - [Beyond Passwords: 2FA, U2F and Google Advanced Protection](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) - An excellent walk-trough over all these technologies.
 - [A Comparative Long-Term Study of Fallback Authentication](https://www.mobsec.ruhr-uni-bochum.de/media/mobsec/veroeffentlichungen/2019/02/20/usec2019-30-wip-fallback-long-term-study-finalv2.pdf) - Key take-away: `schemes based on email and SMS are more usable. Mechanisms based on designated trustees and personal knowledge questions, on the other hand, fall short, both in terms of convenience and efficiency.`
 - [How effective is basic account hygiene at preventing hijacking](https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html) - Google security team's data shows 2FA blocks 100% of automated bot hacks.
@@ -182,6 +187,7 @@ Typical SAML identity provider is an institution or a big corporation's internal
 
 - [How SAML 2.0 Authentication Works](https://gravitational.com/blog/how-saml-authentication-works/) - Overview of the how and why of SSO and SAML.
 - [Web Single Sign-On, the SAML 2.0 perspective](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - Another naive explanation of SAML workflow in the context of corporate SSO implementation.
+- [The Beer Drinker’s Guide to SAML](https://duo.com/blog/the-beer-drinkers-guide-to-saml) -  SAML is arcane at times. A another analogy might helps get more sense out of it.
 
 
 ## Policies
@@ -387,6 +393,11 @@ A couple of open-sources projects waiting to find a more appropriate section abo
 - [gluu](https://www.gluu.org)
 - [Conjur](https://www.conjur.org)
 - [Gubernator](https://github.com/mailgun/gubernator) - High Performance Rate Limiting MicroService and Library.
+
+
+## Commercial Solutions
+
+- [Rippling IDM](https://www.rippling.com/idm/) - Identity management, SSO.
 
 
 ## Competitive Analysis
