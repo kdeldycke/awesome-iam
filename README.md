@@ -1,6 +1,6 @@
 # 👤 Awesome Identity and Access Management
 
-In a Standford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
+In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
 
 ![](cloud-software-stack-iam.jpg)
 
@@ -64,7 +64,7 @@ This knowledge base cover the far right perimeter of the cloud stack. It is one 
 
 The whole authentication stack is based on cryptography primitives. This can't be overlooked.
 
-- [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) ([summary](https://news.ycombinator.com/item?id=16749140)) - An up to date set of recomendations for developers who are not cryptography engineers.
+- [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) ([summary](https://news.ycombinator.com/item?id=16749140)) - An up to date set of recommendations for developers who are not cryptography engineers.
 - [Security Recommendations for Any Device that Depends on Randomly-Generated Numbers](https://www.av8n.com/computer/htm/secure-random.htm) - `The phrase “random number generator” should be parsed as follows: It is a random generator of numbers. It is not a generator of random numbers.`.
 - [Real World Crypto Symposium](https://rwc.iacr.org) - Aims to bring together cryptography researchers with developers, focusing on uses in real-world environments such as the Internet, the cloud, and embedded devices.
 - [An Overview of Cryptography](https://www.garykessler.net/library/crypto.html) - `This paper has two major purposes. The first is to define some of the terms and concepts behind basic cryptographic methods, and to offer a way to compare the myriad cryptographic schemes in use today. The second is to provide some real examples of cryptography in use today.`.
@@ -90,7 +90,7 @@ Are you who you pretend to be?
 
 ### Password-based
 
-- [The new nist password guidance](https://pciguru.wordpress.com/2019/03/11/the-new-nist-password-guidance/) - A summary of [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) covering new password complexity guidelines.
+- [The new NIST password guidance](https://pciguru.wordpress.com/2019/03/11/the-new-nist-password-guidance/) - A summary of [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) covering new password complexity guidelines.
 - [Password expiration is dead](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - Recent scientific research calls into question the value of many long-standing password-security practices such as password expiration policies, and points instead to better alternatives such as enforcing banned-password lists and MFA.
 - [Banks, Arbitrary Password Restrictions and Why They Don't Matter](https://www.troyhunt.com/banks-arbitrary-password-restrictions-and-why-they-dont-matter/) - `Arbitrary low limits on length and character composition are bad. They look bad, they lead to negative speculation about security posture and they break tools like password managers.`
 - [Dumb Password Rules](https://github.com/dumb-password-rules/dumb-password-rules) - Shaming sites with dumb password rules.
@@ -110,7 +110,7 @@ Are you who you pretend to be?
 - [Solo](https://github.com/solokeys/solo) - Open security key supporting FIDO2 & U2F over USB + NFC.
 - [OpenSK](https://github.com/google/OpenSK) - Open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards.
 - [YubiKey Guide](https://github.com/drduh/YubiKey-Guide) - Guide to using YubiKey as a SmartCard for storing GPG encryption, signing and authentication keys, which can also be used for SSH. Many of the principles in this document are applicable to other smart card devices.
-- [YubiKey at Datadog](https://github.com/DataDog/yubikey) - Suide to setup Yubikey, U2F, GPG, git, SSH, Keybase, VMware Fusion and Docker Content Trust.
+- [YubiKey at Datadog](https://github.com/DataDog/yubikey) - Guide to setup Yubikey, U2F, GPG, git, SSH, Keybase, VMware Fusion and Docker Content Trust.
 
 ### Multi-Factor
 
@@ -128,7 +128,7 @@ TL;DR: don't. For details, see articles below.
 
 - [SMS 2FA auth is deprecated by NIST](https://techcrunch.com/2016/07/25/nist-declares-the-age-of-sms-based-2-factor-authentication-over/) - NIST has said that 2FA via SMS is bad and awful since 2016.
 - [SMS: The most popular and least secure 2FA method](https://www.allthingsauth.com/2018/02/27/sms-the-most-popular-and-least-secure-2fa-method/)
-- [Is SMS 2FA Secure? No.](https://www.issms2fasecure.com) - Definitive reasearch project demonstrating successful attempts at SIM swapping.
+- [Is SMS 2FA Secure? No.](https://www.issms2fasecure.com) - Definitive research project demonstrating successful attempts at SIM swapping.
 - [Hackers Hit Twitter C.E.O. Jack Dorsey in a 'SIM Swap.' You're at Risk, Too.](https://www.nytimes.com/2019/09/05/technology/sim-swap-jack-dorsey-hack.html)
 - [AT&T rep handed control of his cellphone account to a hacker](https://www.theregister.co.uk/2017/07/10/att_falls_for_hacker_tricks/)
 - [The Most Expensive Lesson Of My Life: Details of SIM port hack](https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124)
@@ -178,7 +178,7 @@ and SAML 2, LDAP and AD directories, password policies.
 
 SAML 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID protocols above.
 
-Typical SAML identity prodiver is an insitution or a big corporation's internal SSO, while the typical OIDC/OAuth provider is a tech company that runs a data silo.
+Typical SAML identity provider is an institution or a big corporation's internal SSO, while the typical OIDC/OAuth provider is a tech company that runs a data silo.
 
 - [How SAML 2.0 Authentication Works](https://gravitational.com/blog/how-saml-authentication-works/) - Overview of the how and why of SSO and SAML.
 - [Web Single Sign-On, the SAML 2.0 perspective](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - Another naive explanation of SAML workflow in the context of corporate SSO implementation.
@@ -190,7 +190,7 @@ Now that we know you are you, are you allowed to perform what you want to do?
 
 All things related to access control policies, from classic [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) to [Role Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control).
 
-- [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) - NIST project to explaine RBAC concepts, costs and benefits, the economic impact of RBAC, design and implementation issues, the RBAC standard, and advanced research topics.
+- [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) - NIST project to explain RBAC concepts, costs and benefits, the economic impact of RBAC, design and implementation issues, the RBAC standard, and advanced research topics.
 - [Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova is AWS's system performing symbolic analysis of IAM policies to solve the reachability of resources according user's rights and access constraints. Also see the higher-level [introduction given at re:inforce 2019](https://youtu.be/x6wsTFnU3eY?t=2111).
 - [Zanzibar: Google's Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - scales to
 trillions of access control lists and millions of authorization requests per second to support services used by
@@ -240,7 +240,7 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 
 Once you've got a significant user base, it is called a community. You'll then be responsible to protect it: the customer, people, the company, the business, and facilitate all interactions and transactions happening therein.
 
-A critical intermediation component driven by a policy and constraint by local laws, likely embodied by a cross-functionnal team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extention of customer support, specialized in edge-cases like manual identity checks, moderation of harmful content, stopping harrassments, handling of warrants and copyright claims, data sequestration and other credit card disputes.
+A critical intermediation component driven by a policy and constraint by local laws, likely embodied by a cross-functional team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extension of customer support, specialized in edge-cases like manual identity checks, moderation of harmful content, stopping harassment, handling of warrants and copyright claims, data sequestration and other credit card disputes.
 
 - [Trust and safety 101](https://www.csoonline.com/article/3206127/trust-and-safety-101.html) - A great introduction on the domain and its responsabilities.
 - [What the Heck is Trust and Safety?](https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi) - A couple of real use-case to demonstrate the role of a TnS team.
@@ -249,7 +249,7 @@ A critical intermediation component driven by a policy and constraint by local l
 
 ### User Identity
 
-Most businessese do not collect customer's identity to create user profiles to sell to third party, no. But you still have to: local laws require to keep track of contract relationships under the large [Know You Customer (KYC)](https://en.wikipedia.org/wiki/Know_your_customer) banner.
+Most businesses do not collect customer's identity to create user profiles to sell to third party, no. But you still have to: local laws require to keep track of contract relationships under the large [Know You Customer (KYC)](https://en.wikipedia.org/wiki/Know_your_customer) banner.
 
 - [The Laws of Identity](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) - Is this paper aims at identity metasystem, its laws still provides great insights at smaller scale, especially the first law: to  always allow user control and ask for consent to earn trust.
 - [A Comparison of Personal Name Matching: Techniques and Practical Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) - Customer name matching has lots of application, from account deduplication to fraud monitoring.
@@ -259,7 +259,7 @@ Most businessese do not collect customer's identity to create user profiles to s
 
 ### Fraud
 
-Providing services, you're exposed to fraud, crime and abuses. You'll be surprised by how much people are clever when it comes to money. And expect any bug or discrpencies in your workflow to be exploited for financial gain.
+Providing services, you're exposed to fraud, crime and abuses. You'll be surprised by how much people are clever when it comes to money. And expect any bug or discrepancies in your workflow to be exploited for financial gain.
 
 - [After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.](https://archive.is/MuNrZ) - Why background check are sometimes necessary.
 - [Investigation into the Unusual Signups](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - A really detailed analysis of suspicious contributor signups on OpenStreetMap. This beautiful and high-level report demonstrating an orchestrated and directed campaign might serve as a template for fraud reports.
@@ -274,20 +274,20 @@ engineering teams. Still good to resources for T&S and IAM people, which
 might be called upon for additional expertise on analysis and handling of threats.
 
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - `A concise definition of Threat Intelligence: evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions regarding the subject’s response to that menace or hazard.`.
-- [SpiderFoot](https://github.com/smicallef/spiderfoot) - An open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate.
+- [SpiderFoot](https://github.com/smicallef/spiderfoot) - An open source intelligence (OSINT) automation tool. It integrates with just about every data source available and uses a range of methods for data analysis, making that data easy to navigate.
 - [Standards related to Threat Intelligence](https://www.threat-intelligence.eu/standards/) - Open standards, tools and methodologies to support threat intelligence analysis.
 - [MISP taxonomies and classification](https://www.misp-project.org/taxonomies.html) - Tags to organize information on `threat intelligence including cyber security indicators, financial fraud or counter-terrorism information.`
 - [Browser Fingerprinting: A survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be used as a source of signals to identify bots and fraudsters.
 - [The challenges of file formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) - At one point you will let users upload files in your system. Here is a [corpus of suspicious media files](https://github.com/corkami/pocs) that can be leveraged by scammers =to bypass security or fool users.
 - [SecLists](https://github.com/danielmiessler/SecLists) - Collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 - [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) - Tools to scan phone numbers using only free resources. The goal is to first gather standard information such as country, area, carrier and line type on any international phone numbers with a very good accuracy. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
-- [Confusable Homoglyphs](https://github.com/vhf/confusable_homoglyphs) - Homoglyphs is a common phising trick.
+- [Confusable Homoglyphs](https://github.com/vhf/confusable_homoglyphs) - Homoglyphs is a common phishing trick.
 
 ### Blacklists
 
-The first mecanical line of defense against abuses consist in plain and simple black-listing. You'll be surprised how they still are effective.
+The first mechanical line of defense against abuses consist in plain and simple black-listing. You'll be surprised how they still are effective.
 
-- [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect for this use-case, as blom filters are designed to quickly check if an element is not in a (large) set. Variations of bloom filters exist for specific data types.
+- [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect for this use-case, as bloom filters are designed to quickly check if an element is not in a (large) set. Variations of bloom filters exist for specific data types.
 - [How Radix trees made blocking IPs 5000 times faster](https://blog.sqreen.com/demystifying-radix-trees/) - Radix trees might come handy to speed-up IP blacklists.
 
 #### Hostnames and Subdomains
@@ -306,7 +306,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 
 #### Emails
 
-- [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers. And its [derivated Python module](https://github.com/martenson/disposable-email-domains).
+- [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers. And its [derivative Python module](https://github.com/martenson/disposable-email-domains).
 - [MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language temporary (disposable/throwaway) email detection library.
 - [Temporary Email Address Domains](https://gist.github.com/adamloving/4401361) - A list of domains for disposable and temporary email addresses. Useful for filtering your email list to increase open rates (sending email to these domains likely will not be opened).
 - [`gman`](https://github.com/benbalter/gman) - `A ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).` Good resource to hunt for potential government customers in your user base.
@@ -323,7 +323,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 
 ### Captcha
 
-Another line of defense againsts spammers.
+Another line of defense against spammers.
 
 - [reCaptcha](https://www.google.com/recaptcha) - reCaptcha is still an effective, economical and quick solution when your company can't afford to have a dedicated team to fight bots and spammers at internet scale.
 - [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
@@ -345,7 +345,7 @@ As a central repository of user data, the IAM stack stakeholders have to prevent
 
 - [The False Allure of Hashing for Anonymization](https://gravitational.com/blog/hashing-for-anonymization/) - Hashing is not sufficient for anonymization no. But still it is good enough for pseudonymization (which is allowed by the GDPR).
 - [Four cents to deanonymize: Companies reverse hashed email addresses](https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/) - `Hashed email addresses can be easily reversed and linked to an individual`.
-- [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - Explain the intuition behind [differential privacy](https://en.wikipedia.org/wiki/Differential_privacy), a theoretical framework which allow sharing of aggregated data without compromising confidentiality. See follow-up articles with [more details](https://desfontain.es/privacy/differential-privacy-in-more-detail.html) and [pracical aspects](https://desfontain.es/privacy/differential-privacy-in-practice.html).
+- [Why differential privacy is awesome](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - Explain the intuition behind [differential privacy](https://en.wikipedia.org/wiki/Differential_privacy), a theoretical framework which allow sharing of aggregated data without compromising confidentiality. See follow-up articles with [more details](https://desfontain.es/privacy/differential-privacy-in-more-detail.html) and [practical aspects](https://desfontain.es/privacy/differential-privacy-in-practice.html).
 - [k-anonymity: an introduction](https://www.privitar.com/listing/k-anonymity-an-introduction) - An alternative anonymity privacy model.
 - [Presidio](https://github.com/microsoft/presidio) - Context aware, pluggable and customizable data protection and PII data anonymization service for text and images.
 - [Diffix: High-Utility Database Anonymization](https://aircloak.com/wp-content/uploads/apf17-reprint.pdf) - Diffix try to provide anonymization, avoid pseudonymization and preserve data quality. [Written in Elixir at Aircloak](https://elixirforum.com/t/aircloak-anonymized-analitycs/10930), it acts as an SQL proxy between the analyst and an unmodified live database.
@@ -362,7 +362,7 @@ The well-known European privacy framework
 
 ## UX/UI
 
-As stakeholder of the IAM stack, you're going to implement in the backend the majority of the primitives required to build-up the sign-up tunnel and user onboarding. This is the first impression customers will get from your product, and can't be overlooked: you'll have to carrefully design it with front-end experts. Here is a couple of guides to help you polish that experience.
+As stakeholder of the IAM stack, you're going to implement in the backend the majority of the primitives required to build-up the sign-up tunnel and user onboarding. This is the first impression customers will get from your product, and can't be overlooked: you'll have to carefully design it with front-end experts. Here is a couple of guides to help you polish that experience.
 
 - [The 2020 State of SaaS Product Onboarding](https://userpilot.com/saas-product-onboarding/) - Covers all the important facets of user onboarding.
 - [User Onboarding Teardowns](https://www.useronboard.com/user-onboarding-teardowns/) - A huge list of deconstructed first-time user signups.
@@ -372,7 +372,7 @@ As stakeholder of the IAM stack, you're going to implement in the backend the ma
 - [Don't get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - TL;DR: create login forms that are simple, linkable, predictable, and play nicely with password managers.
 - [Why are the username and password on two different pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - TL;DR: to support both SSO and password-based login. Now if breaking the login funnel in 2 steps is too infuriating to users, solve this as Dropbox does: [an AJAX request when you enter your username](https://news.ycombinator.com/item?id=19174355).
 - [HTML attributes to improve your users' two factor authentication experience](https://www.twilio.com/blog/html-attributes-two-factor-authentication-autocomplete) - `In this post we will look at the humble <input> element and the HTML attributes that will help speed up our users' two factor authentication experience`.
-- [Remove password masking](http://passwordmasking.com) - Summarises the results from an academic study investigating the impact removing password masking has on consumer trust.
+- [Remove password masking](http://passwordmasking.com) - Summarizes the results from an academic study investigating the impact removing password masking has on consumer trust.
 - [For anybody who thinks "I could build that in a weekend," this is how Slack decides to send a notification](https://twitter.com/ProductHunt/status/979912670970249221) - Notifications are hard. Really hard.
 
 
