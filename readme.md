@@ -31,12 +31,12 @@ This knowledge base cover the far perimeter of the cloud stack. It is one of the
   - [User Identity](#user-identity)
   - [Fraud](#fraud)
   - [Threat Intelligence](#threat-intelligence)
-  - [Blacklists](#blacklists)
-    - [Hostnames and Subdomains](#hostnames-and-subdomains)
-    - [Emails](#emails)
-    - [Reserved IDs](#reserved-ids)
-    - [Profanity](#profanity)
   - [Captcha](#captcha)
+- [Blacklists](#blacklists)
+  - [Hostnames and Subdomains](#hostnames-and-subdomains)
+  - [Emails](#emails)
+  - [Reserved IDs](#reserved-ids)
+  - [Profanity](#profanity)
 - [Privacy](#privacy)
   - [Anonymization](#anonymization)
   - [GDPR](#gdpr)
@@ -290,14 +290,23 @@ might be called upon for additional expertise on analysis and handling of threat
 - [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) - Tools to scan phone numbers using only free resources. The goal is to first gather standard information such as country, area, carrier and line type on any international phone numbers with a very good accuracy. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
 - [Confusable Homoglyphs](https://github.com/vhf/confusable_homoglyphs) - Homoglyphs is a common phishing trick.
 
-### Blacklists
+### Captcha
 
-The first mechanical line of defense against abuses consist in plain and simple black-listing. You'll be surprised how they still are effective.
+Another line of defense against spammers.
+
+- [reCaptcha](https://www.google.com/recaptcha) - reCaptcha is still an effective, economical and quick solution when your company can't afford to have a dedicated team to fight bots and spammers at internet scale.
+- [You (probably) don't need ReCAPTCHA](https://kevv.net/you-probably-dont-need-recaptcha/) - Starts with a rant on how the service is a privacy nightmare and is tedious UI-wise, then list alternatives.
+- [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
+
+
+## Blacklists
+
+The first mechanical line of defense against abuses consist in plain and simple black-listing. This is the low-hanging fruit of fraud fighting, but you'll be surprised how they're still effective.
 
 - [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect for this use-case, as bloom filters are designed to quickly check if an element is not in a (large) set. Variations of bloom filters exist for specific data types.
 - [How Radix trees made blocking IPs 5000 times faster](https://blog.sqreen.com/demystifying-radix-trees/) - Radix trees might come handy to speed-up IP blacklists.
 
-#### Hostnames and Subdomains
+### Hostnames and Subdomains
 
 Useful to identified clients, catch and block swarms of bots, and limit effects of dDOS.
 
@@ -311,7 +320,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 - [`pyisp`](https://github.com/ActivisionGameScience/pyisp) - IP to ISP lookup library (includes ASN).
 - [AMF site blacklist](https://www.amf-france.org/Epargne-Info-Service/Proteger-son-epargne/Listes-noires) - Official French blacklist of money-related fraud sites.
 
-#### Emails
+### Emails
 
 - [Burner email providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers. And its [derivative Python module](https://github.com/martenson/disposable-email-domains).
 - [MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language temporary (disposable/throwaway) email detection library.
@@ -319,12 +328,12 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 - [`gman`](https://github.com/benbalter/gman) - “A ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).” Good resource to hunt for potential government customers in your user base.
 - [`Swot`](https://github.com/leereilly/swot) - In the same spirit as above, but this time to flag academic users.
 
-#### Reserved IDs
+### Reserved IDs
 
 - [General List of Reserved Words](https://gist.github.com/stuartpb/5710271) - This is a general list of words you may want to consider reserving, in a system where users can pick any name.
 - [Hostnames and usernames to reserve](https://ldpreload.com/blog/names-to-reserve) - List of all the names that should be restricted from registration in automated systems.
 
-#### Profanity
+### Profanity
 
 - [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) - Profanity blacklist from Shutterstock.
 
