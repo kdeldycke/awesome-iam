@@ -4,7 +4,7 @@
 
 In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture is described as in the right diagram:
 
-This knowledge base cover the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where users, products and security meets. The [other pillar being billing & payments](https://github.com/kdeldycke/awesome-billing/).
+This knowledge base cover the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where users, products and security meets. The [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/).
 
 
 ## Contents
