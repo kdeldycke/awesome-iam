@@ -1,10 +1,11 @@
 # 👤 Awesome Identity and Access Management
 
-In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software stack is presented as such:
+<img align="right" width="50%" src="./cloud-software-stack-iam.jpg"/>
 
-![](cloud-software-stack-iam.jpg)
+In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture is described as in the right diagram:
 
-This knowledge base cover the far right perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, bridging the users, the products and the business. The [other pillar being billing & payments](https://github.com/kdeldycke/awesome-billing/).
+This knowledge base cover the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where users, products and security meets. The [other pillar being billing & payments](https://github.com/kdeldycke/awesome-billing/).
+
 
 ## Contents
 
