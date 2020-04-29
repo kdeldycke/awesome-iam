@@ -414,3 +414,9 @@ A bunch of resources to keep track of the current status and progress of all com
 ## History
 
 - [cryptoanarchy.wiki](https://cryptoanarchy.wiki) - Cypherpunks overlaps with security. This wiki compiles information about the movement, its history and the people/events of note.
+
+
+## Contributing
+
+Your contributions are always welcome! Please take a look at the
+[contribution guidelines](./.github/contributing.md) first.
