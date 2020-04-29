@@ -105,7 +105,7 @@ Are you who you pretend to be?
 
 ### Password-less
 
-- [An argument for passwordless](https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article ties to tell you why.
+- [An argument for passwordless](https://web.archive.org/web/20190515230752/https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article ties to tell you why.
 - [WebAuthn guide](https://webauthn.guide) - A very accessible guide to WebAuthn, a standard allowing “servers to register and authenticate users using public key cryptography instead of a password”, supported by all major browsers.
 
 ### Security Key
@@ -176,7 +176,7 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 - [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols.
 - [Why Mastercard Doesn't Use OAuth 2.0](https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20) - “They did this to provide message-level integrity. OAuth 2 switched to Transport-level confidentiality/Integrity.” (which TLS provides) ([source](https://news.ycombinator.com/item?id=17486165)).
 - [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
-- [Cierge](https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
+- [Cierge](https://web.archive.org/web/20190402111431/https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
 - [Keycloak](https://www.keycloak.org) - Open-source Identity and Access Management. Supports OIDC, OAuth 2
 and SAML 2, LDAP and AD directories, password policies.
 
