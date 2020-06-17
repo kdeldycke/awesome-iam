@@ -317,6 +317,7 @@ The first mechanical line of defense against abuses consist in plain and simple 
 Useful to identified clients, catch and block swarms of bots, and limit effects of dDOS.
 
 - [`hosts`](https://github.com/StevenBlack/hosts) - Consolidates reputable hosts files, and merges them into a unified hosts file with duplicates removed.
+- [`nextdns/metadata`](https://github.com/nextdns/metadata) - Extensive collection of list for security, privacy and parental control.
 - [The Public Suffix List](https://publicsuffix.org) - Mozilla's registry of public suffixes, under which Internet users can (or historically could) directly register names.
 - [Country IP Blocks](https://github.com/herrbischoff/country-ip-blocks) - CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly.
 - [Certificate Transparency Subdomains](https://github.com/internetwache/CT_subdomains) - An hourly updated list of subdomains gathered from certificate transparency logs.
