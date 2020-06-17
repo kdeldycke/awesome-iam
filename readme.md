@@ -341,6 +341,8 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 ### Profanity
 
 - [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) - Profanity blacklist from Shutterstock.
+- [`profanity-check`](https://github.com/vzhou842/profanity-check) - Uses a linear SVM model trained on 200k human-labeled samples of clean and profane text strings.
+
 
 ### Captcha
 
