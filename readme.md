@@ -381,6 +381,9 @@ As a central repository of user data, the IAM stack stakeholders have to prevent
 
 The well-known European privacy framework
 
+- [GDPR Tracker](https://gdpr.eu) - Europe's reference site.
+- [GDPR Developer Guide](https://github.com/LINCnil/GDPR-Developer-Guide) - Best practices for developers.
+- [GDPR – A Practical guide for Developers](https://techblog.bozho.net/gdpr-practical-guide-developers/) - A one-page summary of the above.
 - [GDPR Tracker](https://gdprtracker.io) - Track the GDPR compliance of cloud services and subprocessors.
 - [GDPR documents](https://github.com/good-lly/gdpr-documents) - Templates for personal use to have companies comply with "Data Access" requests.
 - [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) - Weaponizing GDPR to help you send your enemies a Data Requests designed to waste as much of their time as possible.
