@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Install doctoc
         run: |
-          npm install -g doctoc
+          sudo npm install -g doctoc
       - name: Generate full TOC
         run: |
           doctoc --github --notitle readme.md
