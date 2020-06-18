@@ -8,8 +8,8 @@ on:
 
 jobs:
 
-  updateTOC:
-    name: TOC Generator
+  update_toc:
+    name: TOC generator
     runs-on: ubuntu-latest
     steps:
       - name: Install doctoc
