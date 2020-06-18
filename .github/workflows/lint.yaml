@@ -26,6 +26,7 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          commit_author: "Kevin Deldycke <kevin@deldycke.com>"
           commit_message: "[lint] Update TOC."
           file_pattern: readme.md
 
