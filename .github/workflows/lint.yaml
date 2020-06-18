@@ -12,10 +12,21 @@ jobs:
     name: TOC Generator
     runs-on: ubuntu-latest
     steps:
-      - uses: technote-space/toc-generator@v2
+      - name: Install doctoc
+        run: |
+          npm install -g doctoc
+      - name: Generate full TOC
+        run: |
+          doctoc --github --notitle readme.md
+      - name: Remove blacklisted TOC entries
+        # See: https://github.com/sindresorhus/awesome-lint/blob/v0.13.0/rules/toc.js#L15-L20
+        run: |
+          gawk -i inplace '!/^- \[(Contribute|Contributing|Licence|License)\]\(#.+\)$/{print}' ./readme.md
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          TARGET_PATHS: readme.md
-          TOC_TITLE: "## Contents"
+          commit_message: "[lint] Update TOC."
+          file_pattern: readme.md
 
   lint:
     name: Lint
