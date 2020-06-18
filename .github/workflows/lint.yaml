@@ -15,7 +15,7 @@ jobs:
       - name: Install doctoc
         run: |
           sudo npm install -g doctoc
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Generate full TOC
         run: |
           doctoc --github --notitle readme.md
@@ -34,8 +34,8 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
         with:
           # Fetch all history to please linter's age checks.
           fetch-depth: 0
-      - uses: max/awesome-lint@master
+      - uses: max/awesome-lint@v2.0.0
