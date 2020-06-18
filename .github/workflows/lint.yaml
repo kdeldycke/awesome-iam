@@ -15,6 +15,7 @@ jobs:
       - uses: technote-space/toc-generator@v2
         with:
           TARGET_PATHS: readme.md
+          TOC_TITLE: "## Contents"
 
   lint:
     name: Lint
