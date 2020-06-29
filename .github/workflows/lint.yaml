@@ -33,6 +33,7 @@ jobs:
   lint-markdown:
     name: Lint markdown and create a PR
     needs: update-toc
+    runs-on: ubuntu-latest
     steps:
     - uses: avto-dev/markdown-lint@v1
       with:
