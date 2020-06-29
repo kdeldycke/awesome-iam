@@ -71,7 +71,7 @@ jobs:
           branch: fix-typo
 
   lint-awesome:
-    name: Lint
+    name: Lint awesome list
     needs: lint-markdown
     runs-on: ubuntu-latest
     steps:
