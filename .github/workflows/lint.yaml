@@ -35,6 +35,7 @@ jobs:
     needs: update-toc
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - uses: avto-dev/markdown-lint@v1
       with:
         fix: true
