@@ -8,6 +8,34 @@ on:
 
 jobs:
 
+  update-actions:
+    name: Generator TOC and auto-commit
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v1.4.0
+    - name: Install actions updater
+      run: |
+        cd ~ && wget https://github.com/fabasoad/ghacu/releases/download/v1.1.3/ghacu-1.1.3-linux-x64.tgz
+        tar -xvf ghacu-1.1.3-linux-x64.tgz
+        chmod +x ~/ghacu-1.1.3-linux-x64/ghacu
+        PATH=$PATH:~/ghacu-1.1.3-linux-x64
+        echo "::set-env name=PATH::$PATH"
+    - uses: actions/checkout@v2
+    - name: Update actions
+      run: ghacu --upgrade
+    - uses: peter-evans/create-pull-request@v2
+      with:
+        author: "Kevin Deldycke <kevin@deldycke.com>"
+        commit-message: "Update GitHub Actions."
+        title: "Update GitHub Actions"
+        body: >
+          [Auto-generated on run #${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          as defined by [workflow action](https://github.com/${{ github.repository }}/blob/develop/.github/workflows/lint.yaml).
+        labels: "CI/CD"
+        assignees: kdeldycke
+        branch: update-actions
+
   update-toc:
     name: Generator TOC and auto-commit
     runs-on: ubuntu-latest
