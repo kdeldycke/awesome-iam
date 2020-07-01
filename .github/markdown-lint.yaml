@@ -1,0 +1,8 @@
+# See example at: https://github.com/avto-dev/markdown-lint/blob/master/lint/config/changelog.yml
+
+# Inline HTML <https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md033>
+# is allowed for beautiful rendering on GitHub.
+MD033:
+  # Whitelist some elements for beautiful rendering on GitHub.
+  allowed_elements:
+    - 'img'

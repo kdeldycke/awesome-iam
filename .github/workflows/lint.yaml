@@ -42,8 +42,9 @@ jobs:
       # step to fail so we can proceed with creating the auto-fix PR below.
       continue-on-error: true
       with:
-        fix: true
+        config: '.github/markdown-lint.yaml'
         args: './**/*.md'
+        fix: true
     - uses: peter-evans/create-pull-request@v2
       with:
         author: "Kevin Deldycke <kevin@deldycke.com>"
@@ -58,6 +59,7 @@ jobs:
     - name: Re-run linter
       uses: avto-dev/markdown-lint@v1
       with:
+        config: '.github/markdown-lint.yaml'
         args: './**/*.md'
 
   fix-typo:
