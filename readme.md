@@ -6,11 +6,9 @@ In a Stanford class on [Cloud computing overview](http://web.stanford.edu/class/
 
 This knowledge base cover the far perimeter of the cloud stack. It is one of the pillar of the cloud ecosystem, where users, products and security meets. The [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/).
 
-
 ## Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [Meta](#meta)
 - [Basics](#basics)
@@ -52,13 +50,11 @@ This knowledge base cover the far perimeter of the cloud stack. It is one of the
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
 ## Meta
 
 - [IAM definition](https://en.wikipedia.org/wiki/Identity_management) - “A framework of policies and technologies for ensuring that the proper people in an enterprise have the appropriate access to technology resources”.
 - [As a user, I want…](https://mobile.twitter.com/oktopushup/status/1030457418206068736) - A meta-critic of account management, in which features expected by the business clash with real user needs, in the form of user stories written by a fictional project manager.
 - [Things end users care about but programmers don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/) - In the same spirit as above, but broader: all the little things we overlook as developers but users really care about. In the top of that list lies account-centric features, diverse integration and import/export tools. I.e. all the enterprise customers needs to cover.
-
 
 ## Basics
 
@@ -69,7 +65,6 @@ Strategy and feature lists of the domain.
 - [Mitigating Cloud Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) - “This document divides cloud vulnerabilities into four classes (misconfiguration, poor access control, shared tenancy vulnerabilities, and supply chain vulnerabilities)”.
 - [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam)
 - [IAM Is The Real Cloud Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - A little *click-baity*, but author admit that “It depends on how much you trust them to a) stay in business; b) not jack up your prices; c) not deprecate services out from under you; and d) provide more value to you in business acceleration than they take away in flexibility.”
-
 
 ## Cryptography
 
@@ -82,7 +77,6 @@ The whole authentication stack is based on cryptography primitives. This can't b
 - [Papers we love: Cryptography](https://github.com/papers-we-love/papers-we-love/blob/master/cryptography/README.md) - Foundational papers of cryptography.
 - [Lifetimes of cryptographic hash functions](http://valerieaurora.org/hash.html) - “If you are using compare-by-hash to generate addresses for data that can be supplied by malicious users, you should have a plan to migrate to a new hash every few years”.
 
-
 ## Zero-trust Network
 
 Zero trust network security operates under the principle “never trust, always verify.”.
@@ -92,7 +86,6 @@ Zero trust network security operates under the principle “never trust, always 
 - [oathkeeper](https://github.com/ory/oathkeeper) - Identity & Access Proxy and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP requests. Inspired by the BeyondCorp / Zero Trust white paper.
 - [transcend](https://github.com/cogolabs/transcend) - BeyondCorp-inspired Access Proxy server.
 - [Pomerium](https://github.com/pomerium/pomerium) - An identity-aware proxy that enables secure access to internal applications.
-
 
 ## Authentication
 
@@ -201,7 +194,6 @@ Typical SAML identity provider is an institution or a big corporation's internal
 - [Web Single Sign-On, the SAML 2.0 perspective](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - Another naive explanation of SAML workflow in the context of corporate SSO implementation.
 - [The Beer Drinker's Guide to SAML](https://duo.com/blog/the-beer-drinkers-guide-to-saml) - SAML is arcane at times. A another analogy might helps get more sense out of it.
 
-
 ## Policies
 
 Now that we know you are you, are you allowed to perform what you want to do?
@@ -228,7 +220,6 @@ A clever curiosity to distribute and delegate authorization.
 - [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://ai.google/research/pubs/pub41892) - Google's original paper.
 - [Google paper's author compares Macaroons and JWTs](https://news.ycombinator.com/item?id=14294463) - TL;DR: As a consumer/verifier of macaroons, they allow you (through third-party caveats) to defer some authorization decisions to someone else. JWTs don't.
 
-
 ## Secret Management
 
 Architectures, software and hardware allowing the storage and usage of secrets to allow for authentication and authorization, while maintaining the chain of trust.
@@ -252,7 +243,6 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 - [Keystone](https://keystone-enclave.org) - Open-source project for building trusted execution environments (TEE) with secure hardware enclaves, based on the RISC-V architecture.
 - [Project Oak](https://github.com/project-oak/oak) - A specification and a reference implementation for the secure transfer, storage and processing of data.
 - [Everybody be cool, this is a robbery!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
-
 
 ## Trust & Safety
 
@@ -311,7 +301,6 @@ Another line of defense against spammers.
 - [You (probably) don't need ReCAPTCHA](https://kevv.net/you-probably-dont-need-recaptcha/) - Starts with a rant on how the service is a privacy nightmare and is tedious UI-wise, then list alternatives.
 - [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
 
-
 ## Blacklists
 
 The first mechanical line of defense against abuses consist in plain and simple black-listing. This is the low-hanging fruit of fraud fighting, but you'll be surprised how they're still effective.
@@ -353,7 +342,6 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 - [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) - Profanity blacklist from Shutterstock.
 - [`profanity-check`](https://github.com/vzhou842/profanity-check) - Uses a linear SVM model trained on 200k human-labeled samples of clean and profane text strings.
 
-
 ### Captcha
 
 Another line of defense against spammers.
@@ -361,7 +349,6 @@ Another line of defense against spammers.
 - [reCaptcha](https://www.google.com/recaptcha) - reCaptcha is still an effective, economical and quick solution when your company can't afford to have a dedicated team to fight bots and spammers at internet scale.
 - [You (probably) don't need ReCAPTCHA](https://kevv.net/you-probably-dont-need-recaptcha/) - Starts with a rant on how the service is a privacy nightmare and is tedious UI-wise, then list alternatives.
 - [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
-
 
 ## Privacy
 
@@ -396,7 +383,6 @@ The well-known European privacy framework
 - [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) - Weaponizing GDPR to help you send your enemies a Data Requests designed to waste as much of their time as possible.
 - [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of GDPR fines and penalties.
 
-
 ## UX/UI
 
 As stakeholder of the IAM stack, you're going to implement in the backend the majority of the primitives required to build-up the sign-up tunnel and user onboarding. This is the first impression customers will get from your product, and can't be overlooked: you'll have to carefully design it with front-end experts. Here is a couple of guides to help you polish that experience.
@@ -412,7 +398,6 @@ As stakeholder of the IAM stack, you're going to implement in the backend the ma
 - [Remove password masking](http://passwordmasking.com) - Summarizes the results from an academic study investigating the impact removing password masking has on consumer trust.
 - [For anybody who thinks "I could build that in a weekend," this is how Slack decides to send a notification](https://twitter.com/ProductHunt/status/979912670970249221) - Notifications are hard. Really hard.
 
-
 ## Open-Source Projects
 
 A couple of open-sources projects waiting to find a more appropriate section above.
@@ -424,11 +409,9 @@ A couple of open-sources projects waiting to find a more appropriate section abo
 - [Conjur](https://www.conjur.org)
 - [Gubernator](https://github.com/mailgun/gubernator) - High Performance Rate Limiting MicroService and Library.
 
-
 ## Commercial Solutions
 
 - [Rippling IDM](https://www.rippling.com/idm/) - Identity management, SSO.
-
 
 ## Competitive Analysis
 
@@ -440,17 +423,14 @@ A bunch of resources to keep track of the current status and progress of all com
 - [DigitalOcean Platform changelog](https://www.digitalocean.com/docs/platform/release-notes/)
 - [163 AWS services explained in one line each](https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws) - Help makes sense of their huge service catalog. In the same spirit: [AWS in simple terms](https://netrixllc.com/blog/aws-services-in-simple-terms/) & [AWS In Plain English](https://expeditedsecurity.com/aws-in-plain-english/).
 
-
 ## History
 
 - [cryptoanarchy.wiki](https://cryptoanarchy.wiki) - Cypherpunks overlaps with security. This wiki compiles information about the movement, its history and the people/events of note.
-
 
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the
 [contribution guidelines](./.github/contributing.md) first.
-
 
 ## License
 
