@@ -26,6 +26,7 @@ jobs:
       run: ghacu --upgrade
     - uses: peter-evans/create-pull-request@v2
       with:
+        token: ${{ secrets.WORKFLOW_VERSION_UPDATE_TOKEN }}
         author: "Kevin Deldycke <kevin@deldycke.com>"
         commit-message: "Update GitHub Actions."
         title: "Update GitHub Actions"
