@@ -36,7 +36,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: avto-dev/markdown-lint@v1
+    - name: Auto-fix Markdown
+      uses: avto-dev/markdown-lint@v1
+      # Non-fixable markdown issues will return non-zero error code. Allow that
+      # step to fail so we can proceed with creating the auto-fix PR below.
+      continue-on-error: true
       with:
         fix: true
         args: './**/*.md'
@@ -51,6 +55,10 @@ jobs:
         labels: "CI/CD"
         assignees: kdeldycke
         branch: lint-markdown
+    - name: Re-run linter
+      uses: avto-dev/markdown-lint@v1
+      with:
+        args: './**/*.md'
 
   fix-typo:
     name: Typo auto-fix
