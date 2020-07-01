@@ -9,7 +9,7 @@ on:
 jobs:
 
   update-actions:
-    name: Generator TOC and auto-commit
+    name: Upgrade GitHub Actions and create a PR
     runs-on: ubuntu-latest
     steps:
     - name: Setup .NET Core SDK
