@@ -16,6 +16,7 @@ security meets. The [other pillar being billing & payments
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Meta](#meta)
 - [Basics](#basics)
 - [Cryptography](#cryptography)
@@ -26,8 +27,7 @@ security meets. The [other pillar being billing & payments
   - [Security Key](#security-key)
   - [Multi-Factor](#multi-factor)
   - [SMS-based](#sms-based)
-  - [Public-Key Infrastructure
-    (PKI)](#public-key-infrastructure-pki)
+  - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
   - [JWT](#jwt)
   - [OAuth2 & OpenID](#oauth2--openid)
   - [SAML](#saml)
@@ -45,7 +45,6 @@ security meets. The [other pillar being billing & payments
   - [Emails](#emails)
   - [Reserved IDs](#reserved-ids)
   - [Profanity](#profanity)
-  - [Captcha](#captcha-1)
 - [Privacy](#privacy)
   - [Anonymization](#anonymization)
   - [GDPR](#gdpr)
