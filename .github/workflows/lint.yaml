@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v1.4.0
+      uses: actions/setup-dotnet@v1.5.0
     - name: Install actions updater
       run: |
         cd ~ && wget https://github.com/fabasoad/ghacu/releases/download/v1.1.4/ghacu-1.1.4-linux-x64.tgz
@@ -21,10 +21,10 @@ jobs:
         chmod +x ~/ghacu-1.1.4-linux-x64/ghacu
         PATH=$PATH:~/ghacu-1.1.4-linux-x64
         echo "::set-env name=PATH::$PATH"
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.1
     - name: Update actions
       run: ghacu --upgrade
-    - uses: peter-evans/create-pull-request@v2
+    - uses: peter-evans/create-pull-request@v2.8.1
       with:
         token: ${{ secrets.WORKFLOW_VERSION_UPDATE_TOKEN }}
         author: "Kevin Deldycke <kevin@deldycke.com>"
@@ -44,7 +44,7 @@ jobs:
       - name: Install doctoc
         run: |
           sudo npm install -g doctoc
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.1
       - name: Generate full TOC
         run: |
           doctoc --github --notitle readme.md
@@ -53,7 +53,7 @@ jobs:
         run: |
           gawk -i inplace '!/^- \[(Contribute|Contributing|Licence|License)\]\(#.+\)$/{print}' ./readme.md
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v4.4.0
         with:
           commit_author: "Kevin Deldycke <kevin@deldycke.com>"
           commit_message: "[lint] Update TOC."
@@ -64,9 +64,9 @@ jobs:
     needs: update-toc
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.1
     - name: Auto-fix Markdown
-      uses: avto-dev/markdown-lint@v1
+      uses: avto-dev/markdown-lint@v1.3.0
       # Non-fixable markdown issues will return non-zero error code. Allow that
       # step to fail so we can proceed with creating the auto-fix PR below.
       continue-on-error: true
@@ -74,7 +74,7 @@ jobs:
         config: '.github/markdown-lint.yaml'
         args: './**/*.md'
         fix: true
-    - uses: peter-evans/create-pull-request@v2
+    - uses: peter-evans/create-pull-request@v2.8.1
       with:
         author: "Kevin Deldycke <kevin@deldycke.com>"
         commit-message: "Lint Markdown."
@@ -86,7 +86,7 @@ jobs:
         assignees: kdeldycke
         branch: lint-markdown
     - name: Re-run linter
-      uses: avto-dev/markdown-lint@v1
+      uses: avto-dev/markdown-lint@v1.3.0
       with:
         config: '.github/markdown-lint.yaml'
         args: './**/*.md'
@@ -95,9 +95,9 @@ jobs:
     name: Typo auto-fix
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.1
       - uses: sobolevn/misspell-fixer-action@0.1.0
-      - uses: peter-evans/create-pull-request@v2
+      - uses: peter-evans/create-pull-request@v2.8.1
         with:
           author: "Kevin Deldycke <kevin@deldycke.com>"
           commit-message: "Fix typo."
@@ -114,7 +114,7 @@ jobs:
     needs: update-toc
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.1
         with:
           # Fetch all history to please linter's age checks.
           fetch-depth: 0
