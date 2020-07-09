@@ -618,6 +618,9 @@ banner.
   or a phone number. (…) Vehicles were stolen and burned; drivers were
   assaulted, robbed and occasionally murdered. The company stuck with
   the low-friction sign-up system, even as violence increased.”
+- [Identity Beyond Usernames](https://lord.io/blog/2020/usernames/) -
+  On the concept of usernames as identifiers, and the complexities
+  introduced when unicode characters meets uniqueness requirements.
 - [A Comparison of Personal Name Matching: Techniques and Practical
   Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) -
   Customer name matching has lots of application, from account
