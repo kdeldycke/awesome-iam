@@ -1,0 +1,114 @@
+name: Autofix
+on:
+  push:
+    # Only targets master default branch to avoid amplification effects of
+    # auto-fixing the exact same stuff in multiple non-rebased branches.
+    branches:
+      - 'master'
+  schedule:
+    # Run linter every week to catch regressions from external dependencies.
+    - cron: 17 9 * * 1
+
+jobs:
+
+  actions:
+    name: Upgrade GitHub Actions and create a PR
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v1.5.0
+    - name: Install actions updater
+      run: |
+        cd ~ && wget https://github.com/fabasoad/ghacu/releases/download/v1.1.4/ghacu-1.1.4-linux-x64.tgz
+        tar -xvf ghacu-1.1.4-linux-x64.tgz
+        chmod +x ~/ghacu-1.1.4-linux-x64/ghacu
+        PATH=$PATH:~/ghacu-1.1.4-linux-x64
+        echo "::set-env name=PATH::$PATH"
+    - uses: actions/checkout@v2.3.1
+    - name: Update actions
+      run: ghacu --upgrade
+    - uses: peter-evans/create-pull-request@v2.8.1
+      with:
+        token: ${{ secrets.WORKFLOW_VERSION_UPDATE_TOKEN }}
+        author: "Kevin Deldycke <kevin@deldycke.com>"
+        commit-message: "Update GitHub Actions."
+        title: "Update GitHub Actions"
+        body: >
+          [Auto-generated on run #${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          as defined by [workflow action](https://github.com/${{ github.repository }}/blob/develop/.github/workflows/lint.yaml).
+        labels: "CI/CD"
+        assignees: kdeldycke
+        branch: update-actions
+
+  toc:
+    name: Generator TOC and auto-commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install doctoc
+        run: |
+          sudo npm install -g doctoc
+      - uses: actions/checkout@v2.3.1
+      - name: Generate full TOC
+        run: |
+          doctoc --github --notitle readme.md
+      - name: Remove blacklisted TOC entries
+        # See: https://github.com/sindresorhus/awesome-lint/blob/v0.13.0/rules/toc.js#L15-L20
+        run: |
+          gawk -i inplace '!/^- \[(Contribute|Contributing|Licence|License)\]\(#.+\)$/{print}' ./readme.md
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4.4.0
+        with:
+          commit_author: "Kevin Deldycke <kevin@deldycke.com>"
+          commit_message: "[lint] Update TOC."
+          file_pattern: readme.md
+
+  markdown:
+    name: Format markdown and create a PR
+    needs: toc
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.1
+    - name: Install Pandoc
+      run: |
+        apt install pandoc
+    - name: Auto-format to GitHub-Flavored Markdown
+      run: |
+        pandoc ./readme.md --from=gfm --to=gfm --output=./readme.md
+    - name: Auto-fix Markdown
+      uses: avto-dev/markdown-lint@v1.3.0
+      # Non-fixable markdown issues will return non-zero error code. Allow that
+      # step to fail so we can proceed with creating the auto-fix PR below.
+      continue-on-error: true
+      with:
+        config: '.github/markdown-lint.yaml'
+        args: './**/*.md'
+        fix: true
+    - uses: peter-evans/create-pull-request@v2.8.1
+      with:
+        author: "Kevin Deldycke <kevin@deldycke.com>"
+        commit-message: "Lint Markdown."
+        title: "Lint Markdown"
+        body: >
+          [Auto-generated on run #${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          as defined by [workflow action](https://github.com/${{ github.repository }}/blob/develop/.github/workflows/lint.yaml).
+        labels: "CI/CD"
+        assignees: kdeldycke
+        branch: format-markdown
+
+  typos:
+    name: Fix typos and create a PR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.1
+      - uses: sobolevn/misspell-fixer-action@0.1.0
+      - uses: peter-evans/create-pull-request@v2.8.1
+        with:
+          author: "Kevin Deldycke <kevin@deldycke.com>"
+          commit-message: "Fix typo."
+          title: "Typo"
+          body: >
+            [Auto-generated on run #${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            as defined by [workflow action](https://github.com/${{ github.repository }}/blob/develop/.github/workflows/lint.yaml).
+          labels: "typo"
+          assignees: kdeldycke
+          branch: fix-typo
