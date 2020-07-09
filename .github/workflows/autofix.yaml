@@ -36,7 +36,7 @@ jobs:
   markdown:
     name: Format markdown and create a PR
     needs: toc
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2.3.1
     - name: Install Pandoc
