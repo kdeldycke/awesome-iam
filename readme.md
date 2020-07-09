@@ -901,11 +901,14 @@ The well-known European privacy framework
 - [GDPR documents](https://github.com/good-lly/gdpr-documents) -
   Templates for personal use to have companies comply with "Data
   Access" requests.
+- [Dark Patterns after the GDPR](https://arxiv.org/pdf/2001.02479.pdf) -
+  This paper demonstrates that, because of the lack of GDPR law enforcements,
+  dark patterns and implied consent are ubiquitous.
+- [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of
+  GDPR fines and penalties.
 - [Ship Your Enemies GDPR](https://shipyourenemiesgdpr.com) -
   Weaponizing GDPR to help you send your enemies a Data Requests
   designed to waste as much of their time as possible.
-- [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of
-  GDPR fines and penalties.
 
 ## UX/UI
 
