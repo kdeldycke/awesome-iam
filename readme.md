@@ -11,11 +11,9 @@ one of the pillar of the cloud ecosystem, where users, products and
 security meets. The [other pillar being billing & payments
 💰](https://github.com/kdeldycke/awesome-billing/).
 
-## Contents
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
+## Contents
 
 - [Meta](#meta)
 - [Basics](#basics)
