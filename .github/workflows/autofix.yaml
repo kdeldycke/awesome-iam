@@ -44,7 +44,12 @@ jobs:
         sudo apt install pandoc
     - name: Auto-format to GitHub-Flavored Markdown
       run: |
-        pandoc ./readme.md --from=gfm --to=gfm --output=./readme.md
+        # Try to limit the overwhelming effects of line lenght re-wrapping:
+        #   https://github.com/jgm/pandoc/issues/6497
+        #   https://github.com/DavidAnson/markdownlint/issues/302
+        #   https://github.com/commonmark/cmark/issues/347
+        #   https://github.com/commonmark/cmark/issues/348
+        pandoc ./readme.md --from=gfm --to=gfm --output=./readme.md --columns=79 --wrap=preserve --tab-stop=2
     - name: Auto-fix Markdown
       uses: avto-dev/markdown-lint@v1.3.0
       # Non-fixable markdown issues will return non-zero error code. Allow that
