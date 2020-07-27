@@ -386,7 +386,7 @@ not-dead.
 - [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/) -
     A reference article describing the protocol in simplified format to
     help developers and service providers implement it.
-- [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0) -  
+- [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0) -
     Starts with an historical context on how these standards came to be, clears up the innacuracies in the vocabulary, then details the protocols and its pitfalls to make it less intimidating.
 - [Everything You Need to Know About OAuth (2.0)](https://gravitational.com/blog/everything-you-need-to-know-about-oauth/) -
     A good overview with a practical case study on how Teleport, an open-source remote access tool, allows users to log in through GitHub SSO.
