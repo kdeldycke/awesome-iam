@@ -591,13 +591,6 @@ credit card disputes.
 - [What the Heck is Trust and
     Safety?](https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi) -
     A couple of real use-case to demonstrate the role of a TnS team.
-- [Still Logged In: What AR and VR Can Learn from
-    MMOs](https://youtu.be/kgw8RLHv1j4?t=534) - “If you host an online
-    community, where people can harm another person: you are on the
-    hook. And if you can't afford to be on the hook, don't host an
-    online community”. All online communities, not only those related to
-    gaming, requires their operator to invest a lot of resource and
-    energy to moderate it.
 - [Awesome List of Billing and Payments: Fraud
     links](https://github.com/kdeldycke/awesome-billing#fraud) - Section
     dedicated to fraud management for billing and payment, from our
@@ -663,6 +656,21 @@ exploited for financial gain.
     constant time and memory.”
 - [Gephi](https://github.com/gephi/gephi) - Open-source platform for
     visualizing and manipulating large graphs.
+
+### Moderation
+
+Any online communities, not only those related to
+gaming and social networks, requires their operator to invest a lot of resource and
+energy to moderate it.
+
+- [Still Logged In: What AR and VR Can Learn from
+    MMOs](https://youtu.be/kgw8RLHv1j4?t=534) - “If you host an online
+    community, where people can harm another person: you are on the
+    hook. And if you can't afford to be on the hook, don't host an
+    online community”.
+- [The despair and darkness of people will get to you](https://restofworld.org/2020/facebook-international-content-moderators/) - Moderation of huge social networks is performed by an army of outsourced subcontractors. These people are exposed to the worst and generally ends up with PTSD.
+- [The Cleaners](https://thoughtmaybe.com/the-cleaners/) - A documentary on these teams of underpaid people removing posts and deleting accounts.
+
 
 ### Threat Intelligence
 
