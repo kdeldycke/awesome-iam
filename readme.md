@@ -36,6 +36,7 @@ security meets. The [other pillar being billing & payments
 - [Trust & Safety](#trust--safety)
   - [User Identity](#user-identity)
   - [Fraud](#fraud)
+  - [Moderation](#moderation)
   - [Threat Intelligence](#threat-intelligence)
   - [Captcha](#captcha)
 - [Blacklists](#blacklists)
