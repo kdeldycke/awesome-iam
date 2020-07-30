@@ -12,7 +12,9 @@ security meets. The [other pillar being billing & payments
 💰](https://github.com/kdeldycke/awesome-billing/).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Contents
 
 - [Meta](#meta)
@@ -671,7 +673,6 @@ energy to moderate it.
     online community”.
 - [The despair and darkness of people will get to you](https://restofworld.org/2020/facebook-international-content-moderators/) - Moderation of huge social networks is performed by an army of outsourced subcontractors. These people are exposed to the worst and generally ends up with PTSD.
 - [The Cleaners](https://thoughtmaybe.com/the-cleaners/) - A documentary on these teams of underpaid people removing posts and deleting accounts.
-
 
 ### Threat Intelligence
 
