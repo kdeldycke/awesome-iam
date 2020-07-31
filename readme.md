@@ -12,7 +12,9 @@ security meets. The [other pillar being billing & payments
 💰](https://github.com/kdeldycke/awesome-billing/).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Contents
 
 - [Meta](#meta)
@@ -254,9 +256,9 @@ Are you who you pretend to be?
     Key take-away: “schemes based on email and SMS are more usable.
     Mechanisms based on designated trustees and personal knowledge
     questions, on the other hand, fall short, both in terms of
-    convenience and efficiency.”    
+    convenience and efficiency.”
 - [Secrets, Lies, and Account Recovery:
-Lessons from the Use of Personal Knowledge Questions at Google](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43783.pdf) -
+    Lessons from the Use of Personal Knowledge Questions at Google](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43783.pdf) -
     “Our analysis confirms that secret questions generally offer a security level that is far lower than user-chosen
     passwords. (…) Surprisingly, we found that a significant cause of this insecurity is that users often don’t answer
     truthfully. (…) On the usability side, we show that secret answers have sur- prisingly poor memorability”.
