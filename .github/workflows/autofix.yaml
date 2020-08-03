@@ -70,7 +70,7 @@ jobs:
         title: "Lint Markdown"
         body: >
           [Auto-generated on run #${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
-          as defined by [workflow action](https://github.com/${{ github.repository }}/blob/develop/.github/workflows/autofix.yaml).
+          as defined by [workflow action](https://github.com/${{ github.repository }}/blob/${{ github.base_ref }}/.github/workflows/autofix.yaml).
         labels: "CI/CD"
         assignees: kdeldycke
         branch: format-markdown
@@ -88,7 +88,7 @@ jobs:
           title: "Typo"
           body: >
             [Auto-generated on run #${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
-            as defined by [workflow action](https://github.com/${{ github.repository }}/blob/develop/.github/workflows/autofix.yaml).
+            as defined by [workflow action](https://github.com/${{ github.repository }}/blob/${{ github.base_ref }}/.github/workflows/autofix.yaml).
           labels: "typo"
           assignees: kdeldycke
           branch: fix-typo
