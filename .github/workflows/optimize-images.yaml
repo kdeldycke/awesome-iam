@@ -1,0 +1,22 @@
+name: Optimize images
+on:
+  # push:
+  # XXX Wait for https://github.com/calibreapp/image-actions/pull/30 to trigger
+  # on push to default branch.
+  pull_request:
+    paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.webp'
+
+jobs:
+
+  optimize-images:
+    name: calibreapp/image-actions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.1
+      - uses: calibreapp/image-actions@v1.1.0
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
