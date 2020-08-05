@@ -3,8 +3,8 @@ on:
   push:
   pull_request:
   schedule:
-    # Run linter every week to catch regressions from external dependencies.
-    - cron: 17 9 * * 1
+    # Run tests every Monday at 9:17 to catch regressions.
+    - cron: "17 9 * * 1"
 
 jobs:
 
