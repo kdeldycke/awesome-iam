@@ -992,7 +992,7 @@ section above.
 
 ## Commercial Solutions
 
-- [MonoSign](https://monosign.com/) - Identity and Access Management, SSO, MFA, Lifecycle Management, Password Management, Universal Directory
+- [MonoSign](https://monosign.com/) - Identity and Access Management, SSO, MFA, Lifecycle Management, Password Management, Universal Directory.
 - [Rippling IDM](https://www.rippling.com/idm/) - Identity management,
     SSO.
 
