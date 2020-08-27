@@ -989,7 +989,10 @@ section above.
 - [Conjur](https://www.conjur.org)
 - [Gubernator](https://github.com/mailgun/gubernator) - High
     Performance Rate Limiting MicroService and Library.
-
+- [Policy Sentry](https://github.com/salesforce/policy_sentry) - Writing security-conscious IAM Policies by hand can be very tedious and inefficient.
+    Policy Sentry helps users to create least-privilege policies in a matter of seconds. 
+    
+    
 ## Commercial Solutions
 
 - [Rippling IDM](https://www.rippling.com/idm/) - Identity management,
