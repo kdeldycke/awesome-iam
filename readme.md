@@ -491,6 +491,9 @@ Control](https://en.wikipedia.org/wiki/Role-based_access_control).
 - [Athenz](https://github.com/yahoo/athenz) - Set of services and
     libraries supporting service authentication and role-based
     authorization (RBAC) for provisioning and configuration.
+- [Open Policy Agent](https://www.openpolicyagent.org) - OPA allows end to end testing of your policies accross SQL, Kubernetes, Terraform, Kafka, Envoy, s3 (via Minio), EC2/ECS/Lambda (linux).
+- [Policy Sentry](https://github.com/salesforce/policy_sentry) - Writing security-conscious IAM Policies by hand can be very tedious and inefficient.
+    Policy Sentry helps users to create least-privilege policies in a matter of seconds.
 - Description of an [authz system that is built around labeled
     security and RBAC
     concepts](https://news.ycombinator.com/item?id=20136831).
@@ -979,19 +982,15 @@ polish that experience.
 
 ## Open-Source Projects
 
-A couple of open-sources projects waiting to find a more appropriate
+Open-sources projects waiting to be moved in a more appropriate
 section above.
 
-- [Open Policy Agent](https://www.openpolicyagent.org) - OPA allows end to end testing of your policies accross SQL, Kubernetes, Terraform, Kafka, Envoy, s3 (via Minio), EC2/ECS/Lambda (linux).
 - [Casbin](https://github.com/casbin/casbin)
 - [IdentityServer](https://identityserver.io)
 - [gluu](https://www.gluu.org)
 - [Conjur](https://www.conjur.org)
 - [Gubernator](https://github.com/mailgun/gubernator) - High
-    Performance Rate Limiting MicroService and Library.
-- [Policy Sentry](https://github.com/salesforce/policy_sentry) - Writing security-conscious IAM Policies by hand can be very tedious and inefficient.
-    Policy Sentry helps users to create least-privilege policies in a matter of seconds. 
-    
+    Performance Rate Limiting MicroService and Library.    
     
 ## Commercial Solutions
 
