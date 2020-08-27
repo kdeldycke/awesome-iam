@@ -61,6 +61,9 @@ security meets. The [other pillar being billing & payments
     “A framework of policies and technologies for ensuring that the
     proper people in an enterprise have the appropriate access to
     technology resources”.
+- [IAM is hard. It's really hard.](https://twitter.com/kmcquade3/status/1291801858676228098) -
+   “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to 
+   $80 million fine for Capital One.
 - [As a user, I
     want…](https://mobile.twitter.com/oktopushup/status/1030457418206068736) -
     A meta-critic of account management, in which features expected by
