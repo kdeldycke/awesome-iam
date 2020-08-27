@@ -982,7 +982,7 @@ polish that experience.
 A couple of open-sources projects waiting to find a more appropriate
 section above.
 
-- [Open Policy Agent](https://github.com/open-policy-agent/opa)
+- [Open Policy Agent](https://www.openpolicyagent.org) - OPA allows end to end testing of your policies accross SQL, Kubernetes, Terraform, Kafka, Envoy, s3 (via Minio), EC2/ECS/Lambda (linux).
 - [Casbin](https://github.com/casbin/casbin)
 - [IdentityServer](https://identityserver.io)
 - [gluu](https://www.gluu.org)
