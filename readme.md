@@ -494,7 +494,7 @@ Control](https://en.wikipedia.org/wiki/Role-based_access_control).
 - [Athenz](https://github.com/yahoo/athenz) - Set of services and
     libraries supporting service authentication and role-based
     authorization (RBAC) for provisioning and configuration.
-- [Open Policy Agent](https://www.openpolicyagent.org) - OPA allows end to end testing of your policies accross SQL, Kubernetes, Terraform, Kafka, Envoy, s3 (via Minio), EC2/ECS/Lambda (linux).
+- [Open Policy Agent](https://www.openpolicyagent.org) - OPA allows end to end testing of your policies across SQL, Kubernetes, Terraform, Kafka, Envoy, s3 (via Minio), EC2/ECS/Lambda (linux).
 - [Policy Sentry](https://github.com/salesforce/policy_sentry) - Writing security-conscious IAM Policies by hand can be very tedious and inefficient.
     Policy Sentry helps users to create least-privilege policies in a matter of seconds.
 - [Aardvark and Repokid](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e) - Netflix tools to enforce least privilege on AWS. The idea is that the default policy on new things is deny all, and then it monitors cloudtrail for privilege failures and reconfigures IAM to allow the smallest possible privilege to get rid of that deny message.
