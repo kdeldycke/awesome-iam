@@ -12,7 +12,9 @@ security meets. The [other pillar being billing & payments
 💰](https://github.com/kdeldycke/awesome-billing/).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Contents
 
 - [Meta](#meta)
@@ -62,8 +64,8 @@ security meets. The [other pillar being billing & payments
     proper people in an enterprise have the appropriate access to
     technology resources”.
 - [IAM is hard. It's really hard.](https://twitter.com/kmcquade3/status/1291801858676228098) -
-   “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to 
-   $80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
+    “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to
+    $80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
 - [As a user, I
     want…](https://mobile.twitter.com/oktopushup/status/1030457418206068736) -
     A meta-critic of account management, in which features expected by
@@ -994,8 +996,8 @@ section above.
 - [gluu](https://www.gluu.org)
 - [Conjur](https://www.conjur.org)
 - [Gubernator](https://github.com/mailgun/gubernator) - High
-    Performance Rate Limiting MicroService and Library.    
-    
+    Performance Rate Limiting MicroService and Library.
+
 ## Commercial Solutions
 
 - [Rippling IDM](https://www.rippling.com/idm/) - Identity management,
