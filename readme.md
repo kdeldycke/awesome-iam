@@ -715,6 +715,9 @@ for analysis and handling of threats.
 - [Browser Fingerprinting: A
     survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be
     used as a source of signals to identify bots and fraudsters.
+- [JA3](https://github.com/salesforce/ja3) - Method for creating
+    SSL/TLS client fingerprints that should be easy to produce on any
+    platform and can be easily shared for threat intelligence.
 - [The challenges of file
     formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) -
     At one point you will let users upload files in your system. Here
