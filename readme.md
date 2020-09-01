@@ -327,6 +327,13 @@ Certificate-based authentication.
 - [`lemur`](https://github.com/Netflix/lemur) - Acts as a broker
     between CAs and environments, providing a central portal for
     developers to issue TLS certificates with 'sane' defaults.
+- [CFSSL](https://github.com/cloudflare/cfssl) - CloudFlare's PKI/TLS
+    swiss army knife. Command line tool and an HTTP API server for
+    signing, verifying, and bundling TLS certificates. 
+- [JA3](https://github.com/salesforce/ja3) - Method for creating
+    SSL/TLS client fingerprints that should be easy to produce on any
+    platform and can be easily shared for threat intelligence.
+
 
 ### JWT
 
@@ -715,9 +722,6 @@ for analysis and handling of threats.
 - [Browser Fingerprinting: A
     survey](https://arxiv.org/pdf/1905.01051.pdf) - Fingerprints can be
     used as a source of signals to identify bots and fraudsters.
-- [JA3](https://github.com/salesforce/ja3) - Method for creating
-    SSL/TLS client fingerprints that should be easy to produce on any
-    platform and can be easily shared for threat intelligence.
 - [The challenges of file
     formats](https://speakerdeck.com/ange/the-challenges-of-file-formats) -
     At one point you will let users upload files in your system. Here
