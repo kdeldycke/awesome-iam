@@ -726,6 +726,8 @@ for analysis and handling of threats.
     collected in one place. List types include usernames, passwords,
     URLs, sensitive data patterns, fuzzing payloads, web shells, and
     many more.
+- [PhishingKitTracker](https://github.com/neonprimetime/PhishingKitTracker) - 
+    CSV database of email addresses used by threat actor in phishing kits.
 - [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) - Tools to
     scan phone numbers using only free resources. The goal is to first
     gather standard information such as country, area, carrier and line
