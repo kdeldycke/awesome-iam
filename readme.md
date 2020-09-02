@@ -12,7 +12,9 @@ security meets. The [other pillar being billing & payments
 💰](https://github.com/kdeldycke/awesome-billing/).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Contents
 
 - [Meta](#meta)
@@ -329,11 +331,10 @@ Certificate-based authentication.
     developers to issue TLS certificates with 'sane' defaults.
 - [CFSSL](https://github.com/cloudflare/cfssl) - CloudFlare's PKI/TLS
     swiss army knife. Command line tool and an HTTP API server for
-    signing, verifying, and bundling TLS certificates. 
+    signing, verifying, and bundling TLS certificates.
 - [JA3](https://github.com/salesforce/ja3) - Method for creating
     SSL/TLS client fingerprints that should be easy to produce on any
     platform and can be easily shared for threat intelligence.
-
 
 ### JWT
 
@@ -733,7 +734,7 @@ for analysis and handling of threats.
     collected in one place. List types include usernames, passwords,
     URLs, sensitive data patterns, fuzzing payloads, web shells, and
     many more.
-- [PhishingKitTracker](https://github.com/neonprimetime/PhishingKitTracker) - 
+- [PhishingKitTracker](https://github.com/neonprimetime/PhishingKitTracker) -
     CSV database of email addresses used by threat actor in phishing kits.
 - [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) - Tools to
     scan phone numbers using only free resources. The goal is to first
