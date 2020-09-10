@@ -428,6 +428,8 @@ not-dead.
     incorporate practical experiences gathered since OAuth 2.0 was
     published and covers new threats relevant due to the broader
     application”.
+- [PKCE- Explained](https://www.loginradius.com/engineering/blog/pkce/) -
+    “PKCE is used to provide one more security layer to the authorization code flow in OAuth and OpenID Connect. This article will help you to understand everything about PKCE”.
 - [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
 - [Cierge](https://web.archive.org/web/20190402111431/https://pwdless.github.io/Cierge-Website/) -
     Open-source authentication server (OIDC) that handles user signup,
