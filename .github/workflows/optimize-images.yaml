@@ -16,7 +16,7 @@ jobs:
     name: calibreapp/image-actions
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.2
+      - uses: actions/checkout@v2.3.3
       - uses: calibreapp/image-actions@1.1.0
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
