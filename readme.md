@@ -169,6 +169,9 @@ Are you who you pretend to be?
     ([slides](https://rwc.iacr.org/2018/Slides/Lewi.pdf)) - TL;DR: Small
     root of trust, TLS isn't enough, certificate-based tokens and Crypto
     Auth Tokens (CATs).
+- [Separate the account, user and login/auth
+    details](https://news.ycombinator.com/item?id=21151830) - Sound advice to
+    lay down the foundation of a future-proof IAM API.
 
 ### Password-based
 
@@ -405,6 +408,8 @@ not-dead.
     Starts with an historical context on how these standards came to be, clears up the innacuracies in the vocabulary, then details the protocols and its pitfalls to make it less intimidating.
 - [Everything You Need to Know About OAuth (2.0)](https://gravitational.com/blog/everything-you-need-to-know-about-oauth/) -
     A good overview with a practical case study on how Teleport, an open-source remote access tool, allows users to log in through GitHub SSO.
+- [OAuth in one
+    picture](https://mobile.twitter.com/kamranahmedse/status/1276994010423361540) - A nice summary card.    
 - [How to Implement a Secure Central Authentication Service in Six
     Steps](https://engineering.shopify.com/blogs/engineering/implement-secure-central-authentication-service-six-steps) -
     Got multiple legacy systems to merge with their own login methods
@@ -687,6 +692,7 @@ energy to moderate it.
     community, where people can harm another person: you are on the
     hook. And if you can't afford to be on the hook, don't host an
     online community”.
+- [Keep out the bad apples: How to moderate a marketplace](https://twosided.substack.com/p/keep-out-the-bad-apples-how-to-moderate) - “With great power comes great responsibility. Some of my tips and tricks to make your marketplace a safer place.”
 - [The despair and darkness of people will get to you](https://restofworld.org/2020/facebook-international-content-moderators/) - Moderation of huge social networks is performed by an army of outsourced subcontractors. These people are exposed to the worst and generally ends up with PTSD.
 - [The Cleaners](https://thoughtmaybe.com/the-cleaners/) - A documentary on these teams of underpaid people removing posts and deleting accounts.
 
