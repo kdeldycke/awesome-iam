@@ -12,7 +12,9 @@ security meets. The [other pillar being billing & payments
 💰](https://github.com/kdeldycke/awesome-billing/).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Contents
 
 - [Meta](#meta)
@@ -409,7 +411,7 @@ not-dead.
 - [Everything You Need to Know About OAuth (2.0)](https://gravitational.com/blog/everything-you-need-to-know-about-oauth/) -
     A good overview with a practical case study on how Teleport, an open-source remote access tool, allows users to log in through GitHub SSO.
 - [OAuth in one
-    picture](https://mobile.twitter.com/kamranahmedse/status/1276994010423361540) - A nice summary card.    
+    picture](https://mobile.twitter.com/kamranahmedse/status/1276994010423361540) - A nice summary card.
 - [How to Implement a Secure Central Authentication Service in Six
     Steps](https://engineering.shopify.com/blogs/engineering/implement-secure-central-authentication-service-six-steps) -
     Got multiple legacy systems to merge with their own login methods
