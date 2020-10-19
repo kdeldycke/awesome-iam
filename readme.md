@@ -866,6 +866,7 @@ effects of dDOS.
 As the guardian of user's data, the IAM stack is deeply bounded by the
 respect of privacy.
 
+- [Privacy Enhancing Technologies Decision Tree](https://www.private-ai.ca/PETs_Decision_Tree.png) - A flowchart to select the right tool depending on data type and context.
 - [Paper we love:
     Privacy](https://github.com/papers-we-love/papers-we-love/tree/master/privacy) -
     A collection of scientific studies of schemes providing privacy by
