@@ -112,8 +112,12 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 - [Separate the account, user and login/auth
     details](https://news.ycombinator.com/item?id=21151830) - Sound advice to
     lay down the foundation of a future-proof IAM API.
+- [Identity Beyond Usernames](https://lord.io/blog/2020/usernames/) -
+    On the concept of usernames as identifiers, and the complexities
+    introduced when unicode characters meets uniqueness requirements.
 - [Kratos](https://github.com/ory/kratos) - User login, user registration, 2FA and profile management. 
 - [Zitadel](https://github.com/caos/zitadel) - An open-source solution in Go to manage all your systems, users and service accounts together with their roles, permissions, login flows and metadata.
+- [Conjur](https://github.com/cyberark/conjur) - Automatically secures secrets used by privileged users and machine identities.
 
 ## Cryptography
 
@@ -450,6 +454,7 @@ not-dead.
 - [Keycloak](https://www.keycloak.org) - Open-source Identity and
     Access Management. Supports OIDC, OAuth 2 and SAML 2, LDAP and AD
     directories, password policies.
+- [IdentityServer](https://github.com/IdentityServer/IdentityServer4) - Free, open source OpenID Connect and OAuth 2.0 framework for ASP.NET Core.
 
 ### SAML
 
@@ -515,6 +520,7 @@ Control](https://en.wikipedia.org/wiki/Role-based_access_control).
 - [Athenz](https://github.com/yahoo/athenz) - Set of services and
     libraries supporting service authentication and role-based
     authorization (RBAC) for provisioning and configuration.
+- [Casbin](https://github.com/casbin/casbin) - Open-source access control library for Golang projects.
 - [Open Policy Agent](https://www.openpolicyagent.org) - OPA allows end to end testing of your policies across SQL, Kubernetes, Terraform, Kafka, Envoy, s3 (via Minio), EC2/ECS/Lambda (linux).
 - [Policy Sentry](https://github.com/salesforce/policy_sentry) - Writing security-conscious IAM Policies by hand can be very tedious and inefficient.
     Policy Sentry helps users to create least-privilege policies in a matter of seconds.
@@ -528,6 +534,8 @@ Control](https://en.wikipedia.org/wiki/Role-based_access_control).
     look through the forums, customer tickets to try to find out where
     people are having trouble.” Policy specification is the science,
     enforcement is the art.
+- [Gubernator](https://github.com/mailgun/gubernator) - High
+    Performance Rate Limiting MicroService and Library.
 
 ### Macaroons
 
@@ -650,9 +658,6 @@ banner.
     or a phone number. (…) Vehicles were stolen and burned; drivers were
     assaulted, robbed and occasionally murdered. The company stuck with
     the low-friction sign-up system, even as violence increased.”
-- [Identity Beyond Usernames](https://lord.io/blog/2020/usernames/) -
-    On the concept of usernames as identifiers, and the complexities
-    introduced when unicode characters meets uniqueness requirements.
 - [A Comparison of Personal Name Matching: Techniques and Practical
     Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) -
     Customer name matching has lots of application, from account
@@ -1006,18 +1011,6 @@ polish that experience.
     how Slack decides to send a
     notification](https://twitter.com/ProductHunt/status/979912670970249221) -
     Notifications are hard. Really hard.
-
-## Open-Source Projects
-
-Open-sources projects waiting to be moved in a more appropriate
-section above.
-
-- [Casbin](https://github.com/casbin/casbin)
-- [IdentityServer](https://identityserver.io)
-- [gluu](https://www.gluu.org)
-- [Conjur](https://www.conjur.org)
-- [Gubernator](https://github.com/mailgun/gubernator) - High
-    Performance Rate Limiting MicroService and Library.
 
 ## Commercial Solutions
 
