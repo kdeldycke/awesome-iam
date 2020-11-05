@@ -16,7 +16,8 @@ security meets. The [other pillar being billing & payments
 ## Contents
 
 - [Meta](#meta)
-- [Basics](#basics)
+- [Security](#security)
+- [Account Management](#account-management)
 - [Cryptography](#cryptography)
 - [Zero-trust Network](#zero-trust-network)
 - [Authentication](#authentication)
