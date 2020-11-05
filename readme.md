@@ -57,13 +57,45 @@ security meets. The [other pillar being billing & payments
 
 ## Meta
 
+Definition, strategic importance of the domain, and critical feature.
+
 - [IAM definition](https://en.wikipedia.org/wiki/Identity_management) -
     “A framework of policies and technologies for ensuring that the
     proper people in an enterprise have the appropriate access to
     technology resources”.
+- [The EnterpriseReady SaaS Feature
+    Guides](https://www.enterpriseready.io) - The majority of the
+    features making B2B users happy will be implemented by the IAM
+    perimeter.
 - [IAM is hard. It's really hard.](https://twitter.com/kmcquade3/status/1291801858676228098) -
     “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to
     $80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
+- [IAM Is The Real Cloud
+    Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) -
+    A little *click-baity*, but author admit that “It depends on how
+    much you trust them to a) stay in business; b) not jack up your
+    prices; c) not deprecate services out from under you; and d) provide
+    more value to you in business acceleration than they take away in
+    flexibility.”
+
+## Security
+
+Security is one of the most central pillar of IAM foundations. Here are some broad concepts.
+
+- [Enterprise Information Security](https://infosec.mozilla.org) -
+    Mozilla's security and access guidelines.
+- [Mitigating Cloud
+    Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) -
+    “This document divides cloud vulnerabilities into four classes
+    (misconfiguration, poor access control, shared tenancy
+    vulnerabilities, and supply chain vulnerabilities)”.
+- [Open guide to AWS Security and
+    IAM](https://github.com/open-guides/og-aws#security-and-iam)
+
+## Account Management
+
+The foundation of IAM: the definition and life-cycle of users, groups, roles and permissions.
+
 - [As a user, I
     want…](https://mobile.twitter.com/oktopushup/status/1030457418206068736) -
     A meta-critic of account management, in which features expected by
@@ -76,31 +108,11 @@ security meets. The [other pillar being billing & payments
     that list lies account-centric features, diverse integration and
     import/export tools. I.e. all the enterprise customers needs to
     cover.
-
-## Basics
-
-Strategy and feature lists of the domain.
-
-- [The EnterpriseReady SaaS Feature
-    Guides](https://www.enterpriseready.io) - The majority of the
-    features making B2B users happy will be implemented by the IAM
-    perimeter.
-- [Enterprise Information Security](https://infosec.mozilla.org) -
-    Mozilla's security and access guidelines.
-- [Mitigating Cloud
-    Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) -
-    “This document divides cloud vulnerabilities into four classes
-    (misconfiguration, poor access control, shared tenancy
-    vulnerabilities, and supply chain vulnerabilities)”.
-- [Open guide to AWS Security and
-    IAM](https://github.com/open-guides/og-aws#security-and-iam)
-- [IAM Is The Real Cloud
-    Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) -
-    A little *click-baity*, but author admit that “It depends on how
-    much you trust them to a) stay in business; b) not jack up your
-    prices; c) not deprecate services out from under you; and d) provide
-    more value to you in business acceleration than they take away in
-    flexibility.”
+- [Separate the account, user and login/auth
+    details](https://news.ycombinator.com/item?id=21151830) - Sound advice to
+    lay down the foundation of a future-proof IAM API.
+- [Kratos](https://github.com/ory/kratos) - User login, user registration, 2FA and profile management. 
+- [Zitadel](https://github.com/caos/zitadel) - An open-source solution in Go to manage all your systems, users and service accounts together with their roles, permissions, login flows and metadata.
 
 ## Cryptography
 
@@ -162,16 +174,13 @@ always verify.”.
 
 ## Authentication
 
-Are you who you pretend to be?
+Protocols and technologies to verify that you are who you pretend to be.
 
 - [Scaling backend authentication at
     Facebook](https://www.youtube.com/watch?v=kY-Bkv3qxMc)
     ([slides](https://rwc.iacr.org/2018/Slides/Lewi.pdf)) - TL;DR: Small
     root of trust, TLS isn't enough, certificate-based tokens and Crypto
     Auth Tokens (CATs).
-- [Separate the account, user and login/auth
-    details](https://news.ycombinator.com/item?id=21151830) - Sound advice to
-    lay down the foundation of a future-proof IAM API.
 
 ### Password-based
 
@@ -647,8 +656,6 @@ banner.
     Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) -
     Customer name matching has lots of application, from account
     deduplication to fraud monitoring.
-- [`hive`](https://github.com/ory/hive) - User & Identity Provider &
-    Management.
 - [Statistically Likely
     Usernames](https://github.com/insidetrust/statistically-likely-usernames) -
     Wordlists for creating statistically likely usernames for use in
