@@ -49,7 +49,6 @@ security meets. The [other pillar being billing & payments
   - [Anonymization](#anonymization)
   - [GDPR](#gdpr)
 - [UX/UI](#uxui)
-- [Open-Source Projects](#open-source-projects)
 - [Commercial Solutions](#commercial-solutions)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
