@@ -1,6 +1,6 @@
 # 👤 Awesome Identity and Access Management [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
-<img align="right" width="50%" src="./cloud-software-stack-iam.jpg"/>
+<img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
 
 In a Stanford class on [Cloud computing
 overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf),
