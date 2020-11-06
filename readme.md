@@ -1,16 +1,5 @@
 # 👤 Awesome Identity and Access Management [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
-<img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
-
-In a Stanford class on [Cloud computing
-overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf),
-the software architecture is described as in the right diagram:
-
-This knowledge base cover the far perimeter of the cloud stack. It is
-one of the pillar of the cloud ecosystem, where users, products and
-security meets. The [other pillar being billing & payments
-💰](https://github.com/kdeldycke/awesome-billing/).
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
@@ -57,7 +46,18 @@ security meets. The [other pillar being billing & payments
 
 ## Meta
 
-Definition, strategic importance of the domain, and critical feature.
+<img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
+
+Set out the big picture: definition and strategic importance of the domain, plus some critical features.
+
+In a Stanford class on [Cloud computing
+overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf),
+the software architecture is described as in the right diagram:
+
+This knowledge base cover the far perimeter of the cloud stack. It is
+one of the pillar of the cloud ecosystem, where users, products and
+security meets. The [other pillar being billing & payments
+💰](https://github.com/kdeldycke/awesome-billing/).
 
 - [IAM definition](https://en.wikipedia.org/wiki/Identity_management) -
     “A framework of policies and technologies for ensuring that the
