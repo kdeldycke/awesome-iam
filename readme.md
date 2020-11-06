@@ -50,6 +50,7 @@ permissions, authentication and authorization.**
 - [Commercial Solutions](#commercial-solutions)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
+- [Footnotes](#footnotes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
