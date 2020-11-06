@@ -1,5 +1,14 @@
 # 👤 Awesome Identity and Access Management [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
+**A curated list of resources on managing accounts, users, groups, roles,
+permissions, authentication and authorization.**
+
+<p align="center">
+  <a href="https://github.com/kdeldycke/awesome-iam/">
+    <img src="https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg" alt="Awesome IAM header image">
+  </a>
+</p>
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
@@ -1064,3 +1073,8 @@ all companies operating in the domain.
 
 Your contributions are always welcome\! Please take a look at the
 [contribution guidelines](.github/contributing.md) first.
+
+## Footnotes
+
+The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) is based on a modified
+[photo](https://unsplash.com/photos/2LowviVHZ-E) by [Ben Sweet](https://unsplash.com/@benjaminsweet).
