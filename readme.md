@@ -58,16 +58,15 @@ permissions, authentication and authorization.**
 
 <img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
 
-Set out the big picture: definition and strategic importance of the domain, plus some critical features.
+In a Stanford class providing an [overview of cloud computing](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf),
+the software architecture of the platform is described as in the right diagram →
 
-In a Stanford class on [Cloud computing
-overview](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf),
-the software architecture is described as in the right diagram:
+This knowledge base cover the last perimeter of the cloud stack.
+It is one of the transversal pillar of the ecosystem, where users, products and
+security meets (the [other pillar being billing & payments
+💰](https://github.com/kdeldycke/awesome-billing/)).
 
-This knowledge base cover the far perimeter of the cloud stack. It is
-one of the pillar of the cloud ecosystem, where users, products and
-security meets. The [other pillar being billing & payments
-💰](https://github.com/kdeldycke/awesome-billing/).
+Here we set out the big picture: definition and strategic importance of the domain, plus some critical features.
 
 - [IAM definition](https://en.wikipedia.org/wiki/Identity_management) -
     “A framework of policies and technologies for ensuring that the
