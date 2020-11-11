@@ -5,7 +5,7 @@ permissions, authentication and authorization.**
 
 <p align="center">
   <a href="https://github.com/kdeldycke/awesome-iam/">
-    <img src="https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg" alt="Awesome IAM header image">
+    <img src="https://github.com/kdeldycke/awesome-iam/raw/main/assets/awesome-iam-header.jpg" alt="Awesome IAM header image">
   </a>
 </p>
 
