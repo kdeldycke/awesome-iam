@@ -487,62 +487,77 @@ that runs a data silo.
     is arcane at times. A another analogy might helps get more sense out
     of it.
 
-## Policies
+## Authorization
 
 Now that we know you are you, are you allowed to perform what you want
 to do?
 
-All things related to access control policies, from classic [Access
+Policy specification is the science, enforcement is the art.
+
+### Policy models
+
+As a concept, access control policies can be designed to follow very different archetypes, from classic [Access
 Control Lists](https://en.wikipedia.org/wiki/Access-control_list) to
 [Role Based Access
-Control](https://en.wikipedia.org/wiki/Role-based_access_control).
+Control](https://en.wikipedia.org/wiki/Role-based_access_control). In this section we explore lots of different patterns and architectures.
 
 - [Role Based Access
     Control](https://csrc.nist.gov/projects/role-based-access-control) -
-    NIST project to explain RBAC concepts, costs and benefits, the
-    economic impact of RBAC, design and implementation issues, the RBAC
-    standard, and advanced research topics.
+    A NIST project to explain RBAC concepts, costs and benefits, the
+    economic impact of RBAC, design and implementation issues, the standard itself, and advanced research topics.
 - [Semantic-based Automated Reasoning for AWS Access Policies using
     SMT](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) -
-    Zelkova is AWS's system performing symbolic analysis of IAM
-    policies to solve the reachability of resources according user's
+    Zelkova is how AWS does it. This system perform symbolic analysis of IAM
+    policies, and solve the reachability of resources according user's
     rights and access constraints. Also see the higher-level
     [introduction given at
     re:inforce 2019](https://youtu.be/x6wsTFnU3eY?t=2111).
 - [Zanzibar: Google's Consistent, Global Authorization
-    System](https://ai.google/research/pubs/pub48190) - scales to
+    System](https://ai.google/research/pubs/pub48190) - Scales to
     trillions of access control lists and millions of authorization
     requests per second to support services used by billions of people.
     It has maintained 95th-percentile latency of less than 10
     milliseconds and availability of greater than 99.999% over 3 years
     of production use. [Other bits not in the
     paper](https://twitter.com/LeaKissner/status/1136626971566149633).
-- [`keto`](https://github.com/ory/keto) - Policy decision point. It
-    uses a set of access control policies, similar to AWS IAM Policies,
+- Description of an [authz system that is built around labeled
+    security and RBAC
+    concepts](https://news.ycombinator.com/item?id=20136831).
+    
+### Open-source policy frameworks
+
+Collection of open-source projects if you're looking to roll your own policy implementation.
+    
+- [Keto](https://github.com/ory/keto) - Policy decision point. It
+    uses a set of access control policies, similar to AWS policies,
     in order to determine whether a subject is authorized to perform a
     certain action on a resource.
-- [`ladon`](https://github.com/ory/ladon) - Access control library,
-    inspired by [AWS IAM
-    Policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html).
+- [Ladon](https://github.com/ory/ladon) - Access control library,
+    inspired by AWS.
 - [Athenz](https://github.com/yahoo/athenz) - Set of services and
     libraries supporting service authentication and role-based
     authorization (RBAC) for provisioning and configuration.
 - [Casbin](https://github.com/casbin/casbin) - Open-source access control library for Golang projects.
-- [Open Policy Agent](https://www.openpolicyagent.org) - OPA allows end to end testing of your policies across SQL, Kubernetes, Terraform, Kafka, Envoy, s3 (via Minio), EC2/ECS/Lambda (linux).
-- [Policy Sentry](https://github.com/salesforce/policy_sentry) - Writing security-conscious IAM Policies by hand can be very tedious and inefficient.
-    Policy Sentry helps users to create least-privilege policies in a matter of seconds.
-- [Aardvark and Repokid](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e) - Netflix tools to enforce least privilege on AWS. The idea is that the default policy on new things is deny all, and then it monitors cloudtrail for privilege failures and reconfigures IAM to allow the smallest possible privilege to get rid of that deny message.
-- Description of an [authz system that is built around labeled
-    security and RBAC
-    concepts](https://news.ycombinator.com/item?id=20136831).
+- [Open Policy Agent](https://github.com/open-policy-agent) - Allows end to end testing of your policies across SQL, Kubernetes, Terraform, Kafka, Envoy, S3 (via Minio), EC2/ECS/Lambda (Linux).
+- [Gubernator](https://github.com/mailgun/gubernator) - High
+    performance rate-limiting micro-service and library.
+
+### AWS policy tools
+
+Tools and resources exclusively targetting the [AWS IAM
+    policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) ecosystem.
+
 - [Become an AWS IAM Policy
     Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - “In my nearly
     5 years at Amazon, I carve out a little time each day, each week to
     look through the forums, customer tickets to try to find out where
-    people are having trouble.” Policy specification is the science,
-    enforcement is the art.
-- [Gubernator](https://github.com/mailgun/gubernator) - High
-    Performance Rate Limiting MicroService and Library.
+    people are having trouble.”
+- [Cloudsplaining](https://github.com/salesforce/cloudsplaining) - Security assessment tool that identifies violations of least privilege and generates a risk-prioritized report.
+- [Policy Sentry](https://github.com/salesforce/policy_sentry) - Writing security-conscious IAM Policies by hand can be very tedious and inefficient.
+    Policy Sentry helps users to create least-privilege policies in a matter of seconds.
+- [Aardvark and Repokid](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e) - Netflix tools to enforce least privilege on AWS. The idea is that the default policy on new things is deny all, and then it monitors cloudtrail for privilege failures and reconfigures IAM to allow the smallest possible privilege to get rid of that deny message.
+- [Principal Mapper](https://github.com/nccgroup/PMapper) - Quickly evaluates permissions.
+- [PolicyUniverse](https://github.com/Netflix-Skunkworks/policyuniverse) - Parse and process AWS policies, statements, ARNs, and wildcards.
 
 ### Macaroons
 
