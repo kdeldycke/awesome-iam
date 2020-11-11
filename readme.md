@@ -98,6 +98,7 @@ Security is one of the most central pillar of IAM foundations. Here are some bro
     “This document divides cloud vulnerabilities into four classes
     (misconfiguration, poor access control, shared tenancy
     vulnerabilities, and supply chain vulnerabilities)”.
+- [Cartography](https://github.com/lyft/cartography) - A Neo4J-based tool to map out dependencies and relationships between services and resources. Supports AWS, GCP, GSuite, Okta and Github.
 - [Open guide to AWS Security and
     IAM](https://github.com/open-guides/og-aws#security-and-iam)
 
@@ -208,6 +209,7 @@ Protocols and technologies to verify that you are who you pretend to be.
     long-standing password-security practices such as password
     expiration policies, and points instead to better alternatives such
     as enforcing banned-password lists and MFA.
+- [Practical Recommendations for Stronger, More Usable Passwords](http://www.andrew.cmu.edu/user/nicolasc/publications/Tan-CCS20.pdf) - This study recommend the association of: blocklist checks against commonly leaked passwords, password policies without character-class requirements, minimum-strength policies.
 - [Banks, Arbitrary Password Restrictions and Why They Don't
     Matter](https://www.troyhunt.com/banks-arbitrary-password-restrictions-and-why-they-dont-matter/) -
     “Arbitrary low limits on length and character composition are bad.
@@ -225,9 +227,7 @@ Protocols and technologies to verify that you are who you pretend to be.
     Passwords](https://github.com/WICG/change-password-url) -
     Specification defining site resource for password updates.
 - [How to change the hashing scheme of already hashed user's
-    passwords](https://news.ycombinator.com/item?id=20109360) - You're
-    not stuck with a legacy password hashing algorithm: this explain how
-    to upgrade weak hashing algo.
+    passwords](https://news.ycombinator.com/item?id=20109360) - Good news: you're not stuck with a legacy password saving scheme. Here is a trick to transparently upgrade to stronger hashing algorithm.
 
 ### Password-less
 
@@ -921,7 +921,8 @@ respect of privacy.
 - [Email marketing regulations around the
     world](https://github.com/threeheartsdigital/email-marketing-regulations) -
     As the world becomes increasingly connected, the email marketing
-    regulation landscape becomes more and more complex.
+    regulation landscape becomes more and more complex.    
+- [World's Biggest Data Breaches & Hacks](https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/) - Don't be the next company leaking your customer's data.
 
 ### Anonymization
 
