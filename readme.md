@@ -38,7 +38,7 @@ permissions, authentication and authorization.**
   - [Moderation](#moderation)
   - [Threat Intelligence](#threat-intelligence)
   - [Captcha](#captcha)
-- [Blacklists](#blacklists)
+- [Blocklists](#blocklists)
   - [Hostnames and Subdomains](#hostnames-and-subdomains)
   - [Emails](#emails)
   - [Reserved IDs](#reserved-ids)
@@ -166,9 +166,9 @@ can't be overlooked.
 ## Zero-trust Network
 
 Zero trust network security operates under the principle “never trust,
-always verify.”.
+always verify”.
 
-- [BeyondCorp - A New Approach to Enterprise
+- [BeyondCorp: A New Approach to Enterprise
     Security](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf) -
     Quick overview of Google's Zero-trust Network initiative.
 - [What is BeyondCorp? What is Identity-Aware
@@ -380,8 +380,7 @@ bearer's token.
 - [Hardcoded secrets, unverified tokens, and other common JWT
     mistakes](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) -
     A good recap of all JWT pitfalls.
-- [Blacklisting JSON Web Token API
-    Keys](https://auth0.com/blog/blacklist-json-web-token-api-keys/) -
+- [Adding JSON Web Token API Keys to a DenyList](https://auth0.com/blog/denylist-json-web-token-api-keys/) -
     On token invalidation.
 - [Stop using JWT for
     sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/),
@@ -788,10 +787,10 @@ Another line of defense against spammers.
     tedious UI-wise, then list alternatives.
 - [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
 
-## Blacklists
+## Blocklists
 
 The first mechanical line of defense against abuses consist in plain and
-simple black-listing. This is the low-hanging fruit of fraud fighting,
+simple deny-listing. This is the low-hanging fruit of fraud fighting,
 but you'll be surprised how they're still effective.
 
 - [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - Perfect
@@ -800,7 +799,7 @@ but you'll be surprised how they're still effective.
     exist for specific data types.
 - [How Radix trees made blocking IPs 5000 times
     faster](https://blog.sqreen.com/demystifying-radix-trees/) - Radix
-    trees might come handy to speed-up IP blacklists.
+    trees might come handy to speed-up IP blocklists.
 
 ### Hostnames and Subdomains
 
@@ -824,7 +823,7 @@ effects of dDOS.
     Subdomains](https://github.com/internetwache/CT_subdomains) - An
     hourly updated list of subdomains gathered from certificate
     transparency logs.
-- Subdomain blacklists: [\#1](https://gist.github.com/artgon/5366868),
+- Subdomain denylists: [\#1](https://gist.github.com/artgon/5366868),
     [\#2](https://github.com/sandeepshetty/subdomain-blacklist/blob/master/subdomain-blacklist.txt),
     [\#3](https://github.com/nccgroup/typofinder/blob/master/TypoMagic/datasources/subdomains.txt),
     [\#4](https://www.quora.com/How-do-sites-prevent-vanity-URLs-from-colliding-with-future-features).
@@ -838,8 +837,8 @@ effects of dDOS.
 - [`pyisp`](https://github.com/ActivisionGameScience/pyisp) - IP to
     ISP lookup library (includes ASN).
 - [AMF site
-    blacklist](https://www.amf-france.org/Epargne-Info-Service/Proteger-son-epargne/Listes-noires) -
-    Official French blacklist of money-related fraud sites.
+    blocklist](https://www.amf-france.org/Epargne-Info-Service/Proteger-son-epargne/Listes-noires) -
+    Official French denylist of money-related fraud sites.
 
 ### Emails
 
@@ -877,7 +876,7 @@ effects of dDOS.
 
 - [List of Dirty, Naughty, Obscene, and Otherwise Bad
     Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) -
-    Profanity blacklist from Shutterstock.
+    Profanity blocklist from Shutterstock.
 - [`profanity-check`](https://github.com/vzhou842/profanity-check) -
     Uses a linear SVM model trained on 200k human-labeled samples of
     clean and profane text strings.
