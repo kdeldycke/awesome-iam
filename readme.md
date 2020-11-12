@@ -9,6 +9,11 @@ permissions, authentication and authorization.**
   </a>
 </p>
 
+<p align="center">
+  <i>Trusting is hard. Knowing who to trust, even harder.</i><br>
+  — Maria V. Snyder<sup id="intro-quote-ref"><a href="#intro-quote-def">[1]</a></sup>
+</p>
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
@@ -1096,3 +1101,6 @@ Your contributions are always welcome\! Please take a look at the
 
 The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) is based on a modified
 [photo](https://unsplash.com/photos/2LowviVHZ-E) by [Ben Sweet](https://unsplash.com/@benjaminsweet).
+
+<!--lint disable no-undefined-references-->
+<a name="intro-quote-def">[1]</a>: [*Poison Study*](https://amzn.com/0778324338/?tag=kevideld-20) (Mira, 2007). [\[↑\]](#intro-quote-ref)
