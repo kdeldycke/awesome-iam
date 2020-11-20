@@ -15,7 +15,9 @@ permissions, authentication and authorization.**
 </p>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Contents
 
 - [Meta](#meta)
@@ -531,11 +533,11 @@ Control](https://en.wikipedia.org/wiki/Role-based_access_control). In this secti
 - Description of an [authz system that is built around labeled
     security and RBAC
     concepts](https://news.ycombinator.com/item?id=20136831).
-    
+
 ### Open-source policy frameworks
 
 Collection of open-source projects if you're looking to roll your own policy implementation.
-    
+
 - [Keto](https://github.com/ory/keto) - Policy decision point. It
     uses a set of access control policies, similar to AWS policies,
     in order to determine whether a subject is authorized to perform a
@@ -553,7 +555,7 @@ Collection of open-source projects if you're looking to roll your own policy imp
 ### AWS policy tools
 
 Tools and resources exclusively targetting the [AWS IAM
-    policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) ecosystem.
+policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) ecosystem.
 
 - [Become an AWS IAM Policy
     Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - “In my nearly
@@ -929,7 +931,7 @@ respect of privacy.
 - [Email marketing regulations around the
     world](https://github.com/threeheartsdigital/email-marketing-regulations) -
     As the world becomes increasingly connected, the email marketing
-    regulation landscape becomes more and more complex.    
+    regulation landscape becomes more and more complex.
 - [World's Biggest Data Breaches & Hacks](https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/) - Don't be the next company leaking your customer's data.
 
 ### Anonymization
@@ -1103,4 +1105,5 @@ The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awe
 [photo](https://unsplash.com/photos/2LowviVHZ-E) by [Ben Sweet](https://unsplash.com/@benjaminsweet).
 
 <!--lint disable no-undefined-references-->
-<a name="intro-quote-def">[1]</a>: [*Poison Study*](https://amzn.com/0778324338/?tag=kevideld-20) (Mira, 2007). [\[↑\]](#intro-quote-ref)
+
+<a name="intro-quote-def">\[1\]</a>: [*Poison Study*](https://amzn.com/0778324338/?tag=kevideld-20) (Mira, 2007). [\[↑\]](#intro-quote-ref)
