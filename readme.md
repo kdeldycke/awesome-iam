@@ -72,7 +72,11 @@ permissions, authentication and authorization.</strong>
 
 In a Stanford class providing an [overview of cloud computing](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture of the platform is described as in the right diagram →
 
+<!--lint disable double-link-->
+
 This knowledge base cover the last perimeter of the cloud stack. It is one of the transversal pillar of the ecosystem, where users, products and security meets (the [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/)).
+
+<!--lint enable double-link-->
 
 Here we set out the big picture: definition and strategic importance of the domain, plus some critical features.
 
@@ -118,7 +122,7 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 
 The whole authentication stack is based on cryptography primitives. This can't be overlooked.
 
-- [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) - An up to date set of recommendations for developers who are not cryptography engineers. There's even a [ shorter summary](https://news.ycombinator.com/item?id=16749140) available.
+- [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) - An up to date set of recommendations for developers who are not cryptography engineers. There's even a [shorter summary](https://news.ycombinator.com/item?id=16749140) available.
 
 - [Security Recommendations for Any Device that Depends on Randomly-Generated Numbers](https://www.av8n.com/computer/htm/secure-random.htm) - “The phrase ‘random number generator’ should be parsed as follows: It is a random generator of numbers. It is not a generator of random numbers.”
 
@@ -240,7 +244,7 @@ Certificate-based authentication.
 
 - [`lemur`](https://github.com/Netflix/lemur) - Acts as a broker between CAs and environments, providing a central portal for developers to issue TLS certificates with 'sane' defaults.
 
-- [CFSSL](https://github.com/cloudflare/cfssl) - CloudFlare's PKI/TLS swiss army knife. Command line tool and an HTTP API server for signing, verifying, and bundling TLS certificates.
+- [CFSSL](https://github.com/cloudflare/cfssl) - A swiss army knife for PKI/TLS by CloudFlare. Command line tool and an HTTP API server for signing, verifying, and bundling TLS certificates.
 
 - [JA3](https://github.com/salesforce/ja3) - Method for creating SSL/TLS client fingerprints that should be easy to produce on any platform and can be easily shared for threat intelligence.
 
@@ -428,7 +432,11 @@ A critical intermediation complex driven by a policy and constraint by local law
 
 - [What the Heck is Trust and Safety?](https://www.linkedin.com/pulse/what-heck-trust-safety-kenny-shi) - A couple of real use-case to demonstrate the role of a TnS team.
 
+<!--lint disable double-link-->
+
 - [Awesome List of Billing and Payments: Fraud links](https://github.com/kdeldycke/awesome-billing#fraud) - Section dedicated to fraud management for billing and payment, from our sister repository.
+
+<!--lint enable double-link-->
 
 ### User Identity
 
