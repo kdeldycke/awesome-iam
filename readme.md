@@ -1,12 +1,15 @@
-# 👤 Awesome Identity and Access Management [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
-
-**A curated list of resources on managing accounts, users, groups, roles,
-permissions, authentication and authorization.**
+<!--lint disable awesome-heading-->
 
 <p align="center">
   <a href="https://github.com/kdeldycke/awesome-iam/">
-    <img src="https://github.com/kdeldycke/awesome-iam/raw/main/assets/awesome-iam-header.jpg" alt="Awesome IAM header image">
+    <img src="https://github.com/kdeldycke/awesome-iam/raw/main/assets/awesome-iam-header.jpg" alt="Awesome IAM">
   </a>
+</p>
+
+<p align="center">
+  <strong>A curated list of resources on managing accounts, users, roles,
+permissions, authentication and authorization.</strong>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
 </p>
 
 <p align="center">
