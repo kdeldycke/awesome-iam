@@ -288,7 +288,7 @@ Protocols and technologies to verify that you are who you pretend to be.
     Microsoft](https://www.youtube.com/watch?v=B_mhJO2qHlQ) - The
     primary source of account hacks is password spraying (on legacy auth
     like SMTP, IMAP, POP, etc.), second is replay attack. Takeaway:
-    password are insecure, use en enforce MFA.
+    password are insecure, use and enforce MFA.
 
 - [Beyond Passwords: 2FA, U2F and Google Advanced
     Protection](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) -
