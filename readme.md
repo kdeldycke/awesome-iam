@@ -23,8 +23,6 @@ permissions, authentication and authorization.</strong>
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 - [Meta](#meta)
 - [Security](#security)
 - [Account Management](#account-management)
