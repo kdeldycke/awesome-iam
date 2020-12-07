@@ -200,8 +200,8 @@ Protocols and technologies to verify that you are who you pretend to be.
 
 - [Scaling backend authentication at
     Facebook](https://www.youtube.com/watch?v=kY-Bkv3qxMc)
-    ([slides](https://rwc.iacr.org/2018/Slides/Lewi.pdf)) - TL;DR: Small
-    root of trust, TLS isn't enough, certificate-based tokens and Crypto
+    ([slides](https://rwc.iacr.org/2018/Slides/Lewi.pdf)) - How-to in a nutshell: 1. Small
+    root of trust; 2. TLS isn't enough; 3. Certificate-based tokens; 4. Crypto
     Auth Tokens (CATs).
 
 ### Password-based
@@ -408,7 +408,7 @@ bearer's token.
     concrete implementations.
 - [JOSE is a Bad Standard That Everyone Should
     Avoid](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) -
-    TL;DR: the standards are either completely broken or complex
+    The standards are either completely broken or complex
     minefields hard to navigate.
 - [JWT.io](https://jwt.io) - Allows you to decode, verify and generate
     JWT.
@@ -572,8 +572,7 @@ policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) 
 A clever curiosity to distribute and delegate authorization.
 
 - [Google's Macaroons in Five Minutes or
-    Less](https://blog.bren2010.io/2014/12/04/macaroons.html) - TL;DR:
-    if I'm given a Macaroon that authorizes me to perform some action(s)
+    Less](https://blog.bren2010.io/2014/12/04/macaroons.html) - If I'm given a Macaroon that authorizes me to perform some action(s)
     under certain restrictions, I can non-interactively build a second
     Macaroon with stricter restrictions that I can then give to you.
 - [Macaroons: Cookies with Contextual Caveats for Decentralized
@@ -581,7 +580,7 @@ A clever curiosity to distribute and delegate authorization.
     Cloud](https://ai.google/research/pubs/pub41892) - Google's original
     paper.
 - [Google paper's author compares Macaroons and
-    JWTs](https://news.ycombinator.com/item?id=14294463) - TL;DR: As a
+    JWTs](https://news.ycombinator.com/item?id=14294463) - As a
     consumer/verifier of macaroons, they allow you (through third-party
     caveats) to defer some authorization decisions to someone else. JWTs
     don't.
@@ -1022,11 +1021,11 @@ polish that experience.
     onboarding.
 - [Don't get clever with login
     forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) -
-    TL;DR: create login forms that are simple, linkable, predictable,
+    Create login forms that are simple, linkable, predictable,
     and play nicely with password managers.
 - [Why are the username and password on two different
     pages?](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) -
-    TL;DR: to support both SSO and password-based login. Now if
+    To support both SSO and password-based login. Now if
     breaking the login funnel in 2 steps is too infuriating to users,
     solve this as Dropbox does: [an AJAX request when you enter your
     username](https://news.ycombinator.com/item?id=19174355).
