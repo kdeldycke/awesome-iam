@@ -16,8 +16,51 @@ permissions, authentication and authorization.**
 
 ## Contents
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Meta](#meta)
+- [Security](#security)
+- [Account Management](#account-management)
+- [Cryptography](#cryptography)
+- [Zero-trust Network](#zero-trust-network)
+- [Authentication](#authentication)
+  - [Password-based](#password-based)
+  - [Password-less](#password-less)
+  - [Security Key](#security-key)
+  - [Multi-Factor](#multi-factor)
+  - [SMS-based](#sms-based)
+  - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
+  - [JWT](#jwt)
+  - [OAuth2 & OpenID](#oauth2--openid)
+  - [SAML](#saml)
+- [Authorization](#authorization)
+  - [Policy models](#policy-models)
+  - [Open-source policy frameworks](#open-source-policy-frameworks)
+  - [AWS policy tools](#aws-policy-tools)
+  - [Macaroons](#macaroons)
+- [Secret Management](#secret-management)
+  - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
+- [Trust & Safety](#trust--safety)
+  - [User Identity](#user-identity)
+  - [Fraud](#fraud)
+  - [Moderation](#moderation)
+  - [Threat Intelligence](#threat-intelligence)
+  - [Captcha](#captcha)
+- [Blocklists](#blocklists)
+  - [Hostnames and Subdomains](#hostnames-and-subdomains)
+  - [Emails](#emails)
+  - [Reserved IDs](#reserved-ids)
+  - [Profanity](#profanity)
+- [Privacy](#privacy)
+  - [Anonymization](#anonymization)
+  - [GDPR](#gdpr)
+- [UX/UI](#uxui)
+- [Commercial Solutions](#commercial-solutions)
+- [Competitive Analysis](#competitive-analysis)
+- [History](#history)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Meta
 
