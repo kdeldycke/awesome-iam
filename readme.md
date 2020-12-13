@@ -378,6 +378,8 @@ Tools and resources exclusively targetting the [AWS IAM policies](http://docs.aw
 
 - [PolicyUniverse](https://github.com/Netflix-Skunkworks/policyuniverse) - Parse and process AWS policies, statements, ARNs, and wildcards.
 
+- [IAM Floyd](https://github.com/udondan/iam-floyd) - AWS IAM policy statement generator with fluent interface. Helps with creating type safe IAM policies and writing more restrictive/secure statements by offering conditions and ARN generation via IntelliSense. Available for Node.js, Python, .Net and Java.
+
 ### Macaroons
 
 A clever curiosity to distribute and delegate authorization.
