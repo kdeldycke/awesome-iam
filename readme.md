@@ -17,6 +17,12 @@ permissions, authentication and authorization.</strong>
   — Maria V. Snyder<sup id="intro-quote-ref"><a href="#intro-quote-def">[1]</a></sup>
 </p>
 
+<!--lint disable double-link-->
+
+IAM stands for Identity and Access Management, and is more than handling user accounts. This complex perimeter encompass authentication, authorization and privacy. It is an essential pillar of the cloud stack, where users, products and security meets. The [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/). This knowledge base expose all the technologies, protocols and jargon of the domain in a comprehensive and actionable manner.
+
+<!--lint enable double-link-->
+
 ## Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -74,13 +80,7 @@ permissions, authentication and authorization.</strong>
 
 In a Stanford class providing an [overview of cloud computing](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture of the platform is described as in the right diagram →
 
-<!--lint disable double-link-->
-
-This knowledge base cover the last perimeter of the cloud stack. It is one of the transversal pillar of the ecosystem, where users, products and security meets (the [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/)).
-
-<!--lint enable double-link-->
-
-Here we set out the big picture: definition and strategic importance of the domain, plus some critical features.
+Here we set out the big picture: definition and strategic importance of the domain, its place in the larger ecosystem, plus some critical features.
 
 - [IAM definition](https://en.wikipedia.org/wiki/Identity_management) - “A framework of policies and technologies for ensuring that the proper people in an enterprise have the appropriate access to technology resources”.
 
