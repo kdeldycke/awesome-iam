@@ -29,9 +29,7 @@ IAM stands for Identity and Access Management, and is more than handling user ac
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Meta](#meta)
+- [Overview](#overview)
 - [Security](#security)
 - [Account Management](#account-management)
 - [Cryptography](#cryptography)
@@ -74,7 +72,7 @@ IAM stands for Identity and Access Management, and is more than handling user ac
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Meta
+## Overview
 
 <img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
 
