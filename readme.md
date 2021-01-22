@@ -31,6 +31,8 @@ This knowledge base expose all the technologies, protocols and jargon of the dom
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 - [Overview](#overview)
 - [Security](#security)
 - [Account Management](#account-management)
