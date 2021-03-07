@@ -84,8 +84,6 @@ In a Stanford class providing an [overview of cloud computing](http://web.stanfo
 
 Here we set out the big picture: definition and strategic importance of the domain, its place in the larger ecosystem, plus some critical features.
 
-- [IAM definition](https://en.wikipedia.org/wiki/Identity_management) - “A framework of policies and technologies for ensuring that the proper people in an enterprise have the appropriate access to technology resources”.
-
 - [The EnterpriseReady SaaS Feature Guides](https://www.enterpriseready.io) - The majority of the features making B2B users happy will be implemented by the IAM perimeter.
 
 - [IAM is hard. It's really hard.](https://twitter.com/kmcquade3/status/1291801858676228098) - “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to $80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
