@@ -33,6 +33,7 @@ This knowledge base expose all the technologies, protocols and jargon of the dom
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Contents](#contents)
 - [Overview](#overview)
 - [Security](#security)
 - [Account Management](#account-management)
@@ -73,6 +74,8 @@ This knowledge base expose all the technologies, protocols and jargon of the dom
 - [Commercial Solutions](#commercial-solutions)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
+- [Contributing](#contributing)
+- [Footnotes](#footnotes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -275,6 +278,8 @@ Certificate-based authentication.
 - [JWT.io](https://jwt.io) - Allows you to decode, verify and generate JWT.
 
 - [`loginsrv`](https://github.com/tarent/loginsrv) - Standalone minimalistic login server providing a JWT login for multiple login backends (htpasswd, OSIAM, user/password, HTTP basic authentication, OAuth2: GitHub, Google, Bitbucket, Facebook, Gitlab).
+
+- [JWT Signing Algorithms](https://www.loginradius.com/blog/async/jwt-signing-algorithms/) - Difference between JWT Signing Algorithms and when to use them.
 
 ### OAuth2 & OpenID
 
