@@ -302,6 +302,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [OAuth 2.0 Security Best Current Practice](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15) - “Updates and extends the OAuth 2.0 Security Threat Model to incorporate practical experiences gathered since OAuth 2.0 was published and covers new threats relevant due to the broader application”.
 
+- [PKCE Explained](https://www.loginradius.com/engineering/blog/pkce/) - “PKCE is used to provide one more security layer to the authorization code flow in OAuth and OpenID Connect.”
+
 - [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
 
 - [Cierge](https://web.archive.org/web/20190402111431/https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
