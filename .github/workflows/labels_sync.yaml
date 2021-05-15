@@ -1,18 +1,14 @@
+---
 name: Sync labels
-on:
-  push:
-    # Only targets default branch to avoid amplification effects of
-    # doing the exact same stuff in multiple non-rebased branches.
-    branches:
-      - 'main'
+"on": issues
 
 jobs:
 
   sync_labels:
     name: Sync labels
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@v2.3.2
-    - uses: lannonbr/issue-label-manager-action@2.0.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2.3.4
+      - uses: lannonbr/issue-label-manager-action@2.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
