@@ -116,8 +116,6 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 
 - [Kratos](https://github.com/ory/kratos) - User login, user registration, 2FA and profile management.
 
-- [Zitadel](https://github.com/caos/zitadel) - An open-source solution in Go to manage all your systems, users and service accounts together with their roles, permissions, login flows and metadata.
-
 - [Conjur](https://github.com/cyberark/conjur) - Automatically secures secrets used by privileged users and machine identities.
 
 ## Cryptography
@@ -317,6 +315,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 - [IdentityServer](https://github.com/IdentityServer/IdentityServer4) - Free, open source OpenID Connect and OAuth 2.0 framework for ASP.NET Core.
 
 - [authentik](https://goauthentik.io/?#correctness) - Open-source Identity Provider similar to Keycloak.
+
+- [ZITADEL](https://github.com/caos/zitadel) - An Open-Source solution built with Go and Angular to manage all your systems, users and service accounts together with their roles and external identities. ZITADEL provides you with OIDC, OAuth 2.0, login & register flows, passwordless and MFA authentication. All this is built on top of eventsourcing in combination with CQRS to provide a great audit trail.
 
 ### SAML
 
