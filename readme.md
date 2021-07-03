@@ -216,6 +216,8 @@ Protocols and technologies to verify that you are who you pretend to be.
 
 - [Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/) - On the UX aspects of 2FA.
 
+- [2FA is missing a key feature](https://syslog.ravelin.com/2fa-is-missing-a-key-feature-c781c3861db) - “When my 2FA code is entered incorrectly I’d like to know about it”.
+
 ### SMS-based
 
 TL;DR: don't. For details, see articles below.
@@ -657,6 +659,8 @@ As stakeholder of the IAM stack, you're going to implement in the backend the ma
 - [Conversion Optimization](https://www.nickkolenda.com/conversion-optimization-psychology/#cro-tactic11) - A collection of tactics to increase the chance of users finishing the account creation funnel.
 
 - [Trello User Onboarding](https://growth.design/case-studies/trello-user-onboarding/) - A detailed case study, nicely presented, on how to improve user onboarding.
+
+- [11 Tips for Better Signup / Login UX](https://learnui.design/blog/tips-signup-login-ux.html) - Some basic tips on the login form.
 
 - [Don't get clever with login forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - Create login forms that are simple, linkable, predictable, and play nicely with password managers.
 
