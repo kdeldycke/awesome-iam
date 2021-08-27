@@ -70,7 +70,6 @@ This knowledge base expose all the technologies, protocols and jargon of the dom
   - [Anonymization](#anonymization)
   - [GDPR](#gdpr)
 - [UX/UI](#uxui)
-- [Commercial Solutions](#commercial-solutions)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
 
@@ -675,10 +674,6 @@ As stakeholder of the IAM stack, you're going to implement in the backend the ma
 - [Remove password masking](http://passwordmasking.com) - Summarizes the results from an academic study investigating the impact removing password masking has on consumer trust.
 
 - [For anybody who thinks "I could build that in a weekend," this is how Slack decides to send a notification](https://twitter.com/ProductHunt/status/979912670970249221) - Notifications are hard. Really hard.
-
-## Commercial Solutions
-
-- [Rippling IDM](https://www.rippling.com/idm/) - Identity management, SSO.
 
 ## Competitive Analysis
 
