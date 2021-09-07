@@ -357,9 +357,11 @@ Policy specification is the science, enforcement is the art.
 
 As a concept, access control policies can be designed to follow very different archetypes, from classic [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) to [Role Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control). In this section we explore lots of different patterns and architectures.
 
-- [In Search For a Perfect Access Control System](https://goteleport.com/blog/access-controls/) - An overview of the most popular types of authorization schemes, and their historical origins.
+- [RBAC like it was meant to be](https://tailscale.com/blog/rbac-like-it-was-meant-to-be/) - How we got from DAC (unix permissions, secret URL), to MAC (DRM, MFA, 2FA, SELinux), to RBAC. Details how the latter allows for better modeling of policies, ACLs, users and groups.
 
-- [Role Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) - A NIST project to explain RBAC concepts, costs and benefits, the economic impact of RBAC, design and implementation issues, the standard itself, and advanced research topics.
+- [The Case for Granular Permissions](https://cerbos.dev/blog/the-case-for-granular-permissions) - Discuss the limitations of RBAC and how ABAC (Attribute-Based Access Control) addresses them.
+
+- [In Search For a Perfect Access Control System](https://goteleport.com/blog/access-controls/) - The historical origins of authorization schemes. Hints at the future of sharing, trust and delegation between different teams and organizations.
 
 - [Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova is how AWS does it. This system perform symbolic analysis of IAM policies, and solve the reachability of resources according user's rights and access constraints. Also see the higher-level [introduction given at re:inforce 2019](https://youtu.be/x6wsTFnU3eY?t=2111).
 
@@ -386,6 +388,8 @@ Collection of open-source projects if you're looking to roll your own policy imp
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit merge concepts from cookies, JWTs, macaroons and Open Policy Agent. “It provide a logic language based on Datalog to write authorization policies. It can store data, like JWT, or small conditions like Macaroons, but it is also able to represent more complex rules like role-based access control, delegation, hierarchies.”
 
 - [Oso](https://github.com/osohq/oso) - A batteries-included library for building authorization in your application.
+
+- [Cerbos](https://github.com/cerbos/cerbos) - An authorization endpoint to write context-aware access control policies.
 
 ### AWS policy tools
 
