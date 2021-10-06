@@ -369,7 +369,7 @@ As a concept, access control policies can be designed to follow very different a
 
 - [Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova is how AWS does it. This system perform symbolic analysis of IAM policies, and solve the reachability of resources according user's rights and access constraints. Also see the higher-level [introduction given at re:inforce 2019](https://youtu.be/x6wsTFnU3eY?t=2111).
 
-- [Zanzibar: Google's Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - Scales to trillions of access control lists and millions of authorization requests per second to support services used by billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633).
+- [Zanzibar: Google's Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - Scales to trillions of access control lists and millions of authorization requests per second to support services used by billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633). [Zanzibar Academy](https://zanzibar.academy/) is a site dedicated to explaining how Zanzibar works.
 
 - Description of an [authz system that is built around labeled security and RBAC concepts](https://news.ycombinator.com/item?id=20136831).
 
