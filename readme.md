@@ -117,6 +117,10 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 
 - [Conjur](https://github.com/cyberark/conjur) - Automatically secures secrets used by privileged users and machine identities.
 
+- [SuperTokens](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito.
+
+- [UserFrosting](https://github.com/userfrosting/UserFrosting) - Modern PHP user login and management framework.
+
 ## Cryptography
 
 The whole authentication stack is based on cryptography primitives. This can't be overlooked.
@@ -221,6 +225,8 @@ Protocols and technologies to verify that you are who you pretend to be.
 
 - [2FA is missing a key feature](https://syslog.ravelin.com/2fa-is-missing-a-key-feature-c781c3861db) - “When my 2FA code is entered incorrectly I'd like to know about it”.
 
+- [Authelia](https://github.com/authelia/authelia) - Open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal.
+
 ### SMS-based
 
 TL;DR: don't. For details, see articles below.
@@ -280,6 +286,8 @@ Certificate-based authentication.
 - [JWT.io](https://jwt.io) - Allows you to decode, verify and generate JWT.
 
 - [`loginsrv`](https://github.com/tarent/loginsrv) - Standalone minimalistic login server providing a JWT login for multiple login backends (htpasswd, OSIAM, user/password, HTTP basic authentication, OAuth2: GitHub, Google, Bitbucket, Facebook, Gitlab).
+
+- [jwtXploiter](https://github.com/DontPanicO/jwtXploiter) - A tool to test security of json web token.
 
 ### OAuth2 & OpenID
 
@@ -508,6 +516,8 @@ As an online service provider, you're exposed to fraud, crime and abuses. You'll
 Any online communities, not only those related to gaming and social networks, requires their operator to invest a lot of resource and energy to moderate it.
 
 - [Still Logged In: What AR and VR Can Learn from MMOs](https://youtu.be/kgw8RLHv1j4?t=534) - “If you host an online community, where people can harm another person: you are on the hook. And if you can't afford to be on the hook, don't host an online community”.
+
+- [You either die an MVP or live long enough to build content moderation](https://mux.com/blog/you-either-die-an-mvp-or-live-long-enough-to-build-content-moderation/) - “You can think about the solution space for this problem by considering three dimensions: cost, accuracy and speed. And two approaches: human review and machine review. Humans are great in one of these dimensions: accuracy. The downside is that humans are expensive and slow. Machines, or robots, are great at the other two dimensions: cost and speed - they’re much cheaper and faster. But the goal is to find a robot solution that is also sufficiently accurate for your needs.”
 
 - [Keep out the bad apples: How to moderate a marketplace](https://twosided.substack.com/p/keep-out-the-bad-apples-how-to-moderate) - “With great power comes great responsibility. Some of my tips and tricks to make your marketplace a safer place.”
 
