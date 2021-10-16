@@ -227,6 +227,8 @@ Protocols and technologies to verify that you are who you pretend to be.
 
 - [Authelia](https://github.com/authelia/authelia) - Open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal.
 
+- [Kanidm](https://github.com/kanidm/kanidm) - Simple, secure and fast identity management platform.
+
 ### SMS-based
 
 TL;DR: don't. For details, see articles below.
@@ -496,6 +498,8 @@ Most businesses do not collect customer's identity to create user profiles to se
 - [A Comparison of Personal Name Matching: Techniques and Practical Issues](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) - Customer name matching has lots of application, from account deduplication to fraud monitoring.
 
 - [Statistically Likely Usernames](https://github.com/insidetrust/statistically-likely-usernames) - Wordlists for creating statistically likely usernames for use in username-enumeration, simulated password-attacks and other security testing tasks.
+
+- [Facebook Dangerous Individuals and Organizations List](https://theintercept.com/document/2021/10/12/facebook-dangerous-individuals-and-organizations-list-reproduced-snapshot/) - Some groups and content are illegal in some juridictions. This is an example of a blocklist.
 
 - [Sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks.
 
