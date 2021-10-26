@@ -271,6 +271,8 @@ Certificate-based authentication.
 
 - [Learn how to use JWT for Authentication](https://github.com/dwyl/learn-json-web-tokens) - Learn how to use JWT to secure your web app.
 
+- [JWT Authentication — Best Practices and When to Use](https://www.loginradius.com/blog/async/guest-post/jwt-authentication-best-practices-and-when-to-use/) - Learn the necessary best practices to a robust JWT implementation.
+
 - [Using JSON Web Tokens as API Keys](https://auth0.com/blog/using-json-web-tokens-as-api-keys/) - Compared to API keys, JWTs offers granular security, homogenous auth architecture, decentralized issuance, OAuth2 compliance, debuggability, expiration control, device management.
 
 - [Managing a Secure JSON Web Token Implementation](https://cursorblog.com/managing-a-secure-json-web-token-implementation/) - JWT has all sorts of flexibility that make it hard to use well.
