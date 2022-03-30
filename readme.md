@@ -29,6 +29,48 @@ This knowledge base expose all the technologies, protocols and jargon of the dom
 
 <!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
 
+- [Overview](#overview)
+- [Security](#security)
+- [Account Management](#account-management)
+- [Cryptography](#cryptography)
+- [Zero-trust Network](#zero-trust-network)
+- [Authentication](#authentication)
+  - [Password-based](#password-based)
+  - [Password-less](#password-less)
+  - [Security Key](#security-key)
+  - [Multi-Factor](#multi-factor)
+  - [SMS-based](#sms-based)
+  - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
+  - [JWT](#jwt)
+  - [OAuth2 & OpenID](#oauth2--openid)
+  - [SAML](#saml)
+- [Authorization](#authorization)
+  - [Policy models](#policy-models)
+  - [Open-source policy frameworks](#open-source-policy-frameworks)
+  - [AWS policy tools](#aws-policy-tools)
+  - [Macaroons](#macaroons)
+- [Secret Management](#secret-management)
+  - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
+- [Trust & Safety](#trust--safety)
+  - [User Identity](#user-identity)
+  - [Fraud](#fraud)
+  - [Moderation](#moderation)
+  - [Threat Intelligence](#threat-intelligence)
+  - [Captcha](#captcha)
+- [Blocklists](#blocklists)
+  - [Hostnames and Subdomains](#hostnames-and-subdomains)
+  - [Emails](#emails)
+  - [Reserved IDs](#reserved-ids)
+  - [Profanity](#profanity)
+- [Privacy](#privacy)
+  - [Anonymization](#anonymization)
+  - [GDPR](#gdpr)
+- [UX/UI](#uxui)
+- [Competitive Analysis](#competitive-analysis)
+- [History](#history)
+
+<!-- mdformat-toc end -->
+
 ## Overview
 
 <img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
@@ -39,7 +81,7 @@ Here we set out the big picture: definition and strategic importance of the doma
 
 - [The EnterpriseReady SaaS Feature Guides](https://www.enterpriseready.io) - The majority of the features making B2B users happy will be implemented by the IAM perimeter.
 
-- [IAM is hard. It's really hard.](https://twitter.com/kmcquade3/status/1291801858676228098) - “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to $80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
+- [IAM is hard. It's really hard.](https://twitter.com/kmcquade3/status/1291801858676228098) - “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to \$80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
 
 - [IAM Is The Real Cloud Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - A little *click-baity*, but author admit that “It depends on how much you trust them to 1. Stay in business; 2. Not jack up your prices; 3. Not deprecate services out from under you; 4. Provide more value to you in business acceleration than they take away in flexibility.”
 
@@ -169,7 +211,7 @@ Protocols and technologies to verify that you are who you pretend to be.
 
 - [How effective is basic account hygiene at preventing hijacking](https://security.googleblog.com/2019/05/new-research-how-effective-is-basic.html) - Google security team's data shows 2FA blocks 100% of automated bot hacks.
 
-- [Your Pa$$word doesn't matter](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Your-Pa-word-doesn-t-matter/ba-p/731984) - Same conclusion as above from Microsoft: “Based on our studies, your account is more than 99.9% less likely to be compromised if you use MFA.”
+- [Your Pa\$\$word doesn't matter](https://techcommunity.microsoft.com/t5/Azure-Active-Directory-Identity/Your-Pa-word-doesn-t-matter/ba-p/731984) - Same conclusion as above from Microsoft: “Based on our studies, your account is more than 99.9% less likely to be compromised if you use MFA.”
 
 - [Attacking Google Authenticator](https://unix-ninja.com/p/attacking_google_authenticator) - Probably on the verge of paranoia, but might be a reason to rate limit 2FA validation attempts.
 
@@ -195,7 +237,7 @@ TL;DR: don't. For details, see articles below.
 
 - [Hackers Hit Twitter C.E.O. Jack Dorsey in a 'SIM Swap.' You're at Risk, Too.](https://www.nytimes.com/2019/09/05/technology/sim-swap-jack-dorsey-hack.html)
 
-- [AT\&T rep handed control of his cellphone account to a hacker](https://www.theregister.co.uk/2017/07/10/att_falls_for_hacker_tricks/)
+- [AT&T rep handed control of his cellphone account to a hacker](https://www.theregister.co.uk/2017/07/10/att_falls_for_hacker_tricks/)
 
 - [The Most Expensive Lesson Of My Life: Details of SIM port hack](https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124)
 
@@ -235,7 +277,7 @@ Certificate-based authentication.
 
 - [Stop using JWT for sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) - And [why your "solution" doesn't work](http://cryto.net/%7Ejoepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/), because [stateless JWT tokens cannot be invalidated or updated](https://news.ycombinator.com/item?id=18354141). They will introduce either size issues or security issues depending on where you store them. Stateful JWT tokens are functionally the same as session cookies, but without the battle-tested and well-reviewed implementations or client support.
 
-- [JWT, JWS and JWE for Not So Dummies\!](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3) - A signed JWT is known as a JWS (JSON Web Signature). In fact a JWT does not exist itself — either it has to be a JWS or a JWE (JSON Web Encryption). Its like an abstract class — the JWS and JWE are the concrete implementations.
+- [JWT, JWS and JWE for Not So Dummies!](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3) - A signed JWT is known as a JWS (JSON Web Signature). In fact a JWT does not exist itself — either it has to be a JWS or a JWE (JSON Web Encryption). Its like an abstract class — the JWS and JWE are the concrete implementations.
 
 - [JOSE is a Bad Standard That Everyone Should Avoid](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) - The standards are either completely broken or complex minefields hard to navigate.
 
@@ -423,7 +465,7 @@ HSMs are physical devices guaranteeing security of secret management at the hard
 
 - [Project Oak](https://github.com/project-oak/oak) - A specification and a reference implementation for the secure transfer, storage and processing of data.
 
-- [Everybody be cool, this is a robbery\!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
+- [Everybody be cool, this is a robbery!](https://www.sstic.org/2019/presentation/hsm/) - A case study of vulnerability and exploitability of a HSM (in French, sorry).
 
 ## Trust & Safety
 
@@ -485,7 +527,7 @@ Any online communities, not only those related to gaming and social networks, re
 
 ### Threat Intelligence
 
-How to detect, unmask and classify offensive online activities. Most of the time these are monitored by security, networking and/or infrastructure engineering teams. Still, these are good resources for T\&S and IAM people, who might be called upon for additional expertise for analysis and handling of threats.
+How to detect, unmask and classify offensive online activities. Most of the time these are monitored by security, networking and/or infrastructure engineering teams. Still, these are good resources for T&S and IAM people, who might be called upon for additional expertise for analysis and handling of threats.
 
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence) - “A concise definition of Threat Intelligence: evidence-based knowledge, including context, mechanisms, indicators, implications and actionable advice, about an existing or emerging menace or hazard to assets that can be used to inform decisions regarding the subject's response to that menace or hazard.”
 
@@ -541,7 +583,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 
 - [Certificate Transparency Subdomains](https://github.com/internetwache/CT_subdomains) - An hourly updated list of subdomains gathered from certificate transparency logs.
 
-- Subdomain denylists: [\#1](https://gist.github.com/artgon/5366868), [\#2](https://github.com/sandeepshetty/subdomain-blacklist/blob/master/subdomain-blacklist.txt), [\#3](https://github.com/nccgroup/typofinder/blob/master/TypoMagic/datasources/subdomains.txt), [\#4](https://www.quora.com/How-do-sites-prevent-vanity-URLs-from-colliding-with-future-features).
+- Subdomain denylists: [#1](https://gist.github.com/artgon/5366868), [#2](https://github.com/sandeepshetty/subdomain-blacklist/blob/master/subdomain-blacklist.txt), [#3](https://github.com/nccgroup/typofinder/blob/master/TypoMagic/datasources/subdomains.txt), [#4](https://www.quora.com/How-do-sites-prevent-vanity-URLs-from-colliding-with-future-features).
 
 - [`common-domain-prefix-suffix-list.tsv`](https://gist.github.com/erikig/826f49442929e9ecfab6d7c481870700) - Top-5000 most common domain prefix/suffix list.
 
@@ -679,7 +721,7 @@ A bunch of resources to keep track of the current status and progress of all com
 
 ## Contributing
 
-Your contributions are always welcome\! Please take a look at the [contribution guidelines](.github/contributing.md) first.
+Your contributions are always welcome! Please take a look at the [contribution guidelines](.github/contributing.md) first.
 
 ## Footnotes
 
