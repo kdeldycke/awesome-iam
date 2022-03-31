@@ -393,6 +393,8 @@ Collection of open-source projects if you're looking to roll your own policy imp
 
 - [Open Policy Agent](https://github.com/open-policy-agent) - Allows end to end testing of your policies across SQL, Kubernetes, Terraform, Kafka, Envoy, S3 (via Minio), EC2/ECS/Lambda (Linux).
 
+- [Open Policy Administration Layer](https://github.com/permitio/opal) - Open Source administration layer for OPA, detecting changes to both policy and policy data in realtime and pushing live updates to OPA agents. OPAL brings open-policy up to the speed needed by live applications.
+
 - [Gubernator](https://github.com/mailgun/gubernator) - High performance rate-limiting micro-service and library.
 
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit merge concepts from cookies, JWTs, macaroons and Open Policy Agent. “It provide a logic language based on Datalog to write authorization policies. It can store data, like JWT, or small conditions like Macaroons, but it is also able to represent more complex rules like role-based access control, delegation, hierarchies.”
