@@ -337,7 +337,7 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [a12n-server](https://github.com/curveball/a12n-server) - A simple authentication system which only implements the relevant parts of the OAuth2 standards.
 
-- [Logto](https://github.com/logto-io/logto) - build the sign-in, auth, and user identity with this OIDC-based identity service.
+- [Logto](https://github.com/logto-io/logto) - Build the sign-in, auth, and user identity with this OIDC-based identity service.
 
 ### SAML
 
