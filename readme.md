@@ -183,6 +183,8 @@ Protocols and technologies to verify that you are who you pretend to be.
 
 - [An argument for passwordless](https://web.archive.org/web/20190515230752/https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article tries to tell you why.
 
+- [Magic Links – Are they Actually Outdated?](https://web.archive.org/web/20190515230752/https://biarity.gitlab.io/2018/02/23/passwordless/) - What are magic links, their origin, pros and cons.
+
 - [WebAuthn guide](https://webauthn.guide) - A very accessible guide to WebAuthn, a standard allowing “servers to register and authenticate users using public key cryptography instead of a password”, supported by all major browsers.
 
 ### Security Key
@@ -220,6 +222,8 @@ Protocols and technologies to verify that you are who you pretend to be.
 - [Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/) - On the UX aspects of 2FA.
 
 - [2FA is missing a key feature](https://syslog.ravelin.com/2fa-is-missing-a-key-feature-c781c3861db) - “When my 2FA code is entered incorrectly I'd like to know about it”.
+
+- [SMS Multifactor Authentication in Antarctica](https://brr.fyi/posts/sms-mfa) - Doesn't work because there are no cell phone towers at stations in Antarctica.
 
 - [Authelia](https://github.com/authelia/authelia) - Open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal.
 
@@ -333,6 +337,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [a12n-server](https://github.com/curveball/a12n-server) - A simple authentication system which only implements the relevant parts of the OAuth2 standards.
 
+- [Logto](https://github.com/logto-io/logto) - build the sign-in, auth, and user identity with this OIDC-based identity service.
+
 ### SAML
 
 Security Assertion Markup Language (SAML) 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID protocols above.
@@ -354,6 +360,8 @@ Typical SAML identity provider is an institution or a big corporation's internal
 - [SAML is insecure by design](https://joonas.fi/2021/08/saml-is-insecure-by-design/) - Not only weird, SAML is also insecure by design, as it relies on signatures based on XML canonicalization, not XML byte stream. Which means you can exploit XML parser/encoder differences.
 
 - [The Difficulties of SAML Single Logout](https://wiki.shibboleth.net/confluence/display/CONCEPT/SLOIssues) - On the technical and UX issues of single logout implementations.
+
+- [The SSO Wall of Shame](https://sso.tax) - A documented rant on the exessive pricing practiced by SaaS providers to activate SSO on their product. The author's point is, as a core security feature, SSO should be reasonnably priced and not part of an exclusive tier.
 
 ## Authorization
 
