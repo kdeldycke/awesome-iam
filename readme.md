@@ -113,7 +113,7 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 
 - [Conjur](https://github.com/cyberark/conjur) - Automatically secures secrets used by privileged users and machine identities.
 
-- [SuperTokens](https://github.com/supertokens/supertokens-core) - Open source alternative to Auth0 / Firebase Auth / AWS Cognito.
+- [SuperTokens](https://github.com/supertokens/supertokens-core) - Open-source project for login and session management which supports passwordless, social login, email and phone logins.
 
 - [UserFrosting](https://github.com/userfrosting/UserFrosting) - Modern PHP user login and management framework.
 
@@ -365,7 +365,7 @@ Typical SAML identity provider is an institution or a big corporation's internal
 
 ## Authorization
 
-Now that we know you are you, are you allowed to perform what you want to do?
+Now we know you are you. But are you allowed to do what you want to do?
 
 Policy specification is the science, enforcement is the art.
 
@@ -383,9 +383,13 @@ As a concept, access control policies can be designed to follow very different a
 
 - [In Search For a Perfect Access Control System](https://goteleport.com/blog/access-controls/) - The historical origins of authorization schemes. Hints at the future of sharing, trust and delegation between different teams and organizations.
 
+- [AWS IAM Roles, a tale of unnecessary complexity](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - The history of fast-growing AWS explains how the current sheme came to be, and how it compares to GCP’s resource hierarchy.
+
 - [Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova is how AWS does it. This system perform symbolic analysis of IAM policies, and solve the reachability of resources according user's rights and access constraints. Also see the higher-level [introduction given at re:inforce 2019](https://youtu.be/x6wsTFnU3eY?t=2111).
 
 - [Zanzibar: Google's Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - Scales to trillions of access control lists and millions of authorization requests per second to support services used by billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633). [Zanzibar Academy](https://zanzibar.academy/) is a site dedicated to explaining how Zanzibar works.
+
+- [SpiceDB](https://github.com/authzed/spicedb) - An open source database system for managing security-critical application permissions inspired by Zanzibar.
 
 - Description of an [authz system that is built around labeled security and RBAC concepts](https://news.ycombinator.com/item?id=20136831).
 
@@ -401,7 +405,9 @@ Collection of open-source projects if you're looking to roll your own policy imp
 
 - [Casbin](https://github.com/casbin/casbin) - Open-source access control library for Golang projects.
 
-- [Open Policy Agent](https://github.com/open-policy-agent) - Allows end to end testing of your policies across SQL, Kubernetes, Terraform, Kafka, Envoy, S3 (via Minio), EC2/ECS/Lambda (Linux).
+- [Open Policy Agent](https://github.com/open-policy-agent/opa) - An open-source general-purpose decision engine to create and enforce attribute-based access control (ABAC) policies.
+
+- [Topaz](https://github.com/aserto-dev/topaz) - An open-source project which combines the policy-as-code and decision logging of OPA with a Zanzibar-modeled directory.
 
 - [Open Policy Administration Layer](https://github.com/permitio/opal) - Open Source administration layer for OPA, detecting changes to both policy and policy data in realtime and pushing live updates to OPA agents. OPAL brings open-policy up to the speed needed by live applications.
 
@@ -508,6 +514,8 @@ Most businesses do not collect customer's identity to create user profiles to se
 - [Statistically Likely Usernames](https://github.com/insidetrust/statistically-likely-usernames) - Wordlists for creating statistically likely usernames for use in username-enumeration, simulated password-attacks and other security testing tasks.
 
 - [Facebook Dangerous Individuals and Organizations List](https://theintercept.com/document/2021/10/12/facebook-dangerous-individuals-and-organizations-list-reproduced-snapshot/) - Some groups and content are illegal in some juridictions. This is an example of a blocklist.
+
+- [Ballerine](https://github.com/ballerine-io/ballerine) - An open-source infrastructure for user identity and risk management.
 
 - [Sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks.
 
