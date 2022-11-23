@@ -33,6 +33,7 @@ This knowledge base expose all the technologies, protocols and jargon of the dom
 - [Security](#security)
 - [Account Management](#account-management)
 - [Cryptography](#cryptography)
+  - [Identifiers](#identifiers)
 - [Zero-trust Network](#zero-trust-network)
 - [Authentication](#authentication)
   - [Password-based](#password-based)
