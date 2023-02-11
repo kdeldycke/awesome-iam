@@ -134,7 +134,7 @@ The whole authentication stack is based on cryptography primitives. This can't b
 
 ### Identifiers
 
-Tokens, primary keys, UUIDs, ... Whatever the end use, you'll have to generate these numbers with some randomness and uniqueness properties.
+Tokens, primary keys, UUIDs, … Whatever the end use, you'll have to generate these numbers with some randomness and uniqueness properties.
 
 - [Security Recommendations for Any Device that Depends on Randomly-Generated Numbers](https://www.av8n.com/computer/htm/secure-random.htm) - “The phrase ‘random number generator’ should be parsed as follows: It is a random generator of numbers. It is not a generator of random numbers.”
 
