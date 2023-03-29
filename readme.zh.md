@@ -1,13 +1,16 @@
 <!--lint disable awesome-heading-->
 
 <p align="center">
-  <a href="https://github.com/kdeldycke/awesome-iam/">
+  <a href="https://github.com/kdeldycke/awesome-iam#readme">
     <img src="https://github.com/kdeldycke/awesome-iam/raw/main/assets/awesome-iam-header.jpg" alt="Awesome IAM">
   </a>
 </p>
 
 <p align="center">
   <strong>一个精心挑选的关于管理账户、用户、角色、权限、认证和授权的资源列表。</strong>
+  <br/>
+  <a href="https://github.com/kdeldycke/awesome-iam#readme" hreflang="en"><img src="https://img.shields.io/badge/lang-English-blue?style=flat-square" lang="en" alt="English"></a>
+  <a href="https://github.com/kdeldycke/awesome-iam/blob/main/readme.zh.md" hreflang="zh"><img src="https://img.shields.io/badge/lang-汉语-blue?style=flat-square" lang="zh" alt="汉语"></a>
   <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
 </p>
 

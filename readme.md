@@ -1,7 +1,7 @@
 <!--lint disable awesome-heading-->
 
 <p align="center">
-  <a href="https://github.com/kdeldycke/awesome-iam/">
+  <a href="https://github.com/kdeldycke/awesome-iam#readme">
     <img src="https://github.com/kdeldycke/awesome-iam/raw/main/assets/awesome-iam-header.jpg" alt="Awesome IAM">
   </a>
 </p>
@@ -9,6 +9,9 @@
 <p align="center">
   <strong>A curated list of resources on managing accounts, users, roles,
 permissions, authentication and authorization.</strong>
+  <br/>
+  <a href="https://github.com/kdeldycke/awesome-iam#readme" hreflang="en"><img src="https://img.shields.io/badge/lang-English-blue?style=flat-square" lang="en" alt="English"></a>
+  <a href="https://github.com/kdeldycke/awesome-iam/blob/main/readme.zh.md" hreflang="zh"><img src="https://img.shields.io/badge/lang-汉语-blue?style=flat-square" lang="zh" alt="汉语"></a>
   <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
 </p>
 
