@@ -749,6 +749,8 @@ A bunch of resources to keep track of the current status and progress of all com
 
 - [Google Cloud Developer's Cheat Sheet](https://github.com/gregsramblings/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - Describe all GCP products in 4 words or less.
 
+- [Best-of-digital-identity](https://github.com/jruizaranguren/best-of-digital-identity) - A ranked list of open source Digital Identity projects.
+
 ## History
 
 - [cryptoanarchy.wiki](https://cryptoanarchy.wiki) - Cypherpunks overlaps with security. This wiki compiles information about the movement, its history and the people/events of note.
