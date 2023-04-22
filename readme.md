@@ -735,7 +735,9 @@ As stakeholder of the IAM stack, you're going to implement in the backend the ma
 
 ## Competitive Analysis
 
-A bunch of resources to keep track of the current status and progress of all companies operating in the domain.
+Keep track on the activity of open-source projects and companies operating in the domain.
+
+- [Best-of Digital Identity](https://github.com/jruizaranguren/best-of-digital-identity) - Ranking, popularity and activity status of open-source digital identity projects.
 
 - [AWS Security, Identity & Compliance announcements](https://aws.amazon.com/about-aws/whats-new/security_identity_and_compliance/) - The source of all new features added to the IAM perimeter.
 
@@ -748,8 +750,6 @@ A bunch of resources to keep track of the current status and progress of all com
 - [163 AWS services explained in one line each](https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws) - Help makes sense of their huge service catalog. In the same spirit: [AWS in simple terms](https://netrixllc.com/blog/aws-services-in-simple-terms/) & [AWS In Plain English](https://expeditedsecurity.com/aws-in-plain-english/).
 
 - [Google Cloud Developer's Cheat Sheet](https://github.com/gregsramblings/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - Describe all GCP products in 4 words or less.
-
-- [Best-of-digital-identity](https://github.com/jruizaranguren/best-of-digital-identity) - A ranked list of open source Digital Identity projects.
 
 ## History
 
