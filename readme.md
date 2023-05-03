@@ -465,6 +465,8 @@ Tools and resources exclusively targetting the [AWS IAM policies](http://docs.aw
 
 - [ConsoleMe](https://github.com/Netflix/consoleme) - A self-service tool for AWS that provides end-users and administrators credentials and console access to the onboarded accounts based on their authorization level of managing permissions across multiple accounts, while encouraging least-privilege permissions.
 
+- [IAMbic](https://github.com/noqdev/iambic) - GitOps for IAM. The Terraform of Cloud IAM. IAMbic is a multi-cloud identity and access management (IAM) control plane that centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in version control.
+
 ### Macaroons
 
 A clever curiosity to distribute and delegate authorization.
