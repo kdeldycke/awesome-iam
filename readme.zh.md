@@ -15,6 +15,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/sponsors/kdeldycke">
+    <strong>您的身份和认证产品显示在这里！</strong>
+    <br/>
+    <sup>在此处添加指向您的公司或项目的链接：通过 GitHub 赞助支持我。</sup>
+  </a>
+</p>
+
+---
+
+<p align="center">
   <i>Trusting is hard. Knowing who to trust, even harder.(信任是困难的。知道该信任谁，更难。)</i><br>
   — Maria V. Snyder<sup id="intro-quote-ref"><a href="#intro-quote-def">[1]</a></sup>
 </p>
