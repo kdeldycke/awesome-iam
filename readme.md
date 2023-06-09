@@ -16,6 +16,16 @@ permissions, authentication and authorization.</strong>
 </p>
 
 <p align="center">
+  <a href="https://github.com/sponsors/kdeldycke">
+    <strong>Yᴏᴜʀ Iᴅᴇɴᴛɪᴛʏ & Aᴜᴛʜᴇɴᴛɪᴄᴀᴛɪᴏɴ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
+    <br/>
+    <sup>You can add a link to your company or project here: back me up via a GitHub sponsorship.</sup>
+  </a>
+</p>
+
+---
+
+<p align="center">
   <i>Trusting is hard. Knowing who to trust, even harder.</i><br>
   — Maria V. Snyder<sup id="intro-quote-ref"><a href="#intro-quote-def">[1]</a></sup>
 </p>
