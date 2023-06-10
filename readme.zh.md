@@ -31,7 +31,7 @@
 
 <!--lint disable double-link-->
 
-[IAM](https://en.wikipedia.org/wiki/Identity_management) 是指身份和访问管理。但它不仅仅是处理用户账户，它包括了认证、授权和隐私，这使得这个语境相当复杂。它是云堆栈的一个重要支柱，用户、产品和安全在这里相遇。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/).
+[IAM](https://zh.wikipedia.org/wiki/身份管理) 是指身份和访问管理。但它不仅仅是处理用户账户，它包括了认证、授权和隐私，这使得这个语境相当复杂。它是云堆栈的一个重要支柱，用户、产品和安全在这里相遇。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/).
 
 该知识库以全面且可操作的方式公开该领域的所有技术、协议和行话。
 
@@ -290,7 +290,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### JWT
 
-[JSON 网络令牌](https://en.wikipedia.org/wiki/JSON_Web_Token) 是不记名的令牌。
+[JSON 网络令牌](https://zh.wikipedia.org/wiki/JSON_Web_Token) 是不记名的令牌。
 
 - [JSON Web Token 简介](https://jwt.io/introduction/) - 通过本文快速了解 JWT。
 
@@ -318,7 +318,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### OAuth2 & OpenID
 
-[OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) 是一个授权框架。[OpenID Connect（OIDC](https://en.wikipedia.org/wiki/OpenID_Connect)是它上面的一个认证层。
+[OAuth 2.0](https://zh.wikipedia.org/wiki/开放授权#OAuth_2.0) 是一个授权框架。[OpenID Connect（OIDC](https://en.wikipedia.org/wiki/OpenID_Connect)是它上面的一个认证层。
 
 旧的 *OpenID* 已死； 新的 *OpenID Connect* 还没有死。
 
@@ -396,7 +396,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### 策略模型
 
-作为一个概念，访问控制策略可以设计为遵循非常不同的原型，从经典的[访问控制列表](https://en.wikipedia.org/wiki/Access-control_list)到[基于角色的访问控制](https://en.wikipedia.org/wiki/Role-based_access_control)。 在本节中，我们将探索许多不同的模式和架构。
+作为一个概念，访问控制策略可以设计为遵循非常不同的原型，从经典的[访问控制列表](https://en.wikipedia.org/wiki/Access-control_list)到[基于角色的访问控制](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制)。 在本节中，我们将探索许多不同的模式和架构。
 
 - [为什么授权很难](https://www.osohq.com/post/why-authorization-is-hard) - 因为它需要在很多地方需要的执行、决策架构上进行多重权衡以将业务逻辑与授权逻辑分开，以及在建模上平衡功率和复杂性。
 
@@ -610,7 +610,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 防止滥用的第一道机械防线包括简单明了的拒绝列表。这是打击欺诈行为的低垂果实，但你会惊讶地发现它们仍然有效。
 
-- [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter) - 非常适合这种用例，因为布隆过滤器旨在快速检查元素是否不在（大）集合中。 特定数据类型存在布隆过滤器的变体。
+- [Bloom Filter](https://zh.wikipedia.org/wiki/布隆过滤器) - 非常适合这种用例，因为布隆过滤器旨在快速检查元素是否不在（大）集合中。 特定数据类型存在布隆过滤器的变体。
 
 - [Radix 树如何使阻断 IP 的速度提高5000倍](https://blog.sqreen.com/demystifying-radix-trees/) -Radix 树可能对加快 IP 封锁名单的速度很有帮助。
 
@@ -634,7 +634,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [`hosts-blocklists`](https://github.com/notracking/hosts-blocklists) -没有更多的广告、跟踪和其他虚拟垃圾。
 
-- [`xkeyscorerules100.txt`](https://gist.github.com/sehrgut/324626fa370f044dbca7) - NSA 的 [XKeyscore](https://en.wikipedia.org/wiki/XKeyscore) 对TOR和其他匿名保存工具的匹配规则。
+- [`xkeyscorerules100.txt`](https://gist.github.com/sehrgut/324626fa370f044dbca7) - NSA 的 [XKeyscore](https://zh.wikipedia.org/wiki/XKeyscore) 对TOR和其他匿名保存工具的匹配规则。
 
 - [`pyisp`](https://github.com/ActivisionGameScience/pyisp) - IP 到 ISP 的查询库（包括 ASN）。
 
@@ -690,7 +690,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [四分钱去掉匿名：公司反向散列的电子邮件地址](https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/) - "哈希的电子邮件地址可以很容易地被逆转，并与个人联系起来"。
 
-- [为什么差异化的隐私是了不起的](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - 解释[差异隐私](https://en.wikipedia.org/wiki/Differential_privacy)背后的直觉，这是一个理论框架，允许在不影响保密性的情况下共享聚合数据。参见后续文章[更多细节](https://desfontain.es/privacy/differential-privacy-in-more-detail.html)和[实践方面](https://desfontain.es/privacy/differential-privacy-in-practice.html)。
+- [为什么差异化的隐私是了不起的](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - 解释[差异隐私](https://zh.wikipedia.org/wiki/差分隐私)背后的直觉，这是一个理论框架，允许在不影响保密性的情况下共享聚合数据。参见后续文章[更多细节](https://desfontain.es/privacy/differential-privacy-in-more-detail.html)和[实践方面](https://desfontain.es/privacy/differential-privacy-in-practice.html)。
 
 - [K-匿名性：简介](https://www.privitar.com/listing/k-anonymity-an-introduction) - 一个替代性的匿名隐私模型。
 
