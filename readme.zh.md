@@ -232,7 +232,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [超越密码：2FA、U2F 和 Google 高级保护](https://www.troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection/) - 全面了解所有这些技术。
 
-- [回溯认证的长期比较研究](https://www.mobsec.ruhr-uni-bochum.de/media/mobsec/veroeffentlichungen/2019/02/20/usec2019-30-wip-fallback-long-term-study-finalv2.pdf) - 要点：“基于电子邮件和短信的方案更有用。 另一方面，基于指定受托人和个人知识问题的机制在便利性和效率方面都存在不足。”
+- [回溯认证的长期比较研究](https://maximiliangolla.com/files/2019/papers/usec2019-30-wip-fallback-long-term-study-finalv5.pdf) - 要点：“基于电子邮件和短信的方案更有用。 另一方面，基于指定受托人和个人知识问题的机制在便利性和效率方面都存在不足。”
 
 - [秘密、谎言和帐户恢复：谷歌使用个人知识问题的经验教训](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43783.pdf) - "我们的分析证实，秘密问题通常提供的安全级别远远低于用户选择的密码。(......)令人惊讶的是，我们发现造成这种不安全的一个重要原因是用户经常不如实回答。(......)在可用性方面，我们表明秘密答案的记忆性出奇的差"。
 
@@ -344,7 +344,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [隐藏的 OAuth 攻击载体](https://portswigger.net/web-security/oauth) - 如何识别和利用 OAuth 2.0 认证机制中发现的一些关键漏洞。
 
-- [PKCE 的解释](https://www.loginradius.com/engineering/blog/pkce/) - "PKCE 用于为 OAuth 和 OpenID Connect 中的授权代码流提供多一个安全层。"
+- [PKCE 的解释](https://www.loginradius.com/blog/engineering/pkce/) - "PKCE 用于为 OAuth 和 OpenID Connect 中的授权代码流提供多一个安全层。"
 
 - [Hydra](https://gethydra.sh) - 开源的 OIDC 和 OAuth2 服务器。
 
@@ -468,7 +468,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 分配和委托授权的巧妙好奇。
 
-- [五分钟或更短时间内完成 Google 的 Macaroon](https://blog.bren2010.io/2014/12/04/macaroons.html) - 如果给我一个授权我在某些限制下执行某些操作的 Macaroon，我可以非交互地构建第二个具有更严格限制的 Macaroon，然后我可以给你。
+- [五分钟或更短时间内完成 Google 的 Macaroon](https://blog.bren2010.io/blog/googles-macaroons) - 如果给我一个授权我在某些限制下执行某些操作的 Macaroon，我可以非交互地构建第二个具有更严格限制的 Macaroon，然后我可以给你。
 
 - [Macaroons: 为云中的分散式授权提供带有上下文警告的Cookies](https://ai.google/research/pubs/pub41892) - 谷歌的原始论文。
 
@@ -564,7 +564,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [你要么死于 MVP，要么活到足够长的时间来建立内容节制。](https://mux.com/blog/you-either-die-an-mvp-or-live-long-enough-to-build-content-moderation/) - "你可以通过考虑三个维度来思考这个问题的解决空间：成本、准确性和速度。还有两种方法：人类审查和机器审查。人类在其中一个维度上很出色：准确性。缺点是，人类的成本高，速度慢。机器，或称机器人，在另外两个方面很出色：成本和速度--它们要便宜得多，速度也快。但是，目标是要找到一个机器人解决方案，同时对你的需求有足够的准确性"。
 
-- [把坏苹果拒之门外：如何调节市场](https://twosided.substack.com/p/keep-out-the-bad-apples-how-to-moderate) - “拥有权利的同时也被赋予了重大的责任。 我的一些提示和技巧可以让你的市场变得更安全。”
+- [把坏苹果拒之门外：如何调节市场](https://www.twosided.io/p/keep-out-the-bad-apples-how-to-moderate) - “拥有权利的同时也被赋予了重大的责任。 我的一些提示和技巧可以让你的市场变得更安全。”
 
 - [人们的绝望和黑暗会影响到你](https://restofworld.org/2020/facebook-international-content-moderators/) - 大量的外包分包商负责管理庞大的社交网络。 这些人暴露在最坏的情况下，通常最终会患上创伤后应激障碍。
 
@@ -668,7 +668,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 作为用户数据的守护者，IAM 技术栈中深受隐私尊重的约束。
 
-- [隐私增强技术决策树](https://www.private-ai.ca/PETs_Decision_Tree.png) - 根据数据类型和上下文选择正确工具的流程图。
+- [隐私增强技术决策树](https://www.private-ai.com/wp-content/uploads/2021/10/PETs-Decision-Tree.pdf) - 根据数据类型和上下文选择正确工具的流程图。
 
 - [我们喜欢的论文：隐私](https://github.com/papers-we-love/papers-we-love/tree/master/privacy) - 通过设计提供隐私的方案的科学研究集合。
 
@@ -696,7 +696,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [Presidio](https://github.com/microsoft/presidio) - 语境感知、可插拔和可定制的数据保护和PII数据匿名化服务，用于文本和图像。
 
-- [Diffix：高实用性数据库匿名化](https://aircloak.com/wp-content/uploads/apf17-reprint.pdf) - Diffix 试图提供匿名化，避免假名化并保持数据质量。[在Aircloak 用 Elixir 编写](https://elixirforum.com/t/aircloak-anonymized-analitycs/10930)，它作为分析师和未修改的实时数据库之间的一个SQL代理。
+- [Diffix：高实用性数据库匿名化](https://aircloak.com/wp-content/uploads/apf17-aspen.pdf) - Diffix 试图提供匿名化，避免假名化并保持数据质量。[在Aircloak 用 Elixir 编写](https://elixirforum.com/t/aircloak-anonymized-analitycs/10930)，它作为分析师和未修改的实时数据库之间的一个SQL代理。
 
 ### GDPR
 
@@ -715,8 +715,6 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 - [GDPR 之后的黑暗模式](https://arxiv.org/pdf/2001.02479.pdf) - 本文表明，由于缺乏 GDPR 法律的执行，黑暗模式和默示同意无处不在。
 
 - [GDPR 执行情况跟踪](http://enforcementtracker.com) - GDPR的罚款和处罚清单。
-
-- [运送你的敌人 GDPR](https://shipyourenemiesgdpr.com) - 利用 GDPR 来帮助你向你的敌人发送数据请求，旨在尽可能多地浪费他们的时间。
 
 ## UX/UI
 
@@ -774,4 +772,4 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 <!--lint disable no-undefined-references-->
 
-<a name="intro-quote-def">\[1\]</a>: [*Poison Study*](https://amzn.com/0778324338/?tag=kevideld-20) (Mira, 2007). [\[↑\]](#intro-quote-ref)
+<a name="intro-quote-def">\[1\]</a>: [*Poison Study*](https://www.amazon.com/dp/0778324338?&linkCode=ll1&tag=kevideld-20&linkId=0b92c3d92371bd53daca5457bdad327e&language=en_US&ref_=as_li_ss_tl) (Mira, 2007). [\[↑\]](#intro-quote-ref)
