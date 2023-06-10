@@ -363,6 +363,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Logto](https://github.com/logto-io/logto) - 使用此基于 OIDC 的身份服务构建登录、身份验证和用户身份。
 
+- [OAuth 2.0 and the Road to Hell](https://gist.github.com/nckroy/dd2d4dfc86f7d13045ad715377b6a48f) - Oauth 2.0 規範的主要作者和編輯的辭職信。
+
 ### SAML
 
 安全断言标记语言 (SAML) 2.0 是一种在服务之间交换授权和身份验证的方法，例如上面的 OAuth/OpenID 协议。
