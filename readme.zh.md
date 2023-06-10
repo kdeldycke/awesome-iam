@@ -179,8 +179,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [服务间认证方案的儿童花园](https://web.archive.org/web/20200507173734/https://latacora.micro.blog/a-childs-garden/) - 与上述精神相同，但这次是在服务层面。
 
-- [在 Facebook 扩展后端身份验证](https://www.youtube.com/watch?v=kY-Bkv3qxMc) - 
-简而言之，如何做：1.小的信任根；2.TLS 是不够的；3.基于证书的令牌；4.加密认证令牌（CATs）。更多细节见[幻灯片](https://rwc.iacr.org/2018/Slides/Lewi.pdf)。
+- [在 Facebook 扩展后端身份验证](https://www.youtube.com/watch?v=kY-Bkv3qxMc) - 简而言之，如何做：1.小的信任根；2.TLS 是不够的；3.基于证书的令牌；4.加密认证令牌（CATs）。更多细节见[幻灯片](https://rwc.iacr.org/2018/Slides/Lewi.pdf)。
 
 ### 基于密码
 
