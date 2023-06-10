@@ -465,6 +465,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [ConsoleMe](https://github.com/Netflix/consoleme) - 一种适用于 AWS 的自助服务工具，它根据跨多个账户管理权限的授权级别为最终用户和管理员提供登录账户的凭据和控制台访问权限，同时鼓励使用最低权限。
 
+- [IAMbic](https://github.com/noqdev/iambic) - 適用於 IAM 的 GitOps。 Cloud IAM 的 Terraform。 IAMbic 是一個多雲身份和訪問管理 (IAM) 控制平面，可集中和簡化雲訪問和權限。 它在版本控制中維護 IAM 的最終一致、人類可讀的雙向表示。
+
 ### Macaroons
 
 分配和委托授权的巧妙好奇。
