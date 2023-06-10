@@ -7,12 +7,8 @@
 </p>
 
 <p align="center">
-  <strong>A curated list of resources on managing accounts, users, roles,
-permissions, authentication and authorization.</strong>
-  <br/>
   <a href="https://github.com/kdeldycke/awesome-iam#readme" hreflang="en"><img src="https://img.shields.io/badge/lang-English-blue?style=flat-square" lang="en" alt="English"></a>
   <a href="https://github.com/kdeldycke/awesome-iam/blob/main/readme.zh.md" hreflang="zh"><img src="https://img.shields.io/badge/lang-汉语-blue?style=flat-square" lang="zh" alt="汉语"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
 </p>
 
 <p align="center">
@@ -32,9 +28,9 @@ permissions, authentication and authorization.</strong>
 
 <!--lint disable double-link-->
 
-[IAM](https://en.wikipedia.org/wiki/Identity_management) stands for Identity and Access Management. But is more than handling user accounts: it encompass authentication, authorization and privacy, making this perimeter quite complex. It is an essential pillar of the cloud stack, where users, products and security meets. The [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/).
+[IAM](https://en.wikipedia.org/wiki/Identity_management) stands for Identity and Access Management. It is a complex domain which covers **user accounts, authentication, authorization, roles, permissions and privacy**. It is an essential pillar of the cloud stack, where users, products and security meets. The [other pillar being billing & payments 💰](https://github.com/kdeldycke/awesome-billing/).
 
-This knowledge base expose all the technologies, protocols and jargon of the domain in a comprehensive and actionable manner.
+This curated  list expose all the technologies, protocols and jargon of the domain in a comprehensive and actionable manner.
 
 <!--lint enable double-link-->
 

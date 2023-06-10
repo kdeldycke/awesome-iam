@@ -7,11 +7,8 @@
 </p>
 
 <p align="center">
-  <strong>一个精心挑选的关于管理账户、用户、角色、权限、认证和授权的资源列表。</strong>
-  <br/>
   <a href="https://github.com/kdeldycke/awesome-iam#readme" hreflang="en"><img src="https://img.shields.io/badge/lang-English-blue?style=flat-square" lang="en" alt="English"></a>
   <a href="https://github.com/kdeldycke/awesome-iam/blob/main/readme.zh.md" hreflang="zh"><img src="https://img.shields.io/badge/lang-汉语-blue?style=flat-square" lang="zh" alt="汉语"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
 </p>
 
 <p align="center">
@@ -31,9 +28,9 @@
 
 <!--lint disable double-link-->
 
-[IAM](https://zh.wikipedia.org/wiki/身份管理) 是指身份和访问管理。但它不仅仅是处理用户账户，它包括了认证、授权和隐私，这使得这个语境相当复杂。它是云堆栈的一个重要支柱，用户、产品和安全在这里相遇。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/).
+[IAM](https://zh.wikipedia.org/wiki/身份管理) 代表身份和访问管理。 它是一个复杂的域，涵盖**用户帐户、身份验证、授权、角色、权限和隐私**。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/).
 
-该知识库以全面且可操作的方式公开该领域的所有技术、协议和行话。
+这个精选清单 [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) 以全面且可操作的方式公开该领域的所有技术、协议和行话。
 
 <!--lint enable double-link-->
 
