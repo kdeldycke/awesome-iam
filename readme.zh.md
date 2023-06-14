@@ -350,7 +350,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Casdoor](https://github.com/casbin/casdoor) - 基于 UI 优先的集中式身份验证/单点登录 (SSO) 平台。 支持 OIDC 和 OAuth 2、社交登录、用户管理、基于电子邮件和短信的 2FA。
 
-- [IdentityServer](https://github.com/IdentityServer/IdentityServer4) - 适用于 ASP.NET Core 的免费开源 OpenID Connect 和 OAuth 2.0 框架。
+- [IdentityServer](https://github.com/IdentityServer/IdentityServer4) - 适用于 ASP-NET Core 的免费开源 OpenID Connect 和 OAuth 2.0 框架。
 
 - [authentik](https://goauthentik.io/?#correctness) - 类似于 Keycloak 的开源身份提供者。
 
