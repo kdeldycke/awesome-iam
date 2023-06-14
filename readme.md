@@ -367,7 +367,7 @@ Security Assertion Markup Language (SAML) 2.0 is a means to exchange authorizati
 
 Typical SAML identity provider is an institution or a big corporation's internal SSO, while the typical OIDC/OAuth provider is a tech company that runs a data silo.
 
-- [SAML vs. OAuth](https://www.cloudflare.com/learning/access-management/what-is-oauth/) - “OAuth is a protocol for authorization: it ensures Bob goes to the right parking lot. In contrast, SAML is a protocol for authentication, or allowing Bob to get past the guardhouse.”
+- [SAML vs. OAuth](https://web.archive.org/web/20230327071347/https://www.cloudflare.com/learning/access-management/what-is-oauth/) - “OAuth is a protocol for authorization: it ensures Bob goes to the right parking lot. In contrast, SAML is a protocol for authentication, or allowing Bob to get past the guardhouse.”
 
 - [The Difference Between SAML 2.0 and OAuth 2.0](https://www.ubisecure.com/uncategorized/difference-between-saml-and-oauth/) - “Even though SAML was actually designed to be widely applicable, its contemporary usage is typically shifted towards enterprise SSO scenarios. On the other hand, OAuth was designed for use with applications on the Internet, especially for delegated authorisation.”
 
@@ -547,7 +547,7 @@ Most businesses do not collect customer's identity to create user profiles to se
 
 As an online service provider, you're exposed to fraud, crime and abuses. You'll be surprised by how much people gets clever when it comes to money. Expect any bug or discrepancies in your workflow to be exploited for financial gain.
 
-- [After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.](https://archive.is/MuNrZ) - Why background check are sometimes necessary.
+- [After Car2Go eased its background checks, 75 of its vehicles were stolen in one day.](https://web.archive.org/web/20230526073109/https://www.bloomberg.com/news/articles/2019-07-11/mercedes-thieves-showed-just-how-vulnerable-car-sharing-can-be) - Why background check are sometimes necessary.
 
 - [Investigation into the Unusual Signups](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - A really detailed analysis of suspicious contributor signups on OpenStreetMap. This beautiful and high-level report demonstrating an orchestrated and directed campaign might serve as a template for fraud reports.
 
@@ -601,7 +601,7 @@ Another line of defense against spammers.
 
 - [reCaptcha](https://www.google.com/recaptcha) - reCaptcha is still an effective, economical and quick solution when your company can't afford to have a dedicated team to fight bots and spammers at internet scale.
 
-- [You (probably) don't need ReCAPTCHA](https://kevv.net/you-probably-dont-need-recaptcha/) - Starts with a rant on how the service is a privacy nightmare and is tedious UI-wise, then list alternatives.
+- [You (probably) don't need ReCAPTCHA](https://web.archive.org/web/20190611190134/https://kevv.net/you-probably-dont-need-recaptcha/) - Starts with a rant on how the service is a privacy nightmare and is tedious UI-wise, then list alternatives.
 
 - [Anti-captcha](https://anti-captcha.com) - Captchas solving service.
 

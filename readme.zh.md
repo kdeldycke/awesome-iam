@@ -286,7 +286,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### JWT
 
-[JSON 网络令牌](https://zh.wikipedia.org/wiki/JSON_Web_Token) 是不记名的令牌。
+[JSON 网络令牌](https://en.wikipedia.org/wiki/JSON_Web_Token) 是不记名的令牌。
 
 - [JSON Web Token 简介](https://jwt.io/introduction/) - 通过本文快速了解 JWT。
 
@@ -368,7 +368,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 典型的 SAML 身份提供商是机构或大公司的内部 SSO，而典型的 OIDC/OAuth 提供商是运行数据孤岛的科技公司。
 
-- [SAML vs. OAuth](https://www.cloudflare.com/learning/access-management/what-is-oauth/) - “OAuth 是一种授权协议：它确保 Bob 前往正确的停车场。 相比之下，SAML 是一种用于身份验证的协议，或者允许 Bob 通过警卫室。”
+- [SAML vs. OAuth](https://web.archive.org/web/20230327071347/https://www.cloudflare.com/learning/access-management/what-is-oauth/) - “OAuth 是一种授权协议：它确保 Bob 前往正确的停车场。 相比之下，SAML 是一种用于身份验证的协议，或者允许 Bob 通过警卫室。”
 
 - [SAML 2.0 和 OAuth 2.0 的区别](https://www.ubisecure.com/uncategorized/difference-between-saml-and-oauth/) - “尽管 SAML 实际上被设计为具有广泛的适用性，但其当代用途通常转向企业 SSO 场景。 另一方面，OAuth 被设计用于 Internet 上的应用程序，尤其是委托授权。”
 
@@ -548,7 +548,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 作为一个在线服务提供商，你面临着欺诈、犯罪和滥用的风险。你会惊讶于人们在涉及到金钱时的聪明程度。预计你的工作流程中的任何错误或差异都会被利用来获取经济利益。
 
-- [在 Car2Go 放宽背景调查后，其75辆车在一天内被盗。](https://archive.is/MuNrZ) - 为什么背景调查有时是必要的。
+- [在 Car2Go 放宽背景调查后，其75辆车在一天内被盗。](https://web.archive.org/web/20230526073109/https://www.bloomberg.com/news/articles/2019-07-11/mercedes-thieves-showed-just-how-vulnerable-car-sharing-can-be) - 为什么背景调查有时是必要的。
 
 - [调查异常注册](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - 对 OpenStreetMap 上可疑贡献者注册的详细分析。 这份精美而高层次的报告展示了一场精心策划和定向的活动，可以作为欺诈报告的模板。
 
@@ -602,7 +602,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [reCaptcha](https://www.google.com/recaptcha) - 当你的公司没有能力拥有一个专门的团队在互联网规模上打击机器人和垃圾邮件的时候，reCaptcha 仍然是一个有效、经济和快速的解决方案。
 
-- [你（可能）不需要ReCAPTCHA](https://kevv.net/you-probably-dont-need-recaptcha/) - 开始时咆哮说该服务是一个隐私的噩梦，在用户界面上也很乏味，然后列出替代方案。
+- [你（可能）不需要ReCAPTCHA](https://web.archive.org/web/20190611190134/https://kevv.net/you-probably-dont-need-recaptcha/) - 开始时咆哮说该服务是一个隐私的噩梦，在用户界面上也很乏味，然后列出替代方案。
 
 - [Anti-captcha](https://anti-captcha.com) - 验证码的解决服务。
 
