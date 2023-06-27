@@ -314,9 +314,11 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### OAuth2 & OpenID
 
-[OAuth 2.0](https://zh.wikipedia.org/wiki/开放授权#OAuth_2.0) 是一个授权框架。[OpenID Connect（OIDC](https://en.wikipedia.org/wiki/OpenID_Connect)是它上面的一个认证层。
+[OAuth 2.0](https://zh.wikipedia.org/wiki/开放授权#OAuth_2.0) 是一个*委托授权*框架。 [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) 是其之上的*身份验证*层。
 
 旧的 *OpenID* 已死； 新的 *OpenID Connect* 还没有死。
+
+- [OAuth 身份验证的问题](http://www.thread-safe.com/2012/01/problem-with-oauth-for-authentication.html) - “问题是 OAuth 2.0 是委托授权 协议，而不是身份验证协议。” 10年后，这篇文章仍然是关于[为什么使用OpenID Connect而不是普通OAuth2](https://security.stackexchange.com/a/260519)的最好解释？
 
 - [OAuth 和 OpenID Connect 图解指南](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - 使用简化的插图解释这些标准的工作原理。
 
