@@ -332,10 +332,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [开源 BuzzFeed 的 SSO 体验](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/) - 中央认证服务 (CAS) 协议的 OAuth2 友好改编。 您会在那里找到很好的 OAuth 用户流程图。
 
-- [OpenID 的衰落D](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID 在公共网络中被替换为 OAuth 1、OAuth 2 或其他专有 SSO 协议的混合体。
-
-- [为什么 Mastercard 不使用 OAuth 2.0](https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20) - "他们这样做是为了提供消息级的完整性。OAuth 2改成了传输级的保密性/完整性。" (由 TLS 提供这个定性) ([来源](https://news.ycombinator.com/item?id=17486165)).
-
 - [OAuth 2.0 安全的当前最佳实践](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-16) - "更新和扩展了 OAuth 2.0 的安全威胁模型，以纳入自 OAuth 2.0 发布以来收集的实际经验，并涵盖了由于更广泛的应用而产生的相关新威胁"。
 
 - [隐藏的 OAuth 攻击载体](https://portswigger.net/web-security/oauth) - 如何识别和利用 OAuth 2.0 认证机制中发现的一些关键漏洞。
@@ -355,6 +351,10 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 - [a12n-server](https://github.com/curveball/a12n-server) - 一个简单的身份验证系统，仅实现 OAuth2 标准的相关部分。
 
 - [Logto](https://github.com/logto-io/logto) - 使用此基于 OIDC 的身份服务构建登录、身份验证和用户身份。
+
+- [OpenID 的衰落D](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID 在公共网络中被替换为 OAuth 1、OAuth 2 或其他专有 SSO 协议的混合体。
+
+- [为什么 Mastercard 不使用 OAuth 2.0](https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20) - "他们这样做是为了提供消息级的完整性。OAuth 2改成了传输级的保密性/完整性。" (由 TLS 提供这个定性) ([来源](https://news.ycombinator.com/item?id=17486165)).
 
 - [OAuth 2.0 and the Road to Hell](https://gist.github.com/nckroy/dd2d4dfc86f7d13045ad715377b6a48f) - Oauth 2.0 規範的主要作者和編輯的辭職信。
 
