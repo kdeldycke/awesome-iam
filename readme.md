@@ -343,13 +343,9 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
 
-- [Cierge](https://web.archive.org/web/20190402111431/https://pwdless.github.io/Cierge-Website/) - Open-source authentication server (OIDC) that handles user signup, login, profiles, management, and more.
-
 - [Keycloak](https://www.keycloak.org) - Open-source Identity and Access Management. Supports OIDC, OAuth 2 and SAML 2, LDAP and AD directories, password policies.
 
 - [Casdoor](https://github.com/casbin/casdoor) - A UI-first centralized authentication / Single-Sign-On (SSO) platform based. Supports OIDC and OAuth 2, social logins, user management, 2FA based on Email and SMS.
-
-- [IdentityServer](https://github.com/IdentityServer/IdentityServer4) - Free, open source OpenID Connect and OAuth 2.0 framework for ASP-NET Core.
 
 - [authentik](https://goauthentik.io/?#correctness) - Open-source Identity Provider similar to Keycloak.
 
