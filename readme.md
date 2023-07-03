@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/kdeldycke/awesome-iam#readme">
-    <img src="https://github.com/kdeldycke/awesome-iam/raw/main/assets/awesome-iam-header.jpg" alt="Awesome IAM">
+    <img src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/awesome-iam-header.jpg" alt="Awesome IAM">
   </a>
 </p>
 
