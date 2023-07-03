@@ -783,4 +783,6 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 <!--lint disable no-undefined-references-->
 
+<a name="sponsor-def">\[0\]</a>: <a href="https://github.com/sponsors/kdeldycke">您可以通过 GitHub 赞助将您的身份和身份验证产品添加到赞助商列表中</a>。 [\[↑\]](#sponsor-ref)
+
 <a name="intro-quote-def">\[1\]</a>: [*Poison Study*](https://www.amazon.com/dp/0778324338?&linkCode=ll1&tag=kevideld-20&linkId=0b92c3d92371bd53daca5457bdad327e&language=en_US&ref_=as_li_ss_tl) (Mira, 2007). [\[↑\]](#intro-quote-ref)
