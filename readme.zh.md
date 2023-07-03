@@ -172,7 +172,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [BeyondCorp：企业安全的新方法](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf) - 简要概述谷歌的零信任网络方案。
 
-
 - [什么是 BeyondCorp？ 什么是身份感知代理？](https://medium.com/google-cloud/what-is-beyondcorp-what-is-identity-aware-proxy-de525d9b3f90) - 越来越多的公司添加了额外的 VPN、防火墙、限制和限制层，导致糟糕的体验和轻微的安全增益。是存在更好的方法。
 
 - [oathkeeper](https://github.com/ory/oathkeeper) - 身份与访问代理和访问控制决策API，对进入的HTTP请求进行认证、授权和变异。受BeyondCorp / Zero Trust白皮书的启发。
