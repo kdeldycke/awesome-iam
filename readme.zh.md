@@ -16,8 +16,14 @@
 </p>
 
 <p align="center">
-  <a href="https://www.descope.com">
-    <img src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-white.jpg" width="300"/><br/>
+  <a href="https://www.descope.com/?utm_source=awesome-iam&utm_medium=referral&utm_campaign=awesome-iam-oss-sponsorship">
+    <img src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-white.jpg" width="300"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-dark-background.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-light-background.svg">
+      <img width="300" src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-light-background.svg">
+    </picture>
+    <br/>
     <strong>拖放您的身份验证。</strong><br/>
     使用几行代码向您的应用程序添加身份验证、用户管理和授权。
   </a>
