@@ -16,20 +16,19 @@
 </p>
 
 <p align="center">
-
   <a href="https://www.descope.com">
     <img src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-white.jpg" width="300"/><br/>
     <strong>Drag and drop your auth.</strong><br/>
     Add authentication, user management, and authorization to your app with a few lines of code.
   </a>
-
-  <!-- This section must be commented if there is a sponsor logo to increase its impact. -->
-  <!--a href="https://github.com/sponsors/kdeldycke">
+  <!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
+  <!--
+  <a href="https://github.com/sponsors/kdeldycke">
     <strong>Yᴏᴜʀ Iᴅᴇɴᴛɪᴛʏ & Aᴜᴛʜᴇɴᴛɪᴄᴀᴛɪᴏɴ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
     <br/>
     <sup>Add a link to your company or project here: back me up via a GitHub sponsorship.</sup>
-  </a-->
-
+  </a>
+  -->
 </p>
 
 ---
