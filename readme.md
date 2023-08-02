@@ -55,6 +55,7 @@ This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/
 
 <!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
 
+- [Contents](#contents)
 - [Overview](#overview)
 - [Security](#security)
 - [Account Management](#account-management)
@@ -69,7 +70,7 @@ This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/
   - [SMS-based](#sms-based)
   - [Public-Key Infrastructure (PKI)](#public-key-infrastructure-pki)
   - [JWT](#jwt)
-  - [OAuth2 & OpenID](#oauth2--openid)
+  - [OAuth2 \& OpenID](#oauth2--openid)
   - [SAML](#saml)
 - [Authorization](#authorization)
   - [Policy models](#policy-models)
@@ -78,7 +79,7 @@ This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/
   - [Macaroons](#macaroons)
 - [Secret Management](#secret-management)
   - [Hardware Security Module (HSM)](#hardware-security-module-hsm)
-- [Trust & Safety](#trust--safety)
+- [Trust \& Safety](#trust--safety)
   - [User Identity](#user-identity)
   - [Fraud](#fraud)
   - [Moderation](#moderation)
@@ -95,6 +96,8 @@ This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/
 - [UX/UI](#uxui)
 - [Competitive Analysis](#competitive-analysis)
 - [History](#history)
+- [Contributing](#contributing)
+- [Footnotes](#footnotes)
 
 <!-- mdformat-toc end -->
 
@@ -355,6 +358,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 - [Hidden OAuth attack vectors](https://portswigger.net/web-security/oauth) - How to identify and exploit some of the key vulnerabilities found in OAuth 2.0 authentication mechanisms.
 
 - [PKCE Explained](https://www.loginradius.com/blog/engineering/pkce/) - “PKCE is used to provide one more security layer to the authorization code flow in OAuth and OpenID Connect.”
+
+- [Authgear](https://www.authgear.com/) - an identity-as-a-service (IDaaS) platform with a bunch of open-source SDKs for web and mobile applications(Android, IOS, Flutter, Xamarin, React, SPA and more). It usually involves just a few lines of code to enable multiple authentication methods, such as social, passwordless, biometrics logins, one-time-password (OTP) with SMS/WhatsApp, and multi-factor authentication (MFA).
 
 - [Hydra](https://gethydra.sh) - Open-source OIDC & OAuth2 Server.
 
