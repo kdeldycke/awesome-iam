@@ -478,6 +478,8 @@ Tools and resources exclusively targetting the [AWS IAM policies](http://docs.aw
 
 - [IAMbic](https://github.com/noqdev/iambic) - GitOps for IAM. The Terraform of Cloud IAM. IAMbic is a multi-cloud identity and access management (IAM) control plane that centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in version control.
 
+- [aws-lint-iam-policies](https://github.com/welldone-cloud/aws-lint-iam-policies) - Runs IAM policy linting checks against either a single AWS account or all accounts of an AWS Organization. Reports on policies that violate security best practices or contain errors. Supports both identity-based and resource-based policies.
+
 ### Macaroons
 
 A clever curiosity to distribute and delegate authorization.
