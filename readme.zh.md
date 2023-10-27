@@ -62,20 +62,21 @@
   - [标识符](#标识符)
 - [零信任网络](#零信任网络)
 - [认证](#认证)
-  - [基于密码](#基于密码)
-  - [无密码](#无密码)
-  - [安全密钥](#安全密钥)
-  - [多因素](#多因素)
+- [基于密码](#基于密码)
+- [多因素](#多因素)
   - [基于短信](#基于短信)
+- [无密码](#无密码)
+  - [WebAuthn](#webauthn)
+  - [安全密钥](#安全密钥)
   - [公钥基础设施](#公钥基础设施)
   - [JWT](#jwt)
-  - [OAuth2 & OpenID](#oauth2--openid)
-  - [SAML](#saml)
 - [授权](#授权)
   - [策略模型](#策略模型)
   - [开源策略框架](#开源策略框架)
   - [AWS 策略工具](#AWS-策略工具)
   - [Macaroons](#macaroons)
+- [OAuth2 & OpenID](#oauth2--openid)
+- [SAML](#saml)
 - [秘密管理](#秘密管理)
   - [硬件安全模块 (HSM)](#硬件安全模块-hsm)
 - [信任与安全](#信任与安全)
@@ -216,29 +217,9 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [如何改变已经散列的用户密码的散列方案](https://news.ycombinator.com/item?id=20109360) - 好消息是：你并没有被困在一个传统的密码保存方案中。这里有一个技巧，可以透明地升级到更强大的散列算法。
 
-### 无密码
+## 多因素
 
-- [无密码的争论](https://web.archive.org/web/20190515230752/https://biarity.gitlab.io/2018/02/23/passwordless/) - 密码不是用户身份验证的全部和最终结果。这篇文章试图告诉你为什么。
-
-- [神奇的链接 - 它们实际上已经过时了吗？](https://zitadel.com/blog/magic-links) - 什么是神奇的链接，它们的起源，优点和缺点。
-
-- [WebAuthn 指南](https://webauthn.guide) - 这是一份非常容易理解的WebAuthn指南，该标准允许 "服务器使用公钥加密技术而不是密码来注册和验证用户"，所有主要浏览器都支持。
-
-### 安全密钥
-
-- [Webauthn 和安全密钥](https://www.imperialviolet.org/2018/03/27/webauthn.html) - 描述身份验证如何使用安全密钥，详细说明协议，以及它们如何与 WebAuthn 结合。 要点：“但是，无法使用 webauthn 创建 U2F 密钥。 (...) 所以先完成登录过程到 webauthn 的过渡，然后再过渡注册。”
-
-- [开始使用安全密钥](https://paulstamatiou.com/getting-started-with-security-keys/) - 使用 FIDO2、WebAuthn 和安全密钥保持在线安全和防止网络钓鱼的实用指南。
-
-- [Solo](https://github.com/solokeys/solo) - 通过 USB + NFC 打开支持 FIDO2 和 U2F 的安全密钥。
-
-- [OpenSK](https://github.com/google/OpenSK) - 用 Rust 编写的安全密钥的开源实现，支持 FIDO U2F 和 FIDO2 标准。
-
-- [YubiKey 指南](https://github.com/drduh/YubiKey-Guide) - 使用 YubiKey 作为存储 GPG 加密、签名和身份验证密钥的智能卡的指南，它也可以用于 SSH。 本文档中的许多原则适用于其他智能卡设备。
-
-- [YubiKey at Datadog](https://github.com/DataDog/yubikey) - Yubikey、U2F、GPG、git、SSH、Keybase、VMware Fusion 和 Docker Content Trust 设置指南。
-
-### 多因素
+在仅密码的AUTH的基础上，这些方案中要求用户提供两个或更多的证据（或因素）。
 
 - [打破密码的依赖性。微软最后一公里的挑战](https://www.youtube.com/watch?v=B_mhJO2qHlQ) - 帐户黑客攻击的主要来源是密码喷洒（在 SMTP、IMAP、POP 等传统身份验证上），其次是重放攻击。 要点：密码不安全，使用并执行 MFA。
 
@@ -286,6 +267,34 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [AWS 正在逐步弃用基于 SMS 的 2FA](https://aws.amazon.com/iam/details/mfa/) - “我们鼓励您通过 U2F 安全密钥、硬件设备或虚拟（基于软件的）MFA 设备使用 MFA。 您可以在 2019 年 1 月 31 日之前继续使用此功能。”
 
+## 无密码
+
+- [无密码的争论](https://web.archive.org/web/20190515230752/https://biarity.gitlab.io/2018/02/23/passwordless/) - 密码不是用户身份验证的全部和最终结果。这篇文章试图告诉你为什么。
+
+- [神奇的链接 - 它们实际上已经过时了吗？](https://zitadel.com/blog/magic-links) - 什么是神奇的链接，它们的起源，优点和缺点。
+
+### WebAuthn
+
+[fido2项目](https://en.wikipedia.org/wiki/fido_alliance#fido2）的一部分，也以 *passkeys *的用户友好名称为名。
+
+- [WebAuthn 指南](https://webauthn.guide) - 这是一份非常容易理解的WebAuthn指南，该标准允许 "服务器使用公钥加密技术而不是密码来注册和验证用户"，所有主要浏览器都支持。
+
+- [清除对Passkeys的一些误解](https://www.stavros.io/posts/clearing-up-some-passkeys-misconceptions/) - 或者为什么Passkey不比密码差。
+
+### 安全密钥
+
+- [Webauthn 和安全密钥](https://www.imperialviolet.org/2018/03/27/webauthn.html) - 描述身份验证如何使用安全密钥，详细说明协议，以及它们如何与 WebAuthn 结合。 要点：“但是，无法使用 webauthn 创建 U2F 密钥。 (...) 所以先完成登录过程到 webauthn 的过渡，然后再过渡注册。”
+
+- [开始使用安全密钥](https://paulstamatiou.com/getting-started-with-security-keys/) - 使用 FIDO2、WebAuthn 和安全密钥保持在线安全和防止网络钓鱼的实用指南。
+
+- [Solo](https://github.com/solokeys/solo) - 通过 USB + NFC 打开支持 FIDO2 和 U2F 的安全密钥。
+
+- [OpenSK](https://github.com/google/OpenSK) - 用 Rust 编写的安全密钥的开源实现，支持 FIDO U2F 和 FIDO2 标准。
+
+- [YubiKey 指南](https://github.com/drduh/YubiKey-Guide) - 使用 YubiKey 作为存储 GPG 加密、签名和身份验证密钥的智能卡的指南，它也可以用于 SSH。 本文档中的许多原则适用于其他智能卡设备。
+
+- [YubiKey at Datadog](https://github.com/DataDog/yubikey) - Yubikey、U2F、GPG、git、SSH、Keybase、VMware Fusion 和 Docker Content Trust 设置指南。
+
 ### 公钥基础设施
 
 基于证书的身份验证。
@@ -328,7 +337,99 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [jwtXploiter](https://github.com/DontPanicO/jwtXploiter) - 一个测试 json web token 安全性的工具。
 
-### OAuth2 & OpenID
+## 授权
+
+现在我们知道你就是你。 但是你可以做你想做的事吗？
+
+策略规范是科学，执行是艺术。
+
+### 策略模型
+
+作为一个概念，访问控制策略可以设计为遵循非常不同的原型，从经典的[访问控制列表](https://en.wikipedia.org/wiki/Access-control_list)到[基于角色的访问控制](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制)。 在本节中，我们将探索许多不同的模式和架构。
+
+- [为什么授权很难](https://www.osohq.com/post/why-authorization-is-hard) - 因为它需要在很多地方需要的执行、决策架构上进行多重权衡以将业务逻辑与授权逻辑分开，以及在建模上平衡功率和复杂性。
+
+- [用户授权的永无止境的产品要求](https://alexolivier.me/posts/the-never-ending-product-requirements-of-user-authorization) - 基于角色的简单授权模型是如何不够的，并且由于产品包装、数据定位、企业组织和合规性而迅速变得复杂。
+
+- [拟采用的 RBAC 方式](https://tailscale.com/blog/rbac-like-it-was-meant-to-be/) -我们如何从 DAC（unix 权限、秘密 URL）到 MAC（DRM、MFA、2FA、SELinux），再到 RBAC。 详细说明后者如何允许更好地建模策略、ACL、用户和组。
+
+- [细粒度权限的案例](https://cerbos.dev/blog/the-case-for-granular-permissions) - 讨论 RBAC 的局限性以及 ABAC（基于属性的访问控制）如何解决这些问题。
+
+- [寻找完美的访问控制系统](https://goteleport.com/blog/access-controls/) - 授权计划的历史渊源。暗示了不同团队和组织之间共享、信任和授权的未来。
+
+- [AWS IAM 角色，一个不必要的复杂故事](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - 快速增长的 AWS 的历史解释了当前方案是如何形成的，以及它与 GCP 资源层次结构的比较。
+
+- [GCP IAM语法比AWS更好](https://ucarion.com/iam-operation-syntax) - GCP中许可设计的细节可改善发育器的经验。
+
+- [使用 SMT 的 AWS 访问策略的基于语义的自动推理](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova 是 AWS 的做法。 该系统对IAM策略进行符号分析，根据用户权限和访问约束解决资源可达性问题。 另请参阅更高级别的 [在 re:inforce 2019 上给出的介绍](https://youtu.be/x6wsTFnU3eY?t=2111)。
+
+- [Zanzibar：谷歌一致的全球授权系统](https://ai.google/research/pubs/pub48190) - 可扩展到每秒数万亿个访问控制列表和数百万个授权请求，以支持数十亿人使用的服务。 在 3 年的生产使用中，它一直保持低于 10 毫秒的 95% 延迟和高于 99.999% 的可用性。 [论文中没有的其他内容](https://twitter.com/LeaKissner/status/1136626971566149633)。 [Zanzibar Academy](https://zanzibar.academy/) 是一个致力于解释 Zanzibar 运作方式的网站。
+
+- [SpiceDB](https://github.com/authzed/spicedb) - 一个开源数据库系统，用于管理受 Zanzibar 启发的安全关键应用程序权限。
+
+- [围绕标记的安全性和 RBAC 概念构建的 authz 系统](https://news.ycombinator.com/item?id=20136831) 的描述。
+
+### 开源策略框架
+
+如果你想推出你自己的策略实施，收集的开源项目。
+
+- [Keto](https://github.com/ory/keto) - 策略决定点。 它使用一组访问控制策略，类似于 AWS 策略，以确定主体是否有权对资源执行特定操作。
+
+- [Ladon](https://github.com/ory/ladon) - 受 AWS 启发的访问控制库。
+
+- [Athenz](https://github.com/yahoo/athenz) - 支持服务身份验证和基于角色的授权 (RBAC) 的服务和库集，用于部署和配置。
+
+- [Casbin](https://github.com/casbin/casbin) - Golang 项目的开源访问控制库。
+
+- [Open Policy Agent](https://github.com/open-policy-agent/opa) - 一个开源通用决策引擎，用于创建和实施基于属性的访问控制 (ABAC) 策略。
+
+- [Topaz](https://github.com/aserto-dev/topaz) - 一个开源项目，它将 OPA 的策略即代码和决策日志记录与 Zanzibar 模型目录相结合。
+
+- [Open Policy Administration Layer](https://github.com/permitio/opal) - OPA 的开源管理层，实时检测政策和政策数据的变化，并将实时更新推送给 OPA 代理。 OPAL 使开放策略达到实时应用程序所需的速度。
+
+- [Gubernator](https://github.com/mailgun/gubernator) - 高性能限速微服务和库。
+
+- [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit 合并了来自 cookies、JWTs、macaroons 和 Open Policy Agent 的概念。 “它提供了一种基于 Datalog 的逻辑语言来编写授权策略。 它可以存储数据，如 JWT，或像 Macaroons 这样的小条件，但它也能够表示更复杂的规则，如基于角色的访问控制、委托、层次结构。”
+
+- [Oso](https://github.com/osohq/oso) - 一个包含电池的库，用于在您的应用程序中构建授权。
+
+- [Cerbos](https://github.com/cerbos/cerbos) - 用于编写上下文感知访问控制策略的授权端点。
+
+- [Warrant](https://github.com/warrant-dev/warrant) - 基于关系的访问控制（REBAC）引擎（受Google Zanzibar的启发）也能够执行任何授权范式，包括RBAC和ABAC。
+
+### AWS 策略工具
+
+专门针对 [AWS IAM 策略](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) 生态系统的工具和资源。
+
+- [成为 AWS IAM 策略忍者](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - “在亚马逊工作近 5 年的时间里，我每天、每周都会抽出一点时间浏览论坛、客户工单，试图找出人们遇到问题的地方。”
+
+- [Cloudsplaining](https://github.com/salesforce/cloudsplaining) - 安全评估工具，可识别违反最小特权的行为并生成风险优先报告。
+
+- [Policy Sentry](https://github.com/salesforce/policy_sentry) - 手动编写具有安全意识的 IAM 策略可能非常乏味且效率低下。 Policy Sentry 可帮助用户在几秒钟内创建最低权限策略。
+
+- [Aardvark and Repokid](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e) - 用于在 AWS 上实施最低权限的 Netflix 工具。 这个想法是，对新事物的默认策略是全部拒绝，然后它会监控 cloudtrail 是否存在权限故障，并重新配置 IAM 以允许尽可能小的权限来摆脱该拒绝消息。
+
+- [Principal Mapper](https://github.com/nccgroup/PMapper) - 快速评估权限。
+
+- [PolicyUniverse](https://github.com/Netflix-Skunkworks/policyuniverse) - 解析和处理 AWS 策略、语句、ARN 和通配符。
+
+- [IAM Floyd](https://github.com/udondan/iam-floyd) - 具有流畅界面的 AWS IAM 策略语句生成器。 通过 IntelliSense 提供条件和 ARN 生成，帮助创建类型安全的 IAM 策略并编写更具限制性/安全的语句。 适用于 Node.js、Python、.Net 和 Java。
+
+- [ConsoleMe](https://github.com/Netflix/consoleme) - 一种适用于 AWS 的自助服务工具，它根据跨多个账户管理权限的授权级别为最终用户和管理员提供登录账户的凭据和控制台访问权限，同时鼓励使用最低权限。
+
+- [IAMbic](https://github.com/noqdev/iambic) - 適用於 IAM 的 GitOps。 Cloud IAM 的 Terraform。 IAMbic 是一個多雲身份和訪問管理 (IAM) 控制平面，可集中和簡化雲訪問和權限。 它在版本控制中維護 IAM 的最終一致、人類可讀的雙向表示。
+
+### Macaroons
+
+分配和委托授权的巧妙好奇。
+
+- [五分钟或更短时间内完成 Google 的 Macaroon](https://blog.bren2010.io/blog/googles-macaroons) - 如果给我一个授权我在某些限制下执行某些操作的 Macaroon，我可以非交互地构建第二个具有更严格限制的 Macaroon，然后我可以给你。
+
+- [Macaroons: 为云中的分散式授权提供带有上下文警告的Cookies](https://ai.google/research/pubs/pub41892) - 谷歌的原始论文。
+
+- [Google 论文的作者比较了 Macaroons 和 JWT](https://news.ycombinator.com/item?id=14294463) - 作为 Macaroons 的消费者/验证者，它们允许您（通过第三方警告）将某些授权决定推迟给其他人，JWT 没有。
+
+## OAuth2 & OpenID
 
 [OAuth 2.0](https://zh.wikipedia.org/wiki/开放授权#OAuth_2.0) 是一个*委托授权*框架。 [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) 是其之上的*身份验证*层。
 
@@ -376,7 +477,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [OAuth 2.0 and the Road to Hell](https://gist.github.com/nckroy/dd2d4dfc86f7d13045ad715377b6a48f) - Oauth 2.0 規範的主要作者和編輯的辭職信。
 
-### SAML
+## SAML
 
 安全断言标记语言 (SAML) 2.0 是一种在服务之间交换授权和身份验证的方法，例如上面的 OAuth/OpenID 协议。
 
@@ -400,94 +501,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [SSO的耻辱墙](https://sso.tax) - 对 SaaS 提供商为在其产品上激活 SSO 而实行的过高定价进行了有记录的咆哮。 作者的观点是，作为核心安全功能，SSO 应该合理定价，而不是排他性层的一部分。
 
-## 授权
-
-现在我们知道你就是你。 但是你可以做你想做的事吗？
-
-策略规范是科学，执行是艺术。
-
-### 策略模型
-
-作为一个概念，访问控制策略可以设计为遵循非常不同的原型，从经典的[访问控制列表](https://en.wikipedia.org/wiki/Access-control_list)到[基于角色的访问控制](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制)。 在本节中，我们将探索许多不同的模式和架构。
-
-- [为什么授权很难](https://www.osohq.com/post/why-authorization-is-hard) - 因为它需要在很多地方需要的执行、决策架构上进行多重权衡以将业务逻辑与授权逻辑分开，以及在建模上平衡功率和复杂性。
-
-- [用户授权的永无止境的产品要求](https://alexolivier.me/posts/the-never-ending-product-requirements-of-user-authorization) - 基于角色的简单授权模型是如何不够的，并且由于产品包装、数据定位、企业组织和合规性而迅速变得复杂。
-
-- [拟采用的 RBAC 方式](https://tailscale.com/blog/rbac-like-it-was-meant-to-be/) -我们如何从 DAC（unix 权限、秘密 URL）到 MAC（DRM、MFA、2FA、SELinux），再到 RBAC。 详细说明后者如何允许更好地建模策略、ACL、用户和组。
-
-- [细粒度权限的案例](https://cerbos.dev/blog/the-case-for-granular-permissions) - 讨论 RBAC 的局限性以及 ABAC（基于属性的访问控制）如何解决这些问题。
-
-- [寻找完美的访问控制系统](https://goteleport.com/blog/access-controls/) - 授权计划的历史渊源。暗示了不同团队和组织之间共享、信任和授权的未来。
-
-- [AWS IAM 角色，一个不必要的复杂故事](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - 快速增长的 AWS 的历史解释了当前方案是如何形成的，以及它与 GCP 资源层次结构的比较。
-
-- [使用 SMT 的 AWS 访问策略的基于语义的自动推理](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova 是 AWS 的做法。 该系统对IAM策略进行符号分析，根据用户权限和访问约束解决资源可达性问题。 另请参阅更高级别的 [在 re:inforce 2019 上给出的介绍](https://youtu.be/x6wsTFnU3eY?t=2111)。
-
-- [Zanzibar：谷歌一致的全球授权系统](https://ai.google/research/pubs/pub48190) - 可扩展到每秒数万亿个访问控制列表和数百万个授权请求，以支持数十亿人使用的服务。 在 3 年的生产使用中，它一直保持低于 10 毫秒的 95% 延迟和高于 99.999% 的可用性。 [论文中没有的其他内容](https://twitter.com/LeaKissner/status/1136626971566149633)。 [Zanzibar Academy](https://zanzibar.academy/) 是一个致力于解释 Zanzibar 运作方式的网站。
-
-- [SpiceDB](https://github.com/authzed/spicedb) - 一个开源数据库系统，用于管理受 Zanzibar 启发的安全关键应用程序权限。
-
-- [围绕标记的安全性和 RBAC 概念构建的 authz 系统](https://news.ycombinator.com/item?id=20136831) 的描述。
-
-### 开源策略框架
-
-如果你想推出你自己的策略实施，收集的开源项目。
-
-- [Keto](https://github.com/ory/keto) - 策略决定点。 它使用一组访问控制策略，类似于 AWS 策略，以确定主体是否有权对资源执行特定操作。
-
-- [Ladon](https://github.com/ory/ladon) - 受 AWS 启发的访问控制库。
-
-- [Athenz](https://github.com/yahoo/athenz) - 支持服务身份验证和基于角色的授权 (RBAC) 的服务和库集，用于部署和配置。
-
-- [Casbin](https://github.com/casbin/casbin) - Golang 项目的开源访问控制库。
-
-- [Open Policy Agent](https://github.com/open-policy-agent/opa) - 一个开源通用决策引擎，用于创建和实施基于属性的访问控制 (ABAC) 策略。
-
-- [Topaz](https://github.com/aserto-dev/topaz) - 一个开源项目，它将 OPA 的策略即代码和决策日志记录与 Zanzibar 模型目录相结合。
-
-- [Open Policy Administration Layer](https://github.com/permitio/opal) - OPA 的开源管理层，实时检测政策和政策数据的变化，并将实时更新推送给 OPA 代理。 OPAL 使开放策略达到实时应用程序所需的速度。
-
-- [Gubernator](https://github.com/mailgun/gubernator) - 高性能限速微服务和库。
-
-- [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit 合并了来自 cookies、JWTs、macaroons 和 Open Policy Agent 的概念。 “它提供了一种基于 Datalog 的逻辑语言来编写授权策略。 它可以存储数据，如 JWT，或像 Macaroons 这样的小条件，但它也能够表示更复杂的规则，如基于角色的访问控制、委托、层次结构。”
-
-- [Oso](https://github.com/osohq/oso) - 一个包含电池的库，用于在您的应用程序中构建授权。
-
-- [Cerbos](https://github.com/cerbos/cerbos) - 用于编写上下文感知访问控制策略的授权端点。
-
-### AWS 策略工具
-
-专门针对 [AWS IAM 策略](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) 生态系统的工具和资源。
-
-- [成为 AWS IAM 策略忍者](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - “在亚马逊工作近 5 年的时间里，我每天、每周都会抽出一点时间浏览论坛、客户工单，试图找出人们遇到问题的地方。”
-
-- [Cloudsplaining](https://github.com/salesforce/cloudsplaining) - 安全评估工具，可识别违反最小特权的行为并生成风险优先报告。
-
-- [Policy Sentry](https://github.com/salesforce/policy_sentry) - 手动编写具有安全意识的 IAM 策略可能非常乏味且效率低下。 Policy Sentry 可帮助用户在几秒钟内创建最低权限策略。
-
-- [Aardvark and Repokid](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e) - 用于在 AWS 上实施最低权限的 Netflix 工具。 这个想法是，对新事物的默认策略是全部拒绝，然后它会监控 cloudtrail 是否存在权限故障，并重新配置 IAM 以允许尽可能小的权限来摆脱该拒绝消息。
-
-- [Principal Mapper](https://github.com/nccgroup/PMapper) - 快速评估权限。
-
-- [PolicyUniverse](https://github.com/Netflix-Skunkworks/policyuniverse) - 解析和处理 AWS 策略、语句、ARN 和通配符。
-
-- [IAM Floyd](https://github.com/udondan/iam-floyd) - 具有流畅界面的 AWS IAM 策略语句生成器。 通过 IntelliSense 提供条件和 ARN 生成，帮助创建类型安全的 IAM 策略并编写更具限制性/安全的语句。 适用于 Node.js、Python、.Net 和 Java。
-
-- [ConsoleMe](https://github.com/Netflix/consoleme) - 一种适用于 AWS 的自助服务工具，它根据跨多个账户管理权限的授权级别为最终用户和管理员提供登录账户的凭据和控制台访问权限，同时鼓励使用最低权限。
-
-- [IAMbic](https://github.com/noqdev/iambic) - 適用於 IAM 的 GitOps。 Cloud IAM 的 Terraform。 IAMbic 是一個多雲身份和訪問管理 (IAM) 控制平面，可集中和簡化雲訪問和權限。 它在版本控制中維護 IAM 的最終一致、人類可讀的雙向表示。
-
-### Macaroons
-
-分配和委托授权的巧妙好奇。
-
-- [五分钟或更短时间内完成 Google 的 Macaroon](https://blog.bren2010.io/blog/googles-macaroons) - 如果给我一个授权我在某些限制下执行某些操作的 Macaroon，我可以非交互地构建第二个具有更严格限制的 Macaroon，然后我可以给你。
-
-- [Macaroons: 为云中的分散式授权提供带有上下文警告的Cookies](https://ai.google/research/pubs/pub41892) - 谷歌的原始论文。
-
-- [Google 论文的作者比较了 Macaroons 和 JWT](https://news.ycombinator.com/item?id=14294463) - 作为 Macaroons 的消费者/验证者，它们允许您（通过第三方警告）将某些授权决定推迟给其他人，JWT 没有。
-
 ## 秘密管理
 
 允许存储和使用秘密的架构、软件和硬件允许进行身份验证和授权，同时维护信任链。
@@ -496,7 +509,9 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Google 内部 KMS 中的高可用性](https://www.youtube.com/watch?v=5T_c-lqgjso) - 不是 GCP 的 KMS，而是其基础架构的核心。 见[幻灯片](https://rwc.iacr.org/2018/Slides/Kanagala.pdf).
 
-- [`vault`](https://www.vaultproject.io) - 保护、存储和严格控制对令牌、密码、证书、加密密钥的访问。
+- [HashiCorp Vault](https://www.vaultproject.io) - 保护、存储和严格控制对令牌、密码、证书、加密密钥的访问。
+
+- [Infisical](https://github.com/Infisical/infisical) - HashiCorp Vault 的替代品。
 
 - [`sops`](https://github.com/mozilla/sops) - 加密 YAML 和 JSON 文件的值，而不是密钥。
 
