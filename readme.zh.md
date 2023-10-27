@@ -62,7 +62,7 @@
   - [标识符](#标识符)
 - [零信任网络](#零信任网络)
 - [认证](#认证)
-- [基于密码](#基于密码)
+  - [基于密码](#基于密码)
 - [多因素](#多因素)
   - [基于短信](#基于短信)
 - [无密码](#无密码)
@@ -275,7 +275,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### WebAuthn
 
-[fido2项目](https://en.wikipedia.org/wiki/fido_alliance#fido2）的一部分，也以 *passkeys *的用户友好名称为名。
+[fido2项目](https://en.wikipedia.org/wiki/fido_alliance#fido2) 的一部分，也以 *passkeys* 的用户友好名称为名。
 
 - [WebAuthn 指南](https://webauthn.guide) - 这是一份非常容易理解的WebAuthn指南，该标准允许 "服务器使用公钥加密技术而不是密码来注册和验证用户"，所有主要浏览器都支持。
 
@@ -557,7 +557,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 ### 用户身份
 
-大多数企业不会收集客户的身份信息来创建用户档案以出售给第三方，不会。但你仍然必须这样做：当地法律要求在 ["了解你的客户" (Know You Customer KYC)] 的大旗下跟踪合同关系。
+大多数企业不会收集客户的身份信息来创建用户档案以出售给第三方，不会。但你仍然必须这样做：当地法律要求在 ["了解你的客户" (Know You Customer KYC)](https://en.wikipedia.org/wiki/Know_your_customer) 的大旗下跟踪合同关系。
 
 - [身份法则](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) - 虽然本文的目标是身份元系统，但它的法则在较小的范围内仍然提供了很好的见解，特别是第一条法则：总是允许用户控制并征求同意以赢得信任。
 
