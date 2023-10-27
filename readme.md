@@ -335,7 +335,7 @@ Certificate-based authentication.
 
 - [JWT.io](https://jwt.io) - Allows you to decode, verify and generate JWT.
 
-- [`loginsrv`](https://github.com/tarent/loginsrv) - Standalone minimalistic login server providing a JWT login for multiple login backends (htpasswd, OSIAM, user/password, HTTP basic authentication, OAuth2: GitHub, Google, Bitbucket, Facebook, Gitlab).
+- [`loginsrv`](https://github.com/tarent/loginsrv) - Standalone minimalistic login server providing a JWT login for multiple login backends (htpasswd, OSIAM, user/password, HTTP basic authentication, OAuth2: GitHub, Google, Bitbucket, Facebook, GitLab).
 
 - [jwtXploiter](https://github.com/DontPanicO/jwtXploiter) - A tool to test security of json web token.
 
@@ -361,7 +361,7 @@ As a concept, access control policies can be designed to follow very different a
 
 - [AWS IAM Roles, a tale of unnecessary complexity](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - The history of fast-growing AWS explains how the current sheme came to be, and how it compares to GCP's resource hierarchy.
 
-- [GCP’s IAM syntax is better than AWS’s](https://ucarion.com/iam-operation-syntax) - The minutiae of permission design in GCP improves the developper's experience.
+- [GCP's IAM syntax is better than AWS's](https://ucarion.com/iam-operation-syntax) - The minutiae of permission design in GCP improves the developper's experience.
 
 - [Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova is how AWS does it. This system perform symbolic analysis of IAM policies, and solve the reachability of resources according user's rights and access constraints. Also see the higher-level [introduction given at re:inforce 2019](https://youtu.be/x6wsTFnU3eY?t=2111).
 

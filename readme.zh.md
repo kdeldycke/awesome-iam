@@ -333,7 +333,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [JWT.io](https://jwt.io) - 允许你解码、验证和生成JWT。
 
-- [`loginsrv`](https://github.com/tarent/loginsrv) - 独立的简约登录服务器，为多个登录后端（htpasswd、OSIAM、用户/密码、HTTP 基本身份验证、OAuth2：GitHub、Google、Bitbucket、Facebook、Gitlab）提供 JWT 登录。
+- [`loginsrv`](https://github.com/tarent/loginsrv) - 独立的简约登录服务器，为多个登录后端（htpasswd、OSIAM、用户/密码、HTTP 基本身份验证、OAuth2：GitHub、Google、Bitbucket、Facebook、GitLab）提供 JWT 登录。
 
 - [jwtXploiter](https://github.com/DontPanicO/jwtXploiter) - 一个测试 json web token 安全性的工具。
 
