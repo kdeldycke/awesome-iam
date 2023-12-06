@@ -371,6 +371,8 @@ As a concept, access control policies can be designed to follow very different a
 
 - Description of an [authz system that is built around labeled security and RBAC concepts](https://news.ycombinator.com/item?id=20136831).
 
+- A review of [the evolution of fine-grained authorization](https://www.aserto.com/blog/fine-grained-access-control-evolution).
+
 ### Open-source policy frameworks
 
 Collection of open-source projects if you're looking to roll your own policy implementation.
