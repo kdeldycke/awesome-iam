@@ -371,6 +371,8 @@ As a concept, access control policies can be designed to follow very different a
 
 - Description of an [authz system that is built around labeled security and RBAC concepts](https://news.ycombinator.com/item?id=20136831).
 
+- [Authorization Academy](https://www.osohq.com/academy) - An in-depth, vendor-agnostic treatment of authorization that emphasizes mental models. This guide shows the reader how to think about their authorization needs in order to make good decisions about their authorization architecture and model.
+
 ### Open-source policy frameworks
 
 Collection of open-source projects if you're looking to roll your own policy implementation.
