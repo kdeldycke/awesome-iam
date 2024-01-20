@@ -359,7 +359,7 @@ As a concept, access control policies can be designed to follow very different a
 
 - [In Search For a Perfect Access Control System](https://goteleport.com/blog/access-controls/) - The historical origins of authorization schemes. Hints at the future of sharing, trust and delegation between different teams and organizations.
 
-- [AWS IAM Roles, a tale of unnecessary complexity](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - The history of fast-growing AWS explains how the current sheme came to be, and how it compares to GCP's resource hierarchy.
+- [AWS IAM Roles, a tale of unnecessary complexity](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - The history of fast-growing AWS explains how the current scheme came to be, and how it compares to GCP's resource hierarchy.
 
 - [GCP's IAM syntax is better than AWS's](https://ucarion.com/iam-operation-syntax) - The minutiae of permission design in GCP improves the developper's experience.
 
