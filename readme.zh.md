@@ -45,7 +45,7 @@
 
 <!--lint disable double-link-->
 
-[IAM](https://zh.wikipedia.org/wiki/身份管理) 代表身份和访问管理。 它是一个复杂的域，涵盖**用户帐户、身份验证、授权、角色、权限和隐私**。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/).
+[IAM](https://zh.wikipedia.org/wiki/%E8%BA%AB%E4%BB%BD%E7%AE%A1%E7%90%86) 代表身份和访问管理。 它是一个复杂的域，涵盖**用户帐户、身份验证、授权、角色、权限和隐私**。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/).
 
 这个精选清单 [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) 以全面且可操作的方式公开该领域的所有技术、协议和行话。
 
@@ -55,47 +55,48 @@
 
 <!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
 
-- [概述](#概述)
-- [安全](#安全)
-- [账户管理](#账户管理)
-- [密码学](#密码学)
-  - [标识符](#标识符)
-- [零信任网络](#零信任网络)
-- [认证](#认证)
-  - [基于密码](#基于密码)
-- [多因素](#多因素)
-  - [基于短信](#基于短信)
-- [无密码](#无密码)
+- [概述](#%E6%A6%82%E8%BF%B0)
+- [安全](#%E5%AE%89%E5%85%A8)
+- [账户管理](#%E8%B4%A6%E6%88%B7%E7%AE%A1%E7%90%86)
+- [密码学](#%E5%AF%86%E7%A0%81%E5%AD%A6)
+  - [标识符](#%E6%A0%87%E8%AF%86%E7%AC%A6)
+- [零信任网络](#%E9%9B%B6%E4%BF%A1%E4%BB%BB%E7%BD%91%E7%BB%9C)
+- [认证](#%E8%AE%A4%E8%AF%81)
+  - [基于密码](#%E5%9F%BA%E4%BA%8E%E5%AF%86%E7%A0%81)
+- [多因素](#%E5%A4%9A%E5%9B%A0%E7%B4%A0)
+  - [基于短信](#%E5%9F%BA%E4%BA%8E%E7%9F%AD%E4%BF%A1)
+- [无密码](#%E6%97%A0%E5%AF%86%E7%A0%81)
   - [WebAuthn](#webauthn)
-  - [安全密钥](#安全密钥)
-  - [公钥基础设施](#公钥基础设施)
+  - [安全密钥](#%E5%AE%89%E5%85%A8%E5%AF%86%E9%92%A5)
+  - [公钥基础设施](#%E5%85%AC%E9%92%A5%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD)
   - [JWT](#jwt)
-- [授权](#授权)
-  - [策略模型](#策略模型)
-  - [开源策略框架](#开源策略框架)
-  - [AWS 策略工具](#AWS-策略工具)
+- [授权](#%E6%8E%88%E6%9D%83)
+  - [策略模型](#%E7%AD%96%E7%95%A5%E6%A8%A1%E5%9E%8B)
+  - [开源策略框架](#%E5%BC%80%E6%BA%90%E7%AD%96%E7%95%A5%E6%A1%86%E6%9E%B6)
+  - [AWS 策略工具](#aws-%E7%AD%96%E7%95%A5%E5%B7%A5%E5%85%B7)
   - [Macaroons](#macaroons)
 - [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
-- [秘密管理](#秘密管理)
-  - [硬件安全模块 (HSM)](#硬件安全模块-hsm)
-- [信任与安全](#信任与安全)
-  - [用户身份](#用户身份)
-  - [欺诈](#欺诈)
+- [秘密管理](#%E7%A7%98%E5%AF%86%E7%AE%A1%E7%90%86)
+  - [硬件安全模块 (HSM)](#%E7%A1%AC%E4%BB%B6%E5%AE%89%E5%85%A8%E6%A8%A1%E5%9D%97-hsm)
+- [信任与安全](#%E4%BF%A1%E4%BB%BB%E4%B8%8E%E5%AE%89%E5%85%A8)
+  - [用户身份](#%E7%94%A8%E6%88%B7%E8%BA%AB%E4%BB%BD)
+  - [欺诈](#%E6%AC%BA%E8%AF%88)
   - [Moderation](#moderation)
-  - [威胁情报](#威胁情报)
-  - [验证码](#验证码)
-- [黑名单](#黑名单)
-  - [主机名和子域](#主机名和子域)
-  - [邮件](#邮件)
-  - [保留的 ID](#保留的-ID)
-  - [诽谤](#诽谤)
-- [隐私](#隐私)
-  - [匿名化](#匿名化)
+  - [威胁情报](#%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5)
+  - [验证码](#%E9%AA%8C%E8%AF%81%E7%A0%81)
+- [黑名单](#%E9%BB%91%E5%90%8D%E5%8D%95)
+  - [主机名和子域](#%E4%B8%BB%E6%9C%BA%E5%90%8D%E5%92%8C%E5%AD%90%E5%9F%9F)
+  - [邮件](#%E9%82%AE%E4%BB%B6)
+  - [保留的 ID](#%E4%BF%9D%E7%95%99%E7%9A%84-id)
+  - [诽谤](#%E8%AF%BD%E8%B0%A4)
+- [隐私](#%E9%9A%90%E7%A7%81)
+  - [匿名化](#%E5%8C%BF%E5%90%8D%E5%8C%96)
   - [GDPR](#gdpr)
 - [UX/UI](#uxui)
-- [竞争分析](#竞争分析)
-- [历史](#历史)
+- [竞争分析](#%E7%AB%9E%E4%BA%89%E5%88%86%E6%9E%90)
+- [历史](#%E5%8E%86%E5%8F%B2)
+- [贡献](#%E8%B4%A1%E7%8C%AE)
 
 <!-- mdformat-toc end -->
 
@@ -345,7 +346,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### 策略模型
 
-作为一个概念，访问控制策略可以设计为遵循非常不同的原型，从经典的[访问控制列表](https://en.wikipedia.org/wiki/Access-control_list)到[基于角色的访问控制](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制)。 在本节中，我们将探索许多不同的模式和架构。
+作为一个概念，访问控制策略可以设计为遵循非常不同的原型，从经典的[访问控制列表](https://en.wikipedia.org/wiki/Access-control_list)到[基于角色的访问控制](https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%A7%92%E8%89%B2%E7%82%BA%E5%9F%BA%E7%A4%8E%E7%9A%84%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6)。 在本节中，我们将探索许多不同的模式和架构。
 
 - [为什么授权很难](https://www.osohq.com/post/why-authorization-is-hard) - 因为它需要在很多地方需要的执行、决策架构上进行多重权衡以将业务逻辑与授权逻辑分开，以及在建模上平衡功率和复杂性。
 
@@ -433,7 +434,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ## OAuth2 & OpenID
 
-[OAuth 2.0](https://zh.wikipedia.org/wiki/开放授权#OAuth_2.0) 是一个*委托授权*框架。 [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) 是其之上的*身份验证*层。
+[OAuth 2.0](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%94%BE%E6%8E%88%E6%9D%83#OAuth_2.0) 是一个*委托授权*框架。 [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) 是其之上的*身份验证*层。
 
 旧的 *OpenID* 已死； 新的 *OpenID Connect* 还没有死。
 
@@ -641,7 +642,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 防止滥用的第一道机械防线包括简单明了的拒绝列表。这是打击欺诈行为的低垂果实，但你会惊讶地发现它们仍然有效。
 
-- [Bloom Filter](https://zh.wikipedia.org/wiki/布隆过滤器) - 非常适合这种用例，因为布隆过滤器旨在快速检查元素是否不在（大）集合中。 特定数据类型存在布隆过滤器的变体。
+- [Bloom Filter](https://zh.wikipedia.org/wiki/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8) - 非常适合这种用例，因为布隆过滤器旨在快速检查元素是否不在（大）集合中。 特定数据类型存在布隆过滤器的变体。
 
 - [Radix 树如何使阻断 IP 的速度提高5000倍](https://blog.sqreen.com/demystifying-radix-trees/) -Radix 树可能对加快 IP 封锁名单的速度很有帮助。
 
@@ -721,7 +722,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [四分钱去掉匿名：公司反向散列的电子邮件地址](https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/) - "哈希的电子邮件地址可以很容易地被逆转，并与个人联系起来"。
 
-- [为什么差异化的隐私是了不起的](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - 解释[差异隐私](https://zh.wikipedia.org/wiki/差分隐私)背后的直觉，这是一个理论框架，允许在不影响保密性的情况下共享聚合数据。参见后续文章[更多细节](https://desfontain.es/privacy/differential-privacy-in-more-detail.html)和[实践方面](https://desfontain.es/privacy/differential-privacy-in-practice.html)。
+- [为什么差异化的隐私是了不起的](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - 解释[差异隐私](https://zh.wikipedia.org/wiki/%E5%B7%AE%E5%88%86%E9%9A%90%E7%A7%81)背后的直觉，这是一个理论框架，允许在不影响保密性的情况下共享聚合数据。参见后续文章[更多细节](https://desfontain.es/privacy/differential-privacy-in-more-detail.html)和[实践方面](https://desfontain.es/privacy/differential-privacy-in-practice.html)。
 
 - [K-匿名性：简介](https://www.privitar.com/listing/k-anonymity-an-introduction) - 一个替代性的匿名隐私模型。
 
