@@ -367,8 +367,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [SpiceDB](https://github.com/authzed/spicedb) - 一个开源数据库系统，用于管理受 Zanzibar 启发的安全关键应用程序权限。
 
-- [围绕标记的安全性和 RBAC 概念构建的 authz 系统](https://news.ycombinator.com/item?id=20136831) 的描述。
-
 - [授权学院](https://www.osohq.com/academy) - 对授权进行深入的、与供应商无关的处理，强调心智模型。本指南向读者展示了如何考虑他们的授权需求，以便就其授权架构和模型做出正确的决策。
 
 - [服务到服务授权：非用户校长指南](https://www.cerbos.dev/blog/service-to-service-authorization) - 发现将身份分配给服务（非用户校长）如何简化身份验证，增强安全性和简化复杂分布式系统中的授权。 IAM团队管理微服务和API的有用指南。
