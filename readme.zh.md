@@ -481,6 +481,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Logto](https://github.com/logto-io/logto) - 使用此基于 OIDC 的身份服务构建登录、身份验证和用户身份。
 
+- [Authgear](https://github.com/authgear/authgear-server) - 开源身份验证解决方案。它包括服务器，Authui，门户和管理API的代码。
+
 - [OpenID 的衰落D](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID 在公共网络中被替换为 OAuth 1、OAuth 2 或其他专有 SSO 协议的混合体。
 
 - [为什么 Mastercard 不使用 OAuth 2.0](https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20) - "他们这样做是为了提供消息级的完整性。OAuth 2改成了传输级的保密性/完整性。" (由 TLS 提供这个定性) ([来源](https://news.ycombinator.com/item?id=17486165)).
