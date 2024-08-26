@@ -363,39 +363,47 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [使用 SMT 的 AWS 访问策略的基于语义的自动推理](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova 是 AWS 的做法。 该系统对IAM策略进行符号分析，根据用户权限和访问约束解决资源可达性问题。 另请参阅更高级别的 [在 re:inforce 2019 上给出的介绍](https://youtu.be/x6wsTFnU3eY?t=2111)。
 
-- [Zanzibar：谷歌一致的全球授权系统](https://ai.google/research/pubs/pub48190) - 可扩展到每秒数万亿个访问控制列表和数百万个授权请求，以支持数十亿人使用的服务。 在 3 年的生产使用中，它一直保持低于 10 毫秒的 95% 延迟和高于 99.999% 的可用性。 [论文中没有的其他内容](https://twitter.com/LeaKissner/status/1136626971566149633)。 [Zanzibar Academy](https://zanzibar.academy/) 是一个致力于解释 Zanzibar 运作方式的网站。
-
-- [SpiceDB](https://github.com/authzed/spicedb) - 一个开源数据库系统，用于管理受 Zanzibar 启发的安全关键应用程序权限。
-
 - [授权学院](https://www.osohq.com/academy) - 对授权进行深入的、与供应商无关的处理，强调心智模型。本指南向读者展示了如何考虑他们的授权需求，以便就其授权架构和模型做出正确的决策。
 
 - [服务到服务授权：非用户校长指南](https://www.cerbos.dev/blog/service-to-service-authorization) - 发现将身份分配给服务（非用户校长）如何简化身份验证，增强安全性和简化复杂分布式系统中的授权。 IAM团队管理微服务和API的有用指南。
 
-### 开源策略框架
+### RBAC 框架
 
-如果你想推出你自己的策略实施，收集的开源项目。
-
-- [Keto](https://github.com/ory/keto) - 策略决定点。 它使用一组访问控制策略，类似于 AWS 策略，以确定主体是否有权对资源执行特定操作。
-
-- [Ladon](https://github.com/ory/ladon) - 受 AWS 启发的访问控制库。
+[以角色為基礎的存取控制l](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制l) 是通过角色绘制用户将用户映射到权限的经典模型。
 
 - [Athenz](https://github.com/yahoo/athenz) - 支持服务身份验证和基于角色的授权 (RBAC) 的服务和库集，用于部署和配置。
-
-- [Casbin](https://github.com/casbin/casbin) - Golang 项目的开源访问控制库。
-
-- [Open Policy Agent](https://github.com/open-policy-agent/opa) - 一个开源通用决策引擎，用于创建和实施基于属性的访问控制 (ABAC) 策略。
-
-- [Topaz](https://github.com/aserto-dev/topaz) - 一个开源项目，它将 OPA 的策略即代码和决策日志记录与 Zanzibar 模型目录相结合。
-
-- [Open Policy Administration Layer](https://github.com/permitio/opal) - OPA 的开源管理层，实时检测政策和政策数据的变化，并将实时更新推送给 OPA 代理。 OPAL 使开放策略达到实时应用程序所需的速度。
-
-- [Gubernator](https://github.com/mailgun/gubernator) - 高性能限速微服务和库。
 
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit 合并了来自 cookies、JWTs、macaroons 和 Open Policy Agent 的概念。 “它提供了一种基于 Datalog 的逻辑语言来编写授权策略。 它可以存储数据，如 JWT，或像 Macaroons 这样的小条件，但它也能够表示更复杂的规则，如基于角色的访问控制、委托、层次结构。”
 
 - [Oso](https://github.com/osohq/oso) - 一个包含电池的库，用于在您的应用程序中构建授权。
 
 - [Cerbos](https://github.com/cerbos/cerbos) - 用于编写上下文感知访问控制策略的授权端点。
+
+### ABAC 框架
+
+[Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) 是RBAC的演变，其中角色被属性取代，从而实现了更复杂的基于策略的访问控制。
+
+- [Keto](https://github.com/ory/keto) - 策略决定点。 它使用一组访问控制策略，类似于 AWS 策略，以确定主体是否有权对资源执行特定操作。
+
+- [Ladon](https://github.com/ory/ladon) - 受 AWS 启发的访问控制库。
+
+- [Casbin](https://github.com/casbin/casbin) - Golang 项目的开源访问控制库。
+
+- [Open Policy Agent](https://github.com/open-policy-agent/opa) - 一个开源通用决策引擎，用于创建和实施基于属性的访问控制 (ABAC) 策略。
+
+### ReBAC 框架
+
+[基于关系的访问控制（ReBAC）](https://zh.wikipedia.org/wiki/基于关系的访问控制) 模型是RBAC的更灵活，功能更强大的版本，并且是云系统的首选。
+
+- [Zanzibar：谷歌一致的全球授权系统](https://ai.google/research/pubs/pub48190) - 可扩展到每秒数万亿个访问控制列表和数百万个授权请求，以支持数十亿人使用的服务。 在 3 年的生产使用中，它一直保持低于 10 毫秒的 95% 延迟和高于 99.999% 的可用性。 [论文中没有的其他内容](https://twitter.com/LeaKissner/status/1136626971566149633)。 [Zanzibar Academy](https://zanzibar.academy/) 是一个致力于解释 Zanzibar 运作方式的网站。
+
+- [SpiceDB](https://github.com/authzed/spicedb) - 一个开源数据库系统，用于管理受 Zanzibar 启发的安全关键应用程序权限。
+
+- [Permify](https://github.com/Permify/permify) - Another open-source authorization as a service inspired by Google Zanzibar. Here are some [differences compared to SpiceDB](https://news.ycombinator.com/item?id=41346771) mentioned above.
+
+- [Topaz](https://github.com/aserto-dev/topaz) - 一个开源项目，它将 OPA 的策略即代码和决策日志记录与 Zanzibar 模型目录相结合。
+
+- [Open Policy Administration Layer](https://github.com/permitio/opal) - OPA 的开源管理层，实时检测政策和政策数据的变化，并将实时更新推送给 OPA 代理。 OPAL 使开放策略达到实时应用程序所需的速度。
 
 - [Warrant](https://github.com/warrant-dev/warrant) - 基于关系的访问控制（REBAC）引擎（受Google Zanzibar的启发）也能够执行任何授权范式，包括RBAC和ABAC。
 
@@ -426,6 +434,10 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 - [Macaroons: 为云中的分散式授权提供带有上下文警告的Cookies](https://ai.google/research/pubs/pub41892) - 谷歌的原始论文。
 
 - [Google 论文的作者比较了 Macaroons 和 JWT](https://news.ycombinator.com/item?id=14294463) - 作为 Macaroons 的消费者/验证者，它们允许您（通过第三方警告）将某些授权决定推迟给其他人，JWT 没有。
+
+### 其他工具
+
+- [Gubernator](https://github.com/gubernator-io/gubernator) - 高性能限速微服务和库。
 
 ## OAuth2 & OpenID
 

@@ -365,39 +365,47 @@ As a concept, access control policies can be designed to follow very different a
 
 - [Semantic-based Automated Reasoning for AWS Access Policies using SMT](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova is how AWS does it. This system perform symbolic analysis of IAM policies, and solve the reachability of resources according user's rights and access constraints. Also see the higher-level [introduction given at re:inforce 2019](https://youtu.be/x6wsTFnU3eY?t=2111).
 
-- [Zanzibar: Google's Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - Scales to trillions of access control lists and millions of authorization requests per second to support services used by billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633). [Zanzibar Academy](https://zanzibar.academy/) is a site dedicated to explaining how Zanzibar works.
-
-- [SpiceDB](https://github.com/authzed/spicedb) - An open source database system for managing security-critical application permissions inspired by Zanzibar.
-
 - [Authorization Academy](https://www.osohq.com/academy) - An in-depth, vendor-agnostic treatment of authorization that emphasizes mental models. This guide shows the reader how to think about their authorization needs in order to make good decisions about their authorization architecture and model.
 
 - [Service-to-service authorization: A guide to non-user principals](https://www.cerbos.dev/blog/service-to-service-authorization) - Discover how assigning identities to services (non-user principals) can simplify authentication, enhance security, and streamline authorization in complex distributed systems. A useful guide for IAM teams managing microservices and APIs.
 
-### Open-source policy frameworks
+### RBAC frameworks
 
-Collection of open-source projects if you're looking to roll your own policy implementation.
+[Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) is the classical model to map users to permissions by the way of roles.
 
-- [Keto](https://github.com/ory/keto) - Policy decision point. It uses a set of access control policies, similar to AWS policies, in order to determine whether a subject is authorized to perform a certain action on a resource.
-
-- [Ladon](https://github.com/ory/ladon) - Access control library, inspired by AWS.
-
-- [Athenz](https://github.com/yahoo/athenz) - Set of services and libraries supporting service authentication and role-based authorization (RBAC) for provisioning and configuration.
-
-- [Casbin](https://github.com/casbin/casbin) - Open-source access control library for Golang projects.
-
-- [Open Policy Agent](https://github.com/open-policy-agent/opa) - An open-source general-purpose decision engine to create and enforce attribute-based access control (ABAC) policies.
-
-- [Topaz](https://github.com/aserto-dev/topaz) - An open-source project which combines the policy-as-code and decision logging of OPA with a Zanzibar-modeled directory.
-
-- [Open Policy Administration Layer](https://github.com/permitio/opal) - Open Source administration layer for OPA, detecting changes to both policy and policy data in realtime and pushing live updates to OPA agents. OPAL brings open-policy up to the speed needed by live applications.
-
-- [Gubernator](https://github.com/mailgun/gubernator) - High performance rate-limiting micro-service and library.
+- [Athenz](https://github.com/yahoo/athenz) - Set of services and libraries supporting service authentication and role-based authorization for provisioning and configuration.
 
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit merge concepts from cookies, JWTs, macaroons and Open Policy Agent. “It provide a logic language based on Datalog to write authorization policies. It can store data, like JWT, or small conditions like Macaroons, but it is also able to represent more complex rules like role-based access control, delegation, hierarchies.”
 
 - [Oso](https://github.com/osohq/oso) - A batteries-included library for building authorization in your application.
 
 - [Cerbos](https://github.com/cerbos/cerbos) - An authorization endpoint to write context-aware access control policies.
+
+### ABAC frameworks
+
+[Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) is an evolution of RBAC, in which roles are replaced by attributes, allowing the implementation of more complex policy-based access control.
+
+- [Keto](https://github.com/ory/keto) - Policy decision point. It uses a set of access control policies, similar to AWS policies, in order to determine whether a subject is authorized to perform a certain action on a resource.
+
+- [Ladon](https://github.com/ory/ladon) - Access control library, inspired by AWS.
+
+- [Casbin](https://github.com/casbin/casbin) - Open-source access control library for Golang projects.
+
+- [Open Policy Agent](https://github.com/open-policy-agent/opa) - An open-source general-purpose decision engine to create and enforce ABAC policies.
+
+### ReBAC frameworks
+
+The [Relationship-Based Access Control](https://en.wikipedia.org/wiki/Relationship-based_access_control) model is a more flexible and powerful version of RBAC and is the preferred one for cloud systems.
+
+- [Zanzibar: Google's Consistent, Global Authorization System](https://ai.google/research/pubs/pub48190) - Scales to trillions of access control lists and millions of authorization requests per second to support services used by billions of people. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use. [Other bits not in the paper](https://twitter.com/LeaKissner/status/1136626971566149633). [Zanzibar Academy](https://zanzibar.academy/) is a site dedicated to explaining how Zanzibar works.
+
+- [SpiceDB](https://github.com/authzed/spicedb) - An open source database system for managing security-critical application permissions inspired by Zanzibar.
+
+- [Permify](https://github.com/Permify/permify) - Another open-source authorization as a service inspired by Google Zanzibar, and see [how it compares to other Zanzibar-inspired tools](https://permify.notion.site/Differentiation-Between-Zanzibar-Products-ad4732da62e64655bc82d3abe25f48b6).
+
+- [Topaz](https://github.com/aserto-dev/topaz) - An open-source project which combines the policy-as-code and decision logging of OPA with a Zanzibar-modeled directory.
+
+- [Open Policy Administration Layer](https://github.com/permitio/opal) - Open Source administration layer for OPA, detecting changes to both policy and policy data in realtime and pushing live updates to OPA agents. OPAL brings open-policy up to the speed needed by live applications.
 
 - [Warrant](https://github.com/warrant-dev/warrant) - A relationship based access control (ReBAC) engine (inspired by Google Zanzibar) also capable of enforcing any authorization paradigm, including RBAC and ABAC.
 
@@ -428,6 +436,10 @@ A clever curiosity to distribute and delegate authorization.
 - [Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud](https://ai.google/research/pubs/pub41892) - Google's original paper.
 
 - [Google paper's author compares Macaroons and JWTs](https://news.ycombinator.com/item?id=14294463) - As a consumer/verifier of macaroons, they allow you (through third-party caveats) to defer some authorization decisions to someone else. JWTs don't.
+
+### Other tools
+
+- [Gubernator](https://github.com/gubernator-io/gubernator) - High performance rate-limiting micro-service and library.
 
 ## OAuth2 & OpenID
 
