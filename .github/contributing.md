@@ -112,4 +112,4 @@ One-liners to fix-up some common formatting mistakes. Use with great caution and
   $ sed -i 's/`$/`\./g' ./readme.md
   ```
 
-[Other one-liners are available](https://kevin.deldycke.com/2006/12/text-date-document-processing-commands/) on my blog.
+[Other one-liners are available](https://kevin.deldycke.com/2006/text-date-document-processing-commands/) on my blog.

@@ -429,7 +429,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 分配和委托授权的巧妙好奇。
 
-- [五分钟或更短时间内完成 Google 的 Macaroon](https://blog.bren2010.io/blog/googles-macaroons) - 如果给我一个授权我在某些限制下执行某些操作的 Macaroon，我可以非交互地构建第二个具有更严格限制的 Macaroon，然后我可以给你。
+- [五分钟或更短时间内完成 Google 的 Macaroon](https://web.archive.org/web/20240521142227/https://blog.bren2010.io/blog/googles-macaroons) - 如果给我一个授权我在某些限制下执行某些操作的 Macaroon，我可以非交互地构建第二个具有更严格限制的 Macaroon，然后我可以给你。
 
 - [Macaroons: 为云中的分散式授权提供带有上下文警告的Cookies](https://ai.google/research/pubs/pub41892) - 谷歌的原始论文。
 
@@ -457,7 +457,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [一张图看懂 OAuth](https://mobile.twitter.com/kamranahmedse/status/1276994010423361540) - 一张漂亮的总结卡。
 
-- [如何通过六个步骤实现安全的中央认证服务](https://engineering.shopify.com/blogs/engineering/implement-secure-central-authentication-service-six-steps) - 有多个遗留系统要与它们自己的登录方式和账户合并？这里是如何通过 OIDC 的方式来合并所有这些混乱的系统。
+- [如何通过六个步骤实现安全的中央认证服务](https://shopify.engineering/implement-secure-central-authentication-service-six-steps) - 有多个遗留系统要与它们自己的登录方式和账户合并？这里是如何通过 OIDC 的方式来合并所有这些混乱的系统。
 
 - [开源 BuzzFeed 的 SSO 体验](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/) - 中央认证服务 (CAS) 协议的 OAuth2 友好改编。 您会在那里找到很好的 OAuth 用户流程图。
 
@@ -579,7 +579,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [统计学上可能的用户名](https://github.com/insidetrust/statistically-likely-usernames) - 用于创建统计学上可能的用户名的词表，以用于用户名枚举、模拟密码攻击和其他安全测试任务。
 
-- [Facebook 上的危险个人和组织名单](https://theintercept.com/document/2021/10/12/facebook-dangerous-individuals-and-organizations-list-reproduced-snapshot/) - 一些团体和内容在一些司法管辖区是非法的。这是一个封锁名单的例子。
+- [Facebook 上的危险个人和组织名单](https://theintercept.com/document/facebook-dangerous-individuals-and-organizations-list-reproduced-snapshot/) - 一些团体和内容在一些司法管辖区是非法的。这是一个封锁名单的例子。
 
 - [Ballerine](https://github.com/ballerine-io/ballerine) - 一个用于用户身份和风险管理的开源基础设施。
 
@@ -604,8 +604,6 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 - [仍在登录了。AR 和 VR 可以从 MMO 中学习什么？](https://youtu.be/kgw8RLHv1j4?t=534) - “如果你主持一个在线社区，在那里人们可以伤害另一个人：你就上钩了。 如果你负担不起被骗的后果，就不要主持在线社区”。
 
 - [你要么死于 MVP，要么活到足够长的时间来建立内容节制。](https://mux.com/blog/you-either-die-an-mvp-or-live-long-enough-to-build-content-moderation/) - "你可以通过考虑三个维度来思考这个问题的解决空间：成本、准确性和速度。还有两种方法：人类审查和机器审查。人类在其中一个维度上很出色：准确性。缺点是，人类的成本高，速度慢。机器，或称机器人，在另外两个方面很出色：成本和速度--它们要便宜得多，速度也快。但是，目标是要找到一个机器人解决方案，同时对你的需求有足够的准确性"。
-
-- [把坏苹果拒之门外：如何调节市场](https://www.twosided.io/p/keep-out-the-bad-apples-how-to-moderate) - “拥有权利的同时也被赋予了重大的责任。 我的一些提示和技巧可以让你的市场变得更安全。”
 
 - [人们的绝望和黑暗会影响到你](https://restofworld.org/2020/facebook-international-content-moderators/) - 大量的外包分包商负责管理庞大的社交网络。 这些人暴露在最坏的情况下，通常最终会患上创伤后应激障碍。
 
@@ -748,8 +746,6 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 - [GDPR 开发指南](https://github.com/LINCnil/GDPR-Developer-Guide) - 开发者的最佳实践。
 
 - [GDPR – 开发人员的实用指南](https://techblog.bozho.net/gdpr-practical-guide-developers/) - 上述内容的一页摘要。
-
-- [GDPR Tracker](https://gdprtracker.io) - 追踪云服务和子处理者的GDPR合规性。
 
 - [GDPR 文档](https://github.com/good-lly/gdpr-documents) - 供个人使用的模板，让公司遵守 "数据访问 "要求。
 
