@@ -371,7 +371,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 [以角色為基礎的存取控制l](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制l) 是通过角色绘制用户将用户映射到权限的经典模型。
 
-- [Athenz](https://github.com/yahoo/athenz) - 支持服务身份验证和基于角色的授权 (RBAC) 的服务和库集，用于部署和配置。
+- [Athenz](https://github.com/yahoo/athenz) - 支持服务身份验证以及基于角色的配置授权的服务和库集。
 
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit 合并了来自 cookies、JWTs、macaroons 和 Open Policy Agent 的概念。 “它提供了一种基于 Datalog 的逻辑语言来编写授权策略。 它可以存储数据，如 JWT，或像 Macaroons 这样的小条件，但它也能够表示更复杂的规则，如基于角色的访问控制、委托、层次结构。”
 
@@ -399,7 +399,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [SpiceDB](https://github.com/authzed/spicedb) - 一个开源数据库系统，用于管理受 Zanzibar 启发的安全关键应用程序权限。
 
-- [Permify](https://github.com/Permify/permify) - Another open-source authorization as a service inspired by Google Zanzibar. Here are some [differences compared to SpiceDB](https://news.ycombinator.com/item?id=41346771) mentioned above.
+- [Permify](https://github.com/Permify/permify) - 另一项开源授权为受Google Zanzibar启发的服务，并查看 [与其他Zanzibar启发的工具相比](https://permify.notion.site/Differentiation-Between-Zanzibar-Products-ad4732da62e64655bc82d3abe25f48b6)。
 
 - [Topaz](https://github.com/aserto-dev/topaz) - 一个开源项目，它将 OPA 的策略即代码和决策日志记录与 Zanzibar 模型目录相结合。
 
