@@ -357,8 +357,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [寻找完美的访问控制系统](https://goteleport.com/blog/access-controls/) - 授权计划的历史渊源。暗示了不同团队和组织之间共享、信任和授权的未来。
 
-- [AWS IAM 角色，一个不必要的复杂故事](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - 快速增长的 AWS 的历史解释了当前方案是如何形成的，以及它与 GCP 资源层次结构的比较。
-
 - [GCP IAM语法比AWS更好](https://ucarion.com/iam-operation-syntax) - GCP中许可设计的细节可改善发育器的经验。
 
 - [使用 SMT 的 AWS 访问策略的基于语义的自动推理](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova 是 AWS 的做法。 该系统对IAM策略进行符号分析，根据用户权限和访问约束解决资源可达性问题。 另请参阅更高级别的 [在 re:inforce 2019 上给出的介绍](https://youtu.be/x6wsTFnU3eY?t=2111)。
@@ -414,6 +412,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 - [AWS IAM 安全工具参考](https://ramimac.me/aws-iam-tools-2024) - AWS IAM的（维护）工具的全面列表。
 
 - [成为 AWS IAM 策略忍者](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - “在亚马逊工作近 5 年的时间里，我每天、每周都会抽出一点时间浏览论坛、客户工单，试图找出人们遇到问题的地方。”
+
+- [AWS IAM 角色，一个不必要的复杂故事](https://infosec.rodeo/posts/thoughts-on-aws-iam/) - 快速增长的 AWS 的历史解释了当前方案是如何形成的，以及它与 GCP 资源层次结构的比较。
 
 - [Policy Sentry](https://github.com/salesforce/policy_sentry) - 手动编写具有安全意识的 IAM 策略可能非常乏味且效率低下。 Policy Sentry 可帮助用户在几秒钟内创建最低权限策略。
 
