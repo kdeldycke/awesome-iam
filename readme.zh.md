@@ -403,15 +403,11 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 专门针对 [AWS IAM 策略](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) 生态系统的工具和资源。
 
+- [AWS IAM 安全工具参考](https://ramimac.me/aws-iam-tools-2024) - AWS IAM的（维护）工具的全面列表。
+
 - [成为 AWS IAM 策略忍者](https://www.youtube.com/watch?v=y7-fAT3z8Lo) - “在亚马逊工作近 5 年的时间里，我每天、每周都会抽出一点时间浏览论坛、客户工单，试图找出人们遇到问题的地方。”
 
-- [Cloudsplaining](https://github.com/salesforce/cloudsplaining) - 安全评估工具，可识别违反最小特权的行为并生成风险优先报告。
-
 - [Policy Sentry](https://github.com/salesforce/policy_sentry) - 手动编写具有安全意识的 IAM 策略可能非常乏味且效率低下。 Policy Sentry 可帮助用户在几秒钟内创建最低权限策略。
-
-- [Aardvark and Repokid](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e) - 用于在 AWS 上实施最低权限的 Netflix 工具。 这个想法是，对新事物的默认策略是全部拒绝，然后它会监控 cloudtrail 是否存在权限故障，并重新配置 IAM 以允许尽可能小的权限来摆脱该拒绝消息。
-
-- [Principal Mapper](https://github.com/nccgroup/PMapper) - 快速评估权限。
 
 - [PolicyUniverse](https://github.com/Netflix-Skunkworks/policyuniverse) - 解析和处理 AWS 策略、语句、ARN 和通配符。
 
