@@ -30,7 +30,7 @@
 
 <p align="center">
   <a href="https://www.cerbos.dev/?utm_campaign=brand_cerbos&utm_source=awesome_iam&utm_medium=github&utm_content=&utm_term=">
-    <img width="300" src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/Group 1320.svg">
+    <img width="600" src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/Group 1320.svg">
     <br/>
     Build scalable, fine-grained authorization for your apps. <strong>Try Cerbos</strong>, an authorization management system for authoring, testing, and deploying access policies.
   </a>
