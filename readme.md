@@ -26,15 +26,18 @@
     <strong>Drag and drop your auth.</strong><br/>
     Add authentication, user management, and authorization to your app with a few lines of code.
   </a>
-  <!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
-  <!--
+</p>
+
+<!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
+<!--
+<p align="center">
   <a href="https://github.com/sponsors/kdeldycke">
     <strong>Yᴏᴜʀ Iᴅᴇɴᴛɪᴛʏ & Aᴜᴛʜᴇɴᴛɪᴄᴀᴛɪᴏɴ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
     <br/>
     <sup>Add a link to your company or project here: back me up via a GitHub sponsorship.</sup>
   </a>
-  -->
 </p>
+-->
 
 ---
 
