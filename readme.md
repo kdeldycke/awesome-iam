@@ -26,6 +26,7 @@
     <strong>Drag and drop your auth.</strong><br/>
     Add authentication, user management, and authorization to your app with a few lines of code.
   </a>
+  <br/><br/>
 </p>
 
 <p align="center">
@@ -34,6 +35,7 @@
     <br/>
     Build scalable, fine-grained authorization for your apps. <strong>Try Cerbos</strong>, an authorization management system for authoring, testing, and deploying access policies.
   </a>
+  <br/><br/>
 </p>
 
 <!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
@@ -44,6 +46,7 @@
     <br/>
     <sup>Add a link to your company or project here: back me up via a GitHub sponsorship.</sup>
   </a>
+  <br/><br/>
 </p>
 -->
 
