@@ -26,6 +26,7 @@
     <strong>拖放您的身份验证。</strong><br/>
     使用几行代码向您的应用程序添加身份验证、用户管理和授权。
   </a>
+  <br/><br/>
 </p>
 
 <p align="center">
@@ -34,7 +35,20 @@
     <br/>
     为您的应用构建可扩展的，细粒度的授权。 <strong>尝试Cerbos </strong>，是用于授权，测试和部署访问策略的授权管理系统。
   </a>
+  <br/><br/>
 </p>
+
+<!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
+<!--
+<p align="center">
+  <a href="https://github.com/sponsors/kdeldycke">
+    <strong>Yᴏᴜʀ Iᴅᴇɴᴛɪᴛʏ & Aᴜᴛʜᴇɴᴛɪᴄᴀᴛɪᴏɴ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
+    <br/>
+    <sup>Add a link to your company or project here: back me up via a GitHub sponsorship.</sup>
+  </a>
+  <br/><br/>
+</p>
+-->
 
 ---
 
