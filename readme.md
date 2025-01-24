@@ -457,6 +457,8 @@ A clever curiosity to distribute and delegate authorization.
 
 - [Gubernator](https://github.com/gubernator-io/gubernator) - High performance rate-limiting micro-service and library.
 
+- [Permit.io](https://www.permit.io/) - A comprehensive authorization-as-a-service solution supporting RBAC, ABAC and ReBAC with a no-code policy generation and management UI. 
+
 ## OAuth2 & OpenID
 
 [OAuth 2.0](https://en.wikipedia.org/wiki/OAuth#OAuth_2.0) is a *delegated authorization* framework. [OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect) is an *authentication* layer on top of it.
