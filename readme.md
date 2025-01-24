@@ -381,6 +381,8 @@ As a concept, access control policies can be designed to follow very different a
 
 - [Service-to-service authorization: A guide to non-user principals](https://www.cerbos.dev/blog/service-to-service-authorization) - Discover how assigning identities to services (non-user principals) can simplify authentication, enhance security, and streamline authorization in complex distributed systems. A useful guide for IAM teams managing microservices and APIs.
 
+- [What is Fine Grained Authorization (FGA)?](https://www.permit.io/blog/what-is-fine-grained-authorization-fga) Fine-Grained Authorization (FGA) goes beyond basic RBAC and allows for a higher level of control, addressing nuanced characteristics, such as attributes and relationships, at a very granular level. 
+
 ### RBAC frameworks
 
 [Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) is the classical model to map users to permissions by the way of roles.
