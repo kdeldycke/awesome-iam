@@ -443,6 +443,8 @@ Tools and resources exclusively targeting the [AWS IAM policies](http://docs.aws
 
 - [IAMbic](https://github.com/noqdev/iambic) - GitOps for IAM. The Terraform of Cloud IAM. IAMbic is a multi-cloud identity and access management (IAM) control plane that centralizes and simplifies cloud access and permissions. It maintains an eventually consistent, human-readable, bi-directional representation of IAM in version control.
 
+- [Cedar Agent](https://github.com/permitio/cedar-agent) - an open source HTTP server designed to efficiently manage a policy store and a data store for [Cedar](https://www.cedarpolicy.com/en), AWS open source language for defining permissions as policies.
+
 ### Macaroons
 
 A clever curiosity to distribute and delegate authorization.
