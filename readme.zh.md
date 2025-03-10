@@ -493,7 +493,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [a12n-server](https://github.com/curveball/a12n-server) - 一个简单的身份验证系统，仅实现 OAuth2 标准的相关部分。
 
-- [Logto](https://github.com/logto-io/logto) - 使用此基于 OIDC 的身份服务构建登录、身份验证和用户身份。
+- [Logto](https://github.com/logto-io/logto) - 为现代应用程序和SaaS产品提供IAM基础设施，支持OIDC、OAuth 2.0、SAML进行身份验证和授权。
 
 - [Authgear](https://github.com/authgear/authgear-server) - 开源身份验证解决方案。它包括服务器，Authui，门户和管理API的代码。
 
