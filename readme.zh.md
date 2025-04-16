@@ -541,6 +541,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [`sops`](https://github.com/mozilla/sops) - 加密 YAML 和 JSON 文件的值，而不是密钥。
 
+- [`dotenvx`](https://github.com/dotenvx/dotenvx) - 类似于 sops，但用于 .env 文件——加密 .env 文件中的值，而不是密钥。
+
 - [`gitleaks`](https://github.com/zricethezav/gitleaks) - 审计 git repos 的秘密。
 
 - [`truffleHog`](https://github.com/dxa4481/truffleHog) - 在 git 存储库中搜索高熵字符串和秘密，深入挖掘提交历史。

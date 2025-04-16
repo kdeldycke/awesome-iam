@@ -543,6 +543,8 @@ Architectures, software and hardware allowing the storage and usage of secrets t
 
 - [`sops`](https://github.com/mozilla/sops) - Encrypts the values of YAML and JSON files, not the keys.
 
+- [`dotenvx`](https://github.com/dotenvx/dotenvx) - Similar to sops but for .env files – encrypts the values of .env files, not the keys.
+
 - [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
 
 - [`truffleHog`](https://github.com/dxa4481/truffleHog) - Searches through git repositories for high entropy strings and secrets, digging deep into commit history.
