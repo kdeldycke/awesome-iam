@@ -541,7 +541,7 @@ Architectures, software and hardware allowing the storage and usage of secrets t
 
 - [Infisical](https://github.com/Infisical/infisical) - An alternative to HashiCorp Vault.
 
-- [`sops`](https://github.com/mozilla/sops) - Encrypts the values of YAML and JSON files, not the keys.
+- [`sops`](https://github.com/mozilla/sops) - Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.
 
 - [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
 

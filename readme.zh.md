@@ -539,7 +539,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Infisical](https://github.com/Infisical/infisical) - HashiCorp Vault 的替代品。
 
-- [`sops`](https://github.com/mozilla/sops) - 加密 YAML 和 JSON 文件的值，而不是密钥。
+- [`sops`](https://github.com/mozilla/sops) - 支持 YAML、JSON、ENV、INI 和 BINARY 格式的加密文件编辑器，并使用 AWS KMS、GCP KMS、Azure Key Vault、age 和 PGP 进行加密。
 
 - [`gitleaks`](https://github.com/zricethezav/gitleaks) - 审计 git repos 的秘密。
 
