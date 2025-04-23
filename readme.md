@@ -199,6 +199,8 @@ Zero trust network security operates under the principle “never trust, always 
 
 - [Pomerium](https://github.com/pomerium/pomerium) - An identity-aware proxy that enables secure access to internal applications.
 
+- [heimdall](https://github.com/dadrus/heimdall) - A cloud-native, identity-aware proxy and policy enforcement point, deployable standalone or integrated with existing proxies. It simplifies app development through versatile rules that coordinate authentication and authorization with external systems, enabling protocol-agnostic identity propagation, attribute enrichment, and access decision enforcement.
+
 ## Authentication
 
 Protocols and technologies to verify that you are who you pretend to be.
