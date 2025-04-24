@@ -199,7 +199,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Pomerium](https://github.com/pomerium/pomerium) - 一种身份感知代理，支持对内部应用程序的安全访问。
 
-- [heimdall](https://github.com/dadrus/heimdall) - 一个云原生的身份感知代理和策略执行点，可独立部署或与现有代理集成。它通过多功能规则简化应用程序开发，这些规则协调与外部系统的身份验证和授权，支持协议无关的身份传播、属性丰富和访问决策执行。
+- [heimdall](https://github.com/dadrus/heimdall) - 一个云原生的身份感知代理和策略执行点，通过多功能规则编排身份验证和授权系统，支持协议无关的身份传播。
 
 ## 认证
 
