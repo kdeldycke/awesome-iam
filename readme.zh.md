@@ -483,7 +483,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [PKCE 的解释](https://www.loginradius.com/blog/engineering/pkce/) - "PKCE 用于为 OAuth 和 OpenID Connect 中的授权代码流提供多一个安全层。"
 
-- [Hydra](https://gethydra.sh) - 开源的 OIDC 和 OAuth2 服务器。
+- [Hydra](https://www.ory.sh/hydra) - 开源 OIDC 和 OAuth2 服务器提供商。
 
 - [Keycloak](https://www.keycloak.org) - 开源的身份和访问管理。支持 OIDC、OAuth 2和SAML 2、LDAP 和 AD 目录、密码策略。
 
