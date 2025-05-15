@@ -86,9 +86,12 @@ This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/
   - [JWT](#jwt)
 - [Authorization](#authorization)
   - [Policy models](#policy-models)
-  - [Open-source policy frameworks](#open-source-policy-frameworks)
+  - [RBAC frameworks](#rbac-frameworks)
+  - [ABAC frameworks](#abac-frameworks)
+  - [ReBAC frameworks](#rebac-frameworks)
   - [AWS policy tools](#aws-policy-tools)
   - [Macaroons](#macaroons)
+  - [Other tools](#other-tools)
 - [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
 - [Secret Management](#secret-management)
@@ -363,7 +366,7 @@ Policy specification is the science, enforcement is the art.
 
 ### Policy models
 
-As a concept, access control policies can be designed to follow very different archetypes, from classic [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) to [Role Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control). In this section we explore lots of different patterns and architectures.
+As a concept, access control policies can be designed to follow very different archetypes, from classic [Access Control Lists](https://en.wikipedia.org/wiki/Access-control_list) to Role Based Access Control. In this section we explore lots of different patterns and architectures.
 
 - [Why Authorization is Hard](https://www.osohq.com/post/why-authorization-is-hard) - Because it needs multiple tradeoffs on Enforcement which is required in so many places, on Decision architecture to split business logic from authorization logic, and on Modeling to balance power and complexity.
 
