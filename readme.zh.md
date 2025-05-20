@@ -86,9 +86,12 @@
   - [JWT](#jwt)
 - [授权](#授权)
   - [策略模型](#策略模型)
-  - [开源策略框架](#开源策略框架)
+  - [RBAC 框架](#RBAC-框架)
+  - [ABAC 框架](#ABAC-框架)
+  - [ReBAC 框架](#ReBAC-框架)
   - [AWS 策略工具](#AWS-策略工具)
   - [Macaroons](#macaroons)
+  - [其他工具](#其他工具)
 - [OAuth2 & OpenID](#oauth2--openid)
 - [SAML](#saml)
 - [秘密管理](#秘密管理)
@@ -110,6 +113,7 @@
 - [UX/UI](#uxui)
 - [竞争分析](#竞争分析)
 - [历史](#历史)
+- [贡献](#贡献)
 
 <!-- mdformat-toc end -->
 
