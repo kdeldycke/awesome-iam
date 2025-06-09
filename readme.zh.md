@@ -296,7 +296,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### WebAuthn
 
-[fido2项目](https://en.wikipedia.org/wiki/fido_alliance#fido2) 的一部分，也以 *passkeys* 的用户友好名称为名。
+[fido2项目](https://en.wikipedia.org/wiki/FIDO_Alliance#FIDO2) 的一部分，也以 *passkeys* 的用户友好名称为名。
 
 - [WebAuthn 指南](https://webauthn.guide) - 这是一份非常容易理解的WebAuthn指南，该标准允许 "服务器使用公钥加密技术而不是密码来注册和验证用户"，所有主要浏览器都支持。
 
@@ -386,7 +386,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### RBAC 框架
 
-[以角色為基礎的存取控制l](https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%A7%92%E8%89%B2%E7%82%BA%E5%9F%BA%E7%A4%8E%E7%9A%84%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6l) 是通过角色绘制用户将用户映射到权限的经典模型。
+[以角色為基礎的存取控制l](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制) 是通过角色绘制用户将用户映射到权限的经典模型。
 
 - [Athenz](https://github.com/yahoo/athenz) - 支持服务身份验证以及基于角色的配置授权的服务和库集。
 
@@ -742,7 +742,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 作为用户数据的中央存储库，IAM 技术栈的相关人员必须防止任何业务和客户数据的泄漏。为了允许内部分析，需要进行匿名化。
 
-- [哈希法用于匿名的虚假诱惑](https://goteleport.com/blog/hashing-for-anonymization/) - Hashing 不足以实现匿名化。但对于假名化（GDPR允许的）来说，它仍然足够好。
+- [哈希法用于匿名的虚假诱惑](https://web.archive.org/web/20220927004103/https://goteleport.com/blog/hashing-for-anonymization/) - Hashing 不足以实现匿名化。但对于假名化（GDPR允许的）来说，它仍然足够好。
 
 - [四分钱去掉匿名：公司反向散列的电子邮件地址](https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/) - "哈希的电子邮件地址可以很容易地被逆转，并与个人联系起来"。
 

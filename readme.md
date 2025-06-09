@@ -743,7 +743,7 @@ As the guardian of user's data, the IAM stack is deeply bounded by the respect o
 
 As a central repository of user data, the IAM stack stakeholders have to prevent any leakage of business and customer data. To allow for internal analytics, anonymization is required.
 
-- [The False Allure of Hashing for Anonymization](https://goteleport.com/blog/hashing-for-anonymization/) - Hashing is not sufficient for anonymization no. But still it is good enough for pseudonymization (which is allowed by the GDPR).
+- [The False Allure of Hashing for Anonymization](https://web.archive.org/web/20220927004103/https://goteleport.com/blog/hashing-for-anonymization/) - Hashing is not sufficient for anonymization no. But still it is good enough for pseudonymization (which is allowed by the GDPR).
 
 - [Four cents to deanonymize: Companies reverse hashed email addresses](https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/) - “Hashed email addresses can be easily reversed and linked to an individual”.
 
