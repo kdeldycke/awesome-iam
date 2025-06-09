@@ -39,6 +39,7 @@
 </p>
 
 <!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
+
 <!--
 <p align="center">
   <a href="https://github.com/sponsors/kdeldycke">
@@ -300,7 +301,7 @@ Part of the [FIDO2 project](https://en.wikipedia.org/wiki/FIDO_Alliance#FIDO2), 
 
 - [WebAuthn guide](https://webauthn.guide) - Introduce WebAuthn as a standard supported by all major browsers, and allowing “servers to register and authenticate users using public key cryptography instead of a password”.
 
-- [Clearing up some misconceptions about Passkeys](https://www.stavros.io/posts/clearing-up-some-passkeys-misconceptions/) -  Or why passkeys are not worse than passwords.
+- [Clearing up some misconceptions about Passkeys](https://www.stavros.io/posts/clearing-up-some-passkeys-misconceptions/) - Or why passkeys are not worse than passwords.
 
 ### Security key
 
@@ -834,6 +835,6 @@ The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awe
 
 <!--lint disable no-undefined-references-->
 
-<a name="sponsor-def">\[0\]</a>: You can <a href="https://github.com/sponsors/kdeldycke">add your Identity & Authentication product in the list of sponsors via a GitHub sponsorship</a>. [\[↑\]](#sponsor-ref)
+<a name="sponsor-def">[0]</a>: You can <a href="https://github.com/sponsors/kdeldycke">add your Identity & Authentication product in the list of sponsors via a GitHub sponsorship</a>. [[↑]](#sponsor-ref)
 
-<a name="intro-quote-def">\[1\]</a>: [*Poison Study*](https://www.amazon.com/dp/0778324338?&linkCode=ll1&tag=kevideld-20&linkId=0b92c3d92371bd53daca5457bdad327e&language=en_US&ref_=as_li_ss_tl) (Mira, 2007). [\[↑\]](#intro-quote-ref)
+<a name="intro-quote-def">[1]</a>: [*Poison Study*](https://www.amazon.com/dp/0778324338?&linkCode=ll1&tag=kevideld-20&linkId=0b92c3d92371bd53daca5457bdad327e&language=en_US&ref_=as_li_ss_tl) (Mira, 2007). [[↑]](#intro-quote-ref)
