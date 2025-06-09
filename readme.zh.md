@@ -138,7 +138,7 @@
 
 - [企业信息安全](https://infosec.mozilla.org) - Mozilla 的安全和访问指南。
 
-- [缓解云漏洞](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) - “本文档将云漏洞分为四类（配置错误、访问控制不当、共享租户漏洞和供应链漏洞）”。
+- [缓解云漏洞](https://web.archive.org/web/20250529050934/https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) - “本文档将云漏洞分为四类（配置错误、访问控制不当、共享租户漏洞和供应链漏洞）”。
 
 - [Cartography](https://github.com/lyft/cartography) - 一种基于 Neo4J 的工具，用于映射服务和资源之间的依赖关系和关系。 支持 AWS、GCP、GSuite、Okta 和 GitHub。
 
@@ -278,7 +278,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [SMS 2FA 安全吗？ 不。](https://www.issms2fasecure.com) - 权威研究项目展示了 SIM 交换的成功尝试。
 
-- [黑客攻击 Twitter CEO 杰克·多尔西 (Jack Dorsey) 在“SIM 交换”中。 你也有危险。](https://www.nytimes.com/2019/09/05/technology/sim-swap-jack-dorsey-hack.html)
+- [黑客攻击 Twitter CEO 杰克·多尔西 (Jack Dorsey) 在“SIM 交换”中。 你也有危险。](https://archive.ph/AhNAI)
 
 - [美国电话电报公司代表将其手机账户的控制权交给黑客](https://www.theregister.co.uk/2017/07/10/att_falls_for_hacker_tricks/)
 
@@ -340,8 +340,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [使用 JSON Web 令牌作为 API 密钥](https://auth0.com/blog/using-json-web-tokens-as-api-keys/) - 与 API 密钥相比，JWT 提供了细粒度的安全性、同质身份验证架构、去中心化发布、OAuth2 合规性、可调试性、过期控制、设备管理。
 
-- [管理一个安全的 JSON 网络令牌实现](https://cursorblog.com/managing-a-secure-json-web-token-implementation/) - JWT有各种各样的灵活性，使它很难用好。
-
 - [硬编码的密钥、未经验证的令牌和其他常见的 JWT 错误](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - 对所有 JWT 的陷阱进行了很好的总结。
 
 - [将 JSON 网络令牌 API 密钥添加到拒绝列表中](https://auth0.com/blog/denylist-json-web-token-api-keys/) - 在令牌失效时。
@@ -376,7 +374,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [细粒度权限的案例](https://cerbos.dev/blog/the-case-for-granular-permissions) - 讨论 RBAC 的局限性以及 ABAC（基于属性的访问控制）如何解决这些问题。
 
-- [寻找完美的访问控制系统](https://goteleport.com/blog/access-controls/) - 授权计划的历史渊源。暗示了不同团队和组织之间共享、信任和授权的未来。
+- [寻找完美的访问控制系统](https://web.archive.org/web/20240421203937/https://goteleport.com/blog/access-controls/) - 授权计划的历史渊源。暗示了不同团队和组织之间共享、信任和授权的未来。
 
 - [GCP IAM语法比AWS更好](https://ucarion.com/iam-operation-syntax) - GCP中许可设计的细节可改善发育器的经验。
 
@@ -468,15 +466,13 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [很棒的 OpenID Connect](https://github.com/cerberauth/awesome-openid-connect) - OpenID Connect 的提供商、服务、库和资源的精选列表.
 
-- [OAuth 身份验证的问题](http://www.thread-safe.com/2012/01/problem-with-oauth-for-authentication.html) - “问题是 OAuth 2.0 是委托授权 协议，而不是身份验证协议。” 10年后，这篇文章仍然是关于[为什么使用OpenID Connect而不是普通OAuth2](https://security.stackexchange.com/a/260519)的最好解释？
+- [OAuth 身份验证的问题](http://www.thread-safe.com/2012/01/problem-with-oauth-for-authentication.html) - “问题是 OAuth 2.0 是委托授权 协议，而不是身份验证协议。” 10年后，这篇文章仍然是关于[为什么使用OpenID Connect而不是普通OAuth2](https://web.archive.org/web/20250519085713/https://security.stackexchange.com/questions/37818/why-use-openid-connect-instead-of-plain-oauth2/260519#260519)的最好解释？
 
 - [OAuth 和 OpenID Connect 图解指南](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - 使用简化的插图解释这些标准的工作原理。
 
 - [OAuth 2 简化版](https://aaronparecki.com/oauth-2-simplified/) - 以简化格式描述协议的参考文章，以帮助开发人员和服务提供商实施它。
 
 - [OAuth 2.0 和 OpenID 连接（通俗易懂）](https://www.youtube.com/watch?v=996OiexHze0) - 首先介绍了这些标准是如何形成的历史背景，澄清了词汇中的不正确之处，然后详细介绍了协议及其陷阱，使其不那么令人生畏。
-
-- [关于 OAuth (2.0) 你需要知道的一切](https://gravitational.com/blog/everything-you-need-to-know-about-oauth/) - 很好的概述和实际案例研究，介绍了开源远程访问工具 Teleport 如何允许用户通过 GitHub SSO 登录。
 
 - [一张图看懂 OAuth](https://mobile.twitter.com/kamranahmedse/status/1276994010423361540) - 一张漂亮的总结卡。
 
@@ -524,7 +520,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [OAuth、OpenID Connect 和 SAML 之间有什么区别？](https://www.okta.com/identity-101/whats-the-difference-between-oauth-openid-connect-and-saml/) - 身份是困难的。我们总是欢迎对不同协议的另一种看法，以帮助理解这一切。
 
-- [SAML 2.0 认证如何工作](https://gravitational.com/blog/how-saml-authentication-works/) - 概述 SSO 和 SAML 的方式和原因。
+- [SAML 2.0 认证如何工作](https://web.archive.org/web/20240421215604/https://goteleport.com/blog/how-saml-authentication-works/) - 概述 SSO 和 SAML 的方式和原因。
 
 - [Web 单点登录，SAML 2.0 视角](https://blog.theodo.com/2019/06/web-single-sign-on-the-saml-2-0-perspective/) - 在公司 SSO 实施的上下文中对 SAML 工作流的另一种简要解释。
 
@@ -596,7 +592,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [身份法则](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) - 虽然本文的目标是身份元系统，但它的法则在较小的范围内仍然提供了很好的见解，特别是第一条法则：总是允许用户控制并征求同意以赢得信任。
 
-- [Uber 是如何迷路的](https://www.nytimes.com/2019/08/23/business/how-uber-got-lost.html) - “为了限制‘摩擦’，Uber 允许乘客在注册时无需提供电子邮件（很容易伪造）或电话号码以外的身份信息。 (...) 车辆被盗并被烧毁； 司机遭到殴打、抢劫，有时甚至被谋杀。 该公司坚持使用低摩擦注册系统，即使暴力事件有所增加。”
+- [Uber 是如何迷路的](https://archive.ph/hvjKl) - “为了限制‘摩擦’，Uber 允许乘客在注册时无需提供电子邮件（很容易伪造）或电话号码以外的身份信息。 (...) 车辆被盗并被烧毁； 司机遭到殴打、抢劫，有时甚至被谋杀。 该公司坚持使用低摩擦注册系统，即使暴力事件有所增加。”
 
 - [个人姓名匹配的比较：技术和实际问题](http://users.cecs.anu.edu.au/~Peter.Christen/publications/tr-cs-06-02.pdf) - 客户姓名匹配有很多应用，从重复数据删除到欺诈监控。
 
@@ -734,8 +730,6 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [我们喜欢的论文：隐私](https://github.com/papers-we-love/papers-we-love/tree/master/privacy) - 通过设计提供隐私的方案的科学研究集合。
 
-- [IRMA 认证](https://news.ycombinator.com/item?id=20144240) - 使用 [Camenisch 和 Lysyanskaya 的 Idemix](https://privacybydesign.foundation/publications/) 提供隐私友好的基于属性的身份验证和签名的开源应用程序和协议。
-
 - [我被骗了吗？](https://haveibeenpwned.com) - 数据泄露指数。
 
 - [软件开发人员的自动化安全测试](https://fahrplan.events.ccc.de/camp/2019/Fahrplan/system/event_attachments/attachments/000/003/798/original/security_cccamp.pdf) -第三方依赖项中的已知漏洞允许大多数隐私泄露。 下面介绍如何通过 CI/CD 的方式检测它们。
@@ -748,7 +742,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 作为用户数据的中央存储库，IAM 技术栈的相关人员必须防止任何业务和客户数据的泄漏。为了允许内部分析，需要进行匿名化。
 
-- [哈希法用于匿名的虚假诱惑](https://gravitational.com/blog/hashing-for-anonymization/) - Hashing 不足以实现匿名化。但对于假名化（GDPR允许的）来说，它仍然足够好。
+- [哈希法用于匿名的虚假诱惑](https://goteleport.com/blog/hashing-for-anonymization/) - Hashing 不足以实现匿名化。但对于假名化（GDPR允许的）来说，它仍然足够好。
 
 - [四分钱去掉匿名：公司反向散列的电子邮件地址](https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/) - "哈希的电子邮件地址可以很容易地被逆转，并与个人联系起来"。
 
