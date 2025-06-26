@@ -504,8 +504,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [OpenID 的衰落D](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID 在公共网络中被替换为 OAuth 1、OAuth 2 或其他专有 SSO 协议的混合体。
 
-- [为什么 Mastercard 不使用 OAuth 2.0](https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20) - "他们这样做是为了提供消息级的完整性。OAuth 2改成了传输级的保密性/完整性。" (由 TLS 提供这个定性) ([来源](https://news.ycombinator.com/item?id=17486165)).
-
 - [OAuth 2.0 and the Road to Hell](https://gist.github.com/nckroy/dd2d4dfc86f7d13045ad715377b6a48f) - Oauth 2.0 規範的主要作者和編輯的辭職信。
 
 ## SAML
