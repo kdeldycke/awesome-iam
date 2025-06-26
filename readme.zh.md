@@ -386,7 +386,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 ### RBAC 框架
 
-[以角色為基礎的存取控制l](https://zh.wikipedia.org/wiki/以角色為基礎的存取控制) 是通过角色绘制用户将用户映射到权限的经典模型。
+[以角色為基礎的存取控制l](https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%A7%92%E8%89%B2%E7%82%BA%E5%9F%BA%E7%A4%8E%E7%9A%84%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6) 是通过角色绘制用户将用户映射到权限的经典模型。
 
 - [Athenz](https://github.com/yahoo/athenz) - 支持服务身份验证以及基于角色的配置授权的服务和库集。
 
