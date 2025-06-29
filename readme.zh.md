@@ -466,8 +466,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [很棒的 OpenID Connect](https://github.com/cerberauth/awesome-openid-connect) - OpenID Connect 的提供商、服务、库和资源的精选列表.
 
-- [OAuth 身份验证的问题](http://www.thread-safe.com/2012/01/problem-with-oauth-for-authentication.html) - “问题是 OAuth 2.0 是委托授权 协议，而不是身份验证协议。” 10年后，这篇文章仍然是关于[为什么使用OpenID Connect而不是普通OAuth2](https://web.archive.org/web/20250519085713/https://security.stackexchange.com/questions/37818/why-use-openid-connect-instead-of-plain-oauth2/260519#260519)的最好解释？
-
 - [OAuth 和 OpenID Connect 图解指南](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - 使用简化的插图解释这些标准的工作原理。
 
 - [OAuth 2 简化版](https://aaronparecki.com/oauth-2-simplified/) - 以简化格式描述协议的参考文章，以帮助开发人员和服务提供商实施它。
@@ -480,7 +478,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [开源 BuzzFeed 的 SSO 体验](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/) - 中央认证服务 (CAS) 协议的 OAuth2 友好改编。 您会在那里找到很好的 OAuth 用户流程图。
 
-- [OAuth 2.0 安全的当前最佳实践](https://tools.ietf.org/html/draft-ietf-oauth-security-topics-16) - "更新和扩展了 OAuth 2.0 的安全威胁模型，以纳入自 OAuth 2.0 发布以来收集的实际经验，并涵盖了由于更广泛的应用而产生的相关新威胁"。
+- [OAuth 2.0 安全的当前最佳实践](https://datatracker.ietf.org/doc/html/rfc9700) - "更新和扩展了 OAuth 2.0 的安全威胁模型，以纳入自 OAuth 2.0 发布以来收集的实际经验，并涵盖了由于更广泛的应用而产生的相关新威胁"。
 
 - [隐藏的 OAuth 攻击载体](https://portswigger.net/web-security/oauth) - 如何识别和利用 OAuth 2.0 认证机制中发现的一些关键漏洞。
 
@@ -492,7 +490,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Casdoor](https://github.com/casbin/casdoor) - 基于 UI 优先的集中式身份验证/单点登录 (SSO) 平台。 支持 OIDC 和 OAuth 2、社交登录、用户管理、基于电子邮件和短信的 2FA。
 
-- [authentik](https://goauthentik.io/?#correctness) - 类似于 Keycloak 的开源身份提供者。
+- [authentik](https://goauthentik.io/) - 类似于 Keycloak 的开源身份提供者。
 
 - [ZITADEL](https://github.com/zitadel/zitadel) - 使用 Go 和 Angular 构建的开源解决方案，用于管理您的所有系统、用户和服务帐户及其角色和外部身份。 ZITADEL 为您提供 OIDC、OAuth 2.0、登录和注册流程、无密码和 MFA 身份验证。 所有这一切都建立在事件溯源之上，并结合 CQRS 来提供出色的审计跟踪。
 
@@ -501,10 +499,6 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 - [Logto](https://github.com/logto-io/logto) - 为现代应用程序和SaaS产品提供IAM基础设施，支持OIDC、OAuth 2.0、SAML进行身份验证和授权。
 
 - [Authgear](https://github.com/authgear/authgear-server) - 开源身份验证解决方案。它包括服务器，Authui，门户和管理API的代码。
-
-- [OpenID 的衰落D](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID 在公共网络中被替换为 OAuth 1、OAuth 2 或其他专有 SSO 协议的混合体。
-
-- [OAuth 2.0 and the Road to Hell](https://gist.github.com/nckroy/dd2d4dfc86f7d13045ad715377b6a48f) - Oauth 2.0 規範的主要作者和編輯的辭職信。
 
 ## SAML
 
