@@ -503,9 +503,11 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Authgear](https://github.com/authgear/authgear-server) - Open-source authentication-as-a-service solution. It includes the code for the server, AuthUI, the Portal, and Admin API.
 
-- [The Decline of OpenID](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID is being replaced in the public web to a mix of OAuth 1, OAuth 2 or other proprietary SSO protocols.
+- [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) - Microsoft's cloud-based identity and access management service for employees and external partners that supports OIDC, OAuth 2.0, and SAML.
 
-- [OAuth 2.0 and the Road to Hell](https://gist.github.com/nckroy/dd2d4dfc86f7d13045ad715377b6a48f) - The resignation letter from the lead author and editor of the Oauth 2.0 specification.
+- [Okta](https://www.okta.com/) - Employee Identity and access management platform that supports OIDC, OAuth 2.0 and SAML.
+
+- [Auth0 (Okta CIC)](https://auth0.com/) - Customer Identity and Access Management (CIAM) platform, supporting OAuth 2.0 and OpenID Connect.
 
 ## SAML
 

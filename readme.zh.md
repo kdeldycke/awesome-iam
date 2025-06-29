@@ -502,9 +502,11 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Authgear](https://github.com/authgear/authgear-server) - 开源身份验证解决方案。它包括服务器，Authui，门户和管理API的代码。
 
-- [OpenID 的衰落D](https://penguindreams.org/blog/the-decline-of-openid/) - OpenID 在公共网络中被替换为 OAuth 1、OAuth 2 或其他专有 SSO 协议的混合体。
+- [Azure Entra ID](https://www.microsoft.com/zh-cn/security/business/identity-access/microsoft-entra-id) - 微软的基于云的身份和访问管理服务，适用于员工和外部合作伙伴。支持 OIDC、OAuth 2.0 和 SAML。
 
-- [OAuth 2.0 and the Road to Hell](https://gist.github.com/nckroy/dd2d4dfc86f7d13045ad715377b6a48f) - Oauth 2.0 規範的主要作者和編輯的辭職信。
+- [Okta](https://www.okta.com/) - 身份和访问管理平台。支持 OIDC、OAuth 2.0 和 SAML。
+
+- [Auth0 (Okta CIC)](https://auth0.com/) - 客户身份和访问管理 (CIAM) 平台，支持 OAuth 2.0 和 OpenID Connect。
 
 ## SAML
 
