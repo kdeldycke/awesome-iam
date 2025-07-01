@@ -60,7 +60,7 @@
 
 <!--lint disable double-link-->
 
-[IAM](https://zh.wikipedia.org/wiki/%E8%BA%AB%E4%BB%BD%E7%AE%A1%E7%90%86) 代表身份和访问管理。 它是一个复杂的域，涵盖**用户帐户、身份验证、授权、角色、权限和隐私**。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/).
+[IAM](https://zh.wikipedia.org/wiki/%E8%BA%AB%E4%BB%BD%E7%AE%A1%E7%90%86) 代表身份和访问管理。 它是一个复杂的域，涵盖**用户帐户、身份验证、授权、角色、权限和隐私**。 它是云服务平台的重要支柱，是用户、产品和安全的交汇点。[另一个支柱是账单和支付 💰](https://github.com/kdeldycke/awesome-billing/)。
 
 这个精选清单 [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome) 以全面且可操作的方式公开该领域的所有技术、协议和行话。
 
@@ -464,7 +464,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 旧的 *OpenID* 已死； 新的 *OpenID Connect* 还没有死。
 
-- [很棒的 OpenID Connect](https://github.com/cerberauth/awesome-openid-connect) - OpenID Connect 的提供商、服务、库和资源的精选列表.
+- [很棒的 OpenID Connect](https://github.com/cerberauth/awesome-openid-connect) - OpenID Connect 的提供商、服务、库和资源的精选列表。
 
 - [OAuth 和 OpenID Connect 图解指南](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - 使用简化的插图解释这些标准的工作原理。
 
@@ -528,9 +528,9 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 允许存储和使用秘密的架构、软件和硬件允许进行身份验证和授权，同时维护信任链。
 
-- [Netflix 的大规模秘密](https://www.youtube.com/watch?v=K0EOPddWpsE) - 基于盲签名的解决方案。 见[幻灯片](https://rwc.iacr.org/2018/Slides/Mehta.pdf).
+- [Netflix 的大规模秘密](https://www.youtube.com/watch?v=K0EOPddWpsE) - 基于盲签名的解决方案。 见[幻灯片](https://rwc.iacr.org/2018/Slides/Mehta.pdf)。
 
-- [Google 内部 KMS 中的高可用性](https://www.youtube.com/watch?v=5T_c-lqgjso) - 不是 GCP 的 KMS，而是其基础架构的核心。 见[幻灯片](https://rwc.iacr.org/2018/Slides/Kanagala.pdf).
+- [Google 内部 KMS 中的高可用性](https://www.youtube.com/watch?v=5T_c-lqgjso) - 不是 GCP 的 KMS，而是其基础架构的核心。 见[幻灯片](https://rwc.iacr.org/2018/Slides/Kanagala.pdf)。
 
 - [HashiCorp Vault](https://www.vaultproject.io) - 保护、存储和严格控制对令牌、密码、证书、加密密钥的访问。
 
@@ -678,7 +678,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [证书透明化子域](https://github.com/internetwache/CT_subdomains) - 每小时更新一次从证书透明度日志中收集的子域列表。
 
-- 子域否认列表: [#1](https://gist.github.com/artgon/5366868), [#2](https://github.com/sandeepshetty/subdomain-blacklist/blob/master/subdomain-blacklist.txt), [#3](https://github.com/nccgroup/typofinder/blob/master/TypoMagic/datasources/subdomains.txt), [#4](https://www.quora.com/How-do-sites-prevent-vanity-URLs-from-colliding-with-future-features).
+- 子域否认列表: [#1](https://gist.github.com/artgon/5366868), [#2](https://github.com/sandeepshetty/subdomain-blacklist/blob/master/subdomain-blacklist.txt), [#3](https://github.com/nccgroup/typofinder/blob/master/TypoMagic/datasources/subdomains.txt), [#4](https://www.quora.com/How-do-sites-prevent-vanity-URLs-from-colliding-with-future-features)。
 
 - [`common-domain-prefix-suffix-list.tsv`](https://gist.github.com/erikig/826f49442929e9ecfab6d7c481870700) - 前5000个最常见的域名前缀/后缀列表。
 
@@ -692,7 +692,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 ### 邮件
 
-- [烧录机电子邮件供应商](https://github.com/wesbos/burner-email-providers) - 一个临时电子邮件提供商的列表。以及其[衍生的Python模块](https://github.com/martenson/disposable-email-domains).
+- [烧录机电子邮件供应商](https://github.com/wesbos/burner-email-providers) - 一个临时电子邮件提供商的列表。以及其[衍生的Python模块](https://github.com/martenson/disposable-email-domains)。
 
 - [MailChecker](https://github.com/FGRibreau/mailchecker) - 跨语言的临时（一次性/抛弃式）电子邮件检测库。
 
@@ -780,7 +780,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [不要在登录表格上耍小聪明](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - 创建简单、可链接、可预测的登录表格，并与密码管理器很好地配合。
 
-- [为什么用户名和密码在两个不同的页面上？](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - 要同时支持SSO和基于密码的登录。现在，如果将登录漏斗分成两步，对用户来说太令人生气了，可以像Dropbox那样解决这个问题：[当你输入用户名时，会有一个AJAX请求](https://news.ycombinator.com/item?id=19174355).
+- [为什么用户名和密码在两个不同的页面上？](https://www.twilio.com/blog/why-username-and-password-on-two-different-pages) - 要同时支持SSO和基于密码的登录。现在，如果将登录漏斗分成两步，对用户来说太令人生气了，可以像Dropbox那样解决这个问题：[当你输入用户名时，会有一个AJAX请求](https://news.ycombinator.com/item?id=19174355)。
 
 - [用 HTML 属性来改善你的用户的双因素认证体验](https://www.twilio.com/blog/html-attributes-two-factor-authentication-autocomplete) - "在这篇文章中，我们将看看不起眼的 `<input>` 元素和 HTML 属性，这将有助于加快我们用户的双因素认证体验"。
 
@@ -794,13 +794,13 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [AWS 安全、身份与合规公告](https://aws.amazon.com/about-aws/whats-new/security_identity_and_compliance/) - 所有添加到 IAM 周边的新功能的来源。
 
-- [GCP IAM 发布说明](https://cloud.google.com/iam/docs/release-notes) - Also of note: [身份](https://cloud.google.com/identity/docs/release-notes), [身份平台](https://cloud.google.com/identity-platform/docs/release-notes), [资源管理](https://cloud.google.com/resource-manager/docs/release-notes), [密钥服务/HSM](https://cloud.google.com/kms/docs/release-notes), [访问环境管理器](https://cloud.google.com/access-context-manager/docs/release-notes), [身份感知代理](https://cloud.google.com/iap/docs/release-notes), [数据丢失预防](https://cloud.google.com/dlp/docs/release-notes) and [安全扫描器](https://cloud.google.com/security-scanner/docs/release-notes).
+- [GCP IAM 发布说明](https://cloud.google.com/iam/docs/release-notes) - Also of note: [身份](https://cloud.google.com/identity/docs/release-notes), [身份平台](https://cloud.google.com/identity-platform/docs/release-notes), [资源管理](https://cloud.google.com/resource-manager/docs/release-notes), [密钥服务/HSM](https://cloud.google.com/kms/docs/release-notes), [访问环境管理器](https://cloud.google.com/access-context-manager/docs/release-notes), [身份感知代理](https://cloud.google.com/iap/docs/release-notes), [数据丢失预防](https://cloud.google.com/dlp/docs/release-notes) and [安全扫描器](https://cloud.google.com/security-scanner/docs/release-notes)。
 
-- [非官方的谷歌云平台周报](https://www.gcpweekly.com) - Relevant keywords: [`IAM`](https://www.gcpweekly.com/gcp-resources/tag/iam/) and [`安全`](https://www.gcpweekly.com/gcp-resources/tag/security/).
+- [非官方的谷歌云平台周报](https://www.gcpweekly.com) - Relevant keywords: [`IAM`](https://www.gcpweekly.com/gcp-resources/tag/iam/) and [`安全`](https://www.gcpweekly.com/gcp-resources/tag/security/)。
 
 - [DigitalOcean 账户变化日志](http://docs.digitalocean.com/release-notes/accounts/) - 关于 DO 的所有最新账户更新。
 
-- [163 项 AWS 服务各用一行解释](https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws) -帮助使他们巨大的服务目录变得有意义。本着同样的精神：[AWS 的简单术语](https://netrixllc.com/blog/aws-services-in-simple-terms/) & [通俗易懂的 AWS](https://expeditedsecurity.com/aws-in-plain-english/).
+- [163 项 AWS 服务各用一行解释](https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws) -帮助使他们巨大的服务目录变得有意义。本着同样的精神：[AWS 的简单术语](https://netrixllc.com/blog/aws-services-in-simple-terms/) & [通俗易懂的 AWS](https://expeditedsecurity.com/aws-in-plain-english/)。
 
 - [谷歌云开发者的小抄](https://github.com/gregsramblings/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - 用4个字或更少描述所有 GCP 产品。
 
