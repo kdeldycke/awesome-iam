@@ -189,7 +189,7 @@ Which is true.
 
 I have no issue replacing the original URL with an alternative archived/cached link if the original is no longer reachable.
 
-Broken URLs are frustrating. We will fix them one by one. Some have been moved to a new domain. Some have completely disappear, so we'll replace them with a `archive.org` link.
+Broken URLs are frustrating. We will fix them one by one. Some have been moved to a new domain. Some have completely disappear, so we'll replace them with an [archived link](#url).
 
 If you find a broken one, please propose a PR to fix it. Or just report it as an issue and I'll do the work.
 
