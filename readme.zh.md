@@ -122,13 +122,13 @@
 
 <img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
 
-在[云计算概述](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf)的斯坦福课程中，提供的平台的软件架构如右图所示 →
+在[云计算概述](https://web.stanford.edu/class/cs349d/docs/L01_overview.pdf)的斯坦福课程中，提供的平台的软件架构如右图所示 →
 
 在这里，我们列出了全局：域的定义和战略重要性、它在更大的生态系统中的位置，以及一些关键特性。
 
 - [EnterpriseReady SaaS 功能指南](https://www.enterpriseready.io) - 大多数让 B2B 用户满意的功能将由 IAM 外围实现。
 
-- [IAM 很难，真的很难](https://twitter.com/kmcquade3/status/1291801858676228098) - “过于宽松的 AWS IAM 策略允许 `s3:GetObject` 访问 `*`（所有）资源”，导致 Capital One 被罚款 8000 万美元。这是作为企业主不能忽视 IAM 的唯一原因。
+- [IAM 很难，真的很难](https://web.archive.org/web/20200809095434/https://twitter.com/kmcquade3/status/1291801858676228098) - “过于宽松的 AWS IAM 策略允许 `s3:GetObject` 访问 `*`（所有）资源”，导致 Capital One 被罚款 8000 万美元。这是作为企业主不能忽视 IAM 的唯一原因。
 
 - [IAM 是真正的云锁定](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - 虽然是小小的 *点击诱饵*，但作者承认“这取决于您对他们的信任程度 1. 继续经营； 2. 不抬高价格； 3. 不贬低您下属的服务； 4. 在业务加速方面为您提供的价值多于他们在灵活性方面带来的价值。
 

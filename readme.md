@@ -121,13 +121,13 @@ This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/
 
 <img align="right" width="50%" src="./assets/cloud-software-stack-iam.jpg"/>
 
-In a Stanford class providing an [overview of cloud computing](http://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture of the platform is described as in the right diagram →
+In a Stanford class providing an [overview of cloud computing](https://web.stanford.edu/class/cs349d/docs/L01_overview.pdf), the software architecture of the platform is described as in the right diagram →
 
 Here we set out the big picture: definition and strategic importance of the domain, its place in the larger ecosystem, plus some critical features.
 
 - [The EnterpriseReady SaaS Feature Guides](https://www.enterpriseready.io) - The majority of the features making B2B users happy will be implemented by the IAM perimeter.
 
-- [IAM is hard. It's really hard.](https://twitter.com/kmcquade3/status/1291801858676228098) - “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to \$80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
+- [IAM is hard. It's really hard.](https://web.archive.org/web/20200809095434/https://twitter.com/kmcquade3/status/1291801858676228098) - “Overly permissive AWS IAM policies that allowed `s3:GetObject` to `*` (all) resources”, led to \$80 million fine for Capital One. The only reason why you can't overlook IAM as a business owner.
 
 - [IAM Is The Real Cloud Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - A little *click-baity*, but author admit that “It depends on how much you trust them to 1. Stay in business; 2. Not jack up your prices; 3. Not deprecate services out from under you; 4. Provide more value to you in business acceleration than they take away in flexibility.”
 
