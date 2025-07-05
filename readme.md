@@ -505,6 +505,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Ping Identity](https://www.pingidentity.com) - 支持 OpenID Connect 协议的企业身份和访问管理平台。
 
+- [FusionAuth](https://fusionauth.io/) - Customer Identity and Access Management solution supporting OIDC.
+
 ## SAML
 
 Security Assertion Markup Language (SAML) 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID protocols above.
