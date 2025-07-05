@@ -503,6 +503,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) - Microsoft's cloud-based identity and access management service for employees and external partners that supports OIDC, OAuth 2.0, and SAML.
 
+- [Ping Identity](https://www.pingidentity.com) - 支持 OpenID Connect 协议的企业身份和访问管理平台。
+
 ## SAML
 
 Security Assertion Markup Language (SAML) 2.0 is a means to exchange authorization and authentication between services, like OAuth/OpenID protocols above.
