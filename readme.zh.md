@@ -504,6 +504,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Ping Identity](https://www.pingidentity.com) - Enterprise Identity and Access Management platform supporting OpenID Connect protocol.
 
+- [FusionAuth](https://fusionauth.io/) - 支持 OIDC 的客户身份和访问管理解决方案。
+
 ## SAML
 
 安全断言标记语言 (SAML) 2.0 是一种在服务之间交换授权和身份验证的方法，例如上面的 OAuth/OpenID 协议。
