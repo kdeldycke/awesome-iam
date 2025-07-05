@@ -502,6 +502,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Azure Entra ID](https://www.microsoft.com/zh-cn/security/business/identity-access/microsoft-entra-id) - 微软的基于云的身份和访问管理服务，适用于员工和外部合作伙伴。支持 OIDC、OAuth 2.0 和 SAML。
 
+- [Ping Identity](https://www.pingidentity.com) - Enterprise Identity and Access Management platform supporting OpenID Connect protocol.
+
 ## SAML
 
 安全断言标记语言 (SAML) 2.0 是一种在服务之间交换授权和身份验证的方法，例如上面的 OAuth/OpenID 协议。
