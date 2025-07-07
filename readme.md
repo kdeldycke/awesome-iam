@@ -503,7 +503,7 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) - Microsoft's cloud-based identity and access management service for employees and external partners that supports OIDC, OAuth 2.0, and SAML.
 
-- [Ping Identity](https://www.pingidentity.com) - 支持 OpenID Connect 协议的企业身份和访问管理平台。
+- [Ping Identity](https://www.pingidentity.com) - Enterprise Identity and Access Management platform supporting OpenID Connect protocol.
 
 - [FusionAuth](https://fusionauth.io/) - Customer Identity and Access Management solution supporting OIDC.
 

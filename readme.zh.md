@@ -502,7 +502,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Azure Entra ID](https://www.microsoft.com/zh-cn/security/business/identity-access/microsoft-entra-id) - 微软的基于云的身份和访问管理服务，适用于员工和外部合作伙伴。支持 OIDC、OAuth 2.0 和 SAML。
 
-- [Ping Identity](https://www.pingidentity.com) - Enterprise Identity and Access Management platform supporting OpenID Connect protocol.
+- [Ping Identity](https://www.pingidentity.com) - 支持 OpenID Connect 协议的企业身份和访问管理平台。
 
 - [FusionAuth](https://fusionauth.io/) - 支持 OIDC 的客户身份和访问管理解决方案。
 
