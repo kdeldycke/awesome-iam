@@ -191,6 +191,8 @@ Zero trust network security operates under the principle “never trust, always 
 
 - [heimdall](https://github.com/dadrus/heimdall) - A cloud-native, identity-aware proxy and policy enforcement point that orchestrates authentication and authorization systems via versatile rules, supporting protocol-agnostic identity propagation.
 
+- [sase.cloud](https://sase.cloud/components/ztna) - Independent ZTNA deep dive covering agent vs agentless architectures, vendor comparisons, and evaluation questions for Zero Trust Network Access deployments.
+
 ## Authentication
 
 Protocols and technologies to verify that you are who you pretend to be.
