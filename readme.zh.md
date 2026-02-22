@@ -455,6 +455,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [PKCE 的解释](https://www.loginradius.com/blog/engineering/pkce/) - "PKCE 用于为 OAuth 和 OpenID Connect 中的授权代码流提供多一个安全层。"
 
+- [IAMDevBox PKCE 生成器](https://www.iamdevbox.com/tools/pkce-generator/) - 在线工具，用于生成 OAuth 2.0 和 OpenID Connect 授权流的 PKCE code verifier 和 code challenge 对。支持 S256 和 plain challenge 方法。
+
 - [Hydra](https://github.com/ory/hydra) - 开源 OIDC 和 OAuth2 服务器提供商。
 
 - [Keycloak](https://github.com/keycloak/keycloak) - 开源的身份和访问管理。支持 OIDC、OAuth 2和SAML 2、LDAP 和 AD 目录、密码策略。

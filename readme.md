@@ -455,6 +455,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [PKCE Explained](https://www.loginradius.com/blog/engineering/pkce/) - “PKCE is used to provide one more security layer to the authorization code flow in OAuth and OpenID Connect.”
 
+- [IAMDevBox PKCE Generator](https://www.iamdevbox.com/tools/pkce-generator/) - Online tool to generate PKCE code verifier and code challenge pairs for OAuth 2.0 and OpenID Connect authorization flows. Supports S256 and plain challenge methods.
+
 - [Hydra](https://github.com/ory/hydra) - Open-source OIDC & OAuth2 Server Provider.
 
 - [Keycloak](https://github.com/keycloak/keycloak) - Open-source Identity and Access Management. Supports OIDC, OAuth 2 and SAML 2, LDAP and AD directories, password policies.
