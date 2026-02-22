@@ -495,6 +495,8 @@ Typical SAML identity provider is an institution or a big corporation's internal
 
 - [The SSO Wall of Shame](https://sso.tax) - A documented rant on the excessive pricing practiced by SaaS providers to activate SSO on their product. The author's point is, as a core security feature, SSO should be reasonably priced and not part of an exclusive tier.
 
+- [IAMDevBox SAML Decoder](https://www.iamdevbox.com/tools/saml-decoder/) - Online SAML response decoder with XML pretty-printing, assertion inspection, and X.509 certificate signature analysis including SHA-256 fingerprint and algorithm detection.
+
 ## Secret Management
 
 Architectures, software and hardware allowing the storage and usage of secrets to allow for authentication and authorization, while maintaining the chain of trust.
