@@ -271,6 +271,8 @@ TL;DR: don't. For details, see articles below.
 
 - [SIM swap horror story](https://www.zdnet.com/article/sim-swap-horror-story-ive-lost-decades-of-data-and-google-wont-lift-a-finger/)
 
+- [pauth.me](https://pauth.me) - Phone call-based OTP authentication API. Verify users with a single missed call — no SMS needed, no SIM-swap vulnerability, landline support. Japan-based.
+
 ## Password-less auth
 
 - [An argument for passwordless](https://web.archive.org/web/20190515230752/https://biarity.gitlab.io/2018/02/23/passwordless/) - Passwords are not the be-all and end-all of user authentication. This article tries to tell you why.
