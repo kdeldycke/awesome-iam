@@ -469,6 +469,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Logto](https://github.com/logto-io/logto) - An IAM infrastructure for modern apps and SaaS products, supporting OIDC, OAuth 2.0 and SAML for authentication and authorization.
 
+- [Scalekit](https://scalekit.com) - Enterprise SSO and identity management platform with OIDC & OAuth 2.1 provider, SAML 2.0, SCIM provisioning, and OAuth token vault for AI agent authentication (Agent Auth).
+
 - [Authgear](https://github.com/authgear/authgear-server) - Open-source authentication-as-a-service solution. It includes the code for the server, AuthUI, the Portal, and Admin API.
 
 ## SAML
