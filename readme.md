@@ -167,7 +167,7 @@ The whole authentication stack is based on cryptography primitives. This can't b
 
 Tokens, primary keys, UUIDs, … Whatever the end use, you'll have to generate these numbers with some randomness and uniqueness properties.
 
-- [Security Recommendations for Any Device that Depends on Randomly-Generated Numbers](https://www.av8n.com/computer/htm/secure-random.htm) - “The phrase ‘random number generator’ should be parsed as follows: It is a random generator of numbers. It is not a generator of random numbers.”
+- [Security Recommendations for Any Device that Depends on Randomly-Generated Numbers](https://www.av8n.com/computer/htm/secure-random.htm) - “The phrase 'random number generator' should be parsed as follows: It is a random generator of numbers. It is not a generator of random numbers.”
 
 - [RFC #4122: UUID - Security Considerations](https://www.rfc-editor.org/rfc/rfc4122#section-6) - “Do not assume that UUIDs are hard to guess; they should not be used as security capabilities (identifiers whose mere possession grants access)”. UUIDs are designed to be unique, not to be random or unpredictable: do not use UUIDs as a secret.
 
@@ -365,7 +365,7 @@ As a concept, access control policies can be designed to follow very different a
 
 - [Athenz](https://github.com/yahoo/athenz) - Set of services and libraries supporting service authentication and role-based authorization for provisioning and configuration.
 
-- [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit merge concepts from cookies, JWTs, macaroons and Open Policy Agent. “It provide a logic language based on Datalog to write authorization policies. It can store data, like JWT, or small conditions like Macaroons, but it is also able to represent more complex rules like role-based access control, delegation, hierarchies.”
+- [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Merges concepts from cookies, JWTs, macaroons and Open Policy Agent. “It provide a logic language based on Datalog to write authorization policies. It can store data, like JWT, or small conditions like Macaroons, but it is also able to represent more complex rules like role-based access control, delegation, hierarchies.”
 
 - [Cerbos](https://github.com/cerbos/cerbos) - An authorization endpoint to write context-aware access control policies.
 
@@ -509,9 +509,9 @@ Architectures, software and hardware allowing the storage and usage of secrets t
 
 - [`sops`](https://github.com/mozilla/sops) - Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, age, and PGP.
 
-- [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit git repos for secrets.
+- [`gitleaks`](https://github.com/zricethezav/gitleaks) - Audit Git repos for secrets.
 
-- [`truffleHog`](https://github.com/dxa4481/truffleHog) - Searches through git repositories for high entropy strings and secrets, digging deep into commit history.
+- [`truffleHog`](https://github.com/dxa4481/truffleHog) - Searches through Git repositories for high entropy strings and secrets, digging deep into commit history.
 
 ### Hardware Security Module (HSM)
 
@@ -615,7 +615,7 @@ Another line of defense against spammers.
 
 - [Awesome Captcha](https://github.com/ZYSzys/awesome-captcha) - Reference all open-source captcha libraries, integration, alternatives and cracking tools.
 
-- [reCaptcha](https://www.google.com/recaptcha) - reCaptcha is still an effective, economical and quick solution when your company can't afford to have a dedicated team to fight bots and spammers at internet scale.
+- [reCaptcha](https://www.google.com/recaptcha) - Still an effective, economical and quick solution when your company can't afford to have a dedicated team to fight bots and spammers at internet scale.
 
 - [You (probably) don't need ReCAPTCHA](https://web.archive.org/web/20190611190134/https://kevv.net/you-probably-dont-need-recaptcha/) - Starts with a rant on how the service is a privacy nightmare and is tedious UI-wise, then list alternatives.
 
@@ -659,7 +659,7 @@ Useful to identified clients, catch and block swarms of bots, and limit effects 
 
 - [Temporary Email Address Domains](https://gist.github.com/adamloving/4401361) - A list of domains for disposable and temporary email addresses. Useful for filtering your email list to increase open rates (sending email to these domains likely will not be opened).
 
-- [`gman`](https://github.com/benbalter/gman) - “A ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).” Good resource to hunt for potential government customers in your user base.
+- [`gman`](https://github.com/benbalter/gman) - “A Ruby gem to check if the owner of a given email address or website is working for THE MAN (a.k.a verifies government domains).” Good resource to hunt for potential government customers in your user base.
 
 ### Reserved IDs
 
