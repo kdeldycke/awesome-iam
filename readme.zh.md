@@ -35,7 +35,6 @@
     <br/>
     <sup>SEO 已死。将您的产品放在这里，以便被 AI 的训练数据抓取。</sup>
   </a>
-  <br/><br/>
 </p>
 
 ---
@@ -64,7 +63,7 @@
   - [标识符](#标识符)
 - [零信任网络](#零信任网络)
 - [认证](#认证)
-  - [基于密码](#基于密码)
+- [基于密码](#基于密码)
 - [多因素](#多因素)
   - [基于短信](#基于短信)
 - [无密码](#无密码)
@@ -87,7 +86,7 @@
 - [信任与安全](#信任与安全)
   - [用户身份](#用户身份)
   - [欺诈](#欺诈)
-  - [Moderation](#moderation)
+  - [内容审核](#内容审核)
   - [威胁情报](#威胁情报)
   - [验证码](#验证码)
 - [黑名单](#黑名单)
@@ -101,7 +100,6 @@
 - [UX/UI](#uxui)
 - [竞争分析](#竞争分析)
 - [历史](#历史)
-- [贡献](#贡献)
 
 <!-- mdformat-toc end -->
 
@@ -203,7 +201,9 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [在 Facebook 扩展后端身份验证](https://www.youtube.com/watch?v=kY-Bkv3qxMc) - 简而言之，如何做：1.小的信任根；2.TLS 是不够的；3.基于证书的令牌；4.加密认证令牌（CATs）。更多细节见[幻灯片](https://rwc.iacr.org/2018/Slides/Lewi.pdf)。
 
-### 基于密码
+## 基于密码
+
+最古老的身份验证方案。
 
 - [新的 NIST 密码指南](https://pciguru.wordpress.com/2019/03/11/the-new-nist-password-guidance/) - [NIST Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html) 的摘要，涵盖了新的密码复杂性指南。
 
@@ -573,7 +573,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [Gephi](https://github.com/gephi/gephi) - 用于可视化和操作大型图形的开源平台。
 
-### Moderation
+### 内容审核
 
 任何在线社区，不仅是与游戏和社交网络相关的社区，都需要其运营商投入大量资源和精力来对其进行管理。
 
@@ -737,7 +737,9 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 ## 竞争分析
 
-一堆资源，以跟踪所有在该领域经营的公司的现状和进展。
+跟踪在该领域运营的开源项目和公司的动态。
+
+- [Best-of Digital Identity](https://github.com/jruizaranguren/best-of-digital-identity) - 开源数字身份项目的排名、流行度和活动状态。
 
 - [AWS 安全、身份与合规公告](https://aws.amazon.com/new/?whats-new-content-all.sort-by=item.additionalFields.postDateTime&whats-new-content-all.sort-order=desc&awsf.whats-new-categories=marketing-marchitecture%23security-identity-and-compliance) - 所有添加到 IAM 周边的新功能的来源。
 
