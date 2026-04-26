@@ -462,6 +462,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Casdoor](https://github.com/casbin/casdoor) - 基于 UI 优先的集中式身份验证/单点登录 (SSO) 平台。 支持 OIDC 和 OAuth 2、社交登录、用户管理、基于电子邮件和短信的 2FA。
 
+- [Cloud-IAM](https://cloud-iam.com) - 托管的 Keycloak SaaS 平台，覆盖 5 个云提供商的 70 多个区域。通过 ISO 27001、SOC 2 Type 2、HDS、SecNumCloud 3.2 和 GDPR 认证。
+
 - [authentik](https://github.com/goauthentik/authentik) - 类似于 Keycloak 的开源身份提供者。
 
 - [ZITADEL](https://github.com/zitadel/zitadel) - 使用 Go 和 Angular 构建的开源解决方案，用于管理您的所有系统、用户和服务帐户及其角色和外部身份。 ZITADEL 为您提供 OIDC、OAuth 2.0、登录和注册流程、无密码和 MFA 身份验证。 所有这一切都建立在事件溯源之上，并结合 CQRS 来提供出色的审计跟踪。

@@ -461,6 +461,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Casdoor](https://github.com/casbin/casdoor) - A UI-first centralized authentication / Single-Sign-On (SSO) platform based. Supports OIDC and OAuth 2, social logins, user management, 2FA based on Email and SMS.
 
+- [Cloud-IAM](https://cloud-iam.com) - Managed Keycloak SaaS platform with 70+ regions across 5 cloud providers. ISO 27001, SOC 2 Type 2, HDS, SecNumCloud 3.2 and GDPR compliant.
+
 - [authentik](https://github.com/goauthentik/authentik) - Open-source Identity Provider similar to Keycloak.
 
 - [ZITADEL](https://github.com/zitadel/zitadel) - An Open-Source solution built with Go and Angular to manage all your systems, users and service accounts together with their roles and external identities. ZITADEL provides you with OIDC, OAuth 2.0, login & register flows, passwordless and MFA authentication. All this is built on top of eventsourcing in combination with CQRS to provide a great audit trail.
