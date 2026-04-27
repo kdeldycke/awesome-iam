@@ -24,8 +24,8 @@ This new link is special because...
 
 For tool, dataset, and project entries (not for articles, papers, or curation lists), pick one:
 
-- 💸 - primary maintainer is a commercial vendor selling a paid version (cloud, Enterprise tier, proprietary modules on top of the OSS core)
-- 🆓 - fully open-source: foundation-governed (CNCF, Apache, Eclipse), community-driven, corporate-OSS without a paid product, or support-only commercial model
+- 💸 — primary maintainer is a commercial vendor selling a paid version (cloud, Enterprise tier, proprietary modules on top of the OSS core)
+- 🆓 — fully open-source: foundation-governed (CNCF, Apache, Eclipse), community-driven, corporate-OSS without a paid product, or support-only commercial model
 
 Format: `- [Project](url) - 💸 Description.` or `- [Project](url) - 🆓 Description.`
 
