@@ -12,10 +12,6 @@
 </p>
 
 <p align="center">
-  <sup><a href="#sponsor-def">此列表由以下机构赞助<sup id="sponsor-ref">[0]</sup></a>：</sup><br>
-</p>
-
-<p align="center">
   <a href="https://www.descope.com/?utm_source=awesome-iam&utm_medium=referral&utm_campaign=awesome-iam-oss-sponsorship">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-dark-background.svg">
@@ -743,7 +739,5 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 [标题图片](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) 是基于[Ben Sweet](https://unsplash.com/@benjaminsweet).的[照片](https://unsplash.com/photos/2LowviVHZ-E)修改的。
 
 <!--lint disable no-undefined-references-->
-
-<a name="sponsor-def">[0]</a>: <a href="https://github.com/sponsors/kdeldycke">您可以通过 GitHub 赞助将您的身份和身份验证产品添加到赞助商列表中</a>。 [[↑]](#sponsor-ref)
 
 <a name="intro-quote-def">[1]</a>: [*Poison Study*](https://www.amazon.com/dp/0778324338?&linkCode=ll1&tag=kevideld-20&linkId=0b92c3d92371bd53daca5457bdad327e&language=en_US&ref_=as_li_ss_tl) (Mira, 2007). [[↑]](#intro-quote-ref)

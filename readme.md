@@ -12,10 +12,6 @@
 </p>
 
 <p align="center">
-  <sup>This list is <a href="#sponsor-def">sponsored<sup id="sponsor-ref">[0]</sup></a> by:</sup><br>
-</p>
-
-<p align="center">
   <a href="https://www.descope.com/?utm_source=awesome-iam&utm_medium=referral&utm_campaign=awesome-iam-oss-sponsorship">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/descope-logo-dark-background.svg">
@@ -742,7 +738,5 @@ Your contributions are always welcome! Please take a look at the [contribution g
 The [header image](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) is based on a modified [photo](https://unsplash.com/photos/2LowviVHZ-E) by [Ben Sweet](https://unsplash.com/@benjaminsweet).
 
 <!--lint disable no-undefined-references-->
-
-<a name="sponsor-def">[0]</a>: You can <a href="https://github.com/sponsors/kdeldycke">add your Identity & Authentication product in the list of sponsors via a GitHub sponsorship</a>. [[↑]](#sponsor-ref)
 
 <a name="intro-quote-def">[1]</a>: [*Poison Study*](https://www.amazon.com/dp/0778324338?&linkCode=ll1&tag=kevideld-20&linkId=0b92c3d92371bd53daca5457bdad327e&language=en_US&ref_=as_li_ss_tl) (Mira, 2007). [[↑]](#intro-quote-ref)
