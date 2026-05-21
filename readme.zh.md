@@ -418,6 +418,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 旧的 *OpenID* 已死； 新的 *OpenID Connect* 还没有死。
 
+- [Descope](https://www.descope.com/?utm_source=awesome-iam&utm_medium=referral&utm_campaign=awesome-iam-oss-sponsorship) - 拖放您的身份验证。使用几行代码向您的应用程序添加身份验证、用户管理和授权。
+
 - [很棒的 OpenID Connect](https://github.com/cerberauth/awesome-openid-connect) - OpenID Connect 的提供商、服务、库和资源的精选列表。
 
 - [OAuth 和 OpenID Connect 图解指南](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc) - 使用简化的插图解释这些标准的工作原理。
