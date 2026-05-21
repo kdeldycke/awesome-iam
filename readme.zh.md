@@ -148,7 +148,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [密码学的正确答案](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) - 为非密码学工程师的开发人员提供的一组最新建议。甚至还有[更短的摘要](https://news.ycombinator.com/item?id=16749140)可用。
 
-- [真实世界的密码研讨会](https://rwc.iacr.org) - 旨在将密码学研究人员与开发人员聚集在一起，专注于在互联网、云和嵌入式设备等现实环境中的使用。
+- [真实世界的密码研讨会](https://web.archive.org/web/20260428040052/https://rwc.iacr.org/) - 旨在将密码学研究人员与开发人员聚集在一起，专注于在互联网、云和嵌入式设备等现实环境中的使用。
 
 - [密码学概述](https://www.garykessler.net/library/crypto.html) - “这篇论文有两个主要目的。 首先是定义基本密码方法背后的一些术语和概念，并提供一种方法来比较当今使用的无数密码方案。 第二个是提供一些当今使用的密码学的真实例子。”
 
@@ -174,7 +174,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [BeyondCorp：企业安全的新方法](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf) - 简要概述谷歌的零信任网络方案。
 
-- [什么是 BeyondCorp？ 什么是身份感知代理？](https://medium.com/google-cloud/what-is-beyondcorp-what-is-identity-aware-proxy-de525d9b3f90) - 越来越多的公司添加了额外的 VPN、防火墙、限制和限制层，导致糟糕的体验和轻微的安全增益。是存在更好的方法。
+- [什么是 BeyondCorp？ 什么是身份感知代理？](https://web.archive.org/web/20251205052156/https://medium.com/google-cloud/what-is-beyondcorp-what-is-identity-aware-proxy-de525d9b3f90) - 越来越多的公司添加了额外的 VPN、防火墙、限制和限制层，导致糟糕的体验和轻微的安全增益。是存在更好的方法。
 
 - [oathkeeper](https://github.com/ory/oathkeeper) - 💸 身份与访问代理和访问控制决策API，对进入的HTTP请求进行认证、授权和变异。受BeyondCorp / Zero Trust白皮书的启发。
 
@@ -190,7 +190,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [服务间认证方案的儿童花园](https://web.archive.org/web/20200507173734/https://latacora.micro.blog/a-childs-garden/) - 与上述精神相同，但这次是在服务层面。
 
-- [在 Facebook 扩展后端身份验证](https://www.youtube.com/watch?v=kY-Bkv3qxMc) - 简而言之，如何做：1.小的信任根；2.TLS 是不够的；3.基于证书的令牌；4.加密认证令牌（CATs）。更多细节见[幻灯片](https://rwc.iacr.org/2018/Slides/Lewi.pdf)。
+- [在 Facebook 扩展后端身份验证](https://www.youtube.com/watch?v=kY-Bkv3qxMc) - 简而言之，如何做：1.小的信任根；2.TLS 是不够的；3.基于证书的令牌；4.加密认证令牌（CATs）。更多细节见[幻灯片](https://web.archive.org/web/20260306052223/https://rwc.iacr.org/2018/Slides/Lewi.pdf)。
 
 ## 基于密码
 
@@ -276,7 +276,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Webauthn 和安全密钥](https://www.imperialviolet.org/2018/03/27/webauthn.html) - 描述身份验证如何使用安全密钥，详细说明协议，以及它们如何与 WebAuthn 结合。 要点：“但是，无法使用 webauthn 创建 U2F 密钥。 (...) 所以先完成登录过程到 webauthn 的过渡，然后再过渡注册。”
 
-- [开始使用安全密钥](https://paulstamatiou.com/getting-started-with-security-keys/) - 使用 FIDO2、WebAuthn 和安全密钥保持在线安全和防止网络钓鱼的实用指南。
+- [开始使用安全密钥](https://web.archive.org/web/20260401133706/https://paulstamatiou.com/getting-started-with-security-keys/) - 使用 FIDO2、WebAuthn 和安全密钥保持在线安全和防止网络钓鱼的实用指南。
 
 - [OpenSK](https://github.com/google/OpenSK) - 🆓 用 Rust 编写的安全密钥的开源实现，支持 FIDO U2F 和 FIDO2 标准。
 
@@ -312,7 +312,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [停止对会话使用 JWT](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) - 以及[为什么你的 "解决方案 "不起作用](http://cryto.net/%7Ejoepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/)，因为[无状态的JWT令牌不能被废止或更新](https://news.ycombinator.com/item?id=18354141)。它们会引入大小问题或安全问题，这取决于你将它们存储在哪里。有状态的 JWT 令牌在功能上与会话 cookie 相同，但没有经过实战检验和充分审查的实现或客户端支持。
 
-- [JWT、JWS 和 JWE 是为不那么愚蠢的人准备的!](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3) - 经过签名的 JWT 被称为 JWS（JSON Web Signature）。事实上，JWT 本身并不存在--它必须是一个JWS 或 JWE（JSON Web Encryption）。它就像一个抽象类，JWS 和 JWE 是具体的实现。
+- [JWT、JWS 和 JWE 是为不那么愚蠢的人准备的!](https://web.archive.org/web/20221112173931/https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3) - 经过签名的 JWT 被称为 JWS（JSON Web Signature）。事实上，JWT 本身并不存在--它必须是一个JWS 或 JWE（JSON Web Encryption）。它就像一个抽象类，JWS 和 JWE 是具体的实现。
 
 - [JOSE 是每个人都应该避免的坏标准](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid) - 这些标准要么是完全破碎的，要么是难以驾驭的复杂雷区。
 
@@ -338,7 +338,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [寻找完美的访问控制系统](https://web.archive.org/web/20240421203937/https://goteleport.com/blog/access-controls/) - 授权计划的历史渊源。暗示了不同团队和组织之间共享、信任和授权的未来。
 
-- [GCP IAM语法比AWS更好](https://ucarion.com/iam-operation-syntax) - GCP中许可设计的细节可改善发育器的经验。
+- [GCP IAM语法比AWS更好](https://web.archive.org/web/20251208231427/https://ucarion.com/iam-operation-syntax) - GCP中许可设计的细节可改善发育器的经验。
 
 - [使用 SMT 的 AWS 访问策略的基于语义的自动推理](https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf) - Zelkova 是 AWS 的做法。 该系统对IAM策略进行符号分析，根据用户权限和访问约束解决资源可达性问题。 另请参阅更高级别的 [在 re:inforce 2019 上给出的介绍](https://youtu.be/x6wsTFnU3eY?t=2111)。
 
@@ -372,7 +372,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 [基于关系的访问控制（ReBAC）](https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%85%B3%E7%B3%BB%E7%9A%84%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6) 模型是RBAC的更灵活，功能更强大的版本，并且是云系统的首选。
 
-- [Zanzibar：谷歌一致的全球授权系统](https://ai.google/research/pubs/pub48190) - 可扩展到每秒数万亿个访问控制列表和数百万个授权请求，以支持数十亿人使用的服务。 在 3 年的生产使用中，它一直保持低于 10 毫秒的 95% 延迟和高于 99.999% 的可用性。 [论文中没有的其他内容](https://nitter.tiekoetter.com/LeaKissner/status/1136626971566149633)。 [Zanzibar Academy](https://zanzibar.academy/) 是一个致力于解释 Zanzibar 运作方式的网站。
+- [Zanzibar：谷歌一致的全球授权系统](https://web.archive.org/web/20191207160155/https://ai.google/research/pubs/pub48190) - 可扩展到每秒数万亿个访问控制列表和数百万个授权请求，以支持数十亿人使用的服务。 在 3 年的生产使用中，它一直保持低于 10 毫秒的 95% 延迟和高于 99.999% 的可用性。 [论文中没有的其他内容](https://nitter.tiekoetter.com/LeaKissner/status/1136626971566149633)。 [Zanzibar Academy](https://zanzibar.academy/) 是一个致力于解释 Zanzibar 运作方式的网站。
 
 - [SpiceDB](https://github.com/authzed/spicedb) - 💸 一个开源数据库系统，用于管理受 Zanzibar 启发的安全关键应用程序权限。
 
@@ -404,7 +404,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [五分钟或更短时间内完成 Google 的 Macaroon](https://web.archive.org/web/20240521142227/https://blog.bren2010.io/blog/googles-macaroons) - 如果给我一个授权我在某些限制下执行某些操作的 Macaroon，我可以非交互地构建第二个具有更严格限制的 Macaroon，然后我可以给你。
 
-- [Macaroons: 为云中的分散式授权提供带有上下文警告的Cookies](https://ai.google/research/pubs/pub41892) - 谷歌的原始论文。
+- [Macaroons: 为云中的分散式授权提供带有上下文警告的Cookies](https://web.archive.org/web/20191009113323/https://ai.google/research/pubs/pub41892) - 谷歌的原始论文。
 
 - [Google 论文的作者比较了 Macaroons 和 JWT](https://news.ycombinator.com/item?id=14294463) - 作为 Macaroons 的消费者/验证者，它们允许您（通过第三方警告）将某些授权决定推迟给其他人，JWT 没有。
 
@@ -474,9 +474,9 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 允许存储和使用秘密的架构、软件和硬件允许进行身份验证和授权，同时维护信任链。
 
-- [Netflix 的大规模秘密](https://www.youtube.com/watch?v=K0EOPddWpsE) - 基于盲签名的解决方案。 见[幻灯片](https://rwc.iacr.org/2018/Slides/Mehta.pdf)。
+- [Netflix 的大规模秘密](https://www.youtube.com/watch?v=K0EOPddWpsE) - 基于盲签名的解决方案。 见[幻灯片](https://web.archive.org/web/20251203022343/https://rwc.iacr.org/2018/Slides/Mehta.pdf)。
 
-- [Google 内部 KMS 中的高可用性](https://www.youtube.com/watch?v=5T_c-lqgjso) - 不是 GCP 的 KMS，而是其基础架构的核心。 见[幻灯片](https://rwc.iacr.org/2018/Slides/Kanagala.pdf)。
+- [Google 内部 KMS 中的高可用性](https://www.youtube.com/watch?v=5T_c-lqgjso) - 不是 GCP 的 KMS，而是其基础架构的核心。 见[幻灯片](https://web.archive.org/web/20251203022343/https://rwc.iacr.org/2018/Slides/Kanagala.pdf)。
 
 - [HashiCorp Vault](https://github.com/hashicorp/vault) - 💸 保护、存储和严格控制对令牌、密码、证书、加密密钥的访问。
 
@@ -492,7 +492,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 HSM 是在硬件层面保证秘密管理安全的物理设备。
 
-- [HSM：它们是什么以及为什么您今天可能（间接）使用过它们](https://rwc.iacr.org/2015/Slides/RWC-2015-Hampton.pdf) - HSM 用法的真正基本概述。
+- [HSM：它们是什么以及为什么您今天可能（间接）使用过它们](https://web.archive.org/web/20260404010649/https://rwc.iacr.org/2015/Slides/RWC-2015-Hampton.pdf) - HSM 用法的真正基本概述。
 
 - [AWS Cloud HSM 硬件花絮](https://news.ycombinator.com/item?id=16759383) - AWS CloudHSM Classic 由 SafeNet 的 Luna HSM 提供支持，当前的 CloudHSM 依赖于 Cavium 的 Nitrox，它允许分区的“虚拟 HSM”。
 
@@ -724,7 +724,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [DigitalOcean 账户变化日志](http://docs.digitalocean.com/release-notes/accounts/) - 关于 DO 的所有最新账户更新。
 
-- [163 项 AWS 服务各用一行解释](https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws) -帮助使他们巨大的服务目录变得有意义。本着同样的精神： [通俗易懂的 AWS](https://expeditedsecurity.com/aws-in-plain-english/)。
+- [163 项 AWS 服务各用一行解释](https://web.archive.org/web/20260301070017/https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws) -帮助使他们巨大的服务目录变得有意义。本着同样的精神： [通俗易懂的 AWS](https://expeditedsecurity.com/aws-in-plain-english/)。
 
 - [谷歌云开发者的小抄](https://github.com/gregsramblings/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - 用4个字或更少描述所有 GCP 产品。
 
@@ -738,7 +738,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 ## Footnotes
 
-[标题图片](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) 是基于[Ben Sweet](https://unsplash.com/@benjaminsweet).的[照片](https://unsplash.com/photos/2LowviVHZ-E)修改的。
+[标题图片](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) 是基于[Ben Sweet](https://web.archive.org/web/20260303063416/https://unsplash.com/@benjaminsweet).的[照片](https://web.archive.org/web/20230919012225/https://unsplash.com/photos/2LowviVHZ-E)修改的。
 
 <!--lint disable no-undefined-references-->
 

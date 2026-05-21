@@ -45,4 +45,8 @@ exclude = [
     "sci-hub\\.st",
     "ycombinator\\.com",
     "x\\.com",
+    # Sponsor link, must remain live but lychee gets a 404 for the URL with utm_ query params.
+    "descope\\.com",
+    # Blocks crawlers but the site works in a browser.
+    "syslog\\.ravelin\\.com",
 ]
