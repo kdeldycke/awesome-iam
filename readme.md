@@ -487,6 +487,8 @@ Architectures, software and hardware allowing the storage and usage of secrets t
 
 - [`trufflehog`](https://github.com/trufflesecurity/trufflehog) - 💸 Searches through Git repositories for high entropy strings and secrets, digging deep into commit history.
 
+- [`authsome`](https://github.com/agentrhq/authsome) - 🆓 Local credential broker for AI agents. Log in once via OAuth2 (browser PKCE / device code) or API key, encrypted vault stores credentials under `~/.authsome`, a local HTTPS proxy on loopback injects them at request time so the agent's process environment never holds raw secrets. 45 providers bundled (14 OAuth2, 31 API key) including GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, Stripe. Background token refresh. MIT.
+
 ### Hardware Security Module (HSM)
 
 HSMs are physical devices guaranteeing security of secret management at the hardware level.
