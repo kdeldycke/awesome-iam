@@ -632,6 +632,8 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [MailChecker](https://github.com/FGRibreau/mailchecker) - 💸 跨语言的临时（一次性/抛弃式）电子邮件检测库。
 
+- [`check-if-email-exists`](https://github.com/reacherhq/check-if-email-exists) - 💸 通过 SMTP 验证电子邮件地址是否可达，无需发送任何邮件，在注册时捕获拼写错误、一次性域名和角色账户。
+
 - [临时电子邮件地址域名](https://gist.github.com/adamloving/4401361) - 一次性和临时电子邮件地址的域名列表。用于过滤你的电子邮件列表，以提高打开率（向这些域名发送电子邮件可能不会被打开）。
 
 - [`gman`](https://github.com/benbalter/gman) - 🆓 "一个红宝石，用于检查一个给定的电子邮件地址或网站的所有者是否在为政府工作（又称验证政府域）。" 在你的用户群中寻找潜在的政府客户的良好资源。
