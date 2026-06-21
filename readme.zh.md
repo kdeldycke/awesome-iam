@@ -450,6 +450,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [ZITADEL](https://github.com/zitadel/zitadel) - 💸 使用 Go 和 Angular 构建的开源解决方案，用于管理您的所有系统、用户和服务帐户及其角色和外部身份。 ZITADEL 为您提供 OIDC、OAuth 2.0、登录和注册流程、无密码和 MFA 身份验证。 所有这一切都建立在事件溯源之上，并结合 CQRS 来提供出色的审计跟踪。
 
+- [obligator](https://github.com/lastlogin-net/obligator) - 🆓 为自托管者设计的简单且有主见的 OpenID Connect 服务器。单一静态可执行文件，支持平面文件或 SQLite 存储。
+
 ## SAML
 
 安全断言标记语言 (SAML) 2.0 是一种在服务之间交换授权和身份验证的方法，例如上面的 OAuth/OpenID 协议。
