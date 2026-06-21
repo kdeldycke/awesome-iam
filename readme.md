@@ -580,6 +580,8 @@ How to detect, unmask and classify offensive online activities. Most of the time
 
 - [OSINT Stuff Tool Collection](https://github.com/cipher387/osint_stuff_tool_collection) - “A collection of several hundred online tools for OSINT”: domain, IP, email, username and social-network lookups useful for unmasking fraud and abuse.
 
+- [Maigret](https://github.com/soxoj/maigret) - 🆓 “Collect a dossier on a person by username from 3000+ sites”, useful for account enumeration and unmasking fraud or abuse.
+
 - [Standards related to Threat Intelligence](https://www.threat-intelligence.eu/standards/) - Open standards, tools and methodologies to support threat intelligence analysis.
 
 - [MISP taxonomies and classification](https://www.misp-project.org/taxonomies.html) - Tags to organize information on “threat intelligence including cyber security indicators, financial fraud or counter-terrorism information.”

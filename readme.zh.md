@@ -581,6 +581,8 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [OSINT Stuff Tool Collection](https://github.com/cipher387/osint_stuff_tool_collection) - “数百个 OSINT 在线工具的集合”：域名、IP、电子邮件、用户名和社交网络查询，可用于揭露欺诈和滥用行为。
 
+- [Maigret](https://github.com/soxoj/maigret) - 🆓 “通过用户名从 3000+ 个网站收集某人的档案”，可用于账户枚举以及揭露欺诈或滥用行为。
+
 - [与威胁情报有关的标准](https://www.threat-intelligence.eu/standards/) - 支持威胁情报分析的开放标准、工具和方法。
 
 - [MISP 分类法和分类](https://www.misp-project.org/taxonomies.html) - 组织有关“威胁情报，包括网络安全指标、金融欺诈或反恐信息”的信息的标签。
