@@ -567,6 +567,8 @@ How to detect, unmask and classify offensive online activities. Most of the time
 
 - [SpiderFoot](https://github.com/poppopjmp/spiderfoot) - 🆓 An open source intelligence (OSINT) automation tool. It integrates with just about every data source available and uses a range of methods for data analysis, making that data easy to navigate.
 
+- [OSINT Stuff Tool Collection](https://github.com/cipher387/osint_stuff_tool_collection) - “A collection of several hundred online tools for OSINT”: domain, IP, email, username and social-network lookups useful for unmasking fraud and abuse.
+
 - [Standards related to Threat Intelligence](https://www.threat-intelligence.eu/standards/) - Open standards, tools and methodologies to support threat intelligence analysis.
 
 - [MISP taxonomies and classification](https://www.misp-project.org/taxonomies.html) - Tags to organize information on “threat intelligence including cyber security indicators, financial fraud or counter-terrorism information.”
