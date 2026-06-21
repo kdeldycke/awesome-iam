@@ -58,6 +58,7 @@
 - [密码学](#密码学)
   - [标识符](#标识符)
 - [零信任网络](#零信任网络)
+- [机器身份](#机器身份)
 - [认证](#认证)
 - [基于密码](#基于密码)
 - [多因素](#多因素)
@@ -181,6 +182,14 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 - [Pomerium](https://github.com/pomerium/pomerium) - 💸 一种身份感知代理，支持对内部应用程序的安全访问。
 
 - [heimdall](https://github.com/dadrus/heimdall) - 🆓 一个云原生的身份感知代理和策略执行点，通过多功能规则编排身份验证和授权系统，支持协议无关的身份传播。
+
+## 机器身份
+
+工作负载、服务和设备也是主体。它们需要身份来相互认证并获得访问权限：这是人类用户账户的非人类对应部分。
+
+- [SPIFFE/SPIRE](https://github.com/spiffe/spire) - 🆓 一个 CNCF 框架，为异构环境中的工作负载签发短期的、可加密验证的身份（SVID）。
+
+- [NanoMDM](https://github.com/micromdm/nanomdm) - 🆓 极简的 Apple MDM 服务器和库，用于注册和管理 Apple 设备的身份，灵感来自 MicroMDM。
 
 ## 认证
 

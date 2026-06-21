@@ -58,6 +58,7 @@ This curated [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/
 - [Cryptography](#cryptography)
   - [Identifiers](#identifiers)
 - [Zero-trust Network](#zero-trust-network)
+- [Machine Identity](#machine-identity)
 - [Authentication](#authentication)
 - [Password-based auth](#password-based-auth)
 - [Multi-factor auth](#multi-factor-auth)
@@ -180,6 +181,14 @@ Zero trust network security operates under the principle “never trust, always 
 - [Pomerium](https://github.com/pomerium/pomerium) - 💸 An identity-aware proxy that enables secure access to internal applications.
 
 - [heimdall](https://github.com/dadrus/heimdall) - 🆓 A cloud-native, identity-aware proxy and policy enforcement point that orchestrates authentication and authorization systems via versatile rules, supporting protocol-agnostic identity propagation.
+
+## Machine Identity
+
+Workloads, services and devices are principals too. They need identities to authenticate to one another and be granted access: the non-human counterpart to human user accounts.
+
+- [SPIFFE/SPIRE](https://github.com/spiffe/spire) - 🆓 A CNCF framework issuing short-lived, cryptographically-verifiable identities (SVIDs) to workloads across heterogeneous environments.
+
+- [NanoMDM](https://github.com/micromdm/nanomdm) - 🆓 Minimalist Apple MDM server and library to enroll and manage the identity of Apple devices, inspired by MicroMDM.
 
 ## Authentication
 
