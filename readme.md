@@ -114,6 +114,8 @@ Here we set out the big picture: definition and strategic importance of the doma
 
 - [IAM Is The Real Cloud Lock-In](https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/) - A little *click-baity*, but author admit that “It depends on how much you trust them to 1. Stay in business; 2. Not jack up your prices; 3. Not deprecate services out from under you; 4. Provide more value to you in business acceleration than they take away in flexibility.”
 
+- [CIAM.wiki](https://ciam.wiki) - A vendor-neutral encyclopedia of Customer Identity and Access Management: guides, a glossary, head-to-head vendor comparisons, and a market map of the category.
+
 ## Security
 
 Security is one of the most central pillar of IAM foundations. Here are some broad concepts.
