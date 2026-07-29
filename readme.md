@@ -290,6 +290,8 @@ Part of the [FIDO2 project](https://en.wikipedia.org/wiki/FIDO_Alliance#FIDO2), 
 
 - [YubiKey Guide](https://github.com/drduh/YubiKey-Guide) - Guide to using YubiKey as a SmartCard for storing GPG encryption, signing and authentication keys, which can also be used for SSH. Many of the principles in this document are applicable to other smart card devices.
 
+- [2FAco](https://2faco.com) - An open-source authentication key that stores all your TOTP secrets, supports U2F/FIDO2 hardware keys, and generates secure passcodes.
+
 ### Public-Key Infrastructure (PKI)
 
 Certificate-based authentication.
