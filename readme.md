@@ -326,6 +326,8 @@ Certificate-based authentication.
 
 - [JWT.io](https://jwt.io) - Allows you to decode, verify and generate JWT.
 
+- [Nutilz JWT Decoder](https://nutilz.com/jwt-decoder) - 🆓 Decodes a JWT's header and payload, flags expired tokens, and converts timestamp claims to readable dates. Runs entirely client-side, so the token never leaves the browser.
+
 ## Authorization
 
 Now we know you are you. But are you allowed to do what you want to do?
