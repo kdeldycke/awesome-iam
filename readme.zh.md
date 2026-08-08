@@ -52,6 +52,7 @@
 
 <!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
 
+- [目录](#目录)
 - [概述](#概述)
 - [安全](#安全)
 - [账户管理](#账户管理)
@@ -97,6 +98,8 @@
 - [UX/UI](#uxui)
 - [竞争分析](#竞争分析)
 - [历史](#历史)
+- [贡献](#贡献)
+- [注脚](#注脚)
 
 <!-- mdformat-toc end -->
 
