@@ -338,6 +338,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [为什么授权很难](https://www.osohq.com/post/why-authorization-is-hard) - 因为它需要在很多地方需要的执行、决策架构上进行多重权衡以将业务逻辑与授权逻辑分开，以及在建模上平衡功率和复杂性。
 
+- [OpenID AuthZEN](https://openid.net/wg/authzen/) - OpenID 基金会的工作组，致力于标准化策略执行点与策略决策点之间的 API，使授权可以外部化而不被单一供应商锁定。
+
 - [用户授权的永无止境的产品要求](https://alexolivier.me/posts/the-never-ending-product-requirements-of-user-authorization) - 基于角色的简单授权模型是如何不够的，并且由于产品包装、数据定位、企业组织和合规性而迅速变得复杂。
 
 - [拟采用的 RBAC 方式](https://tailscale.com/blog/rbac-like-it-was-meant-to-be/) -我们如何从 DAC（unix 权限、秘密 URL）到 MAC（DRM、MFA、2FA、SELinux），再到 RBAC。 详细说明后者如何允许更好地建模策略、ACL、用户和组。
