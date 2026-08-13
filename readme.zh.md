@@ -340,6 +340,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [用户授权的永无止境的产品要求](https://alexolivier.me/posts/the-never-ending-product-requirements-of-user-authorization) - 基于角色的简单授权模型是如何不够的，并且由于产品包装、数据定位、企业组织和合规性而迅速变得复杂。
 
+- [授权成熟度模型](https://solutions.cerbos.dev/authorization-maturity-model-a-cisos-benchmark) - 一个四阶段模型，用于衡量授权体系从临时应对到规范治理的成熟度，映射每个阶段的合规风险，并提供一份 15 道题的自评估问卷。
+
 - [拟采用的 RBAC 方式](https://tailscale.com/blog/rbac-like-it-was-meant-to-be/) -我们如何从 DAC（unix 权限、秘密 URL）到 MAC（DRM、MFA、2FA、SELinux），再到 RBAC。 详细说明后者如何允许更好地建模策略、ACL、用户和组。
 
 - [细粒度权限的案例](https://cerbos.dev/blog/the-case-for-granular-permissions) - 讨论 RBAC 的局限性以及 ABAC（基于属性的访问控制）如何解决这些问题。
