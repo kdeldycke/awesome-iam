@@ -124,6 +124,8 @@ Security is one of the most central pillar of IAM foundations. Here are some bro
 
 - [Cartography](https://github.com/lyft/cartography) - 🆓 A Neo4J-based tool to map out dependencies and relationships between services and resources. Supports AWS, GCP, GSuite, Okta and GitHub.
 
+- [Entra Orchestrator](https://github.com/Dfrank77/entra-orchestrator) - 🆓 Cross-tool correlation engine for Microsoft Entra ID security analysis. Connects findings from three independent scanners to surface privilege escalation paths and attack chains across single and multi-tenant environments.
+
 - [Open guide to AWS Security and IAM](https://github.com/open-guides/og-aws#security-and-iam)
 
 ## Account Management
