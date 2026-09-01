@@ -124,6 +124,8 @@
 
 - [Cartography](https://github.com/lyft/cartography) - 🆓 一种基于 Neo4J 的工具，用于映射服务和资源之间的依赖关系和关系。 支持 AWS、GCP、GSuite、Okta 和 GitHub。
 
+- [Entra Orchestrator](https://github.com/Dfrank77/entra-orchestrator) - 🆓 Microsoft Entra ID 安全分析的跨工具关联引擎。连接三个独立扫描器的发现，以发现跨单租户和多租户环境的权限提升路径和攻击链。
+
 - [AWS 安全性和 IAM 开放指南](https://github.com/open-guides/og-aws#security-and-iam)
 
 ## 账户管理
