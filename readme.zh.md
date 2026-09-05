@@ -452,7 +452,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Keycloak](https://github.com/keycloak/keycloak) - 🆓 开源的身份和访问管理。支持 OIDC、OAuth 2和SAML 2、LDAP 和 AD 目录、密码策略。
 
-- [Casdoor](https://github.com/casbin/casdoor) - 🆓 基于 UI 优先的集中式身份验证/单点登录 (SSO) 平台。 支持 OIDC 和 OAuth 2、社交登录、用户管理、基于电子邮件和短信的 2FA。
+- [Casdoor](https://github.com/casdoor/casdoor) - 🆓 UI 优先的集中式身份验证/单点登录 (SSO) 平台。支持 OAuth 2、OIDC、SAML 2、CAS、LDAP 和 SCIM，社交登录、用户管理、WebAuthn 和 TOTP/MFA。
 
 - [authentik](https://github.com/goauthentik/authentik) - 💸 类似于 Keycloak 的开源身份提供者。
 
