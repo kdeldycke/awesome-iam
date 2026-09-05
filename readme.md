@@ -452,7 +452,7 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [Keycloak](https://github.com/keycloak/keycloak) - 🆓 Open-source Identity and Access Management. Supports OIDC, OAuth 2 and SAML 2, LDAP and AD directories, password policies.
 
-- [Casdoor](https://github.com/casbin/casdoor) - 🆓 A UI-first centralized authentication / Single-Sign-On (SSO) platform based. Supports OIDC and OAuth 2, social logins, user management, 2FA based on Email and SMS.
+- [Casdoor](https://github.com/casdoor/casdoor) - 🆓 A UI-first centralized authentication / Single-Sign-On (SSO) platform. Supports OAuth 2, OIDC, SAML 2, CAS, LDAP and SCIM, social logins, user management, WebAuthn and TOTP/MFA.
 
 - [authentik](https://github.com/goauthentik/authentik) - 💸 Open-source Identity Provider similar to Keycloak.
 
