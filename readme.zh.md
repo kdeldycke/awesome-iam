@@ -122,7 +122,7 @@
 
 - [缓解云漏洞](https://web.archive.org/web/20250529050934/https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF) - “本文档将云漏洞分为四类（配置错误、访问控制不当、共享租户漏洞和供应链漏洞）”。
 
-- [Cartography](https://github.com/lyft/cartography) - 🆓 一种基于 Neo4J 的工具，用于映射服务和资源之间的依赖关系和关系。 支持 AWS、GCP、GSuite、Okta 和 GitHub。
+- [Cartography](https://github.com/cartography-cncf/cartography) - 🆓 一种基于 Neo4J 的工具，用于映射服务和资源之间的依赖关系和关系。 支持 AWS、GCP、GSuite、Okta 和 GitHub。
 
 - [AWS 安全性和 IAM 开放指南](https://github.com/open-guides/og-aws#security-and-iam)
 
@@ -214,11 +214,11 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [银行、任意的密码限制以及为什么它们并不重要](https://www.troyhunt.com/banks-arbitrary-password-restrictions-and-why-they-dont-matter/) - “对长度和字符组成的任意低限制是不好的。 它们看起来很糟糕，会导致对安全状况的负面猜测，并且会破坏密码管理器等工具。”
 
-- [愚蠢的密码规则](https://github.com/dumb-password-rules/dumb-password-rules) - 🆓 使用愚蠢的密码规则的糟糕网站。
+- [愚蠢的密码规则](https://github.com/duffn/dumb-password-rules) - 🆓 使用愚蠢的密码规则的糟糕网站。
 
 - [密码管理器资源](https://github.com/apple/password-manager-resources) - 🆓 一个按网站分类的密码规则、更改URL和怪癖的集合。
 
-- [更改密码的著名网址](https://github.com/WICG/change-password-url) - 🆓 定义密码更新的网站资源的规范。
+- [更改密码的著名网址](https://github.com/w3c/webappsec-change-password-url) - 🆓 定义密码更新的网站资源的规范。
 
 - [如何改变已经散列的用户密码的散列方案](https://news.ycombinator.com/item?id=20109360) - 好消息是：你并没有被困在一个传统的密码保存方案中。这里有一个技巧，可以透明地升级到更强大的散列算法。
 
@@ -356,7 +356,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 [以角色為基礎的存取控制l](https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%A7%92%E8%89%B2%E7%82%BA%E5%9F%BA%E7%A4%8E%E7%9A%84%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6) 是通过角色绘制用户将用户映射到权限的经典模型。
 
-- [Athenz](https://github.com/yahoo/athenz) - 🆓 支持服务身份验证以及基于角色的配置授权的服务和库集。
+- [Athenz](https://github.com/AthenZ/athenz) - 🆓 支持服务身份验证以及基于角色的配置授权的服务和库集。
 
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit 合并了来自 cookies、JWTs、macaroons 和 Open Policy Agent 的概念。 “它提供了一种基于 Datalog 的逻辑语言来编写授权策略。 它可以存储数据，如 JWT，或像 Macaroons 这样的小条件，但它也能够表示更复杂的规则，如基于角色的访问控制、委托、层次结构。”
 
@@ -372,7 +372,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Ladon](https://github.com/ory/ladon) - 💸 受 AWS 启发的访问控制库。
 
-- [Casbin](https://github.com/casbin/casbin) - 🆓 Golang 项目的开源访问控制库。
+- [Casbin](https://github.com/apache/casbin) - 🆓 Golang 项目的开源访问控制库。
 
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - 🆓 一个开源通用决策引擎，用于创建和实施基于属性的访问控制 (ABAC) 策略。
 
@@ -492,9 +492,9 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Infisical](https://github.com/Infisical/infisical) - 💸 HashiCorp Vault 的替代品。
 
-- [`sops`](https://github.com/mozilla/sops) - 🆓 支持 YAML、JSON、ENV、INI 和 BINARY 格式的加密文件编辑器，并使用 AWS KMS、GCP KMS、Azure Key Vault、age 和 PGP 进行加密。
+- [`sops`](https://github.com/getsops/sops) - 🆓 支持 YAML、JSON、ENV、INI 和 BINARY 格式的加密文件编辑器，并使用 AWS KMS、GCP KMS、Azure Key Vault、age 和 PGP 进行加密。
 
-- [`gitleaks`](https://github.com/zricethezav/gitleaks) - 🆓 审计 git repos 的秘密。
+- [`gitleaks`](https://github.com/gitleaks/gitleaks) - 🆓 审计 git repos 的秘密。
 
 - [`trufflehog`](https://github.com/trufflesecurity/trufflehog) - 💸 在 git 存储库中搜索高熵字符串和秘密，深入挖掘提交历史。
 
@@ -554,7 +554,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [调查异常注册](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - 对 OpenStreetMap 上可疑贡献者注册的详细分析。 这份精美而高层次的报告展示了一场精心策划和定向的活动，可以作为欺诈报告的模板。
 
-- [MIDAS：检测边缘流中的微集群异常](https://github.com/bhatiasiddharth/MIDAS) - 🆓 一种提议方法“使用恒定时间和内存检测边缘流中的微簇异常，或突然到达的可疑相似边缘组。”
+- [MIDAS：检测边缘流中的微集群异常](https://github.com/Stream-AD/MIDAS) - 🆓 一种提议方法“使用恒定时间和内存检测边缘流中的微簇异常，或突然到达的可疑相似边缘组。”
 
 - [Gephi](https://github.com/gephi/gephi) - 🆓 用于可视化和操作大型图形的开源平台。
 
@@ -642,7 +642,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 ### 邮件
 
-- [烧录机电子邮件供应商](https://github.com/wesbos/burner-email-providers) - 🆓 一个临时电子邮件提供商的列表。以及其[衍生的Python模块](https://github.com/martenson/disposable-email-domains)。
+- [烧录机电子邮件供应商](https://github.com/wesbos/burner-email-providers) - 🆓 一个临时电子邮件提供商的列表。以及其[衍生的Python模块](https://github.com/disposable-email-domains/disposable-email-domains)。
 
 - [MailChecker](https://github.com/FGRibreau/mailchecker) - 💸 跨语言的临时（一次性/抛弃式）电子邮件检测库。
 
@@ -686,7 +686,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [为什么差异化的隐私是了不起的](https://desfontain.es/privacy/differential-privacy-awesomeness.html) - 解释[差异隐私](https://zh.wikipedia.org/wiki/%E5%B7%AE%E5%88%86%E9%9A%90%E7%A7%81)背后的直觉，这是一个理论框架，允许在不影响保密性的情况下共享聚合数据。参见后续文章[更多细节](https://desfontain.es/privacy/differential-privacy-in-more-detail.html)和[实践方面](https://desfontain.es/privacy/differential-privacy-in-practice.html)。
 
-- [Presidio](https://github.com/microsoft/presidio) - 🆓 语境感知、可插拔和可定制的数据保护和PII数据匿名化服务，用于文本和图像。
+- [Presidio](https://github.com/data-privacy-stack/presidio) - 🆓 语境感知、可插拔和可定制的数据保护和PII数据匿名化服务，用于文本和图像。
 
 ### GDPR
 
@@ -742,7 +742,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [163 项 AWS 服务各用一行解释](https://web.archive.org/web/20260301070017/https://adayinthelifeof.nl/2020/05/20/aws.html#discovering-aws) -帮助使他们巨大的服务目录变得有意义。本着同样的精神： [通俗易懂的 AWS](https://expeditedsecurity.com/aws-in-plain-english/)。
 
-- [谷歌云开发者的小抄](https://github.com/gregsramblings/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - 用4个字或更少描述所有 GCP 产品。
+- [谷歌云开发者的小抄](https://github.com/priyankavergadia/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - 用4个字或更少描述所有 GCP 产品。
 
 ## 历史
 
