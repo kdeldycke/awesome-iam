@@ -59,16 +59,9 @@ exclude = [
   # VirusTotal analysis pages are a JS app that rate-limits bots, and the
   # binaries page links one per released binary.
   "^https://www\\.virustotal\\.com/gui/.*$",
-  # Bitdefender returns 403 to bots. The `av-false-positive` skill links its
-  # submission portal from any repository shipping compiled binaries.
   "bitdefender\\.com",
-  # npmjs.com returns 403 to bots.
   "^https://www\\.npmjs\\.com/package/.*$",
-  # star-history.com builds its chart and its anchor with JavaScript, so both
-  # the link and its fragment are invisible to lychee. The `benchmark-update`
-  # skill writes one of these charts into every `docs/benchmark.md` it produces.
   "^https://star-history\\.com/.*$",
-  # githubstatus.com returns 405 to HEAD requests from bots.
   "githubstatus\\.com",
   "descope\\.com",
   "syslog\\.ravelin\\.com",
