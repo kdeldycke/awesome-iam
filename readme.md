@@ -702,6 +702,8 @@ The well-known European privacy framework
 
 - [GDPR Enforcement Tracker](http://enforcementtracker.com) - List of GDPR fines and penalties.
 
+- [PIPEDA vs GDPR: What Canadian Companies Must Know](https://traztech.ca/blog/pipeda-vs-gdpr) - Comparison of Canadian and EU privacy regulations for identity and data handling.
+
 ## UX/UI
 
 As stakeholder of the IAM stack, you're going to implement in the backend the majority of the primitives required to build-up the sign-up tunnel and user onboarding. This is the first impression customers will get from your product, and can't be overlooked: you'll have to carefully design it with front-end experts. Here is a couple of guides to help you polish that experience.
