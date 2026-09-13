@@ -139,6 +139,7 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 - [Identity Beyond Usernames](https://lord.io/blog/2020/usernames/) - On the concept of usernames as identifiers, and the complexities introduced when unicode characters meets uniqueness requirements.
 
 - [Kratos](https://github.com/ory/kratos) - 💸 User login, user registration, 2FA and profile management.
+- [identity-kit](https://github.com/QuxKit/identity-kit) - 💸 Accounts, credentials and sessions as an Apache-2.0 TypeScript library over your own Postgres, embedded in the app rather than deployed beside it. QuxKit.AI sells hosted QuxCloud on top.
 
 - [UserFrosting](https://github.com/userfrosting/UserFrosting) - 🆓 Modern PHP user login and management framework.
 
