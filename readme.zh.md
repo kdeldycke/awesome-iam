@@ -360,13 +360,13 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Biscuit 合并了来自 cookies、JWTs、macaroons 和 Open Policy Agent 的概念。 “它提供了一种基于 Datalog 的逻辑语言来编写授权策略。 它可以存储数据，如 JWT，或像 Macaroons 这样的小条件，但它也能够表示更复杂的规则，如基于角色的访问控制、委托、层次结构。”
 
-- [Cerbos](https://github.com/cerbos/cerbos) - 💸 用于编写上下文感知访问控制策略的授权端点。
-
 - [FerrisKey](https://github.com/ferriskey/ferriskey) - 🆓 用 Rust 编写的自托管、开源、RBAC 系统。
 
 ### ABAC 框架
 
 [Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) 是RBAC的演变，其中角色被属性取代，从而实现了更复杂的基于策略的访问控制。
+
+- [Cerbos](https://github.com/cerbos/cerbos) - 💸 运行时授权层，支持 RBAC、ABAC 和 PBAC，并提供用于编写、测试和分发策略的托管控制平面。为应用、API、工作负载和 AI 智能体提供细粒度访问控制，基于 Apache-2.0 开源内核构建。
 
 - [Keto](https://github.com/ory/keto) - 💸 策略决定点。 它使用一组访问控制策略，类似于 AWS 策略，以确定主体是否有权对资源执行特定操作。
 

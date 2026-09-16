@@ -360,13 +360,13 @@ As a concept, access control policies can be designed to follow very different a
 
 - [Biscuit](https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/) - Merges concepts from cookies, JWTs, macaroons and Open Policy Agent. “It provide a logic language based on Datalog to write authorization policies. It can store data, like JWT, or small conditions like Macaroons, but it is also able to represent more complex rules like role-based access control, delegation, hierarchies.”
 
-- [Cerbos](https://github.com/cerbos/cerbos) - 💸 An authorization endpoint to write context-aware access control policies.
-
 - [FerrisKey](https://github.com/ferriskey/ferriskey) - 🆓 Self-hosted, open-source, RBAC system written in Rust.
 
 ### ABAC frameworks
 
 [Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) is an evolution of RBAC, in which roles are replaced by attributes, allowing the implementation of more complex policy-based access control.
+
+- [Cerbos](https://github.com/cerbos/cerbos) - 💸 Runtime authorization layer implementing RBAC, ABAC and PBAC, with a managed control plane for authoring, testing and distributing policies. Fine-grained access control for apps, APIs, workloads and AI agents, built on an Apache-2.0 open-source core.
 
 - [Keto](https://github.com/ory/keto) - 💸 Policy decision point. It uses a set of access control policies, similar to AWS policies, in order to determine whether a subject is authorized to perform a certain action on a resource.
 
