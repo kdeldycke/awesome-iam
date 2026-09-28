@@ -474,7 +474,7 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [SAML 啤酒饮用者指南](https://duo.com/blog/the-beer-drinkers-guide-to-saml) - SAML 有时很神秘。 另一个类比可能有助于从中获得更多意义。
 
-- [SAML：糟糕设计的分形](https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/) - “SAML 正被自身复杂性的重压所压垮。”作者列出了五个相互叠加的缺陷：**“1. 建立在 XML 之上；2. 规范化；3. 内嵌签名；4. '大杂烩' 式设计；5. 僵化。”**因此，与其再增加一项缓解措施，不如给身份提供商一个弃用计划：停止接入新的 SAML 集成，将客户迁移到 OIDC，并设定一个日落日期。
+- [SAML：糟糕设计的分形](https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/) - “SAML 正被自身复杂性的重压所压垮。”作者列出了五个相互叠加的缺陷：\*\*“1. 建立在 XML 之上；2. 规范化；3. 内嵌签名；4. '大杂烩' 式设计；5. 僵化。”\*\*因此，与其再增加一项缓解措施，不如给身份提供商一个弃用计划：停止接入新的 SAML 集成，将客户迁移到 OIDC，并设定一个日落日期。
 
 - [SAML 在设计上是不安全的](https://joonas.fi/2021/08/saml-is-insecure-by-design/) - 不仅奇怪，SAML 在设计上也不安全，因为它依赖于基于 XML 规范化的签名，而不是 XML 字节流。 这意味着您可以利用 XML 解析器/编码器的差异。
 
