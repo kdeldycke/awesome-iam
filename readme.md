@@ -474,6 +474,8 @@ Typical SAML identity provider is an institution or a big corporation's internal
 
 - [The Beer Drinker's Guide to SAML](https://duo.com/blog/the-beer-drinkers-guide-to-saml) - SAML is arcane at times. A another analogy might helps get more sense out of it.
 
+- [SAML: A Fractal of Bad Design](https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/) - “SAML is being crushed under the weight of its own complexity.” The author lists five flaws that compound: **“1. Built on XML; 2. Canonicalization; 3. Enveloped signatures; 4. 'Kitchen-sink' design; 5. Ossification.”** So instead of one more mitigation, identity providers get a deprecation plan: stop onboarding SAML integrations, migrate customers to OIDC, set a sunset date.
+
 - [SAML is insecure by design](https://joonas.fi/2021/08/saml-is-insecure-by-design/) - Not only weird, SAML is also insecure by design, as it relies on signatures based on XML canonicalization, not XML byte stream. Which means you can exploit XML parser/encoder differences.
 
 - [The Difficulties of SAML Single Logout](https://shibboleth.atlassian.net/wiki/spaces/CONCEPT/pages/928645229/SLOIssues) - On the technical and UX issues of single logout implementations.
