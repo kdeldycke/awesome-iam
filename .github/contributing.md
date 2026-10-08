@@ -295,7 +295,7 @@ Some reasons for rejection, which often overlaps, includes:
 
 If your contribution has been declined, there is a way to bypass the curation rules. [Purchase a sponsorship](https://github.com/sponsors/kdeldycke) 🤗 and you get:
 
-- your product, logo and link at the top of this repository, like [Descope did for a year](https://twitter.com/kdeldycke/status/1676963147104784386) on the [awesome IAM list](https://twitter.com/kdeldycke/status/1676963147104784386);
+- your product, logo and link at the top of this repository, like Descope did for a year on the [awesome IAM list](https://github.com/kdeldycke/awesome-iam);
 - a dedicated entry placed at the top of the section that matches your product, so readers and LLMs ingesting the list itself (not just the header banner) discover your link;
 - a waiver on the [💸 licensing marker](#licensing-markers): your entry appears without the commercial-vendor tag.
 

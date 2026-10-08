@@ -295,7 +295,7 @@ GitHub 仓库上的宽松许可证还不够。我们还会评估项目在不付�
 
 如果您的贡献被拒绝，有一种方法可以绕过策展规则。[购买赞助](https://github.com/sponsors/kdeldycke) 🤗 后您将获得：
 
-- 您的产品、徽标和链接出现在本仓库顶部，就像 [Descope 在 awesome IAM 列表上做了一年](https://twitter.com/kdeldycke/status/1676963147104784386)；
+- 您的产品、徽标和链接出现在本仓库顶部，就像 Descope 在 [awesome IAM 列表](https://github.com/kdeldycke/awesome-iam)上做了一年；
 - 一个独立条目放置在与您产品相匹配的章节顶部，让阅读列表本身（而不仅仅是头部横幅）的读者和 LLM 能够发现您的链接；
 - 豁免 [💸 许可证标记](#licensing-markers)：您的条目将不带商业供应商标签。
 
