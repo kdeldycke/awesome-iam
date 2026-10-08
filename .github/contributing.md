@@ -100,6 +100,10 @@ If one of these rule conflict with the linter, the linter's rule should takes pr
 
 - Quotes should be properly delimited with the `“` and `”` curved quotation marks.
 
+- A quote from the maintainer of the list needs no source. Sign it with `— me` after the closing quotation mark:
+
+  > “Text of the quote.” — me
+
 - You can reduce the original text by using an ellipsis in parenthesis `(…)`.
 
 - For quoting inside a quote, use single or double `'` and `"` ASCII marks. Keep them properly balanced.
