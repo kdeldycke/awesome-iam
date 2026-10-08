@@ -556,6 +556,8 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [调查异常注册](https://openstreetmap.lu/MWGGlobalLogicReport20181226.pdf) - 对 OpenStreetMap 上可疑贡献者注册的详细分析。 这份精美而高层次的报告展示了一场精心策划和定向的活动，可以作为欺诈报告的模板。
 
+- [美国诉 Javice 案](https://storage.courtlistener.com/recap/gov.uscourts.nysd.596549/gov.uscourts.nysd.596549.1.0_1.pdf) - 清点记录并不等于验证身份。一家拥有 293,192 名用户的初创公司向收购方声称拥有 426.5 万名用户，并让一位数据科学家生成了一份同等规模的合成数据文件。验证环节没有发现问题：“Frank 和 JPMC 都没有要求 Vendor-1 核实合成数据集中数据的真实性或准确性，而只是委托 Vendor-1 清点记录数量，并核实所提交数据字段中已填充数据的百分比。”
+
 - [MIDAS：检测边缘流中的微集群异常](https://github.com/Stream-AD/MIDAS) - 🆓 一种提议方法“使用恒定时间和内存检测边缘流中的微簇异常，或突然到达的可疑相似边缘组。”
 
 - [Gephi](https://github.com/gephi/gephi) - 🆓 用于可视化和操作大型图形的开源平台。
