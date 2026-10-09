@@ -100,9 +100,7 @@ If one of these rule conflict with the linter, the linter's rule should takes pr
 
 - Quotes should be properly delimited with the `“` and `”` curved quotation marks.
 
-- A quote from the maintainer of the list needs no source. Sign it with `— me` after the closing quotation mark:
-
-  > “Text of the quote.” — me
+- A quote from the maintainer of the list needs no source. Sign it with `— me` and the date of the quote, after the closing quotation mark: `“Text of the quote.” — me, 2020-02-05`. Link the date to a public record of the quote when one exists.
 
 - You can reduce the original text by using an ellipsis in parenthesis `(…)`.
 
