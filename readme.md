@@ -458,6 +458,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [ZITADEL](https://github.com/zitadel/zitadel) - 💸 An Open-Source solution built with Go and Angular to manage all your systems, users and service accounts together with their roles and external identities. ZITADEL provides you with OIDC, OAuth 2.0, login & register flows, passwordless and MFA authentication. All this is built on top of eventsourcing in combination with CQRS to provide a great audit trail.
 
+- [Issuerd](https://github.com/issuerd/issuerd) - 🆓 Keycloak-compatible IAM server in Rust, shipped as a single self-contained binary with DPoP, CIBA and RFC 8693 token exchange; full OpenID Foundation OP conformance matrix runs in CI on every release.
+
 - [obligator](https://github.com/lastlogin-net/obligator) - 🆓 Simple and opinionated OpenID Connect server designed for self-hosters. Single static binary with flat-file or SQLite storage.
 
 ## SAML
