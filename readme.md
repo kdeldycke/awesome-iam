@@ -182,6 +182,8 @@ Zero trust network security operates under the principle “never trust, always 
 
 - [heimdall](https://github.com/dadrus/heimdall) - 🆓 A cloud-native, identity-aware proxy and policy enforcement point that orchestrates authentication and authorization systems via versatile rules, supporting protocol-agnostic identity propagation.
 
+- [Speakeasy control plane](https://github.com/speakeasy-api/gram) - 💸 Identity-aware MCP gateway that scopes agent access to servers and tools by enterprise identity and role, enforces per-action security policies, and records audit logs.
+
 ## Machine Identity
 
 Workloads, services and devices are principals too. They need identities to authenticate to one another and be granted access: the non-human counterpart to human user accounts.
