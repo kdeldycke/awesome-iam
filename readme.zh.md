@@ -746,6 +746,8 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 - [谷歌云开发者的小抄](https://github.com/priyankavergadia/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - 用4个字或更少描述所有 GCP 产品。
 
+- [AuthCost](https://authcost.pages.dev/) - 💸 面向 Clerk、Auth0、Cognito、WorkOS、Stytch、Logto、Kinde 与 Supabase Auth 的来源可追溯定价追踪器。
+
 ## 历史
 
 - [cryptoanarchy.wiki](https://cryptoanarchy.wiki) - Cypherpunks 与安全重合。这个维基汇编了有关该运动、其历史和值得注意的人/事件的信息。

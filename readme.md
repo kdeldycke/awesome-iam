@@ -746,6 +746,8 @@ Keep track on the activity of open-source projects and companies operating in th
 
 - [Google Cloud Developer's Cheat Sheet](https://github.com/priyankavergadia/google-cloud-4-words#the-google-cloud-developers-cheat-sheet) - Describe all GCP products in 4 words or less.
 
+- [AuthCost](https://authcost.pages.dev/) - 💸 Source-linked pricing tracker for Clerk, Auth0, Cognito, WorkOS, Stytch, Logto, Kinde and Supabase Auth.
+
 ## History
 
 - [cryptoanarchy.wiki](https://cryptoanarchy.wiki) - Cypherpunks overlaps with security. This wiki compiles information about the movement, its history and the people/events of note.
