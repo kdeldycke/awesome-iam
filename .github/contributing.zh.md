@@ -71,6 +71,14 @@ $ npx awesome-lint
 
 - 如果可用，使用 HTTPS 协议。
 
+- 指向资源的永久地址。发布在临时、开发或预生产 URL 上的内容、代码、产品和服务不予收录：
+
+  - 托管平台的默认域名，如 `pages.dev`、`vercel.app` 或 `netlify.app`
+  - 带有 `staging` 或 `preview` 的主机名
+  - 隧道地址或在线 playground 链接
+
+  请使用您自己的域名或源代码仓库。GitHub Pages、GitLab Pages 和 Read the Docs 可用于文档和文章，但不可用于商业产品。
+
 - 必须可被 CI/CD 作业访问。如果域名因速率限制或内容保护而返回 `40x` 错误，请用稳定链接替换：
 
   - [`sci-hub.st`](https://sci-hub.st) 用于研究论文
@@ -78,6 +86,8 @@ $ npx awesome-lint
   - [`archive.org`](https://archive.org) 用于其他任何内容
 
 - 某些平台将内容置于身份验证之后，并对匿名访问返回 `403`（Quora、大多数社交网络讨论、没有归档副本的付费新闻网站）：不要使用，请寻找替代来源。
+
+- 当浏览器仍能获取完整文章时，屏蔽爬虫的域名返回的 `403` 并不是死链。保留原始 URL，并将该域名加入 `pyproject.toml` 的 `[tool.lychee] exclude`：归档它会让读者为了迎合检查器而失去实时页面。只有对读者也已失效的 `404` 才需要替换。`medium.com` 就是以这种方式排除的。
 
 - 当 GitHub 仓库已转移到新所有者时，请将 URL 更新为新的规范位置，而不是依赖重定向（旧的 `OWNER/REPO` 命名空间可被任何人重新认领，这会使链接指向不相关的内容）。
 
@@ -144,7 +154,7 @@ $ npx awesome-lint
 
 ## 编辑方针
 
-每个列表的一般编辑方针在 [它们的介绍中有提示](https://github.com/kdeldycke/awesome-template#readme)。
+每个列表的一般编辑方针在 [它们的介绍中有提示](https://github.com/kdeldycke/awesome-iam#readme)。
 
 还有一些根据列表的具体规则：
 
