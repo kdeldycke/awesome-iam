@@ -138,6 +138,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [超越用户名的身份](https://lord.io/blog/2020/usernames/) - 关于用户名作为标识符的概念，以及当 unicode 字符满足唯一性要求时引入的复杂问题。
 
+- [入职-调岗-离职（JML）流程：无人自动化的那一部分](https://paftak.com/insights/joiner-mover-leaver) - 一个在添加新角色权限的同时移除旧角色权限的调岗流程，一份不止于停用目录账户的离职检查清单，以及两个可跟踪的指标。
+
 - [Kratos](https://github.com/ory/kratos) - 💸 用户登录、用户注册、2FA 和个人资料管理。
 
 - [UserFrosting](https://github.com/userfrosting/UserFrosting) - 🆓 现代PHP用户登录和管理框架。

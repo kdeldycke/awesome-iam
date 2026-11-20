@@ -138,6 +138,8 @@ The foundation of IAM: the definition and life-cycle of users, groups, roles and
 
 - [Identity Beyond Usernames](https://lord.io/blog/2020/usernames/) - On the concept of usernames as identifiers, and the complexities introduced when unicode characters meets uniqueness requirements.
 
+- [Joiner-Mover-Leaver (JML) Process: The Part Nobody Automates](https://paftak.com/insights/joiner-mover-leaver) - A mover workflow that removes the old role's access as well as adding the new, a leaver checklist that goes beyond the directory account, and two metrics to track.
+
 - [Kratos](https://github.com/ory/kratos) - 💸 User login, user registration, 2FA and profile management.
 
 - [UserFrosting](https://github.com/userfrosting/UserFrosting) - 🆓 Modern PHP user login and management framework.
