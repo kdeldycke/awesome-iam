@@ -448,6 +448,8 @@ IAM 的基础：用户、组、角色和权限的定义和生命周期。
 
 - [PKCE 的解释](https://www.loginradius.com/blog/engineering/pkce/) - "PKCE 用于为 OAuth 和 OpenID Connect 中的授权代码流提供多一个安全层。"
 
+- [ID-JAG 解释：企业如何控制 AI 代理的跨应用访问](https://iamops.dev/id-jag-explained/) - 一篇关于跨应用访问的实操指南，说明公司的身份提供商如何签发授权，使代理只能访问公司允许的应用。
+
 - [Hydra](https://github.com/ory/hydra) - 💸 开源 OIDC 和 OAuth2 服务器提供商。
 
 - [Keycloak](https://github.com/keycloak/keycloak) - 🆓 开源的身份和访问管理。支持 OIDC、OAuth 2和SAML 2、LDAP 和 AD 目录、密码策略。

@@ -448,6 +448,8 @@ The old *OpenID* is dead; the new *OpenID Connect* is very much not-dead.
 
 - [PKCE Explained](https://www.loginradius.com/blog/engineering/pkce/) - “PKCE is used to provide one more security layer to the authorization code flow in OAuth and OpenID Connect.”
 
+- [ID-JAG explained: how AI agents get cross-app access under enterprise control](https://iamops.dev/id-jag-explained/) - A walkthrough of Cross-App Access, showing how a company's identity provider can issue a grant so an agent reaches only the apps the company allows.
+
 - [Hydra](https://github.com/ory/hydra) - 💸 Open-source OIDC & OAuth2 Server Provider.
 
 - [Keycloak](https://github.com/keycloak/keycloak) - 🆓 Open-source Identity and Access Management. Supports OIDC, OAuth 2 and SAML 2, LDAP and AD directories, password policies.
