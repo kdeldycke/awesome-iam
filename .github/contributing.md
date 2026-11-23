@@ -32,7 +32,7 @@ This repository has reached an equilibrium state. We are past its accumulation p
 
 Your pull-request should pass the [official Awesome List's linter](https://github.com/sindresorhus/awesome-lint).
 
-No extra work is required here as it is [already integrated by the way of GitHub actions](https://github.com/kdeldycke/awesome-iam/tree/main/.github/workflows).
+It runs in the repository's [GitHub Actions workflows](https://github.com/kdeldycke/awesome-iam/tree/main/.github/workflows).
 
 You can still anticipate issues by running the linter locally with:
 
@@ -71,6 +71,14 @@ If one of these rule conflict with the linter, the linter's rule should takes pr
 
 - Use HTTPs protocol, if available.
 
+- Point to the permanent address of a resource. Content, code, products and services on a temporary, development or preproduction URL are not accepted:
+
+  - the default domain of a hosting platform, like `pages.dev`, `vercel.app` or `netlify.app`
+  - a `staging` or `preview` hostname
+  - a tunnel address or a playground link
+
+  Use your own domain, or the source repository. GitHub Pages, GitLab Pages and Read the Docs are fine for documentation and articles, not for a commercial product.
+
 - Must be reachable by CI/CD jobs. If the domain return `40x` errors for rate-limiting or content protection, replace it with a stable link:
 
   - [`sci-hub.st`](https://sci-hub.st) for research papers
@@ -78,6 +86,8 @@ If one of these rule conflict with the linter, the linter's rule should takes pr
   - [`archive.org`](https://archive.org) for anything else
 
 - Some platforms gate content behind authentication and return `403` to anonymous traffic (Quora, most social-network discussions, paywalled news sites without an archive copy): do not use them, find an alternative source.
+
+- A `403` from a crawler-blocked domain is not a dead link when a browser still gets the full article. Keep the original URL and add the domain to `[tool.lychee] exclude` in `pyproject.toml`: archiving it would cost readers the live page to satisfy a checker. Only a `404`, dead for readers too, gets replaced. `medium.com` is excluded this way.
 
 - When a GitHub repository has been transferred to a new owner, update the URL to the new canonical location instead of relying on the redirect (the old `OWNER/REPO` namespace can be reclaimed by anyone, which would leave the link pointing at unrelated content).
 
@@ -114,7 +124,7 @@ If one of these rule conflict with the linter, the linter's rule should takes pr
 
   - You can skip some items from the original list and renumber it.
 
-  - You shouldn't have to re-order it though.
+  - Keep the original order of the items.
 
 - An additional link in the description is allowed. This must be limited to some rare cases. Like pointing to a bigger concept, an acronym definition, or reference material (book, biography, …).
 
@@ -144,7 +154,7 @@ Common edge cases (the yardstick: feature gating is what triggers 💸, not the 
 
 ## Editorial line
 
-The general editorial line for each list is [hinted in their introduction](https://github.com/kdeldycke/awesome-template#readme).
+The general editorial line for each list is [hinted in their introduction](https://github.com/kdeldycke/awesome-iam#readme).
 
 There's also some specific rules depending on the list:
 
